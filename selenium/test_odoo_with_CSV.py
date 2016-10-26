@@ -12,11 +12,11 @@ from selenium.webdriver.support.ui import WebDriverWait
 baseurl = "http://localhost:8069"
 username = "admin"
 password = "z"
-db='demo_02'
+db='demo_03'
 
 
 driver = webdriver.Chrome()
-driver.maximize_window()
+# driver.maximize_window()
 
 def navigate(url='',menu='',action=''):
     if menu=='' and action =='' and url!='':
@@ -79,12 +79,14 @@ login(username, password,db)
 
 
 def create_account(row,myiterator):
-
+    time.sleep(0.3)   
     driver.implicitly_wait(10)
+#     row.replace(',')
+    print (row)
 
 
         # Create new Account
-    if myiterator==0:
+    if myiterator==1:
         btn_create= fetchx('button', 'oe_list_add btn btn-primary btn-sm')
     else:
         btn_create= fetchx('button', 'oe_form_button_create btn btn-default btn-sm')
@@ -93,50 +95,67 @@ def create_account(row,myiterator):
     btn_create.click()
     
     driver.implicitly_wait(3)
-
-# ================= Account Code  =============================
-    account_code=row[0]    
-    txt_account_code = fetchx('id', 'oe-field-input-2')
-    txt_account_code.send_keys(account_code)
-
-# ================= Account Name  =============================
-    account_name=row[1]
-    txt_account_name=fetchx('placeholder', 'Account name')
-    txt_account_name.send_keys(account_name)
-    
-# ================= Account Parent  =============================
-    account_parent=row[2]+' '+row[3]
-    parent_ctrl = fetchx('id','oe-field-input-3')
-    parent_ctrl.send_keys(account_parent)
+# ================= Account Company  ==================================
+    account_company=row[6].strip() 
+    company_ctrl = fetchx('id','oe-field-input-7')
+    company_ctrl.clear()
+    company_ctrl.send_keys(account_company)
     try:
         element = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.LINK_TEXT, account_parent))
+            EC.presence_of_element_located((By.LINK_TEXT, account_company))
         
         )
     finally:
         pass
     element.click()
+    driver.implicitly_wait(3)
+#===================================================================
+
+# ================= Account Code  =============================
+    account_code=row[0].strip()    
+    txt_account_code = fetchx('id', 'oe-field-input-2')
+    txt_account_code.send_keys(account_code)
+
+# ================= Account Name  =============================
+    account_name=row[1].strip()
+    txt_account_name=fetchx('placeholder', 'Account name')
+    txt_account_name.send_keys(account_name)
+    
+# ================= Account Parent  =============================
+    if row[2].strip() and row[3].strip():
+        account_parent=row[2].strip()+' '+row[3].strip()
+    # Check if Parent is not Empty
+    
+        parent_ctrl = fetchx('id','oe-field-input-3')
+        parent_ctrl.send_keys(account_parent)
+        print (account_name + '::' + account_parent)
+        try:
+            element = WebDriverWait(driver, 25).until(
+                EC.presence_of_element_located((By.LINK_TEXT, account_parent))
+            
+            )
+        finally:
+            pass
+        element.click()
     driver.implicitly_wait(3)
 #===================================================================
 
 
 # ================= Account Internal Type  =============================
-    account_internal_type=row[4] 
-    parent_ctrl = fetchx('id','oe-field-input-4')
-    parent_ctrl.send_keys(account_internal_type)
-    try:
-        element = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.LINK_TEXT, account_internal_type))
-        
-        )
-    finally:
-        pass
-    element.click()
+    internal_type=row[4].strip() 
+    internal_type_ctrl = fetchx('select_id','oe-field-input-4')
+    internal_type_ctrl.select_by_visible_text(internal_type)
+#     try:
+#         element = WebDriverWait(driver, 10).until(
+#             EC.presence_of_element_located((By.LINK_TEXT, account_internal_type))
+#         )
+#     finally:
+#         pass
     driver.implicitly_wait(3)
 #===================================================================
 
 # ================= Account Type  ==================================
-    account_type=row[5] 
+    account_type=row[5].strip()
     parent_ctrl = fetchx('id','oe-field-input-5')
     parent_ctrl.send_keys(account_type)
     try:
@@ -150,20 +169,7 @@ def create_account(row,myiterator):
     driver.implicitly_wait(3)
 #===================================================================
 
-# ================= Account Company  ==================================
-    account_company=row[5] 
-    parent_ctrl = fetchx('id','oe-field-input-7')
-    parent_ctrl.send_keys(account_company)
-    try:
-        element = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.LINK_TEXT, account_company))
-        
-        )
-    finally:
-        pass
-    element.click()
-    driver.implicitly_wait(3)
-#===================================================================
+
 
     
     btn_save=fetchx('button', 'oe_form_button_save btn btn-primary btn-sm')
@@ -174,7 +180,7 @@ def create_company(company_name,company_parent,myiterator):
     time.sleep(1)    
 
         # Create new Account
-    if myiterator==0:
+    if myiterator==1:
         btn_create= fetchx('button', 'oe_list_add btn btn-primary btn-sm')
     else:
         btn_create= fetchx('button', 'oe_form_button_create btn btn-default btn-sm')
@@ -213,20 +219,22 @@ def create_companies(menu_id,action):
         myrows = csv.reader(csvfile, delimiter=',', quotechar='|')
         myiterator=0
         for row in myrows:
-            create_company(row[1],row[2],myiterator)
+            if myiterator>0:
+                create_company(row[1],row[2],myiterator)
             myiterator+=1
 
 def create_accounts(menu_id,action):
 #     driver.implicitly_wait(20)
-    time.sleep(3)
+    time.sleep(2)
     driver.get(navigate('',menu_id,action))
-    time.sleep(3)
+    time.sleep(2)
 #     driver.implicitly_wait(20)
     with open('/home/ehab/exported_data/accounts.csv', 'rb') as csvfile:
         myrows = csv.reader(csvfile, delimiter=',', quotechar='|')
         myiterator=0
         for row in myrows:
-            create_account(row,myiterator)
+            if myiterator>0:
+                create_account(row,myiterator)
             myiterator+=1
 
 
