@@ -1,0 +1,2082 @@
+ [
+	{
+		"name" : "Case40",
+		"rounding" : 0.010000,
+		"factor" : 0.025000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "ML(250's)",
+		"rounding" : 0.010000,
+		"factor" : 250.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Bag(50's)",
+		"rounding" : 0.010000,
+		"factor" : 0.020000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(50's)",
+		"rounding" : 0.010000,
+		"factor" : 50.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case20",
+		"rounding" : 0.010000,
+		"factor" : 0.050000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(500's)",
+		"rounding" : 0.010000,
+		"factor" : 500.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Tin(10's)",
+		"rounding" : 0.010000,
+		"factor" : 0.100000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(480's)",
+		"rounding" : 0.010000,
+		"factor" : 480.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case6",
+		"rounding" : 0.010000,
+		"factor" : 0.166667,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case12",
+		"rounding" : 0.010000,
+		"factor" : 0.083333,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case24",
+		"rounding" : 0.010000,
+		"factor" : 0.041667,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "ML(400's)",
+		"rounding" : 0.010000,
+		"factor" : 400.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(900's)",
+		"rounding" : 0.010000,
+		"factor" : 900.000090,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Kg(5.5's)",
+		"rounding" : 0.010000,
+		"factor" : 5.500002,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case(9.6's)",
+		"rounding" : 0.010000,
+		"factor" : 0.104167,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Kg(3.5's)",
+		"rounding" : 0.010000,
+		"factor" : 3.500000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Bag(3.5's)",
+		"rounding" : 0.010000,
+		"factor" : 0.285714,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(400's)",
+		"rounding" : 0.010000,
+		"factor" : 400.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Can(1.36's)",
+		"rounding" : 0.010000,
+		"factor" : 0.735294,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pail(12's)",
+		"rounding" : 0.010000,
+		"factor" : 0.083333,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(227's)",
+		"rounding" : 0.010000,
+		"factor" : 226.757370,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case(400's)",
+		"rounding" : 0.010000,
+		"factor" : 0.002500,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(72's)",
+		"rounding" : 0.010000,
+		"factor" : 72.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(350's)",
+		"rounding" : 0.010000,
+		"factor" : 350.000007,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case25",
+		"rounding" : 0.010000,
+		"factor" : 0.040000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Kg(2.3's)",
+		"rounding" : 0.010000,
+		"factor" : 2.300000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pail(5's)",
+		"rounding" : 0.010000,
+		"factor" : 0.200000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Cont.(17.1)",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pc(10's)",
+		"rounding" : 0.010000,
+		"factor" : 10.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(910's)",
+		"rounding" : 0.010000,
+		"factor" : 910.000007,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(750's)",
+		"rounding" : 0.010000,
+		"factor" : 750.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Tin(20's)",
+		"rounding" : 0.010000,
+		"factor" : 0.050000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Litter(20's)",
+		"rounding" : 0.010000,
+		"factor" : 20.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pail(10's)",
+		"rounding" : 0.010000,
+		"factor" : 0.100000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Can(3.15's)",
+		"rounding" : 0.010000,
+		"factor" : 0.317460,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(226's)",
+		"rounding" : 0.010000,
+		"factor" : 226.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "ML(185's)",
+		"rounding" : 0.010000,
+		"factor" : 185.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(907's)",
+		"rounding" : 0.010000,
+		"factor" : 907.000002,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pc(6's)",
+		"rounding" : 0.010000,
+		"factor" : 6.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(370's)",
+		"rounding" : 0.010000,
+		"factor" : 370.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Kg(0.700's)",
+		"rounding" : 0.010000,
+		"factor" : 0.700001,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Bag(15's)",
+		"rounding" : 0.010000,
+		"factor" : 0.066667,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Bottle(1's)",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Kg(2.27kg)",
+		"rounding" : 0.010000,
+		"factor" : 2.270000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(43's)",
+		"rounding" : 0.010000,
+		"factor" : 43.000026,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case30",
+		"rounding" : 0.010000,
+		"factor" : 0.033333,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case9.5",
+		"rounding" : 0.010000,
+		"factor" : 0.105263,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case19",
+		"rounding" : 0.010000,
+		"factor" : 0.052632,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "ML(750's)",
+		"rounding" : 0.010000,
+		"factor" : 750.000002,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(5's)",
+		"rounding" : 0.010000,
+		"factor" : 5.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Litter(3.78's)",
+		"rounding" : 0.010000,
+		"factor" : 3.780000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pc(1's)",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(680's)",
+		"rounding" : 0.010000,
+		"factor" : 680.040802,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Bag(20's)",
+		"rounding" : 0.010000,
+		"factor" : 0.050000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Block(5kg)",
+		"rounding" : 0.010000,
+		"factor" : 0.200000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(1560's)",
+		"rounding" : 0.010000,
+		"factor" : 1560.000002,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Bag(25's)",
+		"rounding" : 0.010000,
+		"factor" : 0.040000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pack(24's)",
+		"rounding" : 0.010000,
+		"factor" : 0.041667,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pack(2kg)",
+		"rounding" : 0.010000,
+		"factor" : 2.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(51g)",
+		"rounding" : 0.010000,
+		"factor" : 51.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(1000's)",
+		"rounding" : 0.010000,
+		"factor" : 1000.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "ML(1000's)",
+		"rounding" : 0.010000,
+		"factor" : 1000.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Can(500g)",
+		"rounding" : 0.010000,
+		"factor" : 500.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case2",
+		"rounding" : 0.010000,
+		"factor" : 0.500000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Tin(16's)",
+		"rounding" : 0.010000,
+		"factor" : 16.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case(100\"s)",
+		"rounding" : 0.010000,
+		"factor" : 0.010000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case11 (4x2.75)",
+		"rounding" : 0.010000,
+		"factor" : 0.090909,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Kg(3's)",
+		"rounding" : 0.010000,
+		"factor" : 3.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pack(16's)",
+		"rounding" : 0.010000,
+		"factor" : 0.062500,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(200's)",
+		"rounding" : 0.010000,
+		"factor" : 200.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(510's)",
+		"rounding" : 0.010000,
+		"factor" : 510.000004,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(25's)",
+		"rounding" : 0.010000,
+		"factor" : 25.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "ML(700's)",
+		"rounding" : 0.010000,
+		"factor" : 700.000004,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Kg(4.5's)",
+		"rounding" : 0.010000,
+		"factor" : 4.500000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Kg(25's)",
+		"rounding" : 0.010000,
+		"factor" : 25.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pail(4.5's)",
+		"rounding" : 0.010000,
+		"factor" : 0.222222,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case15",
+		"rounding" : 0.010000,
+		"factor" : 0.066667,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "ML(325's)",
+		"rounding" : 0.010000,
+		"factor" : 325.000001,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(685's)",
+		"rounding" : 0.010000,
+		"factor" : 685.000002,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Kg(3.15's)",
+		"rounding" : 0.010000,
+		"factor" : 3.150000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pail(3's)",
+		"rounding" : 0.010000,
+		"factor" : 0.333333,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Kg(17.1's)",
+		"rounding" : 0.010000,
+		"factor" : 17.100000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case16",
+		"rounding" : 0.010000,
+		"factor" : 0.062500,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(710's)",
+		"rounding" : 0.010000,
+		"factor" : 710.000002,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Tin(5.5's)",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Litter(1.8's)",
+		"rounding" : 0.010000,
+		"factor" : 1.800000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Litter(5's)",
+		"rounding" : 0.010000,
+		"factor" : 5.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "ML(300's)",
+		"rounding" : 0.010000,
+		"factor" : 300.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(190's)",
+		"rounding" : 0.010000,
+		"factor" : 190.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Kg(2.5's)",
+		"rounding" : 0.010000,
+		"factor" : 2.500000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case4",
+		"rounding" : 0.010000,
+		"factor" : 0.250000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Litter(1.36's)",
+		"rounding" : 0.010000,
+		"factor" : 1.360000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Kg(12's)",
+		"rounding" : 0.010000,
+		"factor" : 12.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Tray(30's)",
+		"rounding" : 0.010000,
+		"factor" : 0.033333,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Kg(1.1's)",
+		"rounding" : 0.010000,
+		"factor" : 1.100000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case11",
+		"rounding" : 0.010000,
+		"factor" : 0.090909,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case7",
+		"rounding" : 0.010000,
+		"factor" : 0.142857,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Kg(0.900)",
+		"rounding" : 0.010000,
+		"factor" : 0.900000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pc(120's)",
+		"rounding" : 0.010000,
+		"factor" : 120.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(595's)",
+		"rounding" : 0.010000,
+		"factor" : 595.000803,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "ML(150's)",
+		"rounding" : 0.010000,
+		"factor" : 149.999925,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(453's)",
+		"rounding" : 0.010000,
+		"factor" : 452.999080,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(160's)",
+		"rounding" : 0.010000,
+		"factor" : 160.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(150's)",
+		"rounding" : 0.010000,
+		"factor" : 149.999925,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Kg(15's)",
+		"rounding" : 0.010000,
+		"factor" : 14.999999,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "ML(650's)",
+		"rounding" : 0.010000,
+		"factor" : 650.000650,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case216",
+		"rounding" : 0.010000,
+		"factor" : 0.004630,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case105",
+		"rounding" : 0.010000,
+		"factor" : 0.009524,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pc(25's)",
+		"rounding" : 0.010000,
+		"factor" : 25.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pc(216's)",
+		"rounding" : 0.010000,
+		"factor" : 215.982721,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "ML(946's)",
+		"rounding" : 0.010000,
+		"factor" : 943.396226,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(1200's)",
+		"rounding" : 0.010000,
+		"factor" : 1200.004800,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(800's)",
+		"rounding" : 0.010000,
+		"factor" : 800.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Kg(2.2's)",
+		"rounding" : 0.010000,
+		"factor" : 2.200000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Kg(5's)",
+		"rounding" : 0.010000,
+		"factor" : 5.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case50",
+		"rounding" : 0.010000,
+		"factor" : 0.020000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(275's)",
+		"rounding" : 0.010000,
+		"factor" : 275.000275,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Tin(8's)",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Litter(8's)",
+		"rounding" : 0.010000,
+		"factor" : 8.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(956's)",
+		"rounding" : 0.010000,
+		"factor" : 955.995526,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Kg(2.84's)",
+		"rounding" : 0.010000,
+		"factor" : 2.840000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(432's)",
+		"rounding" : 0.010000,
+		"factor" : 432.000899,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(280's)",
+		"rounding" : 0.010000,
+		"factor" : 280.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Litter(13's)",
+		"rounding" : 0.010000,
+		"factor" : 13.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Tin(1's)",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "case72",
+		"rounding" : 0.010000,
+		"factor" : 0.013889,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(70's)",
+		"rounding" : 0.010000,
+		"factor" : 70.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pack(20's)",
+		"rounding" : 0.010000,
+		"factor" : 0.050000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Bottle(12's)",
+		"rounding" : 0.010000,
+		"factor" : 12.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case144",
+		"rounding" : 0.010000,
+		"factor" : 0.006944,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(15's)",
+		"rounding" : 0.010000,
+		"factor" : 15.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pail(7's)",
+		"rounding" : 0.010000,
+		"factor" : 0.142857,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Kg(7's)",
+		"rounding" : 0.010000,
+		"factor" : 7.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Roll(6's)",
+		"rounding" : 0.010000,
+		"factor" : 6.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case150",
+		"rounding" : 0.010000,
+		"factor" : 0.006667,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case125",
+		"rounding" : 0.010000,
+		"factor" : 0.008000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case175",
+		"rounding" : 0.010000,
+		"factor" : 0.005714,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case100",
+		"rounding" : 0.010000,
+		"factor" : 0.010000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "CaseXXXXXXXXXXX",
+		"rounding" : 0.010000,
+		"factor" : 0.033333,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pc(100's)",
+		"rounding" : 0.010000,
+		"factor" : 100.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pc(1000's)",
+		"rounding" : 0.010000,
+		"factor" : 1000.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case(250's)",
+		"rounding" : 0.010000,
+		"factor" : 0.004000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pack(40's)",
+		"rounding" : 0.010000,
+		"factor" : 40.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pc(250's)",
+		"rounding" : 0.010000,
+		"factor" : 250.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pc(2000's)",
+		"rounding" : 0.010000,
+		"factor" : 2000.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case(300's)",
+		"rounding" : 0.010000,
+		"factor" : 0.003333,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pack(24's)",
+		"rounding" : 0.010000,
+		"factor" : 24.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case(10000's)",
+		"rounding" : 0.010000,
+		"factor" : 0.000100,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Roll(1's)",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pack(50's)",
+		"rounding" : 0.010000,
+		"factor" : 0.020000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pack(200's)",
+		"rounding" : 0.010000,
+		"factor" : 0.005000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case(72's)",
+		"rounding" : 0.010000,
+		"factor" : 0.013889,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pair(1's)",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case(500's)",
+		"rounding" : 0.010000,
+		"factor" : 0.002000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pack(2Litter)",
+		"rounding" : 0.010000,
+		"factor" : 2.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case(8Litter)",
+		"rounding" : 0.010000,
+		"factor" : 0.125000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pc(230's)",
+		"rounding" : 0.010000,
+		"factor" : 230.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pc(12's)",
+		"rounding" : 0.010000,
+		"factor" : 12.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pc(20's)",
+		"rounding" : 0.010000,
+		"factor" : 20.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pail(25's)",
+		"rounding" : 0.010000,
+		"factor" : 0.040000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pail(20's)",
+		"rounding" : 0.010000,
+		"factor" : 0.050000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case5",
+		"rounding" : 0.010000,
+		"factor" : 0.200000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Ream(1's)",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pad(1's)",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Box(10's)",
+		"rounding" : 0.010000,
+		"factor" : 0.100000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Set(1's)",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pack(1.136's)",
+		"rounding" : 0.010000,
+		"factor" : 1.136000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pack(0.909's)",
+		"rounding" : 0.010000,
+		"factor" : 0.909000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pack(2.5's)",
+		"rounding" : 0.010000,
+		"factor" : 2.500000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "ML(340's)",
+		"rounding" : 0.010000,
+		"factor" : 340.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pack(18's)",
+		"rounding" : 0.010000,
+		"factor" : 0.055556,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(180's)",
+		"rounding" : 0.010000,
+		"factor" : 180.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(380's)",
+		"rounding" : 0.010000,
+		"factor" : 380.000001,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "ML(355's)",
+		"rounding" : 0.010000,
+		"factor" : 355.000001,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "ML(295's)",
+		"rounding" : 0.010000,
+		"factor" : 295.002655,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pc(500's)",
+		"rounding" : 0.010000,
+		"factor" : 500.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(113's)",
+		"rounding" : 0.010000,
+		"factor" : 113.000096,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(946's)",
+		"rounding" : 0.010000,
+		"factor" : 946.002195,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Kg(1.136)",
+		"rounding" : 0.010000,
+		"factor" : 1.136000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(700's)",
+		"rounding" : 0.010000,
+		"factor" : 700.000700,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(170's)",
+		"rounding" : 0.010000,
+		"factor" : 170.000085,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Litter(1.6's)",
+		"rounding" : 0.010000,
+		"factor" : 1.600000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "ML(510's)",
+		"rounding" : 0.010000,
+		"factor" : 510.001122,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(473's)",
+		"rounding" : 0.010000,
+		"factor" : 473.001097,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "ML(437's)",
+		"rounding" : 0.010000,
+		"factor" : 437.000099,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(2's)",
+		"rounding" : 0.010000,
+		"factor" : 2.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case13",
+		"rounding" : 0.010000,
+		"factor" : 0.076923,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(511's)",
+		"rounding" : 0.010000,
+		"factor" : 511.000042,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(142's)",
+		"rounding" : 0.010000,
+		"factor" : 142.000011,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(30's)",
+		"rounding" : 0.010000,
+		"factor" : 30.000030,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(125's)",
+		"rounding" : 0.010000,
+		"factor" : 125.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Jar",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "reference",
+		"category_id" : 1,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Kg(2's)",
+		"rounding" : 0.010000,
+		"factor" : 2.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pc(30's)",
+		"rounding" : 0.010000,
+		"factor" : 30.000003,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Kg(3.120's)",
+		"rounding" : 0.010000,
+		"factor" : 3.120000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "ML(435's)",
+		"rounding" : 0.010000,
+		"factor" : 435.000014,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Kg(12's)",
+		"rounding" : 0.010000,
+		"factor" : 12.000005,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pc(150's)",
+		"rounding" : 0.010000,
+		"factor" : 149.925037,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pc(24's)",
+		"rounding" : 0.010000,
+		"factor" : 24.000004,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(3000's)",
+		"rounding" : 0.010000,
+		"factor" : 3000.000300,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pc(450's)",
+		"rounding" : 0.010000,
+		"factor" : 450.000045,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Jar",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "bigger",
+		"category_id" : 1,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pc(4000's)",
+		"rounding" : 0.010000,
+		"factor" : 100.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "n",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "reference",
+		"category_id" : 1,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pack(1's)",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "ML(330's)",
+		"rounding" : 0.010000,
+		"factor" : 330.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(426's)",
+		"rounding" : 0.010000,
+		"factor" : 426.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "ML(170's)",
+		"rounding" : 0.010000,
+		"factor" : 170.000001,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(650's)",
+		"rounding" : 0.010000,
+		"factor" : 650.000004,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pcs",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "bigger",
+		"category_id" : 1,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(225's)",
+		"rounding" : 0.010000,
+		"factor" : 225.002250,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Birds",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pc(8's)",
+		"rounding" : 0.010000,
+		"factor" : 8.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "PCS",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "reference",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pack",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "reference",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Litter(3.79's)",
+		"rounding" : 0.010000,
+		"factor" : 3.790000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(390's)",
+		"rounding" : 0.010000,
+		"factor" : 390.625000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case14",
+		"rounding" : 0.010000,
+		"factor" : 0.071429,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case9.8",
+		"rounding" : 0.010000,
+		"factor" : 0.102041,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "order",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "reference",
+		"category_id" : 51,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(822's)",
+		"rounding" : 0.010000,
+		"factor" : 821.996630,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "n",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "reference",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "gram",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "reference",
+		"category_id" : 51,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "pc",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "reference",
+		"category_id" : 51,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "JJ",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "reference",
+		"category_id" : 51,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "n",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "reference",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "n",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "reference",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pack(1's)",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gallon(1's)",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "ML(3780's)",
+		"rounding" : 0.010000,
+		"factor" : 3780.000065,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(450's)",
+		"rounding" : 0.010000,
+		"factor" : 450.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case(2000's)",
+		"rounding" : 0.010000,
+		"factor" : 0.000500,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case(1000's)",
+		"rounding" : 0.010000,
+		"factor" : 0.001000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "ML(500's)",
+		"rounding" : 0.010000,
+		"factor" : 500.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Can(1's)",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(3120's)",
+		"rounding" : 0.010000,
+		"factor" : 3120.000005,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Litter(1's)",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(2500's)",
+		"rounding" : 0.010000,
+		"factor" : 2500.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case10",
+		"rounding" : 0.010000,
+		"factor" : 0.100000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Bag(10's)",
+		"rounding" : 0.010000,
+		"factor" : 0.100000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Bag(40's)",
+		"rounding" : 0.010000,
+		"factor" : 0.025000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case8",
+		"rounding" : 0.010000,
+		"factor" : 0.125000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "ML(350's)",
+		"rounding" : 0.010000,
+		"factor" : 350.000001,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(20.5g)",
+		"rounding" : 0.010000,
+		"factor" : 20.500003,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pc(50's)",
+		"rounding" : 0.010000,
+		"factor" : 50.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Kg(1's)",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Bag(5Kg)",
+		"rounding" : 0.010000,
+		"factor" : 0.200000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(40's)",
+		"rounding" : 0.010000,
+		"factor" : 40.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pc(40g)",
+		"rounding" : 0.010000,
+		"factor" : 40.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(250g)",
+		"rounding" : 0.010000,
+		"factor" : 250.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pack(12's)",
+		"rounding" : 0.010000,
+		"factor" : 0.083333,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case36",
+		"rounding" : 0.010000,
+		"factor" : 0.027778,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Jar(1's)",
+		"rounding" : 0.010000,
+		"factor" : 1.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(37's)",
+		"rounding" : 0.010000,
+		"factor" : 37.000037,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pack(36's)",
+		"rounding" : 0.010000,
+		"factor" : 0.027778,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Pack(8's)",
+		"rounding" : 0.010000,
+		"factor" : 0.125000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Case48",
+		"rounding" : 0.010000,
+		"factor" : 0.020833,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(704's)",
+		"rounding" : 0.010000,
+		"factor" : 704.002253,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(300's)",
+		"rounding" : 0.010000,
+		"factor" : 300.000000,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	},
+	{
+		"name" : "Gram(395's)",
+		"rounding" : 0.010000,
+		"factor" : 395.000002,
+		"uom_type" : "bigger",
+		"category_id" : 39,
+		"display_precision" : 0.010
+	}
+]

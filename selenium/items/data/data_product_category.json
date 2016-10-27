@@ -1,0 +1,142 @@
+ [
+	{
+		"id" : 5,
+		"name" : "Inventory Items",
+		"parent_id" : null
+	},
+	{
+		"id" : 32,
+		"name" : "All selling",
+		"parent_id" : null
+	},
+	{
+		"id" : 24,
+		"name" : "RV Selling Items",
+		"parent_id" : 32
+	},
+	{
+		"id" : 25,
+		"name" : "CGB Selling Items",
+		"parent_id" : 32
+	},
+	{
+		"id" : 26,
+		"name" : "JAR Selling Items",
+		"parent_id" : 32
+	},
+	{
+		"id" : 27,
+		"name" : "FUEL SuperFoods Selling ",
+		"parent_id" : 32
+	},
+	{
+		"id" : 28,
+		"name" : "CGR Selling Items",
+		"parent_id" : 32
+	},
+	{
+		"id" : 29,
+		"name" : "SATELLITE Selling Items ",
+		"parent_id" : 32
+	},
+	{
+		"id" : 30,
+		"name" : "REVERA Selling Items",
+		"parent_id" : 32
+	},
+	{
+		"id" : 31,
+		"name" : "CG Cafe Selling Items",
+		"parent_id" : 32
+	},
+	{
+		"id" : 6,
+		"name" : "[B]Beverage",
+		"parent_id" : 5
+	},
+	{
+		"id" : 7,
+		"name" : "[C]Chocolates",
+		"parent_id" : 5
+	},
+	{
+		"id" : 8,
+		"name" : "[D]Dairy",
+		"parent_id" : 5
+	},
+	{
+		"id" : 9,
+		"name" : "[F]Frozen",
+		"parent_id" : 5
+	},
+	{
+		"id" : 10,
+		"name" : "[M]Meat",
+		"parent_id" : 5
+	},
+	{
+		"id" : 11,
+		"name" : "[S]Sauces",
+		"parent_id" : 5
+	},
+	{
+		"id" : 12,
+		"name" : "[HS]Herbs & Spices",
+		"parent_id" : 5
+	},
+	{
+		"id" : 13,
+		"name" : "[FV]Fruits & Vegetable",
+		"parent_id" : 5
+	},
+	{
+		"id" : 14,
+		"name" : "[OF]Other Foods",
+		"parent_id" : 5
+	},
+	{
+		"id" : 15,
+		"name" : "[PI]Paper Items",
+		"parent_id" : 5
+	},
+	{
+		"id" : 16,
+		"name" : "[DI]Disposable Items",
+		"parent_id" : 5
+	},
+	{
+		"id" : 17,
+		"name" : "[CM]Cleaning Materials",
+		"parent_id" : 5
+	},
+	{
+		"id" : 18,
+		"name" : "[ST]Stationaries",
+		"parent_id" : 5
+	},
+	{
+		"id" : 19,
+		"name" : "[FA]First Aid",
+		"parent_id" : 5
+	},
+	{
+		"id" : 20,
+		"name" : "[UL]Utilities",
+		"parent_id" : 5
+	},
+	{
+		"id" : 21,
+		"name" : "[UF]Uniform",
+		"parent_id" : 5
+	},
+	{
+		"id" : 22,
+		"name" : "[ES]Equipment & Smallwares",
+		"parent_id" : 5
+	},
+	{
+		"id" : 23,
+		"name" : "[B]Beverage",
+		"parent_id" : 5
+	}
+]
