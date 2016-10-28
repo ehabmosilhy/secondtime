@@ -11,9 +11,8 @@ import csv, time, xmlrpclib,json,os
 baseurl = "http://localhost:8069"
 username = "admin"
 password = "z"
-db='a_wh_pos_05'
+db='a__test_06'
 
-# driver.maximize_window()
 
 def navigate(url='',menu='',action=''):
     if menu=='' and action =='' and url!='':
@@ -33,6 +32,10 @@ def fetchx(mycontrol,myclass=''):
     
     elif (mycontrol=='placeholder'):
         item="//input[@placeholder='"+ myclass+"']"
+        elem= driver.find_element(By.XPATH,item)
+        
+    elif (mycontrol=='href'):
+        item="//a[@href='"+ myclass+"']"
         elem= driver.find_element(By.XPATH,item)
     
     elif (mycontrol=='button_text'):
@@ -71,32 +74,59 @@ def login(username,password,db):
     passctrl.send_keys(password)
     passctrl.submit()
 
-def create_account(row,myiterator):
-    time.sleep(0.3)   
+def create_product(row,myiterator):
+    time.sleep(1)   
     driver.implicitly_wait(10)
 #     row.replace(',')
     print (row)
 
 
-        # Create new Account
+        # Create new product
     if myiterator==1:
         btn_create= fetchx('button', 'oe_list_add btn btn-primary btn-sm')
     else:
         btn_create= fetchx('button', 'oe_form_button_create btn btn-default btn-sm')
-                            
 
     btn_create.click()
-    
+    time.sleep(1)
     driver.implicitly_wait(3)
-# ================= Account Company  ==================================
-    account_company=row[6].strip() 
-    company_ctrl = fetchx('id','oe-field-input-7')
-    company_ctrl.clear()
-    company_ctrl.send_keys(account_company)
+
+# Goto first TAB
+    
+    _tab="href"
+    element=fetchx('href', '#notebook_page_5')
+    element.click()
+    driver.implicitly_wait(3)
+
+# ================= product name  ==================================
+    product_name=unicode(row[1].strip() , "utf-8")
+    name_ctrl = fetchx('id','oe-field-input-2')
+    name_ctrl.clear()
+    name_ctrl.send_keys(product_name)
+    driver.implicitly_wait(3)
+#===================================================================
+
+# ================= Sale OK  =============================
+    sale_ok=row[2].strip() 
+    if sale_ok=="false":   
+        chk_sale_ok = fetchx('id', 'oe-field-input-3')
+        chk_sale_ok.click()
+        
+# ================= Purchase OK  =============================
+    sale_ok=row[3].strip() 
+    if sale_ok=="false":   
+        chk_sale_ok = fetchx('id', 'oe-field-input-4')
+        chk_sale_ok.click()
+
+    
+# ================= Unit of Measure  =============================
+    uom=row[4].strip()
+    uom_ctrl = fetchx('id','oe-field-input-11')
+    uom_ctrl.clear()
+    uom_ctrl.send_keys(uom)
     try:
         element = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.LINK_TEXT, account_company))
-        
+            EC.presence_of_element_located((By.LINK_TEXT, uom))
         )
     finally:
         pass
@@ -104,93 +134,76 @@ def create_account(row,myiterator):
     driver.implicitly_wait(3)
 #===================================================================
 
-# ================= Account Code  =============================
-    account_code=row[0].strip()    
-    txt_account_code = fetchx('id', 'oe-field-input-2')
-    txt_account_code.send_keys(account_code)
+# ================= Price  =============================
+    price=row[5].strip()
+    txt_price=fetchx('id', 'oe-field-input-12')
+    txt_price.clear()
+    txt_price.send_keys(price)
 
-# ================= Account Name  =============================
-    account_name=row[1].strip()
-    txt_account_name=fetchx('placeholder', 'Account name')
-    txt_account_name.send_keys(account_name)
+# ================= product Internal Reference  =============================
+    internal_reference=row[6].strip() 
+    internal_reference_ctrl = fetchx('id','oe-field-input-15')
+    internal_reference_ctrl.clear()
+    internal_reference_ctrl.send_keys(internal_reference)
+    driver.implicitly_wait(3)
+#===================================================================
+
+# Go to Sales
+    if sale_ok=='true':
+        _tab="href"
+        element=fetchx('href', '#notebook_page_8')
+        element.click()
+        driver.implicitly_wait(3)
     
-# ================= Account Parent  =============================
-    if row[2].strip() and row[3].strip():
-        account_parent=row[2].strip()+' '+row[3].strip()
-    # Check if Parent is not Empty
-    
-        parent_ctrl = fetchx('id','oe-field-input-3')
-        parent_ctrl.send_keys(account_parent)
-        print (account_name + '::' + account_parent)
+# ================= Pos cat @ sales  ==================================
+        pos_cat=row[7].strip()
+        pos_cat_ctrl = fetchx('id','oe-field-input-46')
+        pos_cat_ctrl.send_keys(pos_cat)
         try:
-            element = WebDriverWait(driver, 25).until(
-                EC.presence_of_element_located((By.LINK_TEXT, account_parent))
-            
+            element = WebDriverWait(driver, 10).until(
+                EC.presence_of_element_located((By.LINK_TEXT, pos_cat))
             )
         finally:
             pass
         element.click()
-    driver.implicitly_wait(3)
+        driver.implicitly_wait(3)
 #===================================================================
 
 
-# ================= Account Internal Type  =============================
-    internal_type=row[4].strip() 
-    internal_type_ctrl = fetchx('select_id','oe-field-input-4')
-    internal_type_ctrl.select_by_visible_text(internal_type)
-#     try:
-#         element = WebDriverWait(driver, 10).until(
-#             EC.presence_of_element_located((By.LINK_TEXT, account_internal_type))
-#         )
-#     finally:
-#         pass
+# ================= internal category @ accounting  ==================================
+    _tab="href"
+    element=fetchx('href', '#notebook_page_9')
+    element.click()
     driver.implicitly_wait(3)
-#===================================================================
-
-# ================= Account Type  ==================================
-    account_type=row[5].strip()
-    parent_ctrl = fetchx('id','oe-field-input-5')
-    parent_ctrl.send_keys(account_type)
+    
+    internal_cat=row[8].strip()
+    internal_cat_ctrl = fetchx('id','oe-field-input-51')
+    internal_cat_ctrl.send_keys(internal_cat)
     try:
         element = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.LINK_TEXT, account_type))
-        
+            EC.presence_of_element_located((By.LINK_TEXT, internal_cat))
         )
     finally:
         pass
     element.click()
     driver.implicitly_wait(3)
 #===================================================================
-
-
-
     
     btn_save=fetchx('button', 'oe_form_button_save btn btn-primary btn-sm')
     btn_save.click()
 
-    driver.get(navigate('',menu_id,action))
-    driver.implicitly_wait(2)
-    
-    with open('/home/ehab/exported_data/companies.csv', 'rb') as csvfile:
-        myrows = csv.reader(csvfile, delimiter=',', quotechar='|')
-        myiterator=0
-        for row in myrows:
-            if myiterator>0:
-                create_company(row[1],row[2],myiterator)
-            myiterator+=1
-
-def create_accounts(menu_id,action):
+def create_products(menu_id,action):
 #     driver.implicitly_wait(20)
     time.sleep(2)
     driver.get(navigate('',menu_id,action))
     time.sleep(2)
 #     driver.implicitly_wait(20)
-    with open('/home/ehab/exported_data/accounts.csv', 'rb') as csvfile:
+    with open('/home/ehab/secondtime/selenium/items/data/data_product_product.csv', 'rb') as csvfile:
         myrows = csv.reader(csvfile, delimiter=',', quotechar='|')
         myiterator=0
         for row in myrows:
             if myiterator>0:
-                create_account(row,myiterator)
+                create_product(row,myiterator)
             myiterator+=1
 
 def login_rpc(_username,_password,_db):
@@ -210,105 +223,109 @@ def rpc_create(_mymodule,_myrecord):
 def rpc_delete(_mymodule,_ids):
     api.execute_kw(db,uid,password,_mymodule,'unlink',[[1,2,3,4,5]])
 
-login_rpc(username, password, db)
+def create_infrastructure():
+    
+    #===============================================#
+    # 1. Create a category with the name 'general'  #
+    #===============================================#
+    
+    # Delete the default product
+    _model ='product.template'
+    rpc_delete(_model , [[_ for _ in range(1,2)]])
+    
+    # emtpy the categ table
+    
+    _model ='product.uom.categ'
+    rpc_delete(_model , [[_ for _ in range(1,6)]])
+    
+    my_record=[{'name':'General'}]
+    category_id= rpc_create('product.uom.categ',my_record )
+    
+    #=============================================
+    #2. Insert product_uom
+    #=============================================
+    _model ='product.uom'
+    rpc_delete(_model , [[_ for _ in range(1,20)]])
+    
+    with open(os.getcwd() +'/data/data_product_uom.json') as json_data:
+        d = json.load(json_data)
+        for i in d:
+            my_record=''
+            i['category_id']=category_id
+            my_record=[i]
+    #         print (my_record)
+            uom_id = rpc_create(_model,my_record )
+    
+    #=============================================
+    #3. Insert product_category
+    #=============================================
+    
+    # First delete the default two categories
+    _model ='product.category'
+    rpc_delete(_model , [[_ for _ in range(1,3)]])
+    
+    new_parents =[]
+    with open(os.getcwd() +'/data/data_product_category.json') as json_data:
+        d = json.load(json_data)
+        for i in [_ for _ in d if not _["parent_id"]]:
+            print (i)
+            my_record=[{"name":i["name"]}]
+            product_category_id = rpc_create('product.category',my_record )
+            new_parents.append({"new_id":product_category_id,"old_id":i["id"]})
+    
+        for x in [_ for _ in d if _["parent_id"]]:
+            my_record=[
+                {
+                    "name":x["name"],
+                    "parent_id":[_["new_id"] for _ in new_parents if _["old_id"]==x["parent_id"]][0]
+                }]
+            product_category_id_ = rpc_create(_model ,my_record )
+            print (product_category_id_)
+    
+    #=============================================
+    #4. Insert POS
+    #=============================================
+    '''
+    # First delete the default two categories
+    _model ='pos.category'
+    
+    # It's Empty by default
+    # rpc_delete(_model , [[_ for _ in range(1,3)]])
+    my_record=[]
+    new_parents =[]
+    with open(os.getcwd() +'/data/data_pos_category.json') as json_data:
+        d = json.load(json_data)
+        for i in [_ for _ in d if not _["parent_id"]]:
+            print (i)
+            my_record=[{"name":i["name"]}]
+            pos_category_id = rpc_create('pos.category',my_record )
+            new_parents.append({"new_id":pos_category_id,"old_id":i["id"]})
+    
+        for x in [_ for _ in d if _["parent_id"]]:
+            my_record=[
+                {
+                    "name":x["name"],
+                    "parent_id":[_["new_id"] for _ in new_parents if _["old_id"]==x["parent_id"]][0]
+                }]
+            print (my_record)
+            pos_category_id_ = rpc_create(_model ,my_record )
+            
+    #         print (pos_category_id_)
+       '''     
+    
+    
+    
 
-#===============================================#
-# 1. Create a category with the name 'general'  #
-#===============================================#
 
-# Delete the default product
-_model ='product.template'
-rpc_delete(_model , [[_ for _ in range(1,2)]])
+# login_rpc(username, password, db)
+# create_infrastructure()
 
-# emtpy the categ table
-
-_model ='product.uom.categ'
-rpc_delete(_model , [[_ for _ in range(1,6)]])
-
-my_record=[{'name':'General'}]
-category_id= rpc_create('product.uom.categ',my_record )
-
-#=============================================
-#2. Insert product_uom
-#=============================================
-_model ='product.uom'
-rpc_delete(_model , [[_ for _ in range(1,20)]])
-
-with open(os.getcwd() +'/data/data_product_uom.json') as json_data:
-    d = json.load(json_data)
-    for i in d:
-        my_record=''
-        i['category_id']=category_id
-        my_record=[i]
-#         print (my_record)
-        uom_id = rpc_create(_model,my_record )
-
-#=============================================
-#3. Insert product_category
-#=============================================
-
-# First delete the default two categories
-_model ='product.category'
-rpc_delete(_model , [[_ for _ in range(1,3)]])
-
-new_parents =[]
-with open(os.getcwd() +'/data/data_product_category.json') as json_data:
-    d = json.load(json_data)
-    for i in [_ for _ in d if not _["parent_id"]]:
-        print (i)
-        my_record=[{"name":i["name"]}]
-        product_category_id = rpc_create('product.category',my_record )
-        new_parents.append({"new_id":product_category_id,"old_id":i["id"]})
-
-    for x in [_ for _ in d if _["parent_id"]]:
-        my_record=[
-            {
-                "name":x["name"],
-                "parent_id":[_["new_id"] for _ in new_parents if _["old_id"]==x["parent_id"]][0]
-            }]
-        product_category_id_ = rpc_create(_model ,my_record )
-        print (product_category_id_)
-
-#=============================================
-#4. Insert POS
-#=============================================
-'''
-# First delete the default two categories
-_model ='pos.category'
-
-# It's Empty by default
-# rpc_delete(_model , [[_ for _ in range(1,3)]])
-my_record=[]
-new_parents =[]
-with open(os.getcwd() +'/data/data_pos_category.json') as json_data:
-    d = json.load(json_data)
-    for i in [_ for _ in d if not _["parent_id"]]:
-        print (i)
-        my_record=[{"name":i["name"]}]
-        pos_category_id = rpc_create('pos.category',my_record )
-        new_parents.append({"new_id":pos_category_id,"old_id":i["id"]})
-
-    for x in [_ for _ in d if _["parent_id"]]:
-        my_record=[
-            {
-                "name":x["name"],
-                "parent_id":[_["new_id"] for _ in new_parents if _["old_id"]==x["parent_id"]][0]
-            }]
-        print (my_record)
-        pos_category_id_ = rpc_create(_model ,my_record )
-        
-#         print (pos_category_id_)
-   '''     
-
-
-
-'''
 driver = webdriver.Chrome()
-login(username, password,db)
+driver.maximize_window()
 driver.get( navigate  (baseurl))
-'''
+login(username, password,db)
 
-# create_accounts('175','173')
+create_products('153','114')
 
     
 

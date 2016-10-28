@@ -12,7 +12,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 baseurl = "http://localhost:8069"
 username = "admin"
 password = "z"
-db='demo_03'
+db='a__test_06'
 
 
 driver = webdriver.Chrome()
