@@ -1,0 +1,1 @@
+select  concat (root.name ,' /' ,down1.name , ' / ' , down2.name  ) 	from pos_category as root left outer join pos_category as down1   on down1.parent_id = root.id left outer join pos_category as down2 	on down2.parent_id = down1.id left outer join pos_category as down3   on down3.parent_id = down2.id	where down1.id= 25		or down2.id=25

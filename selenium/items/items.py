@@ -6,13 +6,16 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-import csv, time, xmlrpclib,json,os
+import csv,datetime, time, xmlrpclib,json,os
 
 baseurl = "http://localhost:8069"
 username = "admin"
 password = "z"
-db='a__test_06'
+db='a__test_07'
 
+
+# Selenium - Global Variable
+driver = webdriver.Chrome()
 
 def navigate(url='',menu='',action=''):
     if menu=='' and action =='' and url!='':
@@ -75,10 +78,10 @@ def login(username,password,db):
     passctrl.submit()
 
 def create_product(row,myiterator):
-    time.sleep(1)   
+    time.sleep(0.9)   
     driver.implicitly_wait(10)
 #     row.replace(',')
-    print (row)
+    print (row,datetime.datetime.now())
 
 
         # Create new product
@@ -88,7 +91,7 @@ def create_product(row,myiterator):
         btn_create= fetchx('button', 'oe_form_button_create btn btn-default btn-sm')
 
     btn_create.click()
-    time.sleep(1)
+    time.sleep(0.4)
     driver.implicitly_wait(3)
 
 # Goto first TAB
@@ -107,20 +110,22 @@ def create_product(row,myiterator):
 #===================================================================
 
 # ================= Sale OK  =============================
-    sale_ok=row[2].strip() 
+    sale_ok=row[2].strip().lower()
     if sale_ok=="false":   
         chk_sale_ok = fetchx('id', 'oe-field-input-3')
         chk_sale_ok.click()
         
 # ================= Purchase OK  =============================
-    sale_ok=row[3].strip() 
-    if sale_ok=="false":   
-        chk_sale_ok = fetchx('id', 'oe-field-input-4')
-        chk_sale_ok.click()
+    purchase_ok=row[3].strip().lower() 
+    if purchase_ok=="false":   
+        chk_purchase_ok = fetchx('id', 'oe-field-input-4')
+        chk_purchase_ok.click()
 
     
 # ================= Unit of Measure  =============================
-    uom=row[4].strip()
+    mychar_old='$'
+    mychar_new="'"
+    uom=row[4].strip().replace(mychar_old,mychar_new)
     uom_ctrl = fetchx('id','oe-field-input-11')
     uom_ctrl.clear()
     uom_ctrl.send_keys(uom)
@@ -156,17 +161,19 @@ def create_product(row,myiterator):
         driver.implicitly_wait(3)
     
 # ================= Pos cat @ sales  ==================================
-        pos_cat=row[7].strip()
-        pos_cat_ctrl = fetchx('id','oe-field-input-46')
-        pos_cat_ctrl.send_keys(pos_cat)
-        try:
-            element = WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.LINK_TEXT, pos_cat))
-            )
-        finally:
-            pass
-        element.click()
-        driver.implicitly_wait(3)
+        pos_cat_full_name=row[7].strip()
+        if pos_cat_full_name:
+            pos_cat = pos_cat_full_name.split('/')[-1].strip()
+            pos_cat_ctrl = fetchx('id','oe-field-input-46')
+            pos_cat_ctrl.send_keys(pos_cat)
+            try:
+                element = WebDriverWait(driver, 10).until(
+                    EC.presence_of_element_located((By.LINK_TEXT, pos_cat_full_name))
+                )
+            finally:
+                pass
+            element.click()
+            driver.implicitly_wait(3)
 #===================================================================
 
 
@@ -175,18 +182,21 @@ def create_product(row,myiterator):
     element=fetchx('href', '#notebook_page_9')
     element.click()
     driver.implicitly_wait(3)
-    
-    internal_cat=row[8].strip()
-    internal_cat_ctrl = fetchx('id','oe-field-input-51')
-    internal_cat_ctrl.send_keys(internal_cat)
-    try:
-        element = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.LINK_TEXT, internal_cat))
-        )
-    finally:
-        pass
-    element.click()
-    driver.implicitly_wait(3)
+#     
+    internal_cat_full_name=row[8].strip()
+    if internal_cat_full_name:
+        internal_cat = internal_cat_full_name.split('/')[-1].strip()
+        internal_cat_ctrl = fetchx('id','oe-field-input-51')
+        internal_cat_ctrl.clear()
+        internal_cat_ctrl.send_keys(internal_cat)
+        try:
+            element = WebDriverWait(driver, 10).until(
+                EC.presence_of_element_located((By.LINK_TEXT, internal_cat_full_name))
+            )
+        finally:
+            pass
+        element.click()
+        driver.implicitly_wait(3)
 #===================================================================
     
     btn_save=fetchx('button', 'oe_form_button_save btn btn-primary btn-sm')
@@ -198,7 +208,7 @@ def create_products(menu_id,action):
     driver.get(navigate('',menu_id,action))
     time.sleep(2)
 #     driver.implicitly_wait(20)
-    with open('/home/ehab/secondtime/selenium/items/data/data_product_product.csv', 'rb') as csvfile:
+    with open('/home/ehab/secondtime/selenium/items/data/import_product.csv', 'rb') as csvfile:
         myrows = csv.reader(csvfile, delimiter=',', quotechar='|')
         myiterator=0
         for row in myrows:
@@ -268,7 +278,7 @@ def create_infrastructure():
     with open(os.getcwd() +'/data/data_product_category.json') as json_data:
         d = json.load(json_data)
         for i in [_ for _ in d if not _["parent_id"]]:
-            print (i)
+#             print (i)
             my_record=[{"name":i["name"]}]
             product_category_id = rpc_create('product.category',my_record )
             new_parents.append({"new_id":product_category_id,"old_id":i["id"]})
@@ -280,53 +290,56 @@ def create_infrastructure():
                     "parent_id":[_["new_id"] for _ in new_parents if _["old_id"]==x["parent_id"]][0]
                 }]
             product_category_id_ = rpc_create(_model ,my_record )
-            print (product_category_id_)
+#             print (product_category_id_)
     
     #=============================================
-    #4. Insert POS
+    #4. Insert POS Categories
     #=============================================
-    '''
+    
+    
     # First delete the default two categories
     _model ='pos.category'
     
     # It's Empty by default
     # rpc_delete(_model , [[_ for _ in range(1,3)]])
     my_record=[]
-    new_parents =[]
+    new_parents_null =[]
+    new_parents_level_1=[]
     with open(os.getcwd() +'/data/data_pos_category.json') as json_data:
         d = json.load(json_data)
         for i in [_ for _ in d if not _["parent_id"]]:
-            print (i)
+#             print (i)
             my_record=[{"name":i["name"]}]
             pos_category_id = rpc_create('pos.category',my_record )
-            new_parents.append({"new_id":pos_category_id,"old_id":i["id"]})
-    
-        for x in [_ for _ in d if _["parent_id"]]:
+            new_parents_null.append({"new_id":pos_category_id,"old_id":i["id"]})
+        for x in [_ for _ in d if _["parent_id"] in [n["old_id"] for n in new_parents_null]]:
             my_record=[
                 {
                     "name":x["name"],
-                    "parent_id":[_["new_id"] for _ in new_parents if _["old_id"]==x["parent_id"]][0]
+                    "parent_id":[_["new_id"] for _ in new_parents_null if _["old_id"]==x["parent_id"]][0]
                 }]
-            print (my_record)
+#             print (my_record)
             pos_category_id_ = rpc_create(_model ,my_record )
-            
-    #         print (pos_category_id_)
-       '''     
-    
-    
-    
+            new_parents_level_1.append({"new_id":pos_category_id_,"old_id":x["id"]})
 
+        for z in [_ for _ in d if _["parent_id"] in [n["old_id"] for n in new_parents_level_1]]:
+            my_record=[
+                {
+                    "name":z["name"],
+                    "parent_id":[_["new_id"] for _ in new_parents_level_1 if _["old_id"]==z["parent_id"]][0]
+                }]
+#             print (my_record)
+            pos_category_id_ = rpc_create(_model ,my_record )
 
-# login_rpc(username, password, db)
-# create_infrastructure()
+def go_selenium():
+    driver.maximize_window()
+    driver.get( navigate  (baseurl))
+    login(username, password,db)
+    print ('started at:', datetime.datetime.now())
+    create_products('153','114')
 
-driver = webdriver.Chrome()
-driver.maximize_window()
-driver.get( navigate  (baseurl))
-login(username, password,db)
-
-create_products('153','114')
-
-    
+login_rpc(username, password, db)
+create_infrastructure()
+go_selenium()
 
 
