@@ -1,7 +1,7 @@
- [
+  [
 	{
 		"id" : 1,
-		"name" : "RV Burger",
+		"name" : "RV Burger برجرات",
 		"parent_id" : null
 	},
 	{
@@ -448,115 +448,5 @@
 		"id" : 106,
 		"name" : "Extra",
 		"parent_id" : 73
-	},
-	{
-		"id" : 108,
-		"name" : "RV / CHKN Ardhiya*",
-		"parent_id" : null
-	},
-	{
-		"id" : 110,
-		"name" : "CHKN",
-		"parent_id" : 108
-	},
-	{
-		"id" : 111,
-		"name" : "Chicken",
-		"parent_id" : 110
-	},
-	{
-		"id" : 112,
-		"name" : "Sandwiches",
-		"parent_id" : 110
-	},
-	{
-		"id" : 113,
-		"name" : "Sides",
-		"parent_id" : 110
-	},
-	{
-		"id" : 114,
-		"name" : "Salad",
-		"parent_id" : 110
-	},
-	{
-		"id" : 115,
-		"name" : "Modifier",
-		"parent_id" : 110
-	},
-	{
-		"id" : 116,
-		"name" : "Drinks",
-		"parent_id" : 110
-	},
-	{
-		"id" : 117,
-		"name" : "RV Burger*",
-		"parent_id" : 108
-	},
-	{
-		"id" : 118,
-		"name" : "Burger",
-		"parent_id" : 117
-	},
-	{
-		"id" : 119,
-		"name" : "Sliders",
-		"parent_id" : 117
-	},
-	{
-		"id" : 120,
-		"name" : "Sides",
-		"parent_id" : 117
-	},
-	{
-		"id" : 121,
-		"name" : "Salads",
-		"parent_id" : 117
-	},
-	{
-		"id" : 122,
-		"name" : "Others",
-		"parent_id" : 117
-	},
-	{
-		"id" : 123,
-		"name" : "Drinks",
-		"parent_id" : 117
-	},
-	{
-		"id" : 124,
-		"name" : "No",
-		"parent_id" : 117
-	},
-	{
-		"id" : 125,
-		"name" : "Extra",
-		"parent_id" : 117
-	},
-	{
-		"id" : 126,
-		"name" : "Sauces",
-		"parent_id" : 110
-	},
-	{
-		"id" : 127,
-		"name" : "Combo Meals",
-		"parent_id" : 110
-	},
-	{
-		"id" : 128,
-		"name" : "MODE OF PAYMENT",
-		"parent_id" : 108
-	},
-	{
-		"id" : 129,
-		"name" : "Delivery Charge",
-		"parent_id" : 108
-	},
-	{
-		"id" : 130,
-		"name" : "Breakfast",
-		"parent_id" : 21
 	}
 ]

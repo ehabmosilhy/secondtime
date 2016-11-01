@@ -1,6 +1,6 @@
 from selenium import webdriver
 import csv
-import time
+import time,os
 #Following are optional required
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
@@ -11,8 +11,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 baseurl = "http://localhost:8069"
 username = "admin"
-password = "z"
-db='a__test_06'
+password = "1"
+db='db_final_01'
 
 
 driver = webdriver.Chrome()
@@ -36,6 +36,10 @@ def fetchx(mycontrol,myclass=''):
     
     elif (mycontrol=='placeholder'):
         item="//input[@placeholder='"+ myclass+"']"
+        elem= driver.find_element(By.XPATH,item)
+        
+    elif (mycontrol=='href'):
+        item="//a[@href='"+ myclass+"']"
         elem= driver.find_element(By.XPATH,item)
     
     elif (mycontrol=='button_text'):
@@ -79,26 +83,27 @@ login(username, password,db)
 
 
 def create_account(row,myiterator):
-    time.sleep(0.3)   
+    time.sleep(0.7)   
     driver.implicitly_wait(10)
 #     row.replace(',')
     print (row)
 
-
         # Create new Account
-    if myiterator==1:
+    try:
         btn_create= fetchx('button', 'oe_list_add btn btn-primary btn-sm')
-    else:
+        btn_create.click()
+    except:
         btn_create= fetchx('button', 'oe_form_button_create btn btn-default btn-sm')
-                            
-
-    btn_create.click()
+        btn_create.click()
+   
     
     driver.implicitly_wait(3)
 # ================= Account Company  ==================================
     account_company=row[6].strip() 
     company_ctrl = fetchx('id','oe-field-input-7')
+    time.sleep(0.2)
     company_ctrl.clear()
+    time.sleep(0.3)
     company_ctrl.send_keys(account_company)
     try:
         element = WebDriverWait(driver, 10).until(
@@ -144,6 +149,7 @@ def create_account(row,myiterator):
 # ================= Account Internal Type  =============================
     internal_type=row[4].strip() 
     internal_type_ctrl = fetchx('select_id','oe-field-input-4')
+    print ("'" + internal_type + "'")
     internal_type_ctrl.select_by_visible_text(internal_type)
 #     try:
 #         element = WebDriverWait(driver, 10).until(
@@ -172,8 +178,31 @@ def create_account(row,myiterator):
 
 
     
+   
     btn_save=fetchx('button', 'oe_form_button_save btn btn-primary btn-sm')
     btn_save.click()
+    
+    try:
+        btn_ok=fetchx('button', 'oe_button oe_form_button')
+        btn_ok.click()
+        
+    
+        element_discard = WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.LINK_TEXT, 'Discard')))
+        
+        element_discard.click()   
+        alert = driver.switch_to_alert()
+        alert.accept()
+        with open('/home/ehab/secondtime/output.txt', 'a') as f:
+            f.write(str(row) + '\n')
+
+        
+#         time.sleep(1)
+#         btn_ok=fetchx('button', 'oe_button oe_form_button')
+#         btn_ok.click()
+    except:
+        pass
+    
 
 def create_company(company_name,company_parent,myiterator):
 
@@ -212,10 +241,12 @@ def create_company(company_name,company_parent,myiterator):
     btn_save.click()
 
 def create_companies(menu_id,action):
+    time.sleep(2)
     driver.get(navigate('',menu_id,action))
-    driver.implicitly_wait(2)
-    
-    with open('/home/ehab/exported_data/companies.csv', 'rb') as csvfile:
+    os.chdir('../data/')
+    myfile = os.getcwd() +'/import_companies.csv'
+    print (myfile)
+    with open(myfile, 'rb') as csvfile:
         myrows = csv.reader(csvfile, delimiter=',', quotechar='|')
         myiterator=0
         for row in myrows:
@@ -225,11 +256,11 @@ def create_companies(menu_id,action):
 
 def create_accounts(menu_id,action):
 #     driver.implicitly_wait(20)
-    time.sleep(2)
+    time.sleep(1)
     driver.get(navigate('',menu_id,action))
-    time.sleep(2)
+    time.sleep(0.8)
 #     driver.implicitly_wait(20)
-    with open('/home/ehab/exported_data/accounts.csv', 'rb') as csvfile:
+    with open('../data/import_accounts.csv', 'rb') as csvfile:
         myrows = csv.reader(csvfile, delimiter=',', quotechar='|')
         myiterator=0
         for row in myrows:

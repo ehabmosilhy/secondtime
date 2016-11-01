@@ -1,0 +1,26 @@
+list index out of range
+{u'list_price': 5.0, u'sale_ok': True, u'product_category': None, u'purchase_ok': False, u'purchase_uom': u'Jar', u'pos_category': u'Choowy Goowy Cafe / Cookie Jar', u'default_code': u'4240', u'id': 2366, u'uom': u'Jar', u'name': u'Chocolate Chip Chogos Jar*'}
+list index out of range
+{u'list_price': 1.75, u'sale_ok': True, u'product_category': None, u'purchase_ok': False, u'purchase_uom': u'Jar', u'pos_category': u'Choowy Goowy Cafe / Cookie Jar', u'default_code': u'4271', u'id': 2538, u'uom': u'Jar', u'name': u'Mini jar Chocolate Chip Chogos*'}
+list index out of range
+{u'list_price': 5.0, u'sale_ok': True, u'product_category': None, u'purchase_ok': False, u'purchase_uom': u'Jar', u'pos_category': u'Choowy Goowy Cafe / Cookie Jar', u'default_code': u'4278', u'id': 2546, u'uom': u'Jar', u'name': u'Ninja Cookies*'}
+list index out of range
+{u'list_price': 5.0, u'sale_ok': True, u'product_category': None, u'purchase_ok': False, u'purchase_uom': u'Jar', u'pos_category': u'Choowy Goowy Cafe / Cookie Jar', u'default_code': u'4277', u'id': 2545, u'uom': u'Jar', u'name': u'Salted Caramel Cookies*'}
+list index out of range
+{u'list_price': 1.75, u'sale_ok': True, u'product_category': None, u'purchase_ok': False, u'purchase_uom': u'Jar', u'pos_category': u'Choowy Goowy Cafe / Cookie Jar', u'default_code': u'4272', u'id': 2539, u'uom': u'Jar', u'name': u'Mini jar Dates Chogos*'}
+list index out of range
+{u'list_price': 1.75, u'sale_ok': True, u'product_category': None, u'purchase_ok': False, u'purchase_uom': u'Jar', u'pos_category': u'Choowy Goowy Cafe / Cookie Jar', u'default_code': u'4273', u'id': 2540, u'uom': u'Jar', u'name': u'Mini jar solo Chogos*'}
+list index out of range
+{u'list_price': 2.0, u'sale_ok': True, u'product_category': None, u'purchase_ok': False, u'purchase_uom': u'Jar', u'pos_category': u'Choowy Goowy Cafe / Cookie Jar', u'default_code': u'4274', u'id': 2541, u'uom': u'Jar', u'name': u'Mini jar Kinder Chogos*'}
+list index out of range
+{u'list_price': 2.0, u'sale_ok': True, u'product_category': None, u'purchase_ok': False, u'purchase_uom': u'Jar', u'pos_category': u'Choowy Goowy Cafe / Cookie Jar', u'default_code': u'4275', u'id': 2542, u'uom': u'Jar', u'name': u'Mini jar Nutella Chogos* '}
+list index out of range
+{u'list_price': 2.0, u'sale_ok': True, u'product_category': None, u'purchase_ok': False, u'purchase_uom': u'Jar', u'pos_category': u'Choowy Goowy Cafe / Cookie Jar', u'default_code': u'4276', u'id': 2543, u'uom': u'Jar', u'name': u'Mini jar Lotus Chogos* '}
+list index out of range
+{u'list_price': 4.5, u'sale_ok': True, u'product_category': None, u'purchase_ok': False, u'purchase_uom': u'Jar', u'pos_category': u'Choowy Goowy Bakery / Cookies Jar', u'default_code': u'4144', u'id': 2452, u'uom': u'Jar', u'name': u'Lotus Cookies Jar'}
+list index out of range
+{u'list_price': 3.0, u'sale_ok': True, u'product_category': None, u'purchase_ok': False, u'purchase_uom': u'Jar', u'pos_category': u'Choowy Goowy Cafe / Cookie Jar', u'default_code': u'4201', u'id': 2247, u'uom': u'Jar', u'name': u'Chocolate Chip Jar*'}
+list index out of range
+{u'list_price': 7.5, u'sale_ok': True, u'product_category': None, u'purchase_ok': False, u'purchase_uom': u'Jar', u'pos_category': u'Choowy Goowy Bakery / Cakes', u'default_code': u'4145', u'id': 2453, u'uom': u'Jar', u'name': u'Lotus Molten 6 PCS'}
+list index out of range
+{u'list_price': 3.0, u'sale_ok': True, u'product_category': None, u'purchase_ok': False, u'purchase_uom': u'Jar', u'pos_category': u'Choowy Goowy Bakery / Cookies Jar', u'default_code': u'4001', u'id': 1958, u'uom': u'Jar', u'name': u'Chocolate Chip Jar \u0634\u0648\u0643\u0644\u064a\u062a \u0634\u064a\u0628\u0633 \u062c\u0627\u0631'}

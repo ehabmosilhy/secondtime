@@ -11,7 +11,7 @@ import csv,datetime, time, xmlrpclib,json,os
 baseurl = "http://localhost:8069"
 username = "admin"
 password = "1"
-db='final_database_02'
+db='final_database_01'
 
 
 # Selenium - Global Variable
@@ -85,7 +85,7 @@ def create_product(row,myiterator):
 
 
         # Create new product
-    if myiterator<=1:
+    if myiterator==1:
         btn_create= fetchx('button', 'oe_kanban_button_new btn btn-primary btn-sm')
         
     else:
@@ -108,7 +108,7 @@ def create_product(row,myiterator):
 
 
 # ================= product name  ==================================
-    product_name=unicode(row[1].strip() , "utf-8")
+    product_name=unicode(row['name'].strip() , "utf-8")
     name_ctrl = fetchx('id','oe-field-input-1')
 #     name_ctrl.clear()
     name_ctrl.send_keys(product_name)
@@ -117,38 +117,29 @@ def create_product(row,myiterator):
 
 
 # ================= Sale OK  =============================
-    sale_ok=row[2].strip().lower()
+    sale_ok=row['sale_ok'].strip().lower()
     if sale_ok=="false":   
         chk_sale_ok = fetchx('id', 'oe-field-input-2')
         chk_sale_ok.click()
         
 # ================= Purchase OK  =============================
-    purchase_ok=row[3].strip().lower() 
+    purchase_ok=row['purchase_ok'].strip().lower() 
     if purchase_ok=="false":   
         chk_purchase_ok = fetchx('id', 'oe-field-input-3')
         chk_purchase_ok.click()
 
     
 # ================= Unit of Measure  =============================
-    mychar_old='$'
-    mychar_new="'"
-    uom=row[4].strip().replace(mychar_old,mychar_new)
+#     mychar_old='$'
+#     mychar_new="'"
+    uom=row[4].strip()#.replace(mychar_old,mychar_new)
     uom_ctrl = fetchx('id','oe-field-input-11')
     uom_ctrl.clear()
     uom_ctrl.send_keys(uom)
     try:
-        element = WebDriverWait(driver, 5).until(
+        element = WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.LINK_TEXT, uom))
         )
-    except:
-            element_discard = WebDriverWait(driver, 5).until(
-            EC.presence_of_element_located((By.LINK_TEXT, 'Discard')))
-        
-            element_discard.click()   
-            alert = driver.switch_to_alert()
-            alert.accept()
-            with open('/home/ehab/secondtime/missing.txt', 'a') as f:
-                f.write(str(row) + '\n')
     finally:
         pass
     element.click()
@@ -169,6 +160,30 @@ def create_product(row,myiterator):
     driver.implicitly_wait(3)
 #===================================================================
 
+# Go to Sales
+    if sale_ok=='true':
+        _tab="href"
+        element=fetchx('href', '#notebook_page_7')
+        element.click()
+        driver.implicitly_wait(3)
+    
+# ================= Pos cat @ sales  ==================================
+        pos_cat_full_name=row[7].strip()
+        if pos_cat_full_name:
+            pos_cat = pos_cat_full_name.split('/')[-1].strip()
+            pos_cat_ctrl = fetchx('id','oe-field-input-46')
+            pos_cat_ctrl.send_keys(pos_cat)
+            try:
+                element = WebDriverWait(driver, 10).until(
+                    EC.presence_of_element_located((By.LINK_TEXT, pos_cat_full_name))
+                )
+            finally:
+                pass
+            element.click()
+            driver.implicitly_wait(3)
+#===================================================================
+
+
 
 # ================= internal category @ accounting  ==================================
     element=fetchx('href', '#notebook_page_9')
@@ -182,59 +197,17 @@ def create_product(row,myiterator):
         internal_cat_ctrl.clear()
         internal_cat_ctrl.send_keys(internal_cat)
         try:
-            element = WebDriverWait(driver, 5).until(
+            element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.LINK_TEXT, internal_cat_full_name))
             )
-        except:
-            element_discard = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.LINK_TEXT, 'Discard')))
-        
-            element_discard.click()   
-            alert = driver.switch_to_alert()
-            alert.accept()
-            with open('/home/ehab/secondtime/missing.txt', 'a') as f:
-                f.write(str(row) + '\n')
+        finally:
+            pass
         element.click()
         driver.implicitly_wait(3)
 #===================================================================
     
-# Go to Sales
-    if sale_ok=='true':
-        _tab="href"
-        element=fetchx('href', '#notebook_page_7')
-        element.click()
-        driver.implicitly_wait(3)
-    
-    
-# ================= Pos cat @ sales  ==================================
-        pos_cat_full_name=row[7].strip()
-        if pos_cat_full_name:
-            pos_cat = pos_cat_full_name.split('/')[-1].strip()
-            pos_cat_ctrl = fetchx('id','oe-field-input-46')
-            pos_cat_ctrl.send_keys(pos_cat)
-            try:
-                element = WebDriverWait(driver, 5).until(
-                    EC.presence_of_element_located((By.LINK_TEXT, pos_cat_full_name))
-                )
-                element.click()
-                driver.implicitly_wait(3)
-            except:
-                element_discard = WebDriverWait(driver, 5).until(
-                EC.presence_of_element_located((By.LINK_TEXT, 'Discard')))
-            
-                element_discard.click()   
-                alert = driver.switch_to_alert()
-                alert.accept()
-                with open('/home/ehab/secondtime/missing.txt', 'a') as f:
-                    f.write(str(row) + '\n')
-            finally:
-                pass
-#===================================================================
-    try:
-        btn_save=fetchx('button', 'oe_form_button_save btn btn-primary btn-sm')
-        btn_save.click()
-    except:
-        pass
+    btn_save=fetchx('button', 'oe_form_button_save btn btn-primary btn-sm')
+    btn_save.click()
 
 def create_products(menu_id,action):
 #     driver.implicitly_wait(20)
@@ -243,11 +216,14 @@ def create_products(menu_id,action):
     driver.get(myurl)
     time.sleep(2)
 #     driver.implicitly_wait(20)
-    with open('/home/ehab/secondtime/selenium/items/data/csv_import_products.csv', 'rb') as csvfile:
-        myrows = csv.reader(csvfile, delimiter=',', quotechar='|')
-        global myiterator
+    with open('/home/ehab/secondtime/selenium/items/data/json/import_accounts.json', 'rb') as json_data:
+        d = json.load(json_data)
+
+
+#         myrows = csv.reader(csvfile, delimiter=',', quotechar='|')
+        
         myiterator=0
-        for row in myrows:
+        for row in d:
             if myiterator>0:
                 create_product(row,myiterator)
             myiterator+=1

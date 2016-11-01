@@ -1,0 +1,8 @@
+['3', 'EXPENSES [RVA]', '2', 'PROFIT AND LOSS [RVA]', 'View', 'Expense View', 'RVA', '8', '11', '']
+['4', 'REVENUE [RVA]', '2', 'PROFIT AND LOSS [RVA]', 'View', 'Income View', 'RVA', '8', '10', '']
+['3', 'EXPENSES [RVB]', '2', 'PROFIT AND LOSS [RVB]', 'View', 'Expense View', 'RVB', '7', '11', '']
+['4', 'REVENUE [RVB]', '2', 'PROFIT AND LOSS [RVB]', 'View', 'Income View', 'RVB', '7', '10', '']
+['3', 'EXPENSES [RVQ]', '2', 'PROFIT AND LOSS [RVQ]', 'View', 'Expense View', 'RVQ', '9', '11', '']
+['4', 'REVENUE [RVQ]', '2', 'PROFIT AND LOSS [RVQ]', 'View', 'Income View', 'RVQ', '9', '10', '']
+['21', 'OWNER EQUITY [RVA]', '1', 'BALANCE SHEET [RVA]', 'View', 'Equity', 'RVA', '8', '15', '']
+['22', 'CURRENT LIABILITES [RVA]', '1', 'BALANCE SHEET [RVA]', 'View', 'Liability View', 'RVA', '8', '13', '']

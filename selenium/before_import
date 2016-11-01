@@ -1,0 +1,19 @@
+﻿/*
+update res_company set name = 'RVA' where name='R.V Ardiya';
+update res_company set name = 'RVB' where name='R V (REAL VEAL) BURGER';
+update res_company set name = 'RVQ' where name='R.V Qurain';
+*/
+--select name from account_account order by name;
+/*
+update account_account set name = 'RVA' where name='R.V Ardiya';
+update account_account set name = 'RVB' where name='R V (REAL VEAL) BURGER';
+update account_account set name = 'RVQ' where name='R.V Qurain';
+*/
+/*
+update account_account a
+set name=concat(a.name,' [' , c.name , ']')  
+from res_company c 
+where c.id=a.company_id  
+*/
+--update account_account set name = upper(name)
+select * from account_account
