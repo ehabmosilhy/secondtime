@@ -1,0 +1,1560 @@
+1 'default_code'
+{u'product_tmpl_name': u'Halloum cheese sandwich', u'code': u'F-2607', u'type': u'phantom', u'name': u'Halloum cheese sandwich', u'product_name': u'Halloum cheese sandwich'}
+
+2 'default_code'
+{u'product_tmpl_name': u'Raisin Cookies Jar \u062c\u0627\u0631 \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u0632\u0628\u064a\u0628', u'code': u'CGB-4042', u'type': u'phantom', u'name': u'Raisin Cookies Jar', u'product_name': u'Raisin Cookies Jar \u062c\u0627\u0631 \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u0632\u0628\u064a\u0628'}
+
+3 'default_code'
+{u'product_tmpl_name': u'Slider RV \u0633\u0644\u0627\u064a\u062f\u0631 \u0623\u0631\u0641\u0649', u'code': u'S-6020', u'type': u'phantom', u'name': u'Slider RV', u'product_name': u'Slider RV \u0633\u0644\u0627\u064a\u062f\u0631 \u0623\u0631\u0641\u0649'}
+
+4 'default_code'
+{u'product_tmpl_name': u'Rocky Road Jar\u0631\u0648\u0643\u064a \u0631\u0648\u062f \u062c\u0627\u0631', u'code': u'CGB-4032', u'type': u'phantom', u'name': u'Rocky Road Jar', u'product_name': u'Rocky Road Jar\u0631\u0648\u0643\u064a \u0631\u0648\u062f \u062c\u0627\u0631'}
+
+5 'default_code'
+{u'product_tmpl_name': u'French Fries \u0628\u0637\u0627\u0637\u0627 \u0645\u0642\u0644\u064a\u0629', u'code': u'S-6032', u'type': u'phantom', u'name': u'French Fries', u'product_name': u'French Fries \u0628\u0637\u0627\u0637\u0627 \u0645\u0642\u0644\u064a\u0629'}
+
+6 'default_code'
+{u'product_tmpl_name': u'Onion Rings \u062d\u0644\u0642\u0627\u062a \u0627\u0644\u0628\u0635\u0644', u'code': u'S-6035', u'type': u'phantom', u'name': u'Onion Rings', u'product_name': u'Onion Rings \u062d\u0644\u0642\u0627\u062a \u0627\u0644\u0628\u0635\u0644'}
+
+7 'default_code'
+{u'product_tmpl_name': u'Oreo Cookies Jar \u0627\u0648\u0631\u064a\u0648 \u0643\u0648\u0643\u064a\u0632 \u062c\u0627\u0631', u'code': u'CGB-4038', u'type': u'phantom', u'name': u'Oreo Cookies Jar', u'product_name': u'Oreo Cookies Jar \u0627\u0648\u0631\u064a\u0648 \u0643\u0648\u0643\u064a\u0632 \u062c\u0627\u0631'}
+
+8 'default_code'
+{u'product_tmpl_name': u'Extra chicken fillet \u0632\u064a\u0627\u062f\u0629 \u0641\u064a\u0644\u064a\u0647 \u062f\u062c\u0627\u062c', u'code': u'S-6141', u'type': u'phantom', u'name': u'Extra chicken fillet', u'product_name': u'Extra chicken fillet \u0632\u064a\u0627\u062f\u0629 \u0641\u064a\u0644\u064a\u0647 \u062f\u062c\u0627\u062c'}
+
+9 'default_code'
+{u'product_tmpl_name': u'Slider Fried Chicken \u0633\u0644\u0627\u064a\u062f\u0631 \u062f\u062c\u0627\u062c \u0645\u0642\u0644\u064a', u'code': u'S-6024', u'type': u'phantom', u'name': u'Slider Fried Chicken', u'product_name': u'Slider Fried Chicken \u0633\u0644\u0627\u064a\u062f\u0631 \u062f\u062c\u0627\u062c \u0645\u0642\u0644\u064a'}
+
+10 'default_code'
+{u'product_tmpl_name': u'Extra Slice Cheese(s) \u0632\u064a\u0627\u062f\u0629 \u062c\u0628\u0646\u0629', u'code': u'S-6151', u'type': u'phantom', u'name': u'Extra Slice Cheese \u0632\u064a\u0627\u062f\u0629 \u062c\u0628\u0646\u0629', u'product_name': u'Extra Slice Cheese(s) \u0632\u064a\u0627\u062f\u0629 \u062c\u0628\u0646\u0629'}
+
+11 'default_code'
+{u'product_tmpl_name': u'Slider Chicken \u0633\u0644\u0627\u064a\u062f\u0631 \u062f\u062c\u0627\u062c', u'code': u'S-6021', u'type': u'phantom', u'name': u'Slider Chicken', u'product_name': u'Slider Chicken \u0633\u0644\u0627\u064a\u062f\u0631 \u062f\u062c\u0627\u062c'}
+
+12 'default_code'
+{u'product_tmpl_name': u'Extra Fried Onion Rings \u0632\u064a\u0627\u062f\u0629 \u0628\u0635\u0644 \u0645\u0642\u0644\u064a', u'code': u'S-6101', u'type': u'phantom', u'name': u'Extra Fried Onion Rings', u'product_name': u'Extra Fried Onion Rings \u0632\u064a\u0627\u062f\u0629 \u0628\u0635\u0644 \u0645\u0642\u0644\u064a'}
+
+13 'default_code'
+{u'product_tmpl_name': u'Extra Swiss Chesse(s) \u0632\u064a\u0627\u062f\u0629 \u062c\u0628\u0646\u0629 \u0633\u0648\u064a\u0633\u0631\u064a\u0629', u'code': u'S-6145', u'type': u'phantom', u'name': u'Extra Swiss Chesse \u0632\u064a\u0627\u062f\u0629 \u062c\u0628\u0646\u0629 \u0633\u0648\u064a\u0633\u0631\u064a\u0629', u'product_name': u'Extra Swiss Chesse(s) \u0632\u064a\u0627\u062f\u0629 \u062c\u0628\u0646\u0629 \u0633\u0648\u064a\u0633\u0631\u064a\u0629'}
+
+14 'default_code'
+{u'product_tmpl_name': u'Choowy Nutella', u'code': u'CGR_5112', u'type': u'phantom', u'name': u'Choowy Nutella', u'product_name': u'Choowy Nutella'}
+
+15 'default_code'
+{u'product_tmpl_name': u'Rocky Road', u'code': u'CGR_5118', u'type': u'phantom', u'name': u'Rocky Road', u'product_name': u'Rocky Road'}
+
+16 'default_code'
+{u'product_tmpl_name': u'Fried Chicken Sandwich \u0633\u0646\u062f\u0648\u062a\u0634 \u062f\u062c\u0627\u062c \u0645\u0642\u0644\u064a', u'code': u'S-6003', u'type': u'phantom', u'name': u'Fried Chicken Sandwich', u'product_name': u'Fried Chicken Sandwich \u0633\u0646\u062f\u0648\u062a\u0634 \u062f\u062c\u0627\u062c \u0645\u0642\u0644\u064a'}
+
+17 'default_code'
+{u'product_tmpl_name': u'Plain Cookies Piece \u0643\u0648\u0643\u064a\u0632 \u0633\u0627\u062f\u0629 \u062d\u0628\u0629', u'code': u'CGB-4023', u'type': u'phantom', u'name': u'Plain Cookies Piece', u'product_name': u'Plain Cookies Piece \u0643\u0648\u0643\u064a\u0632 \u0633\u0627\u062f\u0629 \u062d\u0628\u0629'}
+
+18 'default_code'
+{u'product_tmpl_name': u'Extra Sauted Mushroom(s) \u0632\u064a\u0627\u062f\u0629 \u0645\u0634\u0631\u0648\u0645 \u0645\u0634\u0648\u0649', u'code': u'S-6152', u'type': u'phantom', u'name': u'Extra Sauted Mushroom \u0632\u064a\u0627\u062f\u0629 \u0645\u0634\u0631\u0648\u0645 \u0645\u0634\u0648\u0649', u'product_name': u'Extra Sauted Mushroom(s) \u0632\u064a\u0627\u062f\u0629 \u0645\u0634\u0631\u0648\u0645 \u0645\u0634\u0648\u0649'}
+
+19 'default_code'
+{u'product_tmpl_name': u'Cinnamon Cookies Jar \u062c\u0627\u0631 \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u0642\u0631\u0641\u0629', u'code': u'CGB-4039', u'type': u'phantom', u'name': u'Cinnamon Cookies Jar', u'product_name': u'Cinnamon Cookies Jar \u062c\u0627\u0631 \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u0642\u0631\u0641\u0629'}
+
+20 'default_code'
+{u'product_tmpl_name': u'Plain Cookies Piece R \u0643\u0648\u0643\u064a\u0632 \u0633\u0627\u062f\u0629 \u062d\u0628\u0629', u'code': u'CGB-4077', u'type': u'phantom', u'name': u'Plain Cookies Piece R', u'product_name': u'Plain Cookies Piece R \u0643\u0648\u0643\u064a\u0632 \u0633\u0627\u062f\u0629 \u062d\u0628\u0629'}
+
+21 'default_code'
+{u'product_tmpl_name': u'Delivery Charge', u'code': u'JAR_5999', u'type': u'phantom', u'name': u'Delivery Charge', u'product_name': u'Delivery Charge'}
+
+22 'default_code'
+{u'product_tmpl_name': u'Grilled fish ', u'code': u'F-2029', u'type': u'phantom', u'name': u'Griled fish ', u'product_name': u'Grilled fish '}
+
+23 'default_code'
+{u'product_tmpl_name': u'Grilled Shrimp \u0631\u0648\u0628\u064a\u0627\u0646 \u0645\u0634\u0648\u0649', u'code': u'S-6034', u'type': u'phantom', u'name': u'Grilled Shrimp', u'product_name': u'Grilled Shrimp \u0631\u0648\u0628\u064a\u0627\u0646 \u0645\u0634\u0648\u0649'}
+
+24 'default_code'
+{u'product_tmpl_name': u'Extra Jalapeno Slice\u0632\u064a\u0627\u062f\u0629 \u0641\u0644\u0641\u0644 \u062d\u0627\u0631', u'code': u'S-6104', u'type': u'phantom', u'name': u'Extra Jalapeno Slice', u'product_name': u'Extra Jalapeno Slice\u0632\u064a\u0627\u062f\u0629 \u0641\u0644\u0641\u0644 \u062d\u0627\u0631'}
+
+25 'default_code'
+{u'product_tmpl_name': u'Choowy Original', u'code': u'CGR_5114', u'type': u'phantom', u'name': u'Choowy Original', u'product_name': u'Choowy Original'}
+
+26 'default_code'
+{u'product_tmpl_name': u'Water 500 ml \u0645\u064a\u0627\u0647 500 \u0645\u0644', u'code': u'CGB-4089', u'type': u'phantom', u'name': u'Water 500 ml', u'product_name': u'Water 500 ml \u0645\u064a\u0627\u0647 500 \u0645\u0644'}
+
+27 'default_code'
+{u'product_tmpl_name': u'Gourmet Cookies*', u'code': u'cgc-4220', u'type': u'normal', u'name': u'Gourmet Cookies*', u'product_name': u'Gourmet Cookies*'}
+
+28 'default_code'
+{u'product_tmpl_name': u'Molten 6 Pcs*', u'code': u'cgc-4222', u'type': u'normal', u'name': u'Molten 6 Pcs*', u'product_name': u'Molten 6 Pcs*'}
+
+29 'default_code'
+{u'product_tmpl_name': u'Ultimate Kinder*', u'code': u'cgc-4226', u'type': u'normal', u'name': u'Ultimate Kinder', u'product_name': u'Ultimate Kinder*'}
+
+30 'default_code'
+{u'product_tmpl_name': u'Cookie Cake \u0643\u0648\u0643\u064a \u0643\u0627\u064a\u0643', u'code': u'CGB-4088', u'type': u'phantom', u'name': u'Cookie Cake', u'product_name': u'Cookie Cake \u0643\u0648\u0643\u064a \u0643\u0627\u064a\u0643'}
+
+31 'default_code'
+{u'product_tmpl_name': u'Arugula Salad \u0633\u0644\u0637\u0629 \u0627\u0644\u062c\u0631\u062c\u064a\u0631', u'code': u'S-6060', u'type': u'phantom', u'name': u'Arugula Salad', u'product_name': u'Arugula Salad \u0633\u0644\u0637\u0629 \u0627\u0644\u062c\u0631\u062c\u064a\u0631'}
+
+32 'default_code'
+{u'product_tmpl_name': u'Extra Fresh Strawbery', u'code': u'S-6139', u'type': u'phantom', u'name': u'Extra Fresh Strawbery', u'product_name': u'Extra Strawberry \u0632\u064a\u0627\u062f\u0629 \u0641\u0631\u0627\u0648\u0644\u0629'}
+
+33 'default_code'
+{u'product_tmpl_name': u'Cinnamon Cookies Jar*', u'code': u'cgc-4209', u'type': u'normal', u'name': u'Cinnamon Cookies Jar*', u'product_name': u'Cinnamon Cookies Jar*'}
+
+34 'default_code'
+{u'product_tmpl_name': u'Chogos Dates Cookies Jar* ', u'code': u'cgc-4241', u'type': u'normal', u'name': u'Chogos Dates Cookies Jar* ', u'product_name': u'Chogos Dates Cookies Jar* '}
+
+35 'default_code'
+{u'product_tmpl_name': u'Sprite in Can \u0633\u0628\u0631\u0627\u064a\u062a', u'code': u'S-6085', u'type': u'phantom', u'name': u'Sprite in Can', u'product_name': u'Sprite in Can \u0633\u0628\u0631\u0627\u064a\u062a'}
+
+36 'default_code'
+{u'product_tmpl_name': u'Condimments-B', u'code': u'CGB-4112', u'type': u'phantom', u'name': u'Condimments-B', u'product_name': u'Condimments-B'}
+
+37 'default_code'
+{u'product_tmpl_name': u'Extra Caramelized Onions', u'code': u'S-6136', u'type': u'phantom', u'name': u'Extra Caramelized Onions', u'product_name': u'Extra Caramelized Onions'}
+
+38 'default_code'
+{u'product_tmpl_name': u'Extra Bacon(s) \u0632\u064a\u0627\u062f\u0629 \u0628\u064a\u0643\u0648\u0646', u'code': u'S-6144', u'type': u'phantom', u'name': u'Extra Bacon \u0632\u064a\u0627\u062f\u0629 \u0628\u064a\u0643\u0648\u0646', u'product_name': u'Extra Bacon(s) \u0632\u064a\u0627\u062f\u0629 \u0628\u064a\u0643\u0648\u0646'}
+
+39 'default_code'
+{u'product_tmpl_name': u'Slider Diet Ninja \u0646\u064a\u0646\u062c\u0627 \u0633\u0644\u0627\u064a\u062f\u0631', u'code': u'S-6023', u'type': u'phantom', u'name': u'Slider Diet Ninja', u'product_name': u'Slider Diet Ninja \u0646\u064a\u0646\u062c\u0627 \u0633\u0644\u0627\u064a\u062f\u0631'}
+
+40 'default_code'
+{u'product_tmpl_name': u'Extra Lettuce(s) \u0632\u064a\u0627\u062f\u0629 \u062e\u0633', u'code': u'S-6146', u'type': u'phantom', u'name': u'Extra Lettuce \u0632\u064a\u0627\u062f\u0629 \u062e\u0633', u'product_name': u'Extra Lettuce(s) \u0632\u064a\u0627\u062f\u0629 \u062e\u0633'}
+
+41 'default_code'
+{u'product_tmpl_name': u'Molten 12 Pcs* ', u'code': u'cgc-4223', u'type': u'normal', u'name': u'Molten 12 Pcs* ', u'product_name': u'Molten 12 Pcs* '}
+
+42 'default_code'
+{u'product_tmpl_name': u'Chocolate Chip Chogos Jar*', u'code': u'cgc-4239', u'type': u'normal', u'name': u'Chocolate Chip Chogos Jar*', u'product_name': u'Chocolate Chip Chogos Jar*'}
+
+43 'default_code'
+{u'product_tmpl_name': u'Extra Swiss Cheese\u0632\u064a\u0627\u062f\u0629 \u0627\u0644\u062c\u0628\u0646\u0629 \u0627\u0644\u0633\u0648\u064a\u0633\u0631\u064a\u0629', u'code': u'S-6113', u'type': u'phantom', u'name': u'Extra Swiss Cheese', u'product_name': u'Extra Swiss Cheese\u0632\u064a\u0627\u062f\u0629 \u0627\u0644\u062c\u0628\u0646\u0629 \u0627\u0644\u0633\u0648\u064a\u0633\u0631\u064a\u0629'}
+
+44 'default_code'
+{u'product_tmpl_name': u'Double Chocolate 3 Piece*', u'code': u'cgc-4247', u'type': u'normal', u'name': u'Double Chocolate 3 Piece*', u'product_name': u'Double Chocolate 3 Piece*'}
+
+45 'default_code'
+{u'product_tmpl_name': u'Extra Carmalized Onion(s) \u0630\u064a\u0627\u062f\u0629 \u0628\u0635\u0644 \u0645\u0634\u0648\u0649 ', u'code': u'S-6154', u'type': u'phantom', u'name': u'Extra Carmalized Onion \u0630\u064a\u0627\u062f\u0629 \u0628\u0635\u0644 \u0645\u0634\u0648\u0649 ', u'product_name': u'Extra Carmalized Onion(s) \u0630\u064a\u0627\u062f\u0629 \u0628\u0635\u0644 \u0645\u0634\u0648\u0649 '}
+
+46 'default_code'
+{u'product_tmpl_name': u'Ultimate Choowy Goowy Nutela', u'code': u'CGB-141', u'type': u'phantom', u'name': u'Ultimate Choowy Goowy Nutela', u'product_name': u'Ultimate Choowy Goowy Nutela'}
+
+47 'default_code'
+{u'product_tmpl_name': u'Condimments-S', u'code': None, u'type': u'normal', u'name': u'Condimments-S', u'product_name': u'Condimments-S'}
+
+48 'default_code'
+{u'product_tmpl_name': u'Condimments-P', u'code': u'CGB-4113', u'type': u'phantom', u'name': u'Condimments-P', u'product_name': u'Condimments-P'}
+
+49 'default_code'
+{u'product_tmpl_name': u'Dates Cookies Jar*', u'code': u'cgc-4208', u'type': u'normal', u'name': u'Dates Cookies Jar*', u'product_name': u'Dates Cookies Jar*'}
+
+50 'default_code'
+{u'product_tmpl_name': u'Slider Spicy \u0633\u0644\u0627\u064a\u062f\u0631 \u0633\u0628\u0627\u064a\u0633\u0649', u'code': u'S-6026', u'type': u'phantom', u'name': u'Slider Spicy', u'product_name': u'Slider Spicy \u0633\u0644\u0627\u064a\u062f\u0631 \u0633\u0628\u0627\u064a\u0633\u0649'}
+
+51 'default_code'
+{u'product_tmpl_name': u'Ultimate Snickers*', u'code': u'cgc-4231', u'type': u'normal', u'name': u'Ultimate Snickers*', u'product_name': u'Ultimate Snickers*'}
+
+52 'default_code'
+{u'product_tmpl_name': u'Feta olive omlette sandwich', u'code': u'F-2602', u'type': u'phantom', u'name': u'Feta olive omlette sandwich', u'product_name': u'Feta olive omlette sandwich'}
+
+53 'default_code'
+{u'product_tmpl_name': u'Nutella 3 Piece', u'code': u'cgb-4126', u'type': u'phantom', u'name': u'Nutella 3 Piece', u'product_name': u'Nutella 3 Piece'}
+
+54 'default_code'
+{u'product_tmpl_name': u'Zatar halloum omlette sandwich', u'code': u'F-2601', u'type': u'phantom', u'name': u'Zatar halloum omlette sandwich', u'product_name': u'Zatar halloum omlette sandwich'}
+
+55 'default_code'
+{u'product_tmpl_name': u'Extra Balsamic Vinegar \u0632\u064a\u0627\u062f\u0629 \u062e\u0644 \u0628\u0644\u0633\u0645\u064a\u0643', u'code': u'RV-3402', u'type': u'phantom', u'name': u'Extra Balsamic Vinegar \u0632\u064a\u0627\u062f\u0629 \u062e\u0644 \u0628\u0644\u0633\u0645\u064a\u0643', u'product_name': u'Extra Balsamic Vinegar \u0632\u064a\u0627\u062f\u0629 \u062e\u0644 \u0628\u0644\u0633\u0645\u064a\u0643'}
+
+56 'default_code'
+{u'product_tmpl_name': u'Fried Chicken Sandwich \u0633\u0646\u062f\u0648\u064a\u0634 \u062f\u062c\u0627\u062c \u0645\u0642\u0644\u064a', u'code': u'RV-3005', u'type': u'phantom', u'name': u'Fried Chicken Sandwich \u0633\u0646\u062f\u0648\u064a\u0634 \u062f\u062c\u0627\u062c \u0645\u0642\u0644\u064a', u'product_name': u'Fried Chicken Sandwich \u0633\u0646\u062f\u0648\u064a\u0634 \u062f\u062c\u0627\u062c \u0645\u0642\u0644\u064a'}
+
+57 'default_code'
+{u'product_tmpl_name': u'Extra Bacon \u0632\u064a\u0627\u062f\u0629 \u0628\u0627\u064a\u0643\u0646', u'code': u'RV-3401', u'type': u'phantom', u'name': u'Extra Bacon', u'product_name': u'Extra Bacon \u0632\u064a\u0627\u062f\u0629 \u0628\u0627\u064a\u0643\u0646'}
+
+58 'default_code'
+{u'product_tmpl_name': u'Extra Bacon \u0632\u064a\u0627\u062f\u0629 \u0628\u0627\u064a\u0643\u0646', u'code': u'S-6742', u'type': u'phantom', u'name': u'Extra Bacon \u0632\u064a\u0627\u062f\u0629 \u0628\u0627\u064a\u0643\u0646', u'product_name': u'Extra Bacon \u0630\u064a\u0627\u062f\u0629 \u0628\u064a\u0643\u0648\u0646'}
+
+59 'default_code'
+{u'product_tmpl_name': u'Extra Bacon \u0632\u064a\u0627\u062f\u0629 \u0628\u0627\u064a\u0643\u0646', u'code': u'S-6115', u'type': u'phantom', u'name': u'Extra Bacon \u0632\u064a\u0627\u062f\u0629 \u0628\u0627\u064a\u0643\u0646', u'product_name': u'Extra Bacon\u0632\u064a\u0627\u062f\u0629 \u0628\u064a\u0643\u0648\u0646'}
+
+60 'default_code'
+{u'product_tmpl_name': u'Chicken Caesar Salad \u0633\u0637\u0629 \u0633\u064a\u0632\u0631 \u062f\u062c\u0627\u062c', u'code': u'RV-3303', u'type': u'phantom', u'name': u'Chicken Caesar Salad', u'product_name': u'Chicken Caesar Salad \u0633\u0637\u0629 \u0633\u064a\u0632\u0631 \u062f\u062c\u0627\u062c'}
+
+61 'default_code'
+{u'product_tmpl_name': u'Rocky Road 3 Piece*', u'code': u'cgc-4249', u'type': u'normal', u'name': u'Rocky Road 3 Piece*', u'product_name': u'Rocky Road 3 Piece*'}
+
+62 'default_code'
+{u'product_tmpl_name': u'Extra Veal Patty 90gr \u0632\u064a\u0627\u062f\u0629 \u0644\u062d\u0645 \u0639\u062c\u0644', u'code': u'RV-3100', u'type': u'normal', u'name': u'Extra Veal Patty 90gr \u0632\u064a\u0627\u062f\u0629 \u0644\u062d\u0645 \u0639\u062c\u0644', u'product_name': u'Extra Veal Patty 90gr \u0632\u064a\u0627\u062f\u0629 \u0644\u062d\u0645 \u0639\u062c\u0644'}
+
+63 'default_code'
+{u'product_tmpl_name': u'Pumpkin Salad', u'code': u'JAR_5303', u'type': u'phantom', u'name': u'Pumpkin Salad', u'product_name': u'Pumpkin Salad'}
+
+64 'default_code'
+{u'product_tmpl_name': u'Crispy Salad', u'code': u'JAR_5302', u'type': u'phantom', u'name': u'Crispy Salad', u'product_name': u'Crispy Salad'}
+
+65 'default_code'
+{u'product_tmpl_name': u'Ultimate Kitkat*', u'code': u'cgc-4230', u'type': u'normal', u'name': u'Ultimate Kitkat*', u'product_name': u'Ultimate Kitkat*'}
+
+66 'default_code'
+{u'product_tmpl_name': u'Sliced cheese omlette sandwich', u'code': u'F-2603', u'type': u'phantom', u'name': u'sliced cheese omlette sandwich', u'product_name': u'Sliced cheese omlette sandwich'}
+
+67 'default_code'
+{u'product_tmpl_name': u'Dinner Box spicy(2pc)(fries/bread/houseslaw/sauce)\u0648\u062c\u0628\u0629 \u0633\u0628\u0627\u064a\u0633\u0649 \u0642\u0637\u0639\u062a\u0627\u0646 ', u'code': u'S-6921', u'type': u'phantom', u'name': u'Dinner Box spicy(2pc)(fries/bread/sauce)\u0648\u062c\u0628\u0629 \u0633\u0628\u0627\u064a\u0633\u0649 \u0642\u0637\u0639\u062a\u0627\u0646 ', u'product_name': u'Dinner Box spicy(2pc)(fries/bread/houseslaw/sauce)\u0648\u062c\u0628\u0629 \u0633\u0628\u0627\u064a\u0633\u0649 \u0642\u0637\u0639\u062a\u0627\u0646 '}
+
+68 'default_code'
+{u'product_tmpl_name': u'Feta cheese sandwich', u'code': u'F-2606', u'type': u'phantom', u'name': u'Feta cheese sandwich', u'product_name': u'Feta cheese sandwich'}
+
+69 'default_code'
+{u'product_tmpl_name': u'Dinner Box spicy(3pc)(fries/houseslaw/bread/sauce)\u0648\u062c\u0628\u0629 \u0633\u0628\u0627\u064a\u0633\u0649 3 \u0642\u0637\u0639 ', u'code': u'S-6923', u'type': u'phantom', u'name': u'Dinner Box spicy(3pc)(fries/bread/sauce)\u0648\u062c\u0628\u0629 \u0633\u0628\u0627\u064a\u0633\u0649 3 \u0642\u0637\u0639 ', u'product_name': u'Dinner Box spicy(3pc)(fries/houseslaw/bread/sauce)\u0648\u062c\u0628\u0629 \u0633\u0628\u0627\u064a\u0633\u0649 3 \u0642\u0637\u0639 '}
+
+70 'default_code'
+{u'product_tmpl_name': u'Arugula Salad', u'code': u'JAR_5301', u'type': u'phantom', u'name': u'Arugula Salad', u'product_name': u'Arugula Salad'}
+
+71 'default_code'
+{u'product_tmpl_name': u'Brownies Bite \u0628\u0631\u0627\u0648\u0646\u064a \u0628\u0627\u064a\u062a', u'code': u'CGB-4096', u'type': u'phantom', u'name': u'Brownies Bite', u'product_name': u'Brownies Bite \u0628\u0631\u0627\u0648\u0646\u064a \u0628\u0627\u064a\u062a'}
+
+72 'default_code'
+{u'product_tmpl_name': u'Extra Fried Onion Rings \u0632\u064a\u0627\u062f\u0629 \u0628\u0635\u0644 \u0645\u0642\u0644\u064a', u'code': u'RV-3198', u'type': u'phantom', u'name': u'Extra Fried Onion Rings \u0632\u064a\u0627\u062f\u0629 \u0628\u0635\u0644 \u0645\u0642\u0644\u064a', u'product_name': u'Extra Fried Onion Rings \u0632\u064a\u0627\u062f\u0629 \u0628\u0635\u0644 \u0645\u0642\u0644\u064a'}
+
+73 'default_code'
+{u'product_tmpl_name': u'Extra Non Fat Cheese(s) \u0632\u064a\u0627\u062f\u0629 \u062c\u0628\u0646 \u062e\u0627\u0644\u0649 \u0627\u0644\u062f\u0633\u0645', u'code': u'S-6143', u'type': u'phantom', u'name': u'Extra Non Fat Cheese \u0632\u064a\u0627\u062f\u0629 \u062c\u0628\u0646 \u062e\u0627\u0644\u0649 \u0627\u0644\u062f\u0633\u0645', u'product_name': u'Extra Non Fat Cheese(s) \u0632\u064a\u0627\u062f\u0629 \u062c\u0628\u0646 \u062e\u0627\u0644\u0649 \u0627\u0644\u062f\u0633\u0645'}
+
+74 'default_code'
+{u'product_tmpl_name': u'Smoked Turkey cheese sandwich', u'code': u'F-2604', u'type': u'phantom', u'name': u'Smoked Turkey cheese sandwich', u'product_name': u'Smoked Turkey cheese sandwich'}
+
+75 'default_code'
+{u'product_tmpl_name': u'Extra Onion(s) \u0632\u064a\u0627\u062f\u0629 \u0628\u0635\u0644', u'code': u'S-6148', u'type': u'phantom', u'name': u'Extra Onion \u0632\u064a\u0627\u062f\u0629 \u0628\u0635\u0644', u'product_name': u'Extra Onion(s) \u0632\u064a\u0627\u062f\u0629 \u0628\u0635\u0644'}
+
+76 'default_code'
+{u'product_tmpl_name': u'Ultimate Choowy Goowy Aero', u'code': u'JAR_5494', u'type': u'phantom', u'name': u'Ultimate Choowy Goowy Aero', u'product_name': u'Ultimate Choowy Goowy Aero'}
+
+77 'default_code'
+{u'product_tmpl_name': u'Ultimate Choowy Goowy Galaxy', u'code': u'JAR_5493', u'type': u'phantom', u'name': u'Ultimate Choowy Goowy Galaxy', u'product_name': u'Ultimate Choowy Goowy Galaxy'}
+
+78 'default_code'
+{u'product_tmpl_name': u'Ultimate Choowy Goowy KitKat', u'code': u'JAR_5495', u'type': u'phantom', u'name': u'Ultimate Choowy Goowy KitKat', u'product_name': u'Ultimate Choowy Goowy KitKat'}
+
+79 'default_code'
+{u'product_tmpl_name': u'Ultimate Choowy Goowy Snickers', u'code': u'JAR_5496', u'type': u'phantom', u'name': u'Ultimate Choowy Goowy Snickers', u'product_name': u'Ultimate Choowy Goowy Snickers'}
+
+80 'default_code'
+{u'product_tmpl_name': u'Ultimate Choowy Goowy Twix', u'code': u'JAR_5497', u'type': u'phantom', u'name': u'Ultimate Choowy Goowy Twix', u'product_name': u'Ultimate Choowy Goowy Twix'}
+
+81 'default_code'
+{u'product_tmpl_name': u'Choowy Galaxy', u'code': u'JAR_5500', u'type': u'phantom', u'name': u'Choowy Galaxy', u'product_name': u'Choowy Galaxy'}
+
+82 'default_code'
+{u'product_tmpl_name': u'Extra Ketchup\u0632\u064a\u0627\u062f\u0629 \u0643\u0627\u062a\u0634\u0628', u'code': u'S-6114', u'type': u'phantom', u'name': u'Extra Ketchup', u'product_name': u'Extra Ketchup\u0632\u064a\u0627\u062f\u0629 \u0643\u0627\u062a\u0634\u0628'}
+
+83 'default_code'
+{u'product_tmpl_name': u'Icelandic Water', u'code': u'JAR_5630', u'type': u'phantom', u'name': u'Icelandic Water', u'product_name': u'Icelandic Water'}
+
+84 'default_code'
+{u'product_tmpl_name': u'Turkish Coffee', u'code': u'JAR_5603', u'type': u'phantom', u'name': u'Turkish Coffee', u'product_name': u'Turkish Coffee'}
+
+85 'default_code'
+{u'product_tmpl_name': u'Susage omlette sandwich', u'code': u'F-2605', u'type': u'phantom', u'name': u'Susage omlette sandwich', u'product_name': u'Susage omlette sandwich'}
+
+86 'default_code'
+{u'product_tmpl_name': u'Extra Pickles(s) \u0632\u064a\u0627\u062f\u0629 \u0645\u062e\u0644\u0644', u'code': u'S-6147', u'type': u'phantom', u'name': u'Extra Pickles \u0632\u064a\u0627\u062f\u0629 \u0645\u062e\u0644\u0644', u'product_name': u'Extra Pickles(s) \u0632\u064a\u0627\u062f\u0629 \u0645\u062e\u0644\u0644'}
+
+87 'default_code'
+{u'product_tmpl_name': u'Milk Choco Mocha', u'code': u'JAR_5602', u'type': u'phantom', u'name': u'Milk Choco Mocha', u'product_name': u'Milk Choco Mocha'}
+
+88 'default_code'
+{u'product_tmpl_name': u'Ultimate Nutella*', u'code': u'cgc-4227', u'type': u'normal', u'name': u'Ultimate Nutella', u'product_name': u'Ultimate Nutella*'}
+
+89 'default_code'
+{u'product_tmpl_name': u'Vanilla White Mocha', u'code': u'JAR_5604', u'type': u'phantom', u'name': u'Vanilla White Mocha', u'product_name': u'Vanilla White Mocha'}
+
+90 'default_code'
+{u'product_tmpl_name': u'White Choco Mocha', u'code': u'JAR_5605', u'type': u'phantom', u'name': u'White Choco Mocha', u'product_name': u'White Choco Mocha'}
+
+91 'default_code'
+{u'product_tmpl_name': u'Machiato', u'code': u'JAR_5601', u'type': u'phantom', u'name': u'Machiato', u'product_name': u'Machiato'}
+
+92 'default_code'
+{u'product_tmpl_name': u'Green Tea', u'code': u'JAR_5600', u'type': u'phantom', u'name': u'Green Tea', u'product_name': u'Green Tea'}
+
+93 'default_code'
+{u'product_tmpl_name': u'Ultimate Aero*', u'code': u'cgc-4233', u'type': u'normal', u'name': u'Ultimate Aero*', u'product_name': u'Ultimate Aero*'}
+
+94 'default_code'
+{u'product_tmpl_name': u'Diet Coke', u'code': u'JAR_5632', u'type': u'phantom', u'name': u'Diet Coke', u'product_name': u'Diet Coke'}
+
+95 'default_code'
+{u'product_tmpl_name': u'Chicken pasta ', u'code': u'F-2016', u'type': u'phantom', u'name': u'Chicken pasta ', u'product_name': u'Chicken pasta '}
+
+96 'default_code'
+{u'product_tmpl_name': u'Pink Risotto', u'code': u'JAR_5394', u'type': u'phantom', u'name': u'Pink Risotto', u'product_name': u'Pink Risotto'}
+
+97 'default_code'
+{u'product_tmpl_name': u'Extra Tomato(s) \u0632\u064a\u0627\u062f\u0629 \u0637\u0645\u0627\u0637\u0645', u'code': u'S-6149', u'type': u'phantom', u'name': u'Extra Tomato \u0632\u064a\u0627\u062f\u0629 \u0637\u0645\u0627\u0637\u0645', u'product_name': u'Extra Tomato(s) \u0632\u064a\u0627\u062f\u0629 \u0637\u0645\u0627\u0637\u0645'}
+
+98 'default_code'
+{u'product_tmpl_name': u'Ultimate Peanut Butter*', u'code': u'cgc-4228', u'type': u'normal', u'name': u'Ultimate Peanut Butter*', u'product_name': u'Ultimate Peanut Butter*'}
+
+99 'default_code'
+{u'product_tmpl_name': u'Extra Jalapeno(s) \u0632\u064a\u0627\u062f\u0629 \u0647\u0644\u0627\u0628\u064a\u0646\u0648', u'code': u'S-6150', u'type': u'phantom', u'name': u'Extra Jalapeno \u0632\u064a\u0627\u062f\u0629 \u0647\u0644\u0627\u0628\u064a\u0646\u0648', u'product_name': u'Extra Jalapeno(s) \u0632\u064a\u0627\u062f\u0629 \u0647\u0644\u0627\u0628\u064a\u0646\u0648'}
+
+100 'default_code'
+{u'product_tmpl_name': u'Extra Jalapeno(s) \u0632\u064a\u0627\u062f\u0629 \u0647\u0644\u0627\u0628\u064a\u0646\u0648', u'code': u'S-6150', u'type': u'phantom', u'name': u'Extra Jalapeno \u0632\u064a\u0627\u062f\u0629 \u0647\u0644\u0627\u0628\u064a\u0646\u0648', u'product_name': u'Extra Jalapeno(s) \u0632\u064a\u0627\u062f\u0629 \u0647\u0644\u0627\u0628\u064a\u0646\u0648'}
+
+101 'default_code'
+{u'product_tmpl_name': u'Extra Sauteed Mushroom\u0632\u064a\u0627\u062f\u0629 \u0641\u0637\u0631 \u0645\u0634\u0648\u0649', u'code': u'S-6110', u'type': u'phantom', u'name': u'Extra Sauteed Mushroom', u'product_name': u'Extra Sauteed Mushroom\u0632\u064a\u0627\u062f\u0629 \u0641\u0637\u0631 \u0645\u0634\u0648\u0649'}
+
+102 'default_code'
+{u'product_tmpl_name': u'Souffle Eggs Benedict Beef', u'code': u'Jar_5806', u'type': u'phantom', u'name': u'Souffle Eggs Benedict Beef', u'product_name': u'Souffle Eggs Benedict Beef'}
+
+103 'default_code'
+{u'product_tmpl_name': u'Extra Fried Onion Rings(s) \u0632\u064a\u0627\u062f\u0629 \u0628\u0635\u0644 \u0645\u0642\u0644\u064a', u'code': u'S-6153', u'type': u'phantom', u'name': u'Extra Fried Onion Rings \u0632\u064a\u0627\u062f\u0629 \u0628\u0635\u0644 \u0645\u0642\u0644\u064a', u'product_name': u'Extra Fried Onion Rings(s) \u0632\u064a\u0627\u062f\u0629 \u0628\u0635\u0644 \u0645\u0642\u0644\u064a'}
+
+104 'default_code'
+{u'product_tmpl_name': u'Sniker Cookier Jar', u'code': u'cgc-4215', u'type': u'normal', u'name': u'Sniker Cookier Jar', u'product_name': u'Sniker Cookier Jar'}
+
+105 'default_code'
+{u'product_tmpl_name': u'Ultimate Galaxy*', u'code': u'cgc-4229', u'type': u'normal', u'name': u'Ultimate Galaxy*', u'product_name': u'Ultimate Galaxy*'}
+
+106 'default_code'
+{u'product_tmpl_name': u'Coke', u'code': u'JAR_5631', u'type': u'phantom', u'name': u'Coke', u'product_name': u'Coke'}
+
+107 'default_code'
+{u'product_tmpl_name': u'Fanta Strawberry', u'code': u'JAR_5634', u'type': u'phantom', u'name': u'Fanta Strawberry', u'product_name': u'Fanta Strawberry'}
+
+108 'default_code'
+{u'product_tmpl_name': u'Raisin Cookies Jar*', u'code': u'cgc-4210', u'type': u'normal', u'name': u'Raisin Cookies Jar*', u'product_name': u'Raisin Cookies Jar*'}
+
+109 'default_code'
+{u'product_tmpl_name': u'Extra Wings Sauce\u0632\u064a\u0627\u062f\u0629 \u0635\u0648\u0635 \u0627\u0644\u062c\u0648\u0627\u0646\u062d', u'code': u'S-6108', u'type': u'phantom', u'name': u'Extra Wings Sauce', u'product_name': u'Extra Wings Sauce\u0632\u064a\u0627\u062f\u0629 \u0635\u0648\u0635 \u0627\u0644\u062c\u0648\u0627\u0646\u062d'}
+
+110 'default_code'
+{u'product_tmpl_name': u'Extra Shrimp Sauce\u0632\u064a\u0627\u062f\u0629 \u0635\u0648\u0635 \u0631\u0648\u0628\u064a\u0627\u0646', u'code': u'S-6109', u'type': u'phantom', u'name': u'Extra Shrimp Sauce', u'product_name': u'Extra Shrimp Sauce\u0632\u064a\u0627\u062f\u0629 \u0635\u0648\u0635 \u0631\u0648\u0628\u064a\u0627\u0646'}
+
+111 'default_code'
+{u'product_tmpl_name': u'Extra Non Fat Cheese', u'code': u'S-6138', u'type': u'phantom', u'name': u'Extra Non Fat Cheese', u'product_name': u'Extra Non Fat Cheese'}
+
+112 'default_code'
+{u'product_tmpl_name': u'S Pellegrino', u'code': u'JAR_5644', u'type': u'phantom', u'name': u'S Pellegrino', u'product_name': u'S Pellegrino'}
+
+113 'default_code'
+{u'product_tmpl_name': u'Kinder Cookies Jar*', u'code': u'cgc-4212', u'type': u'normal', u'name': u'Kinder Cookies Jar*', u'product_name': u'Kinder Cookies Jar*'}
+
+114 'default_code'
+{u'product_tmpl_name': u'Cookies Oreo \u0643\u0648\u0643\u064a\u0632 \u0627\u0648\u0631\u064a\u0648', u'code': u'S-6605', u'type': u'phantom', u'name': u'Choowy Oreo', u'product_name': u'Cookies Oreo \u0643\u0648\u0643\u064a\u0632 \u0627\u0648\u0631\u064a\u0648'}
+
+115 'default_code'
+{u'product_tmpl_name': u'Extra Mayonnaise\u0632\u064a\u0627\u062f\u0629 \u0645\u0627\u064a\u0648\u0646\u064a\u0632', u'code': u'S-6118', u'type': u'phantom', u'name': u'Extra Mayonnaise', u'product_name': u'Extra Mayonnaise\u0632\u064a\u0627\u062f\u0629 \u0645\u0627\u064a\u0648\u0646\u064a\u0632'}
+
+116 'default_code'
+{u'product_tmpl_name': u'Extra Sliced Cheese \u0632\u064a\u0627\u062f\u0629 \u062c\u0628\u0646', u'code': u'S-6126', u'type': u'phantom', u'name': u'Extra Sliced Cheese', u'product_name': u'Extra Sliced Cheese \u0632\u064a\u0627\u062f\u0629 \u062c\u0628\u0646'}
+
+117 'default_code'
+{u'product_tmpl_name': u'Cookies Toffee \u0643\u0648\u0643\u064a\u0632 \u062a\u0648\u0641\u064a', u'code': u'S-6607', u'type': u'phantom', u'name': u'Choowy Toffee', u'product_name': u'Cookies Toffee \u0643\u0648\u0643\u064a\u0632 \u062a\u0648\u0641\u064a'}
+
+118 'default_code'
+{u'product_tmpl_name': u'Solo Cookier W Nutella & Marshmallow*', u'code': u'cgc-4221', u'type': u'normal', u'name': u'Solo Cookier W Nutella & Marshmallow*', u'product_name': u'Solo Cookier W Nutella & Marshmallow*'}
+
+119 'default_code'
+{u'product_tmpl_name': u'Extra Tomato \u0632\u064a\u0627\u062f\u0629 \u0637\u0645\u0627\u0637\u0645', u'code': u'S-124', u'type': u'phantom', u'name': u'Extra Tomato', u'product_name': u'Extra Tomato \u0632\u064a\u0627\u062f\u0629 \u0637\u0645\u0627\u0637\u0645'}
+
+120 'default_code'
+{u'product_tmpl_name': u'Extra Cheese Sauce', u'code': u'S-6134', u'type': u'phantom', u'name': u'Extra Cheese Sauce', u'product_name': u'Extra Cheese Sauce'}
+
+121 'default_code'
+{u'product_tmpl_name': u'Spicy Chicken Fillet\u062f\u062c\u0627\u062c \u0641\u064a\u0644\u064a\u0647 \u062d\u0627\u0631', u'code': u'S-6911', u'type': u'phantom', u'name': u'Spicy Chicken Fillet\u062f\u062c\u0627\u062c \u0641\u064a\u0644\u064a\u0647 \u062d\u0627\u0631', u'product_name': u'Spicy Chicken Fillet\u062f\u062c\u0627\u062c \u0641\u064a\u0644\u064a\u0647 \u062d\u0627\u0631'}
+
+122 'default_code'
+{u'product_tmpl_name': u'Pink Pasta', u'code': u'JAR_5393', u'type': u'phantom', u'name': u'Pink Pasta', u'product_name': u'Pink Pasta'}
+
+123 'default_code'
+{u'product_tmpl_name': u'American Burger', u'code': u'JAR_5412', u'type': u'phantom', u'name': u'American Burger', u'product_name': u'American Burger'}
+
+124 'default_code'
+{u'product_tmpl_name': u'White Chocolate Macadamia Jar*', u'code': u'cgc-4211', u'type': u'normal', u'name': u'White Chocolate Macadamia Jar*', u'product_name': u'White Chocolate Macadamia Jar*'}
+
+125 'default_code'
+{u'product_tmpl_name': u'Tender Strips Spicy(1pc)\u0634\u0631\u0627\u0626\u062d \u062d\u0627\u0631\u0629', u'code': u'S-6903', u'type': u'phantom', u'name': u'Tender Strips Spicy(1pc)\u0634\u0631\u0627\u0626\u062d \u062d\u0627\u0631\u0629', u'product_name': u'Tender Strips Spicy(1pc)\u0634\u0631\u0627\u0626\u062d \u062d\u0627\u0631\u0629'}
+
+126 'default_code'
+{u'product_tmpl_name': u'Kinder Cookies Box \u0628\u0648\u0643\u0633 \u0643\u0646\u062f\u0631 \u0643\u0648\u0643\u064a\u0632', u'code': u'CGB-4046', u'type': u'phantom', u'name': u'Kinder Cookies Box', u'product_name': u'Kinder Cookies Box \u0628\u0648\u0643\u0633 \u0643\u0646\u062f\u0631 \u0643\u0648\u0643\u064a\u0632'}
+
+127 'default_code'
+{u'product_tmpl_name': u'Extra Veal Meat', u'code': u'S-6137', u'type': u'phantom', u'name': u'Extra Veal Meat', u'product_name': u'Extra Veal Meat'}
+
+128 'default_code'
+{u'product_tmpl_name': u'Grilled Chicken', u'code': u'JAR_5439', u'type': u'phantom', u'name': u'Grilled Chicken', u'product_name': u'Grilled Chicken'}
+
+129 'default_code'
+{u'product_tmpl_name': u'Galaxy Cookies Jar*', u'code': u'cgc-4213', u'type': u'normal', u'name': u'Galaxy Cookies Jar*', u'product_name': u'Galaxy Cookies Jar*'}
+
+130 'default_code'
+{u'product_tmpl_name': u'Coke Draft \u0643\u0648\u0644\u0627 \u062f\u0631\u0627\u0641\u062a', u'code': u'3351', u'type': u'phantom', u'name': u'Coke Draft \u0643\u0648\u0644\u0627 \u062f\u0631\u0627\u0641\u062a', u'product_name': u'Coke Draft \u0643\u0648\u0644\u0627 \u062f\u0631\u0627\u0641\u062a'}
+
+131 'default_code'
+{u'product_tmpl_name': u'Diet Coke Can \u062f\u0627\u064a\u062a \u0643\u0648\u0644\u0627 \u0639\u0644\u0628\u0629', u'code': u'RV-3358', u'type': u'phantom', u'name': u'Diet Coke Can', u'product_name': u'Diet Coke Can \u062f\u0627\u064a\u062a \u0643\u0648\u0644\u0627 \u0639\u0644\u0628\u0629'}
+
+132 'default_code'
+{u'product_tmpl_name': u'Diet Coke Draft \u062f\u0627\u064a\u062a \u0643\u0648\u0644\u0627 \u062f\u0631\u0627\u0641\u062a', u'code': u'RV-3352', u'type': u'phantom', u'name': u'Diet Coke Draft \u062f\u0627\u064a\u062a \u0643\u0648\u0644\u0627 \u062f\u0631\u0627\u0641\u062a', u'product_name': u'Diet Coke Draft \u062f\u0627\u064a\u062a \u0643\u0648\u0644\u0627 \u062f\u0631\u0627\u0641\u062a'}
+
+133 'default_code'
+{u'product_tmpl_name': u'Extra Jalapeno Slice \u0632\u064a\u0627\u062f\u0629 \u0647\u0627\u0644\u0628\u064a\u0646\u0648', u'code': u'RV-3407', u'type': u'phantom', u'name': u'Extra Jalapeno Slice \u0632\u064a\u0627\u062f\u0629 \u0647\u0627\u0644\u0628\u064a\u0646\u0648', u'product_name': u'Extra Jalapeno Slice \u0632\u064a\u0627\u062f\u0629 \u0647\u0627\u0644\u0628\u064a\u0646\u0648'}
+
+134 'default_code'
+{u'product_tmpl_name': u'Extra Ketchup \u0632\u064a\u0627\u062f\u0629 \u0643\u0627\u062a\u0634\u0627\u0628', u'code': u'RV-3408', u'type': u'phantom', u'name': u'Extra Ketchup \u0632\u064a\u0627\u062f\u0629 \u0643\u0627\u062a\u0634\u0627\u0628', u'product_name': u'Extra Ketchup \u0632\u064a\u0627\u062f\u0629 \u0643\u0627\u062a\u0634\u0627\u0628'}
+
+135 'default_code'
+{u'product_tmpl_name': u'Extra Mustard \u0632\u064a\u0627\u062f\u0629 \u062e\u0631\u062f\u0644', u'code': u'RV-3411', u'type': u'phantom', u'name': u'Extra Mustard \u0632\u064a\u0627\u062f\u0629 \u062e\u0631\u062f\u0644', u'product_name': u'Extra Mustard \u0632\u064a\u0627\u062f\u0629 \u062e\u0631\u062f\u0644'}
+
+136 'default_code'
+{u'product_tmpl_name': u'Extra Non Fat Cheese \u0632\u064a\u0627\u062f\u0629 \u062c\u0628\u0646\u0629 \u0628\u062f\u0648\u0646 \u062f\u0647\u0648\u0646', u'code': u'RV-3413', u'type': u'phantom', u'name': u'Extra Non Fat Cheese \u0632\u064a\u0627\u062f\u0629 \u062c\u0628\u0646\u0629 \u0628\u062f\u0648\u0646 \u062f\u0647\u0648\u0646', u'product_name': u'Extra Non Fat Cheese \u0632\u064a\u0627\u062f\u0629 \u062c\u0628\u0646\u0629 \u0628\u062f\u0648\u0646 \u062f\u0647\u0648\u0646'}
+
+137 'default_code'
+{u'product_tmpl_name': u'Nutella Cookies Box \u0646\u0648\u062a\u064a\u0644\u0627 \u0643\u0648\u0643\u064a\u0632 \u0628\u0648\u0643\u0633', u'code': u'CGB-4050', u'type': u'phantom', u'name': u'Nutella Cookies Box', u'product_name': u'Nutella Cookies Box \u0646\u0648\u062a\u064a\u0644\u0627 \u0643\u0648\u0643\u064a\u0632 \u0628\u0648\u0643\u0633'}
+
+138 'default_code'
+{u'product_tmpl_name': u'Ultimate Smore Kinder', u'code': u'JAR_5523', u'type': u'phantom', u'name': u'Ultimate Smore Kinder', u'product_name': u'Ultimate Smore Kinder'}
+
+139 'default_code'
+{u'product_tmpl_name': u'Extra Swiss Cheese \u0632\u064a\u0627\u062f\u0629 \u062c\u0628\u0646\u0629 \u0633\u0648\u064a\u0633\u0631\u064a\u0629', u'code': u'RV-3421', u'type': u'phantom', u'name': u'Extra Swiss Cheese', u'product_name': u'Extra Swiss Cheese \u0632\u064a\u0627\u062f\u0629 \u062c\u0628\u0646\u0629 \u0633\u0648\u064a\u0633\u0631\u064a\u0629'}
+
+140 'default_code'
+{u'product_tmpl_name': u'Extra Parmesan Cheese \u0632\u064a\u0627\u062f\u0629 \u062c\u0628\u0646\u0629 \u0628\u0627\u0631\u0645\u064a\u0632\u0627\u0646', u'code': u'RV-3414', u'type': u'phantom', u'name': u'Extra Parmesan Cheese \u0632\u064a\u0627\u062f\u0629 \u062c\u0628\u0646\u0629 \u0628\u0627\u0631\u0645\u064a\u0632\u0627\u0646', u'product_name': u'Extra Parmesan Cheese \u0632\u064a\u0627\u062f\u0629 \u062c\u0628\u0646\u0629 \u0628\u0627\u0631\u0645\u064a\u0632\u0627\u0646'}
+
+141 'default_code'
+{u'product_tmpl_name': u'Extra RV Sauce \u0632\u064a\u0627\u062f\u0629 \u0635\u0644\u0635\u0629 \u0627\u0631\u0641\u064a', u'code': u'RV-3415', u'type': u'phantom', u'name': u'Extra RV Sauce \u0632\u064a\u0627\u062f\u0629 \u0635\u0644\u0635\u0629 \u0627\u0631\u0641\u064a', u'product_name': u'Extra RV Sauce \u0632\u064a\u0627\u062f\u0629 \u0635\u0644\u0635\u0629 \u0627\u0631\u0641\u064a'}
+
+142 'default_code'
+{u'product_tmpl_name': u'Extra Caesar Dressing \u0632\u064a\u0627\u062f\u0629 \u0635\u0644\u0635\u0629 \u0633\u064a\u0632\u0631', u'code': u'RV-3403', u'type': u'phantom', u'name': u'Extra Caesar Dressing \u0632\u064a\u0627\u062f\u0629 \u0635\u0644\u0635\u0629 \u0633\u064a\u0632\u0631', u'product_name': u'Extra Caesar Dressing \u0632\u064a\u0627\u062f\u0629 \u0635\u0644\u0635\u0629 \u0633\u064a\u0632\u0631'}
+
+143 'default_code'
+{u'product_tmpl_name': u'Extra Caramelized Onion \u0627\u0643\u0633\u062a\u0631\u0627 \u0628\u0635\u0644 \u0645\u0634\u0648\u064a', u'code': u'RV-3404', u'type': u'phantom', u'name': u'Extra Caramelized Onion \u0627\u0643\u0633\u062a\u0631\u0627 \u0628\u0635\u0644 \u0645\u0634\u0648\u064a', u'product_name': u'Extra Caramelized Onion \u0627\u0643\u0633\u062a\u0631\u0627 \u0628\u0635\u0644 \u0645\u0634\u0648\u064a'}
+
+144 'default_code'
+{u'product_tmpl_name': u'Extra Fried Onion Rings \u0632\u064a\u0627\u062f\u0629 \u062d\u0644\u0642\u0627\u062a \u0628\u0635\u0644 \u0645\u0642\u0644\u064a', u'code': u'RV-3406', u'type': u'phantom', u'name': u'Extra Fried Onion Rings \u0632\u064a\u0627\u062f\u0629 \u062d\u0644\u0642\u0627\u062a \u0628\u0635\u0644 \u0645\u0642\u0644\u064a', u'product_name': u'Extra Fried Onion Rings \u0632\u064a\u0627\u062f\u0629 \u062d\u0644\u0642\u0627\u062a \u0628\u0635\u0644 \u0645\u0642\u0644\u064a'}
+
+145 'default_code'
+{u'product_tmpl_name': u'Extra Mushroom Sauce \u0632\u064a\u0627\u062f\u0629 \u0635\u0644\u0635\u0629 \u0627\u0644\u0641\u0637\u0631', u'code': u'RV--3410', u'type': u'phantom', u'name': u'Extra Mushroom Sauce \u0632\u064a\u0627\u062f\u0629 \u0635\u0644\u0635\u0629 \u0627\u0644\u0641\u0637\u0631', u'product_name': u'Extra Mushroom Sauce \u0632\u064a\u0627\u062f\u0629 \u0635\u0644\u0635\u0629 \u0627\u0644\u0641\u0637\u0631'}
+
+146 'default_code'
+{u'product_tmpl_name': u'Extra Sauteed Mushroom \u0632\u064a\u0627\u062f\u0629 \u0645\u0634\u0631\u0648\u0645 \u0633\u0648\u062a\u064a\u0647', u'code': u'RV-3417', u'type': u'phantom', u'name': u'Extra Sauteed Mushroom \u0632\u064a\u0627\u062f\u0629 \u0645\u0634\u0631\u0648\u0645 \u0633\u0648\u062a\u064a\u0647', u'product_name': u'Extra Sauteed Mushroom \u0632\u064a\u0627\u062f\u0629 \u0645\u0634\u0631\u0648\u0645 \u0633\u0648\u062a\u064a\u0647'}
+
+147 'default_code'
+{u'product_tmpl_name': u'Ultimate Smore Nutella', u'code': u'JAR_5524', u'type': u'phantom', u'name': u'Ultimate Smore Nutella', u'product_name': u'Ultimate Smore Nutella'}
+
+148 'default_code'
+{u'product_tmpl_name': u'Salted Caramel Cheesecake Upside Down', u'code': u'JAR_5522', u'type': u'phantom', u'name': u'Salted Caramel Cheesecake Upside Down', u'product_name': u'Salted Caramel Cheesecake Upside Down'}
+
+149 'default_code'
+{u'product_tmpl_name': u'Fanta Orange can \u0641\u0627\u0646\u062a\u0627 \u0628\u0631\u062a\u0642\u0627\u0644 \u0639\u0644\u0628\u0629', u'code': u'RV-3360', u'type': u'phantom', u'name': u'Fanta Orange can \u0641\u0627\u0646\u062a\u0627 \u0628\u0631\u062a\u0642\u0627\u0644 \u0639\u0644\u0628\u0629', u'product_name': u'Fanta Orange can \u0641\u0627\u0646\u062a\u0627 \u0628\u0631\u062a\u0642\u0627\u0644 \u0639\u0644\u0628\u0629'}
+
+150 'default_code'
+{u'product_tmpl_name': u'Fanta Strawberry Can \u0641\u0627\u0646\u062a\u0627 \u0641\u0631\u0627\u0648\u0644\u0629 \u0639\u0644\u0628\u0629', u'code': u'RV-3361', u'type': u'phantom', u'name': u'Fanta Strawberry Can \u0641\u0627\u0646\u062a\u0627 \u0641\u0631\u0627\u0648\u0644\u0629 \u0639\u0644\u0628\u0629', u'product_name': u'Fanta Strawberry Can \u0641\u0627\u0646\u062a\u0627 \u0641\u0631\u0627\u0648\u0644\u0629 \u0639\u0644\u0628\u0629'}
+
+151 'default_code'
+{u'product_tmpl_name': u'Red Bull \u0631\u064a\u062f \u0628\u0648\u0644', u'code': u'RV-3354', u'type': u'phantom', u'name': u'Red Bull', u'product_name': u'Red Bull \u0631\u064a\u062f \u0628\u0648\u0644'}
+
+152 'default_code'
+{u'product_tmpl_name': u'Sparkling Water \u0645\u064a\u0627\u0647 \u063a\u0627\u0632\u064a\u0629', u'code': u'RV-', u'type': u'phantom', u'name': u'Sparkling Water \u0645\u064a\u0627\u0647 \u063a\u0627\u0632\u064a\u0629', u'product_name': u'Sparkling Water \u0645\u064a\u0627\u0647 \u063a\u0627\u0632\u064a\u0629'}
+
+153 'default_code'
+{u'product_tmpl_name': u'With Grilled Chicken Strips \u0645\u0639 \u0634\u0631\u0627\u0626\u062d \u062f\u062c\u0627\u062c \u0645\u0634\u0648\u064a', u'code': u'RV-3514', u'type': u'phantom', u'name': u'With Grilled Chicken Strips \u0645\u0639 \u0634\u0631\u0627\u0626\u062d \u062f\u062c\u0627\u062c \u0645\u0634\u0648\u064a', u'product_name': u'With Grilled Chicken Strips \u0645\u0639 \u0634\u0631\u0627\u0626\u062d \u062f\u062c\u0627\u062c \u0645\u0634\u0648\u064a'}
+
+154 'default_code'
+{u'product_tmpl_name': u'Extra Cheese Sauce \u0632\u064a\u0627\u062f\u0629 \u0635\u0644\u0635\u0629 \u0627\u0644\u062c\u0628\u0646\u0629', u'code': u'S-6133', u'type': u'phantom', u'name': u'Extra Cheese Sauce \u0632\u064a\u0627\u062f\u0629 \u0635\u0644\u0635\u0629 \u0627\u0644\u062c\u0628\u0646\u0629', u'product_name': u'Extra Cheese Sauce'}
+
+155 'default_code'
+{u'product_tmpl_name': u'Extra Shrimp Sauce \u0632\u064a\u0627\u062f\u0629 \u0635\u0644\u0635\u0629 \u0627\u0644\u0631\u0628\u064a\u0627\u0646', u'code': u'RV-3418', u'type': u'phantom', u'name': u'Extra Shrimp Sauce \u0632\u064a\u0627\u062f\u0629 \u0635\u0644\u0635\u0629 \u0627\u0644\u0631\u0628\u064a\u0627\u0646', u'product_name': u'Extra Shrimp Sauce \u0632\u064a\u0627\u062f\u0629 \u0635\u0644\u0635\u0629 \u0627\u0644\u0631\u0628\u064a\u0627\u0646'}
+
+156 'default_code'
+{u'product_tmpl_name': u'Slider RV \u0623\u0631\u0641\u064a \u0633\u0644\u0627\u064a\u062f\u0631', u'code': u'RV-3106', u'type': u'normal', u'name': u'Slider RV \u0623\u0631\u0641\u064a \u0644\u0627\u064a\u062f\u0631', u'product_name': u'Slider RV \u0623\u0631\u0641\u064a \u0633\u0644\u0627\u064a\u062f\u0631'}
+
+157 'default_code'
+{u'product_tmpl_name': u'With Ketchup \u0645\u0639 \u0643\u0627\u062a\u0634\u0627\u0628', u'code': u'RV-3515', u'type': u'phantom', u'name': u'With Ketchup \u0645\u0639 \u0643\u0627\u062a\u0634\u0627\u0628', u'product_name': u'With Ketchup \u0645\u0639 \u0643\u0627\u062a\u0634\u0627\u0628'}
+
+158 'default_code'
+{u'product_tmpl_name': u'With Lulu Rosso \u0645\u0639 \u062e\u0633 \u0644\u0648\u0644\u0648 \u0631\u0648\u0633\u0648', u'code': u'RV-3510', u'type': u'phantom', u'name': u'With Lulu Rosso \u0645\u0639 \u062e\u0633 \u0644\u0648\u0644\u0648 \u0631\u0648\u0633\u0648', u'product_name': u'With Lulu Rosso \u0645\u0639 \u062e\u0633 \u0644\u0648\u0644\u0648 \u0631\u0648\u0633\u0648'}
+
+159 'default_code'
+{u'product_tmpl_name': u'With Onion \u0645\u0639 \u0628\u0635\u0644', u'code': u'RV-3512', u'type': u'phantom', u'name': u'With Onion \u0645\u0639 \u0628\u0635\u0644', u'product_name': u'With Onion \u0645\u0639 \u0628\u0635\u0644'}
+
+160 'default_code'
+{u'product_tmpl_name': u'House Slaw', u'code': u'S-6942', u'type': u'phantom', u'name': u'House Slaw', u'product_name': u'House Slaw'}
+
+161 'default_code'
+{u'product_tmpl_name': u'Cookies Rocky Road \u0643\u0648\u0643\u064a\u0632 \u0631\u0648\u0643\u0649 \u0631\u0648\u0648\u062f', u'code': u'S-6614', u'type': u'phantom', u'name': u'Rocky Road', u'product_name': u'Cookies Rocky Road \u0643\u0648\u0643\u064a\u0632 \u0631\u0648\u0643\u0649 \u0631\u0648\u0648\u062f'}
+
+162 'default_code'
+{u'product_tmpl_name': u'Bone in Original(1pc)\u062f\u062c\u0627\u062c \u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644', u'code': u'S-6900', u'type': u'phantom', u'name': u'Bone in Original(1pc)\u062f\u062c\u0627\u062c \u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644', u'product_name': u'Bone in Original(1pc)\u062f\u062c\u0627\u062c \u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644'}
+
+163 'default_code'
+{u'product_tmpl_name': u'With Tomato \u0645\u0639 \u0637\u0645\u0627\u0637\u0645', u'code': u'RV-35111', u'type': u'phantom', u'name': u'With Tomato \u0645\u0639 \u0637\u0645\u0627\u0637\u0645', u'product_name': u'With Tomato \u0645\u0639 \u0637\u0645\u0627\u0637\u0645'}
+
+164 'default_code'
+{u'product_tmpl_name': u'With Pickles \u0645\u0639 \u0645\u062e\u0644\u0644', u'code': u'RV-3513', u'type': u'phantom', u'name': u'With Pickles \u0645\u0639 \u0645\u062e\u0644\u0644', u'product_name': u'With Pickles \u0645\u0639 \u0645\u062e\u0644\u0644'}
+
+165 'default_code'
+{u'product_tmpl_name': u'Extra Mayonnaise \u0632\u064a\u0627\u062f\u0629 \u0645\u0627\u064a\u0648\u0646\u064a\u0632', u'code': u'\u064cRV-3409', u'type': u'phantom', u'name': u'Extra Mayonnaise \u0632\u064a\u0627\u062f\u0629 \u0645\u0627\u064a\u0648\u0646\u064a\u0632', u'product_name': u'Extra Mayonnaise \u0632\u064a\u0627\u062f\u0629 \u0645\u0627\u064a\u0648\u0646\u064a\u0632'}
+
+166 'default_code'
+{u'product_tmpl_name': u'Cheese Burger \u0628\u0631\u063a\u0631 \u0628\u0627\u0644\u062c\u0628\u0646', u'code': u'RV-3002', u'type': u'phantom', u'name': u'Cheese Burger \u0628\u0631\u063a\u0631 \u0628\u0627\u0644\u062c\u0628\u0646', u'product_name': u'Cheese Burger \u0628\u0631\u063a\u0631 \u0628\u0627\u0644\u062c\u0628\u0646'}
+
+167 'default_code'
+{u'product_tmpl_name': u'Extra Wings Sauce \u0632\u064a\u0627\u062f\u0629 \u0635\u0644\u0635\u0629 \u0627\u0644\u062c\u0648\u0627\u0646\u062d', u'code': u'RV-3423', u'type': u'phantom', u'name': u'Extra Wings Sauce \u0632\u064a\u0627\u062f\u0629 \u0635\u0644\u0635\u0629 \u0627\u0644\u062c\u0648\u0627\u0646\u062d', u'product_name': u'Extra Wings Sauce \u0632\u064a\u0627\u062f\u0629 \u0635\u0644\u0635\u0629 \u0627\u0644\u062c\u0648\u0627\u0646\u062d'}
+
+168 'default_code'
+{u'product_tmpl_name': u'Extra Spicy RV Sauce  \u0632\u064a\u0627\u062f\u0629 \u0635\u0644\u0635\u0629 \u0623\u0631\u0641\u064a \u0633\u0628\u0627\u064a\u0633\u064a', u'code': u'RV-3420', u'type': u'phantom', u'name': u'Extra Spicy RV Sauce  \u0632\u064a\u0627\u062f\u0629 \u0635\u0644\u0635\u0629 \u0623\u0631\u0641\u064a \u0633\u0628\u0627\u064a\u0633\u064a', u'product_name': u'Extra Spicy RV Sauce  \u0632\u064a\u0627\u062f\u0629 \u0635\u0644\u0635\u0629 \u0623\u0631\u0641\u064a \u0633\u0628\u0627\u064a\u0633\u064a'}
+
+169 'default_code'
+{u'product_tmpl_name': u'Extra Baby Spinach \u0632\u064a\u0627\u062f\u0629 \u0633\u0628\u0627\u0646\u062e \u0635\u063a\u064a\u0631', u'code': u'RV-3422', u'type': u'phantom', u'name': u'Extra Baby Spinach', u'product_name': u'Extra Baby Spinach \u0632\u064a\u0627\u062f\u0629 \u0633\u0628\u0627\u0646\u062e \u0635\u063a\u064a\u0631'}
+
+170 'default_code'
+{u'product_tmpl_name': u'Still Water \u0645\u064a\u0627\u0647 \u0645\u0639\u062f\u0646\u064a\u0629', u'code': u'RV-3355', u'type': u'phantom', u'name': u'Still Water \u0645\u064a\u0627\u0647 \u0645\u0639\u062f\u0646\u064a\u0629', u'product_name': u'Still Water \u0645\u064a\u0627\u0647 \u0645\u0639\u062f\u0646\u064a\u0629'}
+
+171 'default_code'
+{u'product_tmpl_name': u'Sprite Draft \u0633\u0628\u0631\u0627\u064a\u062a \u062f\u0631\u0627\u0641\u062a', u'code': u'RV-3353', u'type': u'phantom', u'name': u'Sprite Draft \u0633\u0628\u0631\u0627\u064a\u062a \u062f\u0631\u0627\u0641\u062a', u'product_name': u'Sprite Draft \u0633\u0628\u0631\u0627\u064a\u062a \u062f\u0631\u0627\u0641\u062a'}
+
+172 'default_code'
+{u'product_tmpl_name': u'Tender Strips Original(1pc)\u0634\u0631\u0627\u0626\u062d \u0627\u0644\u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644', u'code': u'S-6902', u'type': u'phantom', u'name': u'Tender Strips Original(1pc)\u0634\u0631\u0627\u0626\u062d \u0627\u0644\u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644', u'product_name': u'Tender Strips Original(1pc)\u0634\u0631\u0627\u0626\u062d \u0627\u0644\u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644'}
+
+173 'default_code'
+{u'product_tmpl_name': u'Choowy Oreginal Jar \u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644', u'code': u'S-6803', u'type': u'phantom', u'name': u'Choowy Oreginal Jar', u'product_name': u'Choowy Oreginal Jar \u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644'}
+
+174 'default_code'
+{u'product_tmpl_name': u'Bone in Spicy(1pc)\u062f\u062c\u0627\u062c \u062d\u0627\u0631', u'code': u'S-6901', u'type': u'phantom', u'name': u'Bone in Spicy(1pc)\u062f\u062c\u0627\u062c \u062d\u0627\u0631', u'product_name': u'Bone in Spicy(1pc)\u062f\u062c\u0627\u062c \u062d\u0627\u0631'}
+
+175 'default_code'
+{u'product_tmpl_name': u'Dinner Box original(3pc)(fries/houseslaw/bread/sauce)\u0648\u062c\u0628\u0629 \u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644 3 \u0642\u0637\u0639', u'code': u'S-6922', u'type': u'phantom', u'name': u'Dinner Box original(3pc)(fries/bread/sauce)\u0648\u062c\u0628\u0629 \u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644 3 \u0642\u0637\u0639 (copy)', u'product_name': u'Dinner Box original(3pc)(fries/houseslaw/bread/sauce)\u0648\u062c\u0628\u0629 \u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644 3 \u0642\u0637\u0639'}
+
+176 'default_code'
+{u'product_tmpl_name': u'Diet Coke Can \u062f\u0627\u064a\u062a \u0643\u0648\u0643\u0627\u0643\u0648\u0644\u0627', u'code': u'S-6081', u'type': u'phantom', u'name': u'Diet Coke Can', u'product_name': u'Diet Coke Can \u062f\u0627\u064a\u062a \u0643\u0648\u0643\u0627\u0643\u0648\u0644\u0627'}
+
+177 'default_code'
+{u'product_tmpl_name': u'Extra Caesar Dressing\u0632\u064a\u0627\u062f\u0629 \u0633\u064a\u0632\u0631', u'code': u'S-6101', u'type': u'phantom', u'name': u'Extra Caesar Dressing', u'product_name': u'Extra Caesar Dressing\u0632\u064a\u0627\u062f\u0629 \u0633\u064a\u0632\u0631'}
+
+178 'default_code'
+{u'product_tmpl_name': u' Red Quinoa Salad ', u'code': u'JAR_5308', u'type': u'phantom', u'name': u' Red Quinoa Salad ', u'product_name': u' Red Quinoa Salad '}
+
+179 'default_code'
+{u'product_tmpl_name': u'Nutella Cookies Jar* ', u'code': u'cgc-4214', u'type': u'normal', u'name': u'Nutella Cookies Jar* ', u'product_name': u'Nutella Cookies Jar* '}
+
+180 'default_code'
+{u'product_tmpl_name': u'Shortribs and Fries', u'code': u'JAR_5347', u'type': u'phantom', u'name': u'Shortribs and Fries', u'product_name': u'Shortribs and Fries'}
+
+181 'default_code'
+{u'product_tmpl_name': u'Baked Linguini', u'code': u'JAR_5447', u'type': u'phantom', u'name': u'Baked Linguini', u'product_name': u'Baked Linguini'}
+
+182 'default_code'
+{u'product_tmpl_name': u'Cheese Fries', u'code': u'CGR_5018', u'type': u'phantom', u'name': u'Cheese Fries', u'product_name': u'Cheese Fries'}
+
+183 'default_code'
+{u'product_tmpl_name': u'Chocolate Chip Piece \u0634\u0648\u0643\u0644\u064a\u062a \u0634\u064a\u0628\u0633 \u062d\u0628\u0629', u'code': u'CGB-4003', u'type': u'phantom', u'name': u'Chocolate Chip Piece', u'product_name': u'Chocolate Chip Piece \u0634\u0648\u0643\u0644\u064a\u062a \u0634\u064a\u0628\u0633 \u062d\u0628\u0629'}
+
+184 'default_code'
+{u'product_tmpl_name': u'Choowy Toffee \u062a\u0648\u0641\u064a\u0649', u'code': u'S-6834', u'type': u'phantom', u'name': u'Choowy Toffee', u'product_name': u'Choowy Toffee \u062a\u0648\u0641\u064a\u0649'}
+
+185 'default_code'
+{u'product_tmpl_name': u'Pumpkin Chips', u'code': u'JAR_5348', u'type': u'phantom', u'name': u'Pumpkin Chips', u'product_name': u'Pumpkin Chips'}
+
+186 'default_code'
+{u'product_tmpl_name': u'Sprite', u'code': u'JAR_5645', u'type': u'phantom', u'name': u'Sprite', u'product_name': u'Sprite'}
+
+187 'default_code'
+{u'product_tmpl_name': u'Mushroom Pizza', u'code': u'JAR_5448', u'type': u'phantom', u'name': u'Mushroom Pizza', u'product_name': u'Mushroom Pizza'}
+
+188 'default_code'
+{u'product_tmpl_name': u' Fries \u0628\u0637\u0627\u0637\u0627 ', u'code': u'S-6940', u'type': u'phantom', u'name': u'Crinkle Fries\u0628\u0637\u0627\u0637\u0627 \u0645\u062c\u0639\u062f\u0629', u'product_name': u' Fries \u0628\u0637\u0627\u0637\u0627 '}
+
+189 'default_code'
+{u'product_tmpl_name': u'Potato Bomb', u'code': u'JAR_5338', u'type': u'phantom', u'name': u'Potato Bomb', u'product_name': u'Potato Bomb'}
+
+190 'default_code'
+{u'product_tmpl_name': u'Double Chocolate \u062f\u0628\u0644 \u0634\u064a\u0643\u0648\u0644\u0627\u062a\u0629', u'code': u'S-6836', u'type': u'phantom', u'name': u'Double Chocolate', u'product_name': u'Double Chocolate \u062f\u0628\u0644 \u0634\u064a\u0643\u0648\u0644\u0627\u062a\u0629'}
+
+191 'default_code'
+{u'product_tmpl_name': u'Shrimp Curry', u'code': u'JAR_5444', u'type': u'phantom', u'name': u'Shrimp Curry', u'product_name': u'Shrimp Curry'}
+
+192 'default_code'
+{u'product_tmpl_name': u'Short Ribs Sandwich', u'code': u'JAR_5443', u'type': u'phantom', u'name': u'Short Ribs Sandwich', u'product_name': u'Short Ribs Sandwich'}
+
+193 'default_code'
+{u'product_tmpl_name': u'Peanut Butter Piece \u0632\u0628\u062f\u0629 \u0627\u0644\u0641\u0648\u0644 \u0627\u0644\u0633\u0648\u062f\u0627\u0646\u064a \u062d\u0628\u0629', u'code': u'CGB-4013', u'type': u'phantom', u'name': u'Peanut Butter Piece', u'product_name': u'Peanut Butter Piece \u0632\u0628\u062f\u0629 \u0627\u0644\u0641\u0648\u0644 \u0627\u0644\u0633\u0648\u062f\u0627\u0646\u064a \u062d\u0628\u0629'}
+
+194 'default_code'
+{u'product_tmpl_name': u'Jar Maki', u'code': u'Jar_5456', u'type': u'phantom', u'name': u'Jar Maki', u'product_name': u'Jar Maki'}
+
+195 'default_code'
+{u'product_tmpl_name': u'Oreo Cookies \u0627\u0648\u0631\u064a\u0648', u'code': u'S-6837', u'type': u'phantom', u'name': u'Oreo Cookies', u'product_name': u'Oreo Cookies \u0627\u0648\u0631\u064a\u0648'}
+
+196 'default_code'
+{u'product_tmpl_name': u'Shrimp & Safron Rice \u0634\u0631\u064a\u0645\u0628 \u0648\u0627\u0631\u0632 \u0628\u0627\u0644\u0643\u0627\u0631\u0649', u'code': u'S-6819', u'type': u'phantom', u'name': u'Shrimp & Safron Rice', u'product_name': u'Shrimp & Safron Rice \u0634\u0631\u064a\u0645\u0628 \u0648\u0627\u0631\u0632 \u0628\u0627\u0644\u0643\u0627\u0631\u0649'}
+
+197 'default_code'
+{u'product_tmpl_name': u'Extra Sliced Cheese \u0632\u064a\u0627\u062f\u0629 \u062c\u0628\u0646\u0629 \u0634\u0631\u0627\u0626\u062d', u'code': u'RV-3419', u'type': u'phantom', u'name': u'Extra Sliced Cheese \u0632\u064a\u0627\u062f\u0629 \u062c\u0628\u0646\u0629 \u0634\u0631\u0627\u0626\u062d', u'product_name': u'Extra Sliced Cheese \u0632\u064a\u0627\u062f\u0629 \u062c\u0628\u0646\u0629 \u0634\u0631\u0627\u0626\u062d'}
+
+198 'default_code'
+{u'product_tmpl_name': u'Extra Strawberry \u0632\u064a\u0627\u062f\u0629 \u0641\u0631\u0627\u0648\u0644\u0629', u'code': u'RV-3416', u'type': u'phantom', u'name': u'Extra Strawberry \u0632\u064a\u0627\u062f\u0629 \u0641\u0631\u0627\u0648\u0644\u0629', u'product_name': u'Extra Strawberry \u0632\u064a\u0627\u062f\u0629 \u0641\u0631\u0627\u0648\u0644\u0629'}
+
+199 'default_code'
+{u'product_tmpl_name': u'Red Taboula Salad', u'code': u'JAR_5307', u'type': u'phantom', u'name': u'Red Taboula Salad', u'product_name': u'Red Taboula Salad'}
+
+200 'default_code'
+{u'product_tmpl_name': u'White Chocolate Macadamia Piece \u0634\u0648\u0643\u0648\u0644\u0627\u062a\u0629 \u0628\u064a\u0636\u0627\u0621 \u0645\u0627\u0643\u0627\u062f\u064a\u0645\u064a\u0627 \u062d\u0628\u0629', u'code': u'CGB-4031', u'type': u'phantom', u'name': u'White Chocolate Macadamia Piece', u'product_name': u'White Chocolate Macadamia Piece \u0634\u0648\u0643\u0648\u0644\u0627\u062a\u0629 \u0628\u064a\u0636\u0627\u0621 \u0645\u0627\u0643\u0627\u062f\u064a\u0645\u064a\u0627 \u062d\u0628\u0629'}
+
+201 'default_code'
+{u'product_tmpl_name': u'Dirty Fries \u062f\u064a\u0631\u062a\u064a \u0641\u0631\u0627\u064a\u0632', u'code': u'S-6941', u'type': u'phantom', u'name': u'Dirty Fries \u062f\u064a\u0631\u062a\u064a \u0641\u0631\u0627\u064a\u0632', u'product_name': u'Dirty Fries \u062f\u064a\u0631\u062a\u064a \u0641\u0631\u0627\u064a\u0632'}
+
+202 'default_code'
+{u'product_tmpl_name': u'Chicken Finger (4pcs)Mix\u062a\u0634\u064a\u0643\u0646 \u062a\u0646\u062f\u0631\u0645\u064a\u0643\u0633', u'code': u'S-6944', u'type': u'phantom', u'name': u'Chicken Finger (4pcs)\u062a\u0634\u064a\u0643\u0646 \u062a\u0646\u062f\u0631', u'product_name': u'Chicken Finger (4pcs)Mix\u062a\u0634\u064a\u0643\u0646 \u062a\u0646\u062f\u0631\u0645\u064a\u0643\u0633'}
+
+203 'default_code'
+{u'product_tmpl_name': u'Chicken Burger', u'code': u'Jar_5457', u'type': u'phantom', u'name': u'Chicken Burger', u'product_name': u'Chicken Burger'}
+
+204 'default_code'
+{u'product_tmpl_name': u'Baked Pink Pasta', u'code': u'JAR_5454', u'type': u'phantom', u'name': u'Baked Pink Pasta', u'product_name': u'Baked Pink Pasta'}
+
+205 'default_code'
+{u'product_tmpl_name': u'Plain Cookies Small Jar \u0643\u0648\u0643\u064a\u0632 \u0633\u0627\u062f\u0629 \u0635\u063a\u064a\u0631 \u062c\u0627\u0631', u'code': u'CGB-4025', u'type': u'phantom', u'name': u'Plain Cookies Small Jar', u'product_name': u'Plain Cookies Small Jar \u0643\u0648\u0643\u064a\u0632 \u0633\u0627\u062f\u0629 \u0635\u063a\u064a\u0631 \u062c\u0627\u0631'}
+
+206 'default_code'
+{u'product_tmpl_name': u'Buffalo Wings(8pcs)\u0628\u0627\u0641\u0627\u0644\u0648 \u0648\u064a\u0646\u062c\u0632', u'code': u'S-6943', u'type': u'phantom', u'name': u'Buffalo Wings(8pcs)\u0628\u0627\u0641\u0627\u0644\u0648 \u0648\u064a\u0646\u062c\u0632', u'product_name': u'Buffalo Wings(8pcs)\u0628\u0627\u0641\u0627\u0644\u0648 \u0648\u064a\u0646\u062c\u0632'}
+
+207 'default_code'
+{u'product_tmpl_name': u' Sprite\u0633\u0628\u0631\u0627\u064a\u062a', u'code': u'S-6952', u'type': u'phantom', u'name': u'Bottled Sprite\u0633\u0628\u0631\u0627\u064a\u062a', u'product_name': u' Sprite\u0633\u0628\u0631\u0627\u064a\u062a'}
+
+208 'default_code'
+{u'product_tmpl_name': u'Ultimate Twix*', u'code': u'cgc-4232', u'type': u'normal', u'name': u'Ultimate Twix*', u'product_name': u'Ultimate Twix*'}
+
+209 'default_code'
+{u'product_tmpl_name': u'Crispy Breaded Chicken Slider(Original)\u0643\u0631\u0633\u0628\u064a \u0633\u0644\u0627\u064a\u062f\u0631 \u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644', u'code': u'S-6912', u'type': u'phantom', u'name': u'Crispy Breaded Chicken Slider(Original)\u0643\u0631\u0633\u0628\u064a \u0633\u0644\u0627\u064a\u062f\u0631 \u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644', u'product_name': u'Crispy Breaded Chicken Slider(Original)\u0643\u0631\u0633\u0628\u064a \u0633\u0644\u0627\u064a\u062f\u0631 \u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644'}
+
+210 'default_code'
+{u'product_tmpl_name': u'Brownies Box*', u'code': u'cgc-4234', u'type': u'normal', u'name': u'Brownies Box*', u'product_name': u'Brownies Box*'}
+
+211 'default_code'
+{u'product_tmpl_name': u'Chocolate Chips 3 Piece', u'code': u'cgc-4246', u'type': u'normal', u'name': u'Chocolate Chips 3 Piece', u'product_name': u'Chocolate Chips 3 Piece'}
+
+212 'default_code'
+{u'product_tmpl_name': u'Baked Mushroom Risotto', u'code': u'JAR_5455', u'type': u'phantom', u'name': u'Baked Mushroom Risotto', u'product_name': u'Baked Mushroom Risotto'}
+
+213 'default_code'
+{u'product_tmpl_name': u'Classic Cheese Slider', u'code': u'JAR_5453', u'type': u'phantom', u'name': u'Beef Slider', u'product_name': u'Classic Cheese Slider'}
+
+214 'default_code'
+{u'product_tmpl_name': u'Toffee Box \u062a\u0648\u0641\u064a \u0628\u0648\u0643\u0633', u'code': u'CGB-4027', u'type': u'phantom', u'name': u'Toffee Box', u'product_name': u'Toffee Box \u062a\u0648\u0641\u064a \u0628\u0648\u0643\u0633'}
+
+215 'default_code'
+{u'product_tmpl_name': u'Summer Crush', u'code': u'JAR_5646', u'type': u'phantom', u'name': u'Summer Crush', u'product_name': u'Summer Crush'}
+
+216 'default_code'
+{u'product_tmpl_name': u'Extra Veal Patty 100gr \u0632\u064a\u0627\u062f\u0629 \u0642\u0637\u0639\u0629 \u0644\u062d\u0645 \u0639\u062c\u0644', u'code': u'RV-3098', u'type': u'phantom', u'name': u'Extra Veal Patty 100 \u0632\u064a\u0627\u062f\u0629 \u0642\u0637\u0639\u0629 \u0644\u062d\u0645 \u0639\u062c\u0644', u'product_name': u'Extra Veal Patty 100gr \u0632\u064a\u0627\u062f\u0629 \u0642\u0637\u0639\u0629 \u0644\u062d\u0645 \u0639\u062c\u0644'}
+
+217 'default_code'
+{u'product_tmpl_name': u'Blondie', u'code': u'JAR_5529', u'type': u'phantom', u'name': u'Blondie', u'product_name': u'Blondie'}
+
+218 'default_code'
+{u'product_tmpl_name': u'Spicy Rock Chicken', u'code': u'CGR_5026', u'type': u'phantom', u'name': u'Spicy Rock Chicken', u'product_name': u'Spicy Rock Chicken'}
+
+219 'default_code'
+{u'product_tmpl_name': u'Eggplant Fries', u'code': u'JAR_5345', u'type': u'phantom', u'name': u'Eggplant Fries', u'product_name': u'Eggplant Fries'}
+
+220 'default_code'
+{u'product_tmpl_name': u'Corn Tempura', u'code': u'JAR_5346', u'type': u'phantom', u'name': u'Corn Tempura', u'product_name': u'Corn Tempura'}
+
+221 'default_code'
+{u'product_tmpl_name': u'Toffee 3 Piece*', u'code': u'cgc-4248', u'type': u'normal', u'name': u'Toffee 3 Piece*', u'product_name': u'Toffee 3 Piece*'}
+
+222 'default_code'
+{u'product_tmpl_name': u'Ultimate Choowy Goowy Aero', u'code': u'CGR_5104', u'type': u'phantom', u'name': u'Ultimate Choowy Goowy Aero', u'product_name': u'Ultimate Choowy Goowy Aero'}
+
+223 'default_code'
+{u'product_tmpl_name': u'Original Chicken Fillet \u062f\u062c\u0627\u062c \u0641\u064a\u0644\u064a\u0647 \u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644', u'code': u'S-6910', u'type': u'phantom', u'name': u'Original Chicken Fillet \u062f\u062c\u0627\u062c \u0641\u064a\u0644\u064a\u0647 \u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644', u'product_name': u'Original Chicken Fillet \u062f\u062c\u0627\u062c \u0641\u064a\u0644\u064a\u0647 \u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644'}
+
+224 'default_code'
+{u'product_tmpl_name': u'Margarita Pizza', u'code': u'JAR_5449', u'type': u'phantom', u'name': u'Margarita Pizza', u'product_name': u'Margarita Pizza'}
+
+225 'default_code'
+{u'product_tmpl_name': u'3 Cheese Sandwich*', u'code': u'CGC-4301', u'type': u'normal', u'name': u'3 Cheese', u'product_name': u'3 Cheese Sandwich*'}
+
+226 'default_code'
+{u'product_tmpl_name': u'Blondie', u'code': u'CGR_5121', u'type': u'phantom', u'name': u'Blondie', u'product_name': u'Blondie'}
+
+227 'default_code'
+{u'product_tmpl_name': u'Crispy Breaded Chicken Sliders(Spicy)\u0643\u0631\u0633\u0628\u064a \u0633\u0644\u0627\u064a\u062f\u0631 \u062d\u0627\u0631', u'code': u'S-6913', u'type': u'phantom', u'name': u'Crispy Breaded Chicken Sliders(Spicy)\u0643\u0631\u0633\u0628\u064a \u0633\u0644\u0627\u064a\u062f\u0631 \u062d\u0627\u0631', u'product_name': u'Crispy Breaded Chicken Sliders(Spicy)\u0643\u0631\u0633\u0628\u064a \u0633\u0644\u0627\u064a\u062f\u0631 \u062d\u0627\u0631'}
+
+228 'default_code'
+{u'product_tmpl_name': u'Coke\u0643\u0648\u0643\u0627\u0643\u0648\u0644\u0627', u'code': u'S-6950', u'type': u'phantom', u'name': u'Bottled Coke\u0643\u0648\u0643\u0627\u0643\u0648\u0644\u0627', u'product_name': u'Coke\u0643\u0648\u0643\u0627\u0643\u0648\u0644\u0627'}
+
+229 'default_code'
+{u'product_tmpl_name': u'Pineapple Colada', u'code': u'JAR_5650', u'type': u'phantom', u'name': u'Pineapple Colada', u'product_name': u'Pineapple Colada'}
+
+230 'default_code'
+{u'product_tmpl_name': u'Dinner Box original(2pc)(fries/houseslaw/ bread/sauce)\u0648\u062c\u0628\u0629 \u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644 \u0642\u0637\u0639\u062a\u0627\u0646', u'code': u'S-6920', u'type': u'phantom', u'name': u'Dinner Box original(2pc)(fries/bread/sauce)\u0648\u062c\u0628\u0629 \u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644 \u0642\u0637\u0639\u062a\u0627\u0646', u'product_name': u'Dinner Box original(2pc)(fries/houseslaw/ bread/sauce)\u0648\u062c\u0628\u0629 \u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644 \u0642\u0637\u0639\u062a\u0627\u0646'}
+
+231 'default_code'
+{u'product_tmpl_name': u'Potato Volcano', u'code': u'JAR_5339', u'type': u'phantom', u'name': u'Potato Volcano', u'product_name': u'Potato Volcano'}
+
+232 'default_code'
+{u'product_tmpl_name': u'Potato Volcano', u'code': u'JAR_5339', u'type': u'phantom', u'name': u'Potato Volcano (copy)', u'product_name': u'Potato Volcano'}
+
+233 'default_code'
+{u'product_tmpl_name': u'Chicken Fingers Original(6pc)(fries/bread/sauce/houseslaw)\u0635\u0648\u0627\u0628\u0639 \u062f\u062c\u0627\u062c \u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644 6\u0642\u0637\u0639', u'code': u'S-6924', u'type': u'phantom', u'name': u'Chicken Fingers Original(6pc)(fries/bread/sauce/HS)\u0635\u0648\u0627\u0628\u0639 \u062f\u062c\u0627\u062c \u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644 6\u0642\u0637\u0639', u'product_name': u'Chicken Fingers Original(6pc)(fries/bread/sauce/houseslaw)\u0635\u0648\u0627\u0628\u0639 \u062f\u062c\u0627\u062c \u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644 6\u0642\u0637\u0639'}
+
+234 'default_code'
+{u'product_tmpl_name': u'Spicy Chicken Fillet combo(fries)\u062f\u062c\u0627\u062c \u0643\u0631\u0633\u0628\u064a \u0641\u064a\u0644\u064a\u0647', u'code': u'S-6927', u'type': u'phantom', u'name': u'Spicy Chicken Fillet combo(fries)\u062f\u062c\u0627\u062c \u0643\u0631\u0633\u0628\u064a \u0641\u064a\u0644\u064a\u0647', u'product_name': u'Spicy Chicken Fillet combo(fries)\u062f\u062c\u0627\u062c \u0643\u0631\u0633\u0628\u064a \u0641\u064a\u0644\u064a\u0647'}
+
+235 'default_code'
+{u'product_tmpl_name': u'paprika shrimp red kidney beans ', u'code': u'2041', u'type': u'phantom', u'name': u'paprika shrimp red kidney beans ', u'product_name': u'paprika shrimp red kidney beans '}
+
+236 'default_code'
+{u'product_tmpl_name': u'Molten 12pc Box', u'code': u'CGR_5134', u'type': u'phantom', u'name': u'Molten 12pc Box', u'product_name': u'Molten 12pc Box'}
+
+237 'default_code'
+{u'product_tmpl_name': u'Kale Salad', u'code': u'JAR_5305', u'type': u'phantom', u'name': u'Kale Salad', u'product_name': u'Kale Salad'}
+
+238 'default_code'
+{u'product_tmpl_name': u'Shrimp Volcano', u'code': u'JAR_5340', u'type': u'phantom', u'name': u'Shrimp Volcano', u'product_name': u'Shrimp Volcano'}
+
+239 'default_code'
+{u'product_tmpl_name': u'Thai Fish Curry', u'code': u'JAR_5446', u'type': u'phantom', u'name': u'Thai Fish Curry', u'product_name': u'Thai Fish Curry'}
+
+240 'default_code'
+{u'product_tmpl_name': u'Burrata Burger', u'code': None, u'type': u'normal', u'name': u'Burrata Burger', u'product_name': u'Burrata Burger'}
+
+241 'default_code'
+{u'product_tmpl_name': u'Beetroot Salad ', u'code': None, u'type': u'normal', u'name': u'Beetroot Salad ', u'product_name': u'Beetroot Salad '}
+
+242 'default_code'
+{u'product_tmpl_name': u'Fried Mushroom', u'code': u'JAR_5344', u'type': u'phantom', u'name': u'Fried Mushroom', u'product_name': u'Fried Mushroom'}
+
+243 'default_code'
+{u'product_tmpl_name': u'Original Chicken fillet Compo(fries)\u062f\u062c\u0627\u062c \u0643\u0631\u0633\u0628\u064a \u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644', u'code': u'S-6926', u'type': u'phantom', u'name': u'Original Chicken fillet Compo(fries)\u062f\u062c\u0627\u062c \u0643\u0631\u0633\u0628\u064a \u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644', u'product_name': u'Original Chicken fillet Compo(fries)\u062f\u062c\u0627\u062c \u0643\u0631\u0633\u0628\u064a \u0627\u0648\u0631\u064a\u062c\u064a\u0646\u0627\u0644'}
+
+244 'default_code'
+{u'product_tmpl_name': u'Spicy Rock Chicken', u'code': u'JAR_5341', u'type': u'phantom', u'name': u'Spicy Rock Chicken', u'product_name': u'Spicy Rock Chicken'}
+
+245 'default_code'
+{u'product_tmpl_name': u'Aqua panna', u'code': u'S-6954', u'type': u'phantom', u'name': u'Ice Landic', u'product_name': u'Aqua panna'}
+
+246 'default_code'
+{u'product_tmpl_name': u'Extra Veal Patty(s) \u0632\u064a\u0627\u062f\u0629 \u0644\u062d\u0645 \u0627\u0644\u0639\u062c\u0644', u'code': u'S-6142', u'type': u'phantom', u'name': u'Extra Veal Patty \u0632\u064a\u0627\u062f\u0629 \u0644\u062d\u0645 \u0627\u0644\u0639\u062c\u0644', u'product_name': u'Extra Veal Patty(s) \u0632\u064a\u0627\u062f\u0629 \u0644\u062d\u0645 \u0627\u0644\u0639\u062c\u0644'}
+
+247 'default_code'
+{u'product_tmpl_name': u'Lamb Chops and Saffron Rice', u'code': u'JAR_5445', u'type': u'phantom', u'name': u'Lamb Chops and Saffron Rice', u'product_name': u'Lamb Chops and Saffron Rice'}
+
+248 'default_code'
+{u'product_tmpl_name': u'Double Cheese Burger', u'code': u'JAR_5451', u'type': u'phantom', u'name': u'Double Cheese Burger', u'product_name': u'Double Cheese Burger'}
+
+249 'default_code'
+{u'product_tmpl_name': u'Chicken Fingers Spicy(6pc)(fries/bread/sauce/houseslaw)\u0635\u0648\u0627\u0628\u0639 \u062f\u062c\u0627\u062c \u062d\u0627\u0631 6\u0642\u0637\u0639', u'code': u'S-6925', u'type': u'phantom', u'name': u'Chicken Fingers Spicy(6pc)(fries/bread/sauce/HS)\u0635\u0648\u0627\u0628\u0639 \u062f\u062c\u0627\u062c \u062d\u0627\u0631 6\u0642\u0637\u0639', u'product_name': u'Chicken Fingers Spicy(6pc)(fries/bread/sauce/houseslaw)\u0635\u0648\u0627\u0628\u0639 \u062f\u062c\u0627\u062c \u062d\u0627\u0631 6\u0642\u0637\u0639'}
+
+250 'default_code'
+{u'product_tmpl_name': u'Cappuccino', u'code': u'JAR_5594', u'type': u'phantom', u'name': u'Cappuccino', u'product_name': u'Cappuccino'}
+
+251 'default_code'
+{u'product_tmpl_name': u'Berry Rap', u'code': u'JAR_5647', u'type': u'phantom', u'name': u'Berry Rap', u'product_name': u'Berry Rap'}
+
+252 'default_code'
+{u'product_tmpl_name': u'Blue Ocean', u'code': u'JAR_5648', u'type': u'phantom', u'name': u'Blue Ocean', u'product_name': u'Blue Ocean'}
+
+253 'default_code'
+{u'product_tmpl_name': u'Arugula Salad\u0633\u0644\u0637\u0629 \u0627\u0644\u062c\u0631\u062c\u064a\u0631', u'code': u'S-6974', u'type': u'phantom', u'name': u'Arugula Salad\u0633\u0644\u0637\u0629 \u0627\u0644\u062c\u0631\u062c\u064a\u0631', u'product_name': u'Arugula Salad\u0633\u0644\u0637\u0629 \u0627\u0644\u062c\u0631\u062c\u064a\u0631'}
+
+254 'default_code'
+{u'product_tmpl_name': u'Double Chocolate Jar*', u'code': u'CGC-4202', u'type': u'normal', u'name': u'Double Chocolate Jar*', u'product_name': u'Double Chocolate Jar*'}
+
+255 'default_code'
+{u'product_tmpl_name': u'Breakfast Tea', u'code': u'JAR_5591', u'type': u'phantom', u'name': u'Breakfast Tea', u'product_name': u'Breakfast Tea'}
+
+256 'default_code'
+{u'product_tmpl_name': u'Fanta Orange Bottle', u'code': u'CGR_5173', u'type': u'phantom', u'name': u'Fanta Orange Bottle', u'product_name': u'Fanta Orange Bottle'}
+
+257 'default_code'
+{u'product_tmpl_name': u'Shrimp Quinao Risotto ', u'code': u'F-2032', u'type': u'normal', u'name': u'Shrimp Quinao Risotto ', u'product_name': u'Shrimp Quinao Risotto '}
+
+258 'default_code'
+{u'product_tmpl_name': u'Coke Bottle', u'code': u'CGR_5170', u'type': u'phantom', u'name': u'Coke Bottle', u'product_name': u'Coke Bottle'}
+
+259 'default_code'
+{u'product_tmpl_name': u'Variation of Cauliflower', u'code': u'JAR_5342', u'type': u'phantom', u'name': u'Variation of Cauliflower', u'product_name': u'Variation of Cauliflower'}
+
+260 'default_code'
+{u'product_tmpl_name': u'Light Coke\u0644\u0627\u064a\u062a \u0643\u0648\u0643\u0627\u0643\u0648\u0644\u0627', u'code': u'S-6951', u'type': u'phantom', u'name': u'Bottled Light Coke\u0644\u0627\u064a\u062a \u0643\u0648\u0643\u0627\u0643\u0648\u0644\u0627', u'product_name': u'Light Coke\u0644\u0627\u064a\u062a \u0643\u0648\u0643\u0627\u0643\u0648\u0644\u0627'}
+
+261 'default_code'
+{u'product_tmpl_name': u'Fanta Strawberry\u0641\u0627\u0646\u062a\u0627 \u0641\u0631\u0627\u0648\u0644\u0629', u'code': u'S-6953', u'type': u'phantom', u'name': u'Bottled Fanta Strawberry\u0641\u0627\u0646\u062a\u0627 \u0641\u0631\u0627\u0648\u0644\u0629', u'product_name': u'Fanta Strawberry\u0641\u0627\u0646\u062a\u0627 \u0641\u0631\u0627\u0648\u0644\u0629'}
+
+262 'default_code'
+{u'product_tmpl_name': u'Ceaser Salad*', u'code': u'CGC-4311', u'type': u'normal', u'name': u'Ceaser Saled', u'product_name': u'Ceaser Salad*'}
+
+263 'default_code'
+{u'product_tmpl_name': u'Red Bull', u'code': u'CGR_5181', u'type': u'phantom', u'name': u'Red Bull', u'product_name': u'Red Bull'}
+
+264 'default_code'
+{u'product_tmpl_name': u'Chocolate Chip Jar*', u'code': u'CGC-4201', u'type': u'normal', u'name': u'Chocolate Chip Jar*', u'product_name': u'Chocolate Chip Jar*'}
+
+265 'default_code'
+{u'product_tmpl_name': u'Sprite Bottle', u'code': u'CGR_5185', u'type': u'phantom', u'name': u'Sprite Bottle', u'product_name': u'Sprite Bottle'}
+
+266 'default_code'
+{u'product_tmpl_name': u'Still Water', u'code': u'CGR_5187', u'type': u'phantom', u'name': u'Still Water', u'product_name': u'Still Water'}
+
+267 'default_code'
+{u'product_tmpl_name': u'Roasted Salmon', u'code': u'JAR_5442', u'type': u'phantom', u'name': u'Roasted Salmon', u'product_name': u'Roasted Salmon'}
+
+268 'default_code'
+{u'product_tmpl_name': u'Salted Caramel with Milk Chocolate Piece  \u0643\u0648\u0643\u064a\u0632 \u062d\u0628\u0629 \u0643\u0631\u0627\u0645\u064a\u0644 \u0645\u0645\u0644\u062d \u0645\u0639 \u0634\u0648\u0643\u0648\u0644\u0627 \u0628\u0627\u0644\u062d\u0644\u064a\u0628', u'code': u'CGB-4067', u'type': u'phantom', u'name': u'Salted Caramel with Milk Chocolate Piece', u'product_name': u'Salted Caramel with Milk Chocolate Piece  \u0643\u0648\u0643\u064a\u0632 \u062d\u0628\u0629 \u0643\u0631\u0627\u0645\u064a\u0644 \u0645\u0645\u0644\u062d \u0645\u0639 \u0634\u0648\u0643\u0648\u0644\u0627 \u0628\u0627\u0644\u062d\u0644\u064a\u0628'}
+
+269 'default_code'
+{u'product_tmpl_name': u'Double Espresso', u'code': u'CGR_5155', u'type': u'phantom', u'name': u'Double Espresso', u'product_name': u'Double Espresso'}
+
+270 'default_code'
+{u'product_tmpl_name': u'Ultimate Choowy Goowy Nutella', u'code': u'JAR_5490', u'type': u'phantom', u'name': u'Ultimate Choowy Goowy Nutella', u'product_name': u'Ultimate Choowy Goowy Nutella'}
+
+271 'default_code'
+{u'product_tmpl_name': u'Ninja Cookies Jar', u'code': u'CGB-4118', u'type': u'phantom', u'name': u'Ninja Cookies Jar', u'product_name': u'Ninja Cookies Jar'}
+
+272 'default_code'
+{u'product_tmpl_name': u'Nutella Cookies Jar \u062c\u0627\u0631 \u0643\u0648\u0643\u064a\u0632 \u0646\u0648\u062a\u064a\u0644\u0627', u'code': u'CGB-4049', u'type': u'phantom', u'name': u'Nutella Cookies Jar', u'product_name': u'Nutella Cookies Jar \u062c\u0627\u0631 \u0643\u0648\u0643\u064a\u0632 \u0646\u0648\u062a\u064a\u0644\u0627'}
+
+273 'default_code'
+{u'product_tmpl_name': u'Double RV Burger \u062f\u0628\u0644 \u0627\u0631\u0641\u064a \u0628\u0631\u063a\u0631', u'code': u'RV-3004', u'type': u'phantom', u'name': u'Double RV Burger \u062f\u0628\u0644 \u0627\u0631\u0641\u064a \u0628\u0631\u063a\u0631', u'product_name': u'Double RV Burger \u062f\u0628\u0644 \u0627\u0631\u0641\u064a \u0628\u0631\u063a\u0631'}
+
+274 'default_code'
+{u'product_tmpl_name': u'White Choc with Pecans & Raspberry Piece \u0634\u0648\u0643\u0648\u0644\u0627 \u0628\u064a\u0636\u0627\u0621 \u0645\u0639 \u0627\u0644\u0628\u064a\u0643\u0627\u0646 \u0648\u0627\u0644\u0631\u0627\u0632\u0628\u0631\u064a \u062d\u0628\u0629', u'code': u'CGB-4068', u'type': u'phantom', u'name': u'White Choc with Pecans & Raspberry Piece', u'product_name': u'White Choc with Pecans & Raspberry Piece \u0634\u0648\u0643\u0648\u0644\u0627 \u0628\u064a\u0636\u0627\u0621 \u0645\u0639 \u0627\u0644\u0628\u064a\u0643\u0627\u0646 \u0648\u0627\u0644\u0631\u0627\u0632\u0628\u0631\u064a \u062d\u0628\u0629'}
+
+275 'default_code'
+{u'product_tmpl_name': u'Plain Cookies Jar*', u'code': u'CGC-4206', u'type': u'normal', u'name': u'Plain Cookies Jar*', u'product_name': u'Plain Cookies Jar*'}
+
+276 'default_code'
+{u'product_tmpl_name': u'Scones', u'code': u'JAR_5343', u'type': u'phantom', u'name': u'Welcome Bread', u'product_name': u'Scones'}
+
+277 'default_code'
+{u'product_tmpl_name': u'Oreo Cookies Jar*', u'code': u'cgc-4207', u'type': u'normal', u'name': u'Oreo Cookies Jar*', u'product_name': u'Oreo Cookies Jar*'}
+
+278 'default_code'
+{u'product_tmpl_name': u'Raisin Cookies Piece \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u0632\u0628\u064a\u0628 \u062d\u0628\u0629', u'code': u'CGB-4044', u'type': u'phantom', u'name': u'Raisin Cookies Piece', u'product_name': u'Raisin Cookies Piece \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u0632\u0628\u064a\u0628 \u062d\u0628\u0629'}
+
+279 'default_code'
+{u'product_tmpl_name': u'Toffee Jar \u062a\u0648\u0641\u064a \u062c\u0627\u0631', u'code': u'CGB-4026', u'type': u'phantom', u'name': u'Toffee Jar', u'product_name': u'Toffee Jar \u062a\u0648\u0641\u064a \u062c\u0627\u0631'}
+
+280 'default_code'
+{u'product_tmpl_name': u'Toffee Jar*', u'code': u'CGC-4203', u'type': u'normal', u'name': u'Toffee Jar*', u'product_name': u'Toffee Jar*'}
+
+281 'default_code'
+{u'product_tmpl_name': u'White Chocolate Macadamia Jar \u0634\u0648\u0643\u0648\u0644\u0627\u062a\u0629 \u0628\u064a\u0636\u0627\u0621 \u0645\u0627\u0643\u0627\u062f\u064a\u0645\u064a\u0627 \u062c\u0627\u0631', u'code': u'CGB-4029', u'type': u'phantom', u'name': u'White Chocolate Macadamia Jar', u'product_name': u'White Chocolate Macadamia Jar \u0634\u0648\u0643\u0648\u0644\u0627\u062a\u0629 \u0628\u064a\u0636\u0627\u0621 \u0645\u0627\u0643\u0627\u062f\u064a\u0645\u064a\u0627 \u062c\u0627\u0631'}
+
+282 'default_code'
+{u'product_tmpl_name': u'Chicken Mushroom Fettucine', u'code': u'JAR_5390', u'type': u'phantom', u'name': u'Chicken Mushroom Fettucine', u'product_name': u'Chicken Mushroom Fettucine'}
+
+283 'default_code'
+{u'product_tmpl_name': u'Valentine Cookie Jar \u0641\u0627\u0644\u0646\u062a\u0627\u064a\u0646 \u0643\u0648\u0643\u064a\u0632 \u062c\u0627\u0631', u'code': u'CGB-4085', u'type': u'phantom', u'name': u'Valentine Cookie Jar', u'product_name': u'Valentine Cookie Jar \u0641\u0627\u0644\u0646\u062a\u0627\u064a\u0646 \u0643\u0648\u0643\u064a\u0632 \u062c\u0627\u0631'}
+
+284 'default_code'
+{u'product_tmpl_name': u'Oozing Chicken', u'code': u'JAR_5391', u'type': u'phantom', u'name': u'Oozing Chicken', u'product_name': u'Oozing Chicken'}
+
+285 'default_code'
+{u'product_tmpl_name': u'Rocky Road Jar*', u'code': u'CGC-4204', u'type': u'normal', u'name': u'Rocky Road Jar*', u'product_name': u'Rocky Road Jar*'}
+
+286 'default_code'
+{u'product_tmpl_name': u'White Chocolate Macadamia Box \u0634\u0648\u0643\u0648\u0644\u0627\u062a\u0629 \u0628\u064a\u0636\u0627\u0621 \u0645\u0627\u0643\u0627\u062f\u064a\u0645\u064a\u0627 \u0628\u0648\u0643\u0633', u'code': u'CGB-4030', u'type': u'phantom', u'name': u'White Chocolate Macadamia Box', u'product_name': u'White Chocolate Macadamia Box \u0634\u0648\u0643\u0648\u0644\u0627\u062a\u0629 \u0628\u064a\u0636\u0627\u0621 \u0645\u0627\u0643\u0627\u062f\u064a\u0645\u064a\u0627 \u0628\u0648\u0643\u0633'}
+
+287 'default_code'
+{u'product_tmpl_name': u'Peanut Butter Jar*', u'code': u'CGC-4205', u'type': u'normal', u'name': u'Peanut Butter Jar*', u'product_name': u'Peanut Butter Jar*'}
+
+288 'default_code'
+{u'product_tmpl_name': u'Rocky Road Box \u0631\u0648\u0643\u064a \u0631\u0648\u062f \u0628\u0648\u0643\u0633', u'code': u'CGB-4033', u'type': u'phantom', u'name': u'Rocky Road Box', u'product_name': u'Rocky Road Box \u0631\u0648\u0643\u064a \u0631\u0648\u062f \u0628\u0648\u0643\u0633'}
+
+289 'default_code'
+{u'product_tmpl_name': u'Mushroom Potato Gratin \u0645\u0634\u0631\u0648\u0645 \u0628\u0637\u0627\u0637\u0627 \u062c\u0631\u0627\u062a\u0627\u0646', u'code': u'S-6522', u'type': u'phantom', u'name': u'Mushroom Potato Gratin', u'product_name': u'Mushroom Potato Gratin \u0645\u0634\u0631\u0648\u0645 \u0628\u0637\u0627\u0637\u0627 \u062c\u0631\u0627\u062a\u0627\u0646'}
+
+290 'default_code'
+{u'product_tmpl_name': u'Cinnamon Cookies Piece \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u0642\u0631\u0641\u0629 \u062d\u0628\u0629', u'code': u'CGB-4041', u'type': u'phantom', u'name': u'Cinnamon Cookies Piece', u'product_name': u'Cinnamon Cookies Piece \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u0642\u0631\u0641\u0629 \u062d\u0628\u0629'}
+
+291 'default_code'
+{u'product_tmpl_name': u'Chocolate Chip Box \u0634\u0648\u0643\u0644\u064a\u062a \u0634\u064a\u0628\u0633 \u0628\u0648\u0643\u0633', u'code': u'CGB-4002', u'type': u'phantom', u'name': u'Chocolate Chip Box', u'product_name': u'Chocolate Chip Box \u0634\u0648\u0643\u0644\u064a\u062a \u0634\u064a\u0628\u0633 \u0628\u0648\u0643\u0633'}
+
+292 'default_code'
+{u'product_tmpl_name': u'Double Chocolate Piece \u062f\u0628\u0644 \u0634\u0648\u0643\u0644\u064a\u062a \u062d\u0628\u0629', u'code': u'CGB-4008', u'type': u'phantom', u'name': u'Double Chocolate Piece', u'product_name': u'Double Chocolate Piece \u062f\u0628\u0644 \u0634\u0648\u0643\u0644\u064a\u062a \u062d\u0628\u0629'}
+
+293 'default_code'
+{u'product_tmpl_name': u'Toffee Piece \u062a\u0648\u0641\u064a \u062d\u0628\u0629', u'code': u'CGB-4028', u'type': u'phantom', u'name': u'Toffee Piece', u'product_name': u'Toffee Piece \u062a\u0648\u0641\u064a \u062d\u0628\u0629'}
+
+294 'default_code'
+{u'product_tmpl_name': u'Dates Cookies Piece \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u062a\u0645\u0631 \u062d\u0628\u0629', u'code': u'CGB-4037', u'type': u'phantom', u'name': u'Dates Cookies Piece', u'product_name': u'Dates Cookies Piece \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u062a\u0645\u0631 \u062d\u0628\u0629'}
+
+295 'default_code'
+{u'product_tmpl_name': u'Dates Cookies Box \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u062a\u0645\u0631 \u0628\u0648\u0643\u0633', u'code': u'CGB-4036', u'type': u'phantom', u'name': u'Dates Cookies Box', u'product_name': u'Dates Cookies Box \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u062a\u0645\u0631 \u0628\u0648\u0643\u0633'}
+
+296 'default_code'
+{u'product_tmpl_name': u'Milk Chocolate Piece \u0643\u0648\u0643\u064a\u0632 \u0634\u0648\u0643\u0648\u0644\u0627 \u0628\u0627\u0644\u062d\u0644\u064a\u0628 \u062d\u0628\u0629', u'code': u'CGB-4063', u'type': u'phantom', u'name': u'Milk Chocolate Piece', u'product_name': u'Milk Chocolate Piece \u0643\u0648\u0643\u064a\u0632 \u0634\u0648\u0643\u0648\u0644\u0627 \u0628\u0627\u0644\u062d\u0644\u064a\u0628 \u062d\u0628\u0629'}
+
+297 'default_code'
+{u'product_tmpl_name': u'Orange Juice', u'code': u'JAR_5642', u'type': u'phantom', u'name': u'Orange Juice', u'product_name': u'Orange Juice'}
+
+298 'default_code'
+{u'product_tmpl_name': u'Slider Cheese \u0633\u0644\u0627\u064a\u062f\u0631 \u0628\u0631\u063a\u0631 \u0628\u0627\u0644\u062c\u0628\u0646', u'code': u'S-6022', u'type': u'phantom', u'name': u'Slider Cheese', u'product_name': u'Slider Cheese \u0633\u0644\u0627\u064a\u062f\u0631 \u0628\u0631\u063a\u0631 \u0628\u0627\u0644\u062c\u0628\u0646'}
+
+299 'default_code'
+{u'product_tmpl_name': u'Chocolate Tart', u'code': u'JAR_5515', u'type': u'phantom', u'name': u'Chocolate Tart', u'product_name': u'Chocolate Tart'}
+
+300 'default_code'
+{u'product_tmpl_name': u'Choowy Raibow Jar \u0634\u0648\u0648\u064a \u0631\u0627\u064a\u0646\u0628\u0648 \u062c\u0627\u0631', u'code': u'CGB-4070', u'type': u'phantom', u'name': u'Choowy Raibow Jar', u'product_name': u'Choowy Raibow Jar \u0634\u0648\u0648\u064a \u0631\u0627\u064a\u0646\u0628\u0648 \u062c\u0627\u0631'}
+
+301 'default_code'
+{u'product_tmpl_name': u'Valentine Brownie Jar \u0641\u0627\u0644\u0646\u062a\u0627\u064a\u0646 \u0628\u0631\u0627\u0648\u0646\u064a\u0632 \u062c\u0627\u0631', u'code': u'CGB-4086', u'type': u'phantom', u'name': u'Valentine Brownie Jar', u'product_name': u'Valentine Brownie Jar \u0641\u0627\u0644\u0646\u062a\u0627\u064a\u0646 \u0628\u0631\u0627\u0648\u0646\u064a\u0632 \u062c\u0627\u0631'}
+
+302 'default_code'
+{u'product_tmpl_name': u'Cinnamon Cookies Box \u0628\u0648\u0643\u0633 \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u0642\u0631\u0641\u0629', u'code': u'CGB-4040', u'type': u'phantom', u'name': u'Cinnamon Cookies Box', u'product_name': u'Cinnamon Cookies Box \u0628\u0648\u0643\u0633 \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u0642\u0631\u0641\u0629'}
+
+303 'default_code'
+{u'product_tmpl_name': u'Galaxy Cookies Box \u062c\u0627\u0644\u0627\u0643\u0633\u064a \u0643\u0648\u0643\u064a\u0632 \u0628\u0648\u0643\u0633', u'code': u'CGB-4048', u'type': u'phantom', u'name': u'Galaxy Cookies Box', u'product_name': u'Galaxy Cookies Box \u062c\u0627\u0644\u0627\u0643\u0633\u064a \u0643\u0648\u0643\u064a\u0632 \u0628\u0648\u0643\u0633'}
+
+304 'default_code'
+{u'product_tmpl_name': u'Slider Mushroom Swiss \u0633\u0644\u0627\u064a\u062f\u0631 \u0645\u0634\u0631\u0648\u0645', u'code': u'S-6025', u'type': u'phantom', u'name': u'Slider Mushroom Swiss', u'product_name': u'Slider Mushroom Swiss \u0633\u0644\u0627\u064a\u062f\u0631 \u0645\u0634\u0631\u0648\u0645'}
+
+305 'default_code'
+{u'product_tmpl_name': u'Chocolate Chip Small Jar \u0634\u0648\u0643\u0644\u064a\u062a \u0634\u064a\u0628\u0633 \u0635\u063a\u064a\u0631 \u062c\u0627\u0631', u'code': u'CGB-4005', u'type': u'phantom', u'name': u'Chocolate Chip Small Jar', u'product_name': u'Chocolate Chip Small Jar \u0634\u0648\u0643\u0644\u064a\u062a \u0634\u064a\u0628\u0633 \u0635\u063a\u064a\u0631 \u062c\u0627\u0631'}
+
+306 'default_code'
+{u'product_tmpl_name': u'Double Chocolate Box \u062f\u0628\u0644 \u0634\u0648\u0643\u0644\u064a\u062a \u0628\u0648\u0643\u0633', u'code': u'CGB-4007', u'type': u'phantom', u'name': u'Double Chocolate Box', u'product_name': u'Double Chocolate Box \u062f\u0628\u0644 \u0634\u0648\u0643\u0644\u064a\u062a \u0628\u0648\u0643\u0633'}
+
+307 'default_code'
+{u'product_tmpl_name': u'Lamb Shank', u'code': u'JAR_5440', u'type': u'phantom', u'name': u'Lamb Shank', u'product_name': u'Lamb Shank'}
+
+308 'default_code'
+{u'product_tmpl_name': u'Double Chocolate Small Jar \u062f\u0628\u0644 \u0634\u0648\u0643\u0644\u064a\u062a \u0635\u063a\u064a\u0631 \u062c\u0627\u0631', u'code': u'CGB-4010', u'type': u'phantom', u'name': u'Double Chocolate Small Jar', u'product_name': u'Double Chocolate Small Jar \u062f\u0628\u0644 \u0634\u0648\u0643\u0644\u064a\u062a \u0635\u063a\u064a\u0631 \u062c\u0627\u0631'}
+
+309 'default_code'
+{u'product_tmpl_name': u'Peanut Butter Box \u0632\u0628\u062f\u0629 \u0627\u0644\u0641\u0648\u0644 \u0627\u0644\u0633\u0648\u062f\u0627\u0646\u064a \u0628\u0648\u0643\u0633', u'code': u'CGB-4012', u'type': u'phantom', u'name': u'Peanut Butter Box', u'product_name': u'Peanut Butter Box \u0632\u0628\u062f\u0629 \u0627\u0644\u0641\u0648\u0644 \u0627\u0644\u0633\u0648\u062f\u0627\u0646\u064a \u0628\u0648\u0643\u0633'}
+
+310 'default_code'
+{u'product_tmpl_name': u'Peanut Butter Small Jar \u0632\u0628\u062f\u0629 \u0627\u0644\u0641\u0648\u0644 \u0627\u0644\u0633\u0648\u062f\u0627\u0646\u064a \u0627\u0644\u0635\u063a\u064a\u0631 \u062c\u0627\u0631', u'code': u'CGB-4015', u'type': u'phantom', u'name': u'Peanut Butter Small Jar', u'product_name': u'Peanut Butter Small Jar \u0632\u0628\u062f\u0629 \u0627\u0644\u0641\u0648\u0644 \u0627\u0644\u0633\u0648\u062f\u0627\u0646\u064a \u0627\u0644\u0635\u063a\u064a\u0631 \u062c\u0627\u0631'}
+
+311 'default_code'
+{u'product_tmpl_name': u'Dates Chogos small Cookies Jar \u0643\u0648\u0643\u064a\u0632 \u0634\u0648\u063a\u0648\u0632 \u0628\u0627\u0644\u062a\u0645\u0631 \u062c\u0627\u0631', u'code': u'CGB-4020', u'type': u'phantom', u'name': u'Dates Chogos small Cookies Jar', u'product_name': u'Dates Chogos small Cookies Jar \u0643\u0648\u0643\u064a\u0632 \u0634\u0648\u063a\u0648\u0632 \u0628\u0627\u0644\u062a\u0645\u0631 \u062c\u0627\u0631'}
+
+312 'default_code'
+{u'product_tmpl_name': u'Coke \u0643\u0648\u0643\u0627\u0643\u0648\u0644\u0627', u'code': u'S-6671', u'type': u'phantom', u'name': u'Coke Bottle D', u'product_name': u'Coke \u0643\u0648\u0643\u0627\u0643\u0648\u0644\u0627'}
+
+313 'default_code'
+{u'product_tmpl_name': u'Garlic fish ', u'code': u'F-2025', u'type': u'phantom', u'name': u'Garlic fish ', u'product_name': u'Garlic fish '}
+
+314 'default_code'
+{u'product_tmpl_name': u'Double Chocolate Jar \u062f\u0628\u0644 \u0634\u0648\u0643\u0644\u064a\u062a \u062c\u0627\u0631', u'code': u'CGB-4006', u'type': u'phantom', u'name': u'Double Chocolate Jar', u'product_name': u'Double Chocolate Jar \u062f\u0628\u0644 \u0634\u0648\u0643\u0644\u064a\u062a \u062c\u0627\u0631'}
+
+315 'default_code'
+{u'product_tmpl_name': u'Plain Cookies Box \u0643\u0648\u0643\u064a\u0632 \u0633\u0627\u062f\u0629 \u0628\u0648\u0643\u0633', u'code': u'CGB-4022', u'type': u'phantom', u'name': u'Plain Cookies Box', u'product_name': u'Plain Cookies Box \u0643\u0648\u0643\u064a\u0632 \u0633\u0627\u062f\u0629 \u0628\u0648\u0643\u0633'}
+
+316 'default_code'
+{u'product_tmpl_name': u'Extra Rice', u'code': u'Jar_5770', u'type': u'phantom', u'name': u'Extra Rice', u'product_name': u'Extra Rice'}
+
+317 'default_code'
+{u'product_tmpl_name': u'Extra Mash Potato', u'code': u'Jar_5771', u'type': u'phantom', u'name': u'Extra Mash Potato', u'product_name': u'Extra Mash Potato'}
+
+318 'default_code'
+{u'product_tmpl_name': u'Cheese Fries', u'code': u'Jar_5349', u'type': u'phantom', u'name': u'Cheese Fries', u'product_name': u'Cheese Fries'}
+
+319 'default_code'
+{u'product_tmpl_name': u'Granola Bowl', u'code': u'Jar_5804', u'type': u'phantom', u'name': u'Granola Bowl', u'product_name': u'Granola Bowl'}
+
+320 'default_code'
+{u'product_tmpl_name': u'Souffle Egg Ben Turkey', u'code': u'Jar_5805', u'type': u'phantom', u'name': u'Souffle Egg Ben Turkey', u'product_name': u'Souffle Egg Ben Turkey'}
+
+321 'default_code'
+{u'product_tmpl_name': u'Shakshuka', u'code': u'Jar_5789', u'type': u'phantom', u'name': u'Shakshuka', u'product_name': u'Shakshuka'}
+
+322 'default_code'
+{u'product_tmpl_name': u'Stuffed French Toast', u'code': u'Jar', u'type': u'phantom', u'name': u'Stuffed French Toast', u'product_name': u'Stuffed French Toast'}
+
+323 'default_code'
+{u'product_tmpl_name': u'Red Sea', u'code': u'JAR_5649', u'type': u'phantom', u'name': u'Red Sea', u'product_name': u'Red Sea'}
+
+324 'default_code'
+{u'product_tmpl_name': u'Khachapuri', u'code': u'Jar_5792', u'type': u'phantom', u'name': u'Khachapuri', u'product_name': u'Khachapuri'}
+
+325 'default_code'
+{u'product_tmpl_name': u'Fried Egg & Short Ribs', u'code': u'Jar_5796', u'type': u'phantom', u'name': u'Fried Egg & Short Ribs', u'product_name': u'Fried Egg & Short Ribs'}
+
+326 'default_code'
+{u'product_tmpl_name': u'Eggs Your Way', u'code': u'Jar_5799', u'type': u'phantom', u'name': u'Eggs Your Way', u'product_name': u'Eggs Your Way'}
+
+327 'default_code'
+{u'product_tmpl_name': u'Open Face Avocado', u'code': u'Jar_5793', u'type': u'phantom', u'name': u'Open Face Avocado', u'product_name': u'Open Face Avocado'}
+
+328 'default_code'
+{u'product_tmpl_name': u'Souffle Pancakes', u'code': u'Jar_5800', u'type': u'phantom', u'name': u'Souffle Pancakes', u'product_name': u'Souffle Pancakes'}
+
+329 'default_code'
+{u'product_tmpl_name': u'Ful Medames', u'code': u'Jar_5790', u'type': u'phantom', u'name': u'Ful Medames', u'product_name': u'Ful Medames'}
+
+330 'default_code'
+{u'product_tmpl_name': u'Halloum Sliders', u'code': u'Jar_5794', u'type': u'phantom', u'name': u'Halloum Sliders', u'product_name': u'Halloum Sliders'}
+
+331 'default_code'
+{u'product_tmpl_name': u'House Potatoes', u'code': u'Jar_5798', u'type': u'phantom', u'name': u'House Potatoes', u'product_name': u'House Potatoes'}
+
+332 'default_code'
+{u'product_tmpl_name': u'Buttermilk Pancakes', u'code': u'Jar_5801', u'type': u'phantom', u'name': u'Buttermilk Pancakes', u'product_name': u'Buttermilk Pancakes'}
+
+333 'default_code'
+{u'product_tmpl_name': u'Souffle Eggs Benedict Turkey', u'code': u'Jar_5795', u'type': u'phantom', u'name': u'Souffle Eggs Benedict', u'product_name': u'Souffle Eggs Benedict Turkey'}
+
+334 'default_code'
+{u'product_tmpl_name': u'Classic French Toast', u'code': u'Jar_5802', u'type': u'phantom', u'name': u'Classic French Toast', u'product_name': u'Classic French Toast'}
+
+335 'default_code'
+{u'product_tmpl_name': u'Fried Chicken & Waffle', u'code': u'Jar_5797', u'type': u'phantom', u'name': u'Fried Chicken & Waffle', u'product_name': u'Fried Chicken & Waffle'}
+
+336 'default_code'
+{u'product_tmpl_name': u'Huevos Rancheros', u'code': u'Jar_5791', u'type': u'phantom', u'name': u'Huevos Rancheros', u'product_name': u'Huevos Rancheros'}
+
+337 'default_code'
+{u'product_tmpl_name': u'Beef Cubes ', u'code': u'F-2005', u'type': u'phantom', u'name': u'Beef Cubes ', u'product_name': u'Beef Cubes '}
+
+338 'default_code'
+{u'product_tmpl_name': u'Chicken sweet sour   ', u'code': u'F-2020', u'type': u'phantom', u'name': u'Chicken sweet sour   ', u'product_name': u'Chicken sweet sour   '}
+
+339 'default_code'
+{u'product_tmpl_name': u'Beef Tacos', u'code': u'JAR_5331', u'type': u'phantom', u'name': u'Beef Tacos', u'product_name': u'Beef Tacos'}
+
+340 'default_code'
+{u'product_tmpl_name': u'Extra Baby Spinach', u'code': u'S-6131', u'type': u'phantom', u'name': u'Extra Baby Spinach', u'product_name': u'Extra Baby Spinach'}
+
+341 'default_code'
+{u'product_tmpl_name': u'Plain Cookies Jar \u0643\u0648\u0643\u064a\u0632 \u0633\u0627\u062f\u0629 \u062c\u0627\u0631', u'code': u'CGB-4021', u'type': u'phantom', u'name': u'Plain Cookies Jar', u'product_name': u'Plain Cookies Jar \u0643\u0648\u0643\u064a\u0632 \u0633\u0627\u062f\u0629 \u062c\u0627\u0631'}
+
+342 'default_code'
+{u'product_tmpl_name': u'Flake Cookies Jar \u062c\u0627\u0631 \u0643\u0648\u0643\u064a\u0632 \u0641\u0644\u0627\u064a\u0643', u'code': u'CGB-4051', u'type': u'phantom', u'name': u'Flake Cookies Jar', u'product_name': u'Flake Cookies Jar \u062c\u0627\u0631 \u0643\u0648\u0643\u064a\u0632 \u0641\u0644\u0627\u064a\u0643'}
+
+343 'default_code'
+{u'product_tmpl_name': u'Chocolate Chip Jar \u0634\u0648\u0643\u0644\u064a\u062a \u0634\u064a\u0628\u0633 \u062c\u0627\u0631', u'code': u'CGB-4001', u'type': u'normal', u'name': u'Chocolate Chip Jar (copy)', u'product_name': u'Chocolate Chip Jar \u0634\u0648\u0643\u0644\u064a\u062a \u0634\u064a\u0628\u0633 \u062c\u0627\u0631'}
+
+344 'default_code'
+{u'product_tmpl_name': u'Chocolate Chip Jar \u0634\u0648\u0643\u0644\u064a\u062a \u0634\u064a\u0628\u0633 \u062c\u0627\u0631', u'code': u'CGB-4001', u'type': u'normal', u'name': u'Chocolate Chip Jar', u'product_name': u'Chocolate Chip Jar \u0634\u0648\u0643\u0644\u064a\u062a \u0634\u064a\u0628\u0633 \u062c\u0627\u0631'}
+
+345 'default_code'
+{u'product_tmpl_name': u'Choowy Oreo', u'code': u'JAR_5503', u'type': u'phantom', u'name': u'Choowy Oreo', u'product_name': u'Choowy Oreo'}
+
+346 'default_code'
+{u'product_tmpl_name': u'Fanta Orange', u'code': u'JAR_5633', u'type': u'phantom', u'name': u'Fanta Orange', u'product_name': u'Fanta Orange'}
+
+347 'default_code'
+{u'product_tmpl_name': u'Cloud Cake', u'code': u'JAR_5516', u'type': u'phantom', u'name': u'Cloud Cake', u'product_name': u'Cloud Cake'}
+
+348 'default_code'
+{u'product_tmpl_name': u'French Fries', u'code': u'JAR_5335', u'type': u'phantom', u'name': u'French Fries', u'product_name': u'French Fries'}
+
+349 'default_code'
+{u'product_tmpl_name': u'Extra Tomato \u0632\u064a\u0627\u062f\u0629 \u0637\u0645\u0627\u0637\u0645', u'code': u'RV-3194', u'type': u'phantom', u'name': u'Extra Tomato \u0632\u064a\u0627\u062f\u0629 \u0637\u0645\u0627\u0637\u0645', u'product_name': u'Extra Tomato \u0632\u064a\u0627\u062f\u0629 \u0637\u0645\u0627\u0637\u0645'}
+
+350 'default_code'
+{u'product_tmpl_name': u'M & M Cookies Jar \u062c\u0627\u0631 \u0643\u0648\u0643\u064a\u0632 \u0627\u0645 \u0627\u0646\u062f \u0627\u0645', u'code': u'CGB-4053', u'type': u'phantom', u'name': u'M & M Cookies Jar', u'product_name': u'M & M Cookies Jar \u062c\u0627\u0631 \u0643\u0648\u0643\u064a\u0632 \u0627\u0645 \u0627\u0646\u062f \u0627\u0645'}
+
+351 'default_code'
+{u'product_tmpl_name': u'Slider Fried Chicken \u0633\u0644\u0627\u064a\u062f\u0631 \u062f\u062c\u0627\u062c \u0645\u0642\u0644\u064a', u'code': u'RV-3104', u'type': u'phantom', u'name': u'Slider Fried Chicken \u0633\u0644\u0627\u064a\u062f\u0631 \u062f\u062c\u0627\u062c \u0645\u0642\u0644\u064a', u'product_name': u'Slider Fried Chicken \u0633\u0644\u0627\u064a\u062f\u0631 \u062f\u062c\u0627\u062c \u0645\u0642\u0644\u064a'}
+
+352 'default_code'
+{u'product_tmpl_name': u'Veal meat burger sandwich ', u'code': u'F-2001', u'type': u'phantom', u'name': u'Veal meat burger sandwich ', u'product_name': u'Veal meat burger sandwich '}
+
+353 'default_code'
+{u'product_tmpl_name': u'Extra Chicken Fillet \u0632\u064a\u0627\u062f\u0629 \u0641\u064a\u0644\u064a\u0647 \u062f\u062c\u0627\u062c', u'code': u'RV-3186', u'type': u'phantom', u'name': u'Extra Chicken Fillet \u0632\u064a\u0627\u062f\u0629 \u0641\u064a\u0644\u064a\u0647 \u062f\u062c\u0627\u062c', u'product_name': u'Extra Chicken Fillet \u0632\u064a\u0627\u062f\u0629 \u0641\u064a\u0644\u064a\u0647 \u062f\u062c\u0627\u062c'}
+
+354 'default_code'
+{u'product_tmpl_name': u'Orange Juice', u'code': u'CGR_5179', u'type': u'phantom', u'name': u'Orange Juice', u'product_name': u'Orange Juice'}
+
+355 'default_code'
+{u'product_tmpl_name': u'Sparkling Water', u'code': u'CGR_5183', u'type': u'phantom', u'name': u'Sparkling Water', u'product_name': u'Sparkling Water'}
+
+356 'default_code'
+{u'product_tmpl_name': u'Cookie Molten', u'code': u'JAR_5517', u'type': u'phantom', u'name': u'Cookie Molten', u'product_name': u'Cookie Molten'}
+
+357 'default_code'
+{u'product_tmpl_name': u'Kinder Cookies Jar \u062c\u0627\u0631 \u0643\u0648\u0643\u064a\u0632 \u0643\u0646\u062f\u0631', u'code': u'CGB-4045', u'type': u'phantom', u'name': u'Kinder Cookies Jar', u'product_name': u'Kinder Cookies Jar \u062c\u0627\u0631 \u0643\u0648\u0643\u064a\u0632 \u0643\u0646\u062f\u0631'}
+
+358 'default_code'
+{u'product_tmpl_name': u'Malteser Cookies Jar \u0645\u0627\u0644\u062a\u064a\u0632\u0631 \u0643\u0648\u0643\u064a\u0632 \u062c\u0627\u0631', u'code': u'CGB-4055', u'type': u'phantom', u'name': u'Malteser Cookies Jar', u'product_name': u'Malteser Cookies Jar \u0645\u0627\u0644\u062a\u064a\u0632\u0631 \u0643\u0648\u0643\u064a\u0632 \u062c\u0627\u0631'}
+
+359 'default_code'
+{u'product_tmpl_name': u'Kit Kat Cookies Jar \u0643\u064a\u062a \u0643\u0627\u062a \u0643\u0648\u0643\u064a\u0632 \u062c\u0627\u0631', u'code': u'CGB-4057', u'type': u'phantom', u'name': u'Kit Kat Cookies Jar', u'product_name': u'Kit Kat Cookies Jar \u0643\u064a\u062a \u0643\u0627\u062a \u0643\u0648\u0643\u064a\u0632 \u062c\u0627\u0631'}
+
+360 'default_code'
+{u'product_tmpl_name': u'Snicker Cookies Jar \u0633\u0646\u064a\u0643\u0631\u0632 \u0643\u0648\u0643\u064a\u0632 \u062c\u0627\u0631', u'code': u'CGB-4059', u'type': u'phantom', u'name': u'Snicker Cookies Jar', u'product_name': u'Snicker Cookies Jar \u0633\u0646\u064a\u0643\u0631\u0632 \u0643\u0648\u0643\u064a\u0632 \u062c\u0627\u0631'}
+
+361 'default_code'
+{u'product_tmpl_name': u'Grilled Edamame', u'code': u'JAR_5337', u'type': u'phantom', u'name': u'Grilled Edamame', u'product_name': u'Grilled Edamame'}
+
+362 'default_code'
+{u'product_tmpl_name': u'Milk Chocolate Jar \u062c\u0627\u0631\u0643\u0648\u0643\u064a\u0632  \u0634\u0648\u0643\u0648\u0644\u0627 \u0628\u0627\u0644\u062d\u0644\u064a\u0628', u'code': u'CGB-4061', u'type': u'phantom', u'name': u'Milk Chocolate Jar', u'product_name': u'Milk Chocolate Jar \u062c\u0627\u0631\u0643\u0648\u0643\u064a\u0632  \u0634\u0648\u0643\u0648\u0644\u0627 \u0628\u0627\u0644\u062d\u0644\u064a\u0628'}
+
+363 'default_code'
+{u'product_tmpl_name': u'Salted Caramel with Milk Chocolate Jar \u062c\u0627\u0631 \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u0643\u0631\u0627\u0645\u064a\u0644 \u0627\u0644\u0645\u0645\u0644\u062d \u0648\u0627\u0644\u0634\u0648\u0643\u0648\u0644\u0627 \u0628\u0627\u0644\u062d\u0644\u064a\u0628', u'code': u'CGB-4065', u'type': u'phantom', u'name': u'Salted Caramel with Milk Chocolate Jar', u'product_name': u'Salted Caramel with Milk Chocolate Jar \u062c\u0627\u0631 \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u0643\u0631\u0627\u0645\u064a\u0644 \u0627\u0644\u0645\u0645\u0644\u062d \u0648\u0627\u0644\u0634\u0648\u0643\u0648\u0644\u0627 \u0628\u0627\u0644\u062d\u0644\u064a\u0628'}
+
+364 'default_code'
+{u'product_tmpl_name': u'White Choc with Pecans & Raspberry Jar \u0634\u0648\u0643\u0648\u0644\u0627 \u0628\u064a\u0636\u0627\u0621 \u0645\u0639 \u0627\u0644\u0628\u064a\u0643\u0627\u0646 \u0648\u0627\u0644\u0631\u0627\u0632\u0628\u0631\u064a \u062c\u0627\u0631', u'code': u'CGB-4069', u'type': u'phantom', u'name': u'White Choc with Pecans & Raspberry Jar', u'product_name': u'White Choc with Pecans & Raspberry Jar \u0634\u0648\u0643\u0648\u0644\u0627 \u0628\u064a\u0636\u0627\u0621 \u0645\u0639 \u0627\u0644\u0628\u064a\u0643\u0627\u0646 \u0648\u0627\u0644\u0631\u0627\u0632\u0628\u0631\u064a \u062c\u0627\u0631'}
+
+365 'default_code'
+{u'product_tmpl_name': u'Extra Veal Patty \u0632\u064a\u0627\u062f\u0629 \u0644\u062d\u0645 \u0639\u062c\u0644', u'code': u'RV-3187', u'type': u'phantom', u'name': u'Extra Veal Patty \u0632\u064a\u0627\u062f\u0629 \u0644\u062d\u0645 \u0639\u062c\u0644', u'product_name': u'Extra Veal Patty \u0632\u064a\u0627\u062f\u0629 \u0644\u062d\u0645 \u0639\u062c\u0644'}
+
+366 'default_code'
+{u'product_tmpl_name': u'Vanilla Ice cream \u0641\u0627\u0646\u064a\u0644\u0627 \u0627\u064a\u0633 \u0643\u0631\u064a\u0645', u'code': u'4097', u'type': u'phantom', u'name': u'Vanilla Icecream', u'product_name': u'Vanilla Ice cream \u0641\u0627\u0646\u064a\u0644\u0627 \u0627\u064a\u0633 \u0643\u0631\u064a\u0645'}
+
+367 'default_code'
+{u'product_tmpl_name': u'Choowy Kinder', u'code': u'JAR_5501', u'type': u'phantom', u'name': u'Choowy Kinder', u'product_name': u'Choowy Kinder'}
+
+368 'default_code'
+{u'product_tmpl_name': u'Choowy Nutella', u'code': u'CGB-4049', u'type': u'phantom', u'name': u'Choowy Nutella', u'product_name': u'Choowy Nutella'}
+
+369 'default_code'
+{u'product_tmpl_name': u'Solo Cookies', u'code': u'JAR_5509', u'type': u'phantom', u'name': u'Solo Cookies', u'product_name': u'Solo Cookies'}
+
+370 'default_code'
+{u'product_tmpl_name': u'Apple Pistachio Crumble', u'code': u'JAR_5514', u'type': u'phantom', u'name': u'Apple Pistachio Crumble', u'product_name': u'Apple Pistachio Crumble'}
+
+371 'default_code'
+{u'product_tmpl_name': u'Choowy Original', u'code': u'JAR_5504', u'type': u'phantom', u'name': u'Choowy Original', u'product_name': u'Choowy Original'}
+
+372 'default_code'
+{u'product_tmpl_name': u'Choowy Toffee', u'code': u'JAR_5505', u'type': u'phantom', u'name': u'Choowy Toffee', u'product_name': u'Choowy Toffee'}
+
+373 'default_code'
+{u'product_tmpl_name': u'Molten 12pcs \u0645\u0648\u0644\u062a\u0646 12 \u062d\u0628\u0629', u'code': u'CGB-4084', u'type': u'phantom', u'name': u'Molten 12pcs', u'product_name': u'Molten 12pcs \u0645\u0648\u0644\u062a\u0646 12 \u062d\u0628\u0629'}
+
+374 'default_code'
+{u'product_tmpl_name': u'New Yorker Cheese Cake \u0646\u064a\u0648\u064a\u0648\u0631\u0643 \u062a\u0634\u064a\u0632 \u0643\u064a\u0643', u'code': u'CGB-4090', u'type': u'phantom', u'name': u'New Yorker Cheese Cake', u'product_name': u'New Yorker Cheese Cake \u0646\u064a\u0648\u064a\u0648\u0631\u0643 \u062a\u0634\u064a\u0632 \u0643\u064a\u0643'}
+
+375 'default_code'
+{u'product_tmpl_name': u'New Yorker Cheese Cake Kinder \u0646\u064a\u0648 \u064a\u0648\u0631\u0643\u0631 \u062a\u0634\u064a\u0632 \u0643\u064a\u0643 \u0643\u0646\u062f\u0631', u'code': u'CGB-4091', u'type': u'phantom', u'name': u'New Yorker Cheese Cake Kinder', u'product_name': u'New Yorker Cheese Cake Kinder \u0646\u064a\u0648 \u064a\u0648\u0631\u0643\u0631 \u062a\u0634\u064a\u0632 \u0643\u064a\u0643 \u0643\u0646\u062f\u0631'}
+
+376 'default_code'
+{u'product_tmpl_name': u'New Yorker Cheese Cake Galaxy \u0646\u064a\u0648 \u064a\u0648\u0631\u0643\u0631 \u062a\u0634\u064a\u0632 \u0643\u064a\u0643 \u062c\u0627\u0644\u0627\u0643\u0633\u064a', u'code': u'CGB-4092', u'type': u'phantom', u'name': u'New Yorker Cheese Cake Galaxy', u'product_name': u'New Yorker Cheese Cake Galaxy \u0646\u064a\u0648 \u064a\u0648\u0631\u0643\u0631 \u062a\u0634\u064a\u0632 \u0643\u064a\u0643 \u062c\u0627\u0644\u0627\u0643\u0633\u064a'}
+
+377 'default_code'
+{u'product_tmpl_name': u'Double Chocolate', u'code': u'JAR_5506', u'type': u'phantom', u'name': u'Double Chocolate', u'product_name': u'Double Chocolate'}
+
+378 'default_code'
+{u'product_tmpl_name': u'Red Velvet Cake \u0631\u064a\u062f \u0641\u064a\u0644\u0641\u064a\u062a \u0643\u064a\u0643', u'code': u'CGB-4093', u'type': u'phantom', u'name': u'Red Velvet Cake', u'product_name': u'Red Velvet Cake \u0631\u064a\u062f \u0641\u064a\u0644\u0641\u064a\u062a \u0643\u064a\u0643'}
+
+379 'default_code'
+{u'product_tmpl_name': u'Carrot Cake \u0643\u064a\u0643 \u0628\u0627\u0644\u062c\u0632\u0631', u'code': u'CGB-4094', u'type': u'phantom', u'name': u'Carrot Cake', u'product_name': u'Carrot Cake \u0643\u064a\u0643 \u0628\u0627\u0644\u062c\u0632\u0631'}
+
+380 'default_code'
+{u'product_tmpl_name': u'Brownies Box \u0628\u0631\u0627\u0648\u0646\u064a\u0632 \u0628\u0648\u0643\u0633', u'code': u'CGB-4095', u'type': u'phantom', u'name': u'Brownies Box', u'product_name': u'Brownies Box \u0628\u0631\u0627\u0648\u0646\u064a\u0632 \u0628\u0648\u0643\u0633'}
+
+381 'default_code'
+{u'product_tmpl_name': u'Marshmallow & Nuteella cookie molten', u'code': u'cgb-4129', u'type': u'phantom', u'name': u'Marshmallow & Nuteella cookie molten', u'product_name': u'Marshmallow & Nuteella cookie molten'}
+
+382 'default_code'
+{u'product_tmpl_name': u'Peanut Butter Cookies', u'code': u'JAR_5507', u'type': u'phantom', u'name': u'Peanut Butter Cookies', u'product_name': u'Peanut Butter Cookies'}
+
+383 'default_code'
+{u'product_tmpl_name': u'Ultimate Choowy Goowy Kinder', u'code': u'cgb-4134', u'type': u'phantom', u'name': u'Ultimate Choowy Goowy Kinder', u'product_name': u'Ultimate Choowy Goowy Kinder'}
+
+384 'default_code'
+{u'product_tmpl_name': u'Ultimate Choowy Goowy Peanut Butter', u'code': u'cgb-4135', u'type': u'phantom', u'name': u'Ultimate Choowy Goowy Peanut Butter', u'product_name': u'Ultimate Choowy Goowy Peanut Butter'}
+
+385 'default_code'
+{u'product_tmpl_name': u'Ultimate Choowy Goowy Aero', u'code': u'cgb-4137', u'type': u'phantom', u'name': u'Ultimate Choowy Goowy Aero', u'product_name': u'Ultimate Choowy Goowy Aero'}
+
+386 'default_code'
+{u'product_tmpl_name': u'Ultimate Choowy Goowy Kitkat', u'code': u'cgb-4138', u'type': u'phantom', u'name': u'Ultimate Choowy Goowy Kitkat', u'product_name': u'Ultimate Choowy Goowy Kitkat'}
+
+387 'default_code'
+{u'product_tmpl_name': u'Ultimate Choowy Goowy Snickers', u'code': u'cgb-4139', u'type': u'normal', u'name': u'Ultimate Choowy Goowy Snickers', u'product_name': u'Ultimate Choowy Goowy Snickers'}
+
+388 'default_code'
+{u'product_tmpl_name': u'Rocky Road', u'code': u'JAR_5508', u'type': u'phantom', u'name': u'Rocky Road', u'product_name': u'Rocky Road'}
+
+389 'default_code'
+{u'product_tmpl_name': u'Raisin Cookies Box \u0628\u0648\u0643\u0633 \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u0632\u0628\u064a\u0628', u'code': u'CGB-4043', u'type': u'phantom', u'name': u'Raisin Cookies Box', u'product_name': u'Raisin Cookies Box \u0628\u0648\u0643\u0633 \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u0632\u0628\u064a\u0628'}
+
+390 'default_code'
+{u'product_tmpl_name': u'Flake Cookies Box \u0628\u0648\u0643\u0633 \u0643\u0648\u0643\u064a\u0632 \u0641\u0644\u0627\u064a\u0643', u'code': u'CGB-4052', u'type': u'phantom', u'name': u'Flake Cookies Box', u'product_name': u'Flake Cookies Box \u0628\u0648\u0643\u0633 \u0643\u0648\u0643\u064a\u0632 \u0641\u0644\u0627\u064a\u0643'}
+
+391 'default_code'
+{u'product_tmpl_name': u'M & M Cookies Box \u0627\u0645 \u0627\u0646\u062f \u0627\u0645 \u0643\u0648\u0643\u064a\u0632 \u0628\u0648\u0643\u0633', u'code': u'CGB-4054', u'type': u'phantom', u'name': u'M & M Cookies Box', u'product_name': u'M & M Cookies Box \u0627\u0645 \u0627\u0646\u062f \u0627\u0645 \u0643\u0648\u0643\u064a\u0632 \u0628\u0648\u0643\u0633'}
+
+392 'default_code'
+{u'product_tmpl_name': u'Malteser Cookies Box \u0645\u0627\u0644\u062a\u064a\u0632\u0631 \u0643\u0648\u0643\u064a\u0632 \u0628\u0648\u0643\u0633', u'code': u'CGB-4056', u'type': u'phantom', u'name': u'Malteser Cookies Box', u'product_name': u'Malteser Cookies Box \u0645\u0627\u0644\u062a\u064a\u0632\u0631 \u0643\u0648\u0643\u064a\u0632 \u0628\u0648\u0643\u0633'}
+
+393 'default_code'
+{u'product_tmpl_name': u'Mini Kinder Cookies Jar', u'code': u'CGB-4120', u'type': u'phantom', u'name': u'Mini Kinder Cookies Jar', u'product_name': u'Mini Kinder Cookies Jar'}
+
+394 'default_code'
+{u'product_tmpl_name': u'Mini Nutella Cookies Jar', u'code': u'CGB-4121', u'type': u'phantom', u'name': u'Mini Nutella Cookies Jar', u'product_name': u'Mini Nutella Cookies Jar'}
+
+395 'default_code'
+{u'product_tmpl_name': u'Caffe Latte', u'code': u'JAR_5593', u'type': u'phantom', u'name': u'Caffe Latte', u'product_name': u'Caffe Latte'}
+
+396 'default_code'
+{u'product_tmpl_name': u'Salted Caramel with Milk Chocolate Box \u0628\u0648\u0643\u0633 \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u0643\u0631\u0627\u0645\u064a\u0644 \u0627\u0644\u0645\u0645\u0644\u062d \u0648\u0627\u0644\u0634\u0648\u0643\u0648\u0644\u0627 \u0628\u0627\u0644\u062d\u0644\u064a\u0628', u'code': u'CGB-4066', u'type': u'phantom', u'name': u'Salted Caramel with Milk Chocolate Box', u'product_name': u'Salted Caramel with Milk Chocolate Box \u0628\u0648\u0643\u0633 \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u0643\u0631\u0627\u0645\u064a\u0644 \u0627\u0644\u0645\u0645\u0644\u062d \u0648\u0627\u0644\u0634\u0648\u0643\u0648\u0644\u0627 \u0628\u0627\u0644\u062d\u0644\u064a\u0628'}
+
+397 'default_code'
+{u'product_tmpl_name': u'Kit Kat Cookies Box \u0643\u064a\u062a \u0643\u0627\u062a \u0643\u0648\u0643\u064a\u0632 \u0628\u0648\u0643\u0633', u'code': u'CGB-4058', u'type': u'phantom', u'name': u'Kit Kat Cookies Box', u'product_name': u'Kit Kat Cookies Box \u0643\u064a\u062a \u0643\u0627\u062a \u0643\u0648\u0643\u064a\u0632 \u0628\u0648\u0643\u0633'}
+
+398 'default_code'
+{u'product_tmpl_name': u'Snicker Cookies Box \u0633\u0646\u064a\u0643\u0631\u0632 \u0643\u0648\u0643\u064a\u0632 \u0628\u0648\u0643\u0633', u'code': u'CGB-4060', u'type': u'phantom', u'name': u'Snicker Cookies Box', u'product_name': u'Snicker Cookies Box \u0633\u0646\u064a\u0643\u0631\u0632 \u0643\u0648\u0643\u064a\u0632 \u0628\u0648\u0643\u0633'}
+
+399 'default_code'
+{u'product_tmpl_name': u'Milk Chocolate Box \u0628\u0648\u0643\u0633 \u0643\u0648\u0643\u064a\u0632 \u0634\u0648\u0643\u0648\u0644\u0627 \u0628\u0627\u0644\u062d\u0644\u064a\u0628', u'code': u'CGB-4062', u'type': u'phantom', u'name': u'Milk Chocolate Box', u'product_name': u'Milk Chocolate Box \u0628\u0648\u0643\u0633 \u0643\u0648\u0643\u064a\u0632 \u0634\u0648\u0643\u0648\u0644\u0627 \u0628\u0627\u0644\u062d\u0644\u064a\u0628'}
+
+400 'default_code'
+{u'product_tmpl_name': u'Choowy Rainbow Box \u0634\u0648\u0648\u064a \u0631\u0627\u064a\u0646\u0628\u0648 \u0628\u0648\u0643\u0633', u'code': u'CGB-4071', u'type': u'phantom', u'name': u'Choowy Rainbow Box', u'product_name': u'Choowy Rainbow Box \u0634\u0648\u0648\u064a \u0631\u0627\u064a\u0646\u0628\u0648 \u0628\u0648\u0643\u0633'}
+
+401 'default_code'
+{u'product_tmpl_name': u'Molten 6pcs \u0645\u0648\u0644\u062a\u0646 6 \u062d\u0628\u0629', u'code': u'CGB-4083', u'type': u'phantom', u'name': u'Molten 6pcs', u'product_name': u'Molten 6pcs \u0645\u0648\u0644\u062a\u0646 6 \u062d\u0628\u0629'}
+
+402 'default_code'
+{u'product_tmpl_name': u'Ultimate Choowy Goowy Twix', u'code': u'cgb-4140', u'type': u'phantom', u'name': u'Ultimate Choowy Goowy Twix', u'product_name': u'Ultimate Choowy Goowy Twix'}
+
+403 'default_code'
+{u'product_tmpl_name': u'Rocky Road Piece R \u0631\u0648\u0643\u064a \u0631\u0648\u062f \u062d\u0628\u0629', u'code': u'CGB-4074', u'type': u'phantom', u'name': u'Rocky Road Piece R', u'product_name': u'Rocky Road Piece R \u0631\u0648\u0643\u064a \u0631\u0648\u062f \u062d\u0628\u0629'}
+
+404 'default_code'
+{u'product_tmpl_name': u'Xtra Carmel Sauce', u'code': u'CGB-4115', u'type': u'phantom', u'name': u'Xtra Carmel Sauce', u'product_name': u'Xtra Carmel Sauce'}
+
+405 'default_code'
+{u'product_tmpl_name': u'Xtra Chocolate Sauce', u'code': u'CGB-4116', u'type': u'phantom', u'name': u'Xtra Chocolate Sauce', u'product_name': u'Xtra Chocolate Sauce'}
+
+406 'default_code'
+{u'product_tmpl_name': u'Xtra Strawberry Sauce', u'code': u'CGB-4117', u'type': u'phantom', u'name': u'Xtra Strawberry Sauce', u'product_name': u'Xtra Strawberry Sauce'}
+
+407 'default_code'
+{u'product_tmpl_name': u'Raisin Cookies Piece R \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u0632\u0628\u064a\u0628 \u062d\u0628\u0629', u'code': u'CGB-4079', u'type': u'phantom', u'name': u'Raisin Cookies Piece R', u'product_name': u'Raisin Cookies Piece R \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u0632\u0628\u064a\u0628 \u062d\u0628\u0629'}
+
+408 'default_code'
+{u'product_tmpl_name': u'Cinnamon Cookies Piece R \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u0642\u0631\u0641\u0629 \u062d\u0628\u0629', u'code': u'CGB-4081', u'type': u'phantom', u'name': u'Cinnamon Cookies Piece R', u'product_name': u'Cinnamon Cookies Piece R \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u0642\u0631\u0641\u0629 \u062d\u0628\u0629'}
+
+409 'default_code'
+{u'product_tmpl_name': u'Dates Cookies Piece D \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u062a\u0645\u0631 \u062d\u0628\u0629', u'code': u'CGB-4082', u'type': u'phantom', u'name': u'Dates Cookies Piece D', u'product_name': u'Dates Cookies Piece D \u0643\u0648\u0643\u064a\u0632 \u0628\u0627\u0644\u062a\u0645\u0631 \u062d\u0628\u0629'}
+
+410 'default_code'
+{u'product_tmpl_name': u'Milk Chocolate 3 Piece', u'code': u'CGB-4124', u'type': u'phantom', u'name': u'Milk Chocolate 3 Piece', u'product_name': u'Milk Chocolate 3 Piece'}
+
+411 'default_code'
+{u'product_tmpl_name': u'Dates Chogos Cookies Jar', u'code': u'CGB-123', u'type': u'phantom', u'name': u'Dates Chogos Cookies Jar', u'product_name': u'Dates Chogos Cookies Jar'}
+
+412 'default_code'
+{u'product_tmpl_name': u'Double Chocolate 3 Pieces', u'code': u'cgb-4132', u'type': u'phantom', u'name': u'Double Chocolate 3 Pieces', u'product_name': u'Double Chocolate 3 Pieces'}
+
+413 'default_code'
+{u'product_tmpl_name': u'Chicken Wings', u'code': u'CGR_5019', u'type': u'phantom', u'name': u'Chicken Wings', u'product_name': u'Chicken Wings'}
+
+414 'default_code'
+{u'product_tmpl_name': u'Sweet Potato Chips', u'code': u'CGR_5027', u'type': u'phantom', u'name': u'Sweet Potato Chips', u'product_name': u'Sweet Potato Chips'}
+
+415 'default_code'
+{u'product_tmpl_name': u'Thai Quinoa Salad', u'code': u'JAR_5304', u'type': u'phantom', u'name': u'Thai Quinoa Salad', u'product_name': u'Thai Quinoa Salad'}
+
+416 'default_code'
+{u'product_tmpl_name': u'House Slider', u'code': u'JAR_5413', u'type': u'phantom', u'name': u'Slider Burger', u'product_name': u'House Slider'}
+
+417 'default_code'
+{u'product_tmpl_name': u'Solo Cookie Dough \u0633\u0648\u0644\u0648 \u0643\u0648\u0643\u064a \u062f\u0648', u'code': u'CGB-4087', u'type': u'phantom', u'name': u'Solo Cookie Dough', u'product_name': u'Solo Cookie Dough \u0633\u0648\u0644\u0648 \u0643\u0648\u0643\u064a \u062f\u0648'}
+
+418 'default_code'
+{u'product_tmpl_name': u'Chocolate Chip Chogos Jar \u0634\u0648\u0643\u0644\u064a\u062a \u0634\u064a\u0628\u0633 \u0634\u0648\u063a\u0648\u0632 \u062c\u0627\u0631', u'code': u'CGB-4004', u'type': u'phantom', u'name': u'Chocolate Chip Chogos Jar', u'product_name': u'Chocolate Chip Chogos Jar \u0634\u0648\u0643\u0644\u064a\u062a \u0634\u064a\u0628\u0633 \u0634\u0648\u063a\u0648\u0632 \u062c\u0627\u0631'}
+
+419 'default_code'
+{u'product_tmpl_name': u'Fish & Chips', u'code': u'JAR_5438', u'type': u'phantom', u'name': u'Fish & Chips', u'product_name': u'Fish & Chips'}
+
+420 'default_code'
+{u'product_tmpl_name': u'Dry Rubbed Steak', u'code': u'JAR_5437', u'type': u'phantom', u'name': u'Dry Rubbed Steak', u'product_name': u'Dry Rubbed Steak'}
+
+421 'default_code'
+{u'product_tmpl_name': u'Double Chocolate Chogos Jar \u062f\u0628\u0644 \u0634\u0648\u0643\u0644\u064a\u062a \u0634\u0648\u063a\u0648\u0632 \u062c\u0627\u0631', u'code': u'CGB-4009', u'type': u'phantom', u'name': u'Double Chocolate Chogos Jar', u'product_name': u'Double Chocolate Chogos Jar \u062f\u0628\u0644 \u0634\u0648\u0643\u0644\u064a\u062a \u0634\u0648\u063a\u0648\u0632 \u062c\u0627\u0631'}
+
+422 'default_code'
+{u'product_tmpl_name': u'Peanut Butter Chogos Jar \u0632\u0628\u062f\u0629 \u0627\u0644\u0641\u0648\u0644 \u0627\u0644\u0633\u0648\u062f\u0627\u0646\u064a \u0634\u0648\u063a\u0648\u0632 \u062c\u0627\u0631', u'code': u'CGB-4014', u'type': u'phantom', u'name': u'Peanut Butter Chogos Jar', u'product_name': u'Peanut Butter Chogos Jar \u0632\u0628\u062f\u0629 \u0627\u0644\u0641\u0648\u0644 \u0627\u0644\u0633\u0648\u062f\u0627\u0646\u064a \u0634\u0648\u063a\u0648\u0632 \u062c\u0627\u0631'}
+
+423 'default_code'
+{u'product_tmpl_name': u'Plain Cookies Chogos Jar \u0643\u0648\u0643\u064a\u0632 \u0634\u0648\u063a\u0648\u0632 \u0633\u0627\u062f\u0629 \u062c\u0627\u0631', u'code': u'CGB-4024', u'type': u'phantom', u'name': u'Plain Cookies Chogos Jar', u'product_name': u'Plain Cookies Chogos Jar \u0643\u0648\u0643\u064a\u0632 \u0634\u0648\u063a\u0648\u0632 \u0633\u0627\u062f\u0629 \u062c\u0627\u0631'}
+
+424 'default_code'
+{u'product_tmpl_name': u'Sweet Potato Gratin \u0633\u0648\u064a\u062a \u0628\u0637\u0627\u0637\u0627 \u062c\u0631\u0627\u062a\u0627\u0646', u'code': u'S-6528', u'type': u'phantom', u'name': u'Sweet Potato Gratin', u'product_name': u'Sweet Potato Gratin \u0633\u0648\u064a\u062a \u0628\u0637\u0627\u0637\u0627 \u062c\u0631\u0627\u062a\u0627\u0646'}
+
+425 'default_code'
+{u'product_tmpl_name': u'Chili Cheese Fries \u062a\u0634\u0644\u064a \u062a\u0634\u064a\u0632 \u0641\u0631\u0627\u064a\u0632', u'code': u'S-6810', u'type': u'phantom', u'name': u'Chili Cheese Fries', u'product_name': u'Chili Cheese Fries \u062a\u0634\u0644\u064a \u062a\u0634\u064a\u0632 \u0641\u0631\u0627\u064a\u0632'}
+
+426 'default_code'
+{u'product_tmpl_name': u'Granola Tart', u'code': u'JAR_5520', u'type': u'phantom', u'name': u'Granola Tart', u'product_name': u'Granola Tart'}
+
+427 'default_code'
+{u'product_tmpl_name': u'Ultimate Smore Salted Caramel', u'code': u'JAR_5525', u'type': u'phantom', u'name': u'Ultimate Smore Salted Caramel', u'product_name': u'Ultimate Smore Salted Caramel'}
+
+428 'default_code'
+{u'product_tmpl_name': u'Lemonade', u'code': u'JAR_5641', u'type': u'phantom', u'name': u'Lemonade', u'product_name': u'Lemonade'}
+
+429 'default_code'
+{u'product_tmpl_name': u'Red Bull', u'code': u'JAR_5643', u'type': u'phantom', u'name': u'Red Bull', u'product_name': u'Red Bull'}
+
+430 'default_code'
+{u'product_tmpl_name': u'Espresso', u'code': u'JAR_5597', u'type': u'phantom', u'name': u'Espresso', u'product_name': u'Espresso'}
+
+431 'default_code'
+{u'product_tmpl_name': u'Nutella Cheesecake Upside Down', u'code': u'JAR_5521', u'type': u'phantom', u'name': u'Nutella Cheesecake Upside Down', u'product_name': u'Nutella Cheesecake Upside Down'}
+
+432 'default_code'
+{u'product_tmpl_name': u'Double Espresso', u'code': u'JAR_5596', u'type': u'phantom', u'name': u'Double Espresso', u'product_name': u'Double Espresso'}
+
+433 'default_code'
+{u'product_tmpl_name': u'Cafe Americano', u'code': u'JAR_5592', u'type': u'phantom', u'name': u'Cafe Americano', u'product_name': u'Cafe Americano'}
+
+434 'default_code'
+{u'product_tmpl_name': u'Flat White', u'code': u'JAR_5598', u'type': u'phantom', u'name': u'Flat White', u'product_name': u'Flat White'}
+
+435 'default_code'
+{u'product_tmpl_name': u'Caramel Latte', u'code': u'JAR_5595', u'type': u'phantom', u'name': u'Caramel Latte', u'product_name': u'Caramel Latte'}
+
+436 'default_code'
+{u'product_tmpl_name': u'French Coffee', u'code': u'JAR_5599', u'type': u'phantom', u'name': u'French Coffee', u'product_name': u'French Coffee'}
+
+437 'default_code'
+{u'product_tmpl_name': u'Grilled dijon fish rice ', u'code': u'F-2022', u'type': u'phantom', u'name': u'Grilled dijon fish rice ', u'product_name': u'Grilled dijon fish rice '}
+
+438 'default_code'
+{u'product_tmpl_name': u'Beef Astroganoff rice ', u'code': u'F-2004', u'type': u'phantom', u'name': u'Beef Astroganoff rice ', u'product_name': u'Beef Astroganoff rice '}
+
+439 'default_code'
+{u'product_tmpl_name': u'Meat beryani ', u'code': u'F-2009', u'type': u'phantom', u'name': u'Meat beryani ', u'product_name': u'Meat beryani '}
+
+440 'default_code'
+{u'product_tmpl_name': u'Beef cubes quinoa ', u'code': u'F-2006', u'type': u'phantom', u'name': u'Beef cubes quinoa ', u'product_name': u'Beef cubes quinoa '}
+
+441 'default_code'
+{u'product_tmpl_name': u'Cashew Chicken ', u'code': u'F-2010', u'type': u'phantom', u'name': u'Cashew Chicken ', u'product_name': u'Cashew Chicken '}
+
+442 'default_code'
+{u'product_tmpl_name': u'Grilled Chicken Oriental Rice ', u'code': u'F-2013', u'type': u'phantom', u'name': u'Grilled Chicken Oriental Rice ', u'product_name': u'Grilled Chicken Oriental Rice '}
+
+443 'default_code'
+{u'product_tmpl_name': u'Beef Astroganoff ', u'code': u'F-2003', u'type': u'phantom', u'name': u'Beef Astroganoff ', u'product_name': u'Beef Astroganoff '}
+
+444 'default_code'
+{u'product_tmpl_name': u'Chicken rosemary ', u'code': u'F-2017', u'type': u'phantom', u'name': u'Chicken rosemary ', u'product_name': u'Chicken rosemary '}
+
+445 'default_code'
+{u'product_tmpl_name': u'Grilled chicken ', u'code': u'F-2030', u'type': u'phantom', u'name': u'Grilled chicken ', u'product_name': u'Grilled chicken '}
+
+446 'default_code'
+{u'product_tmpl_name': u'Chicken Quinoa Risotto ', u'code': u'F-2031', u'type': u'normal', u'name': u'Chicken Quinoa Risotto ', u'product_name': u'Chicken Quinoa Risotto '}
+
+447 'default_code'
+{u'product_tmpl_name': u'Ginger Shrimp sweet potato ', u'code': u'F-2028', u'type': u'phantom', u'name': u'Ginger Shrimp sweet potato ', u'product_name': u'Ginger Shrimp sweet potato '}
+
+448 'default_code'
+{u'product_tmpl_name': u'Herb Steak meat  ', u'code': u'F-2034', u'type': u'phantom', u'name': u'Herb Steak meat  ', u'product_name': u'Herb Steak meat  '}
+
+449 'default_code'
+{u'product_tmpl_name': u'Roasted beef slice ', u'code': u'2043', u'type': u'phantom', u'name': u'Roasted beef slice ', u'product_name': u'Roasted beef slice '}
+
+450 'default_code'
+{u'product_tmpl_name': u'Italian fish rice ', u'code': u'2036', u'type': u'phantom', u'name': u'Italian fish rice ', u'product_name': u'Italian fish rice '}
+
+451 'default_code'
+{u'product_tmpl_name': u'Spaghetti bolognese ', u'code': u'F-2045', u'type': u'phantom', u'name': u'Spaghetti bolognese ', u'product_name': u'Spaghetti bolognese '}
+
+452 'default_code'
+{u'product_tmpl_name': u'paprika shrimp    ', u'code': u'F-2040', u'type': u'normal', u'name': u'paprika shrimp    ', u'product_name': u'paprika shrimp    '}
+
+453 'default_code'
+{u'product_tmpl_name': u'Murabian ', u'code': None, u'type': u'normal', u'name': u'Murabian ', u'product_name': u'Murabian '}
+
+454 'default_code'
+{u'product_tmpl_name': u'Meat balls ', u'code': u'2037', u'type': u'normal', u'name': u'Meat balls ', u'product_name': u'Meat balls '}
+
+455 'default_code'
+{u'product_tmpl_name': u'Beef Fried Rice', u'code': u'F-2046', u'type': u'phantom', u'name': u'Beef Fried Rice', u'product_name': u'Beef Fried Rice'}
+
+456 'default_code'
+{u'product_tmpl_name': u'Mix vegetables quinoa salad ', u'code': u'F-2521', u'type': u'phantom', u'name': u'Mix vegetables quinoa salad ', u'product_name': u'Mix vegetables quinoa salad '}
+
+457 'default_code'
+{u'product_tmpl_name': u'Green Apple salad ', u'code': u'F-2522', u'type': u'phantom', u'name': u'Green Apple salad ', u'product_name': u'Green Apple salad '}
+
+458 'default_code'
+{u'product_tmpl_name': u'Hawian salad ', u'code': u'F-2523', u'type': u'phantom', u'name': u'Hawian salad ', u'product_name': u'Hawian salad '}
+
+459 'default_code'
+{u'product_tmpl_name': u'Brisket Potato Bomb', u'code': u'CGR_5017', u'type': u'phantom', u'name': u'Brisket Potato Bomb', u'product_name': u'Brisket Potato Bomb'}
+
+460 'default_code'
+{u'product_tmpl_name': u'Chipotle Caesar Salad', u'code': u'CGR_5002', u'type': u'phantom', u'name': u'Chipotle Caesar Salad', u'product_name': u'Chipotle Caesar Salad'}
+
+461 'default_code'
+{u'product_tmpl_name': u'Crispy Salad', u'code': u'CGR_5003', u'type': u'phantom', u'name': u'Crispy Salad', u'product_name': u'Crispy Salad'}
+
+462 'default_code'
+{u'product_tmpl_name': u'Dijon Shrimp rice ', u'code': u'F-2024', u'type': u'phantom', u'name': u'Dijon Shrimp rice ', u'product_name': u'Dijon Shrimp rice '}
+
+463 'default_code'
+{u'product_tmpl_name': u'Fish Butter Lemon White Beans ', u'code': u'F-2014', u'type': u'phantom', u'name': u'Fish Butter Lemon White Beans ', u'product_name': u'Fish Butter Lemon White Beans '}
+
+464 'default_code'
+{u'product_tmpl_name': u'Garlic fish red beans', u'code': u'F-2026', u'type': u'phantom', u'name': u'Garlic fish red beans', u'product_name': u'Garlic fish red beans'}
+
+465 'default_code'
+{u'product_tmpl_name': u'Ginger Shrimps ', u'code': u'F-2027', u'type': u'phantom', u'name': u'Ginger Shrimps ', u'product_name': u'Ginger Shrimps '}
+
+466 'default_code'
+{u'product_tmpl_name': u'Chilli chicken', u'code': u'F-2019', u'type': u'phantom', u'name': u'Chilli chicken', u'product_name': u'Chilli chicken'}
+
+467 'default_code'
+{u'product_tmpl_name': u'Chilli chicken rice ', u'code': u'F-2021', u'type': u'phantom', u'name': u'Chilli chicken rice ', u'product_name': u'Chilli chicken rice '}
+
+468 'default_code'
+{u'product_tmpl_name': u'Spicy Grilled shrimp pasta ', u'code': u'F-2048', u'type': u'phantom', u'name': u'Spicy Grilled shrimp pasta ', u'product_name': u'Spicy Grilled shrimp pasta '}
+
+469 'default_code'
+{u'product_tmpl_name': u'Chicken noodles ', u'code': u'f-2056', u'type': u'phantom', u'name': u'Chicken noodles ', u'product_name': u'Chicken noodles '}
+
+470 'default_code'
+{u'product_tmpl_name': u'Chicken cubes ', u'code': u'f-2058', u'type': u'normal', u'name': u'Chicken cubes ', u'product_name': u'Chicken cubes '}
+
+471 'default_code'
+{u'product_tmpl_name': u'Real veal burger ( lettuce wrap )', u'code': u'f-2059', u'type': u'normal', u'name': u'Real veal burger ( lettuce wrap )', u'product_name': u'Real veal burger ( lettuce wrap )'}
+
+472 'default_code'
+{u'product_tmpl_name': u'Chicken Pesto Pasta ', u'code': u'2042', u'type': u'phantom', u'name': u'chicken pesto pasta ', u'product_name': u'Chicken Pesto Pasta '}
+
+473 'default_code'
+{u'product_tmpl_name': u'Onion Rings', u'code': u'CGR_5023', u'type': u'phantom', u'name': u'Onion Rings', u'product_name': u'Onion Rings'}
+
+474 'default_code'
+{u'product_tmpl_name': u'Mushroom Crostini', u'code': u'CGR_5021', u'type': u'phantom', u'name': u'Mushroom Crostini', u'product_name': u'Mushroom Crostini'}
+
+475 'default_code'
+{u'product_tmpl_name': u'Potato Volcano', u'code': u'CGR_5024', u'type': u'phantom', u'name': u'Potato Volcano', u'product_name': u'Potato Volcano'}
+
+476 'default_code'
+{u'product_tmpl_name': u'Shrimp Volcano', u'code': u'CGR_5025', u'type': u'phantom', u'name': u'Shrimp Volcano', u'product_name': u'Shrimp Volcano'}
+
+477 'default_code'
+{u'product_tmpl_name': u'Sweet Potato Gratin', u'code': u'CGR_5028', u'type': u'phantom', u'name': u'Sweet Potato Gratin', u'product_name': u'Sweet Potato Gratin'}
+
+478 'default_code'
+{u'product_tmpl_name': u'The Village', u'code': u'CGR_5030', u'type': u'phantom', u'name': u'The Village', u'product_name': u'The Village'}
+
+479 'default_code'
+{u'product_tmpl_name': u'Choowy Goowy Burger Single', u'code': u'CGR_5051', u'type': u'phantom', u'name': u'Choowy Goowy Burger Single', u'product_name': u'Choowy Goowy Burger Single'}
+
+480 'default_code'
+{u'product_tmpl_name': u'Choowy Goowy Burger Double', u'code': u'CGR_5053', u'type': u'phantom', u'name': u'Choowy Goowy Burger Double', u'product_name': u'Choowy Goowy Burger Double'}
+
+481 'default_code'
+{u'product_tmpl_name': u'Cowboy Burger', u'code': u'CGR_5054', u'type': u'phantom', u'name': u'Cowboy Burger', u'product_name': u'Cowboy Burger'}
+
+482 'default_code'
+{u'product_tmpl_name': u'Spicy Burger', u'code': u'CGR_5055', u'type': u'phantom', u'name': u'Spicy Burger', u'product_name': u'Spicy Burger'}
+
+483 'default_code'
+{u'product_tmpl_name': u'Mushroom Risotto', u'code': u'CGR_5066', u'type': u'phantom', u'name': u'Mushroom Risotto', u'product_name': u'Mushroom Risotto'}
+
+484 'default_code'
+{u'product_tmpl_name': u'Pink Pasta', u'code': u'CGR_5067', u'type': u'phantom', u'name': u'Pink Pasta', u'product_name': u'Pink Pasta'}
+
+485 'default_code'
+{u'product_tmpl_name': u'Pink Risotto', u'code': u'CGR_5068', u'type': u'phantom', u'name': u'Pink Risotto', u'product_name': u'Pink Risotto'}
+
+486 'default_code'
+{u'product_tmpl_name': u'Mushroom Cheese Burger', u'code': u'CGR_5083', u'type': u'phantom', u'name': u'Mushroom Cheese Burger', u'product_name': u'Mushroom Cheese Burger'}
+
+487 'default_code'
+{u'product_tmpl_name': u'Spicy Rosemary Chicken', u'code': u'CGR_5084', u'type': u'phantom', u'name': u'Spicy Rosemary Chicken', u'product_name': u'Spicy Rosemary Chicken'}
+
+488 'default_code'
+{u'product_tmpl_name': u'Chicken Mushroom Fettucini', u'code': u'CGR_5081', u'type': u'phantom', u'name': u'Chicken Mushroom Fettucini', u'product_name': u'Chicken Mushroom Fettucini'}
+
+489 'default_code'
+{u'product_tmpl_name': u'Choowy Kinder', u'code': u'CGR_5111', u'type': u'phantom', u'name': u'Choowy Kinder', u'product_name': u'Choowy Kinder'}
+
+490 'default_code'
+{u'product_tmpl_name': u'Ultimate Choowy Goowy Kinder', u'code': u'CGR_5101', u'type': u'phantom', u'name': u'Ultimate Choowy Goowy Kinder', u'product_name': u'Ultimate Choowy Goowy Kinder'}
+
+491 'default_code'
+{u'product_tmpl_name': u'Ultimate Choowy Goowy Peanut Butter', u'code': u'CGR_5102', u'type': u'phantom', u'name': u'Ultimate Choowy Goowy Peanut Butter', u'product_name': u'Ultimate Choowy Goowy Peanut Butter'}
+
+492 'default_code'
+{u'product_tmpl_name': u'Ultimate Choowy Goowy Galaxy', u'code': u'CGR_5103', u'type': u'phantom', u'name': u'Ultimate Choowy Goowy Galaxy', u'product_name': u'Ultimate Choowy Goowy Galaxy'}
+
+493 'default_code'
+{u'product_tmpl_name': u'Ultimate Choowy Goowy KitKat', u'code': u'CGR_5105', u'type': u'phantom', u'name': u'Ultimate Choowy Goowy KitKat', u'product_name': u'Ultimate Choowy Goowy KitKat'}
+
+494 'default_code'
+{u'product_tmpl_name': u'Ultimate Choowy Goowy Snickers', u'code': u'CGR_5106', u'type': u'phantom', u'name': u'Ultimate Choowy Goowy Snickers', u'product_name': u'Ultimate Choowy Goowy Snickers'}
+
+495 'default_code'
+{u'product_tmpl_name': u'Ultimate Choowy Goowy Twix', u'code': u'CGR_5107', u'type': u'phantom', u'name': u'Ultimate Choowy Goowy Twix', u'product_name': u'Ultimate Choowy Goowy Twix'}
+
+496 'default_code'
+{u'product_tmpl_name': u'French Fries', u'code': u'CGR_5020', u'type': u'phantom', u'name': u'French Fries', u'product_name': u'French Fries'}
+
+497 'default_code'
+{u'product_tmpl_name': u'Double Chocolate', u'code': u'CGR_5116', u'type': u'phantom', u'name': u'Double Chocolate', u'product_name': u'Double Chocolate'}
+
+498 'default_code'
+{u'product_tmpl_name': u'Choowy Toffee', u'code': u'CGR_5115', u'type': u'phantom', u'name': u'Choowy Toffee', u'product_name': u'Choowy Toffee'}
+
+499 'default_code'
+{u'product_tmpl_name': u'Peanut Butter Cookies', u'code': u'CGR_5117', u'type': u'phantom', u'name': u'Peanut Butter Cookies', u'product_name': u'Peanut Butter Cookies'}
+
+500 'default_code'
+{u'product_tmpl_name': u'Choowy Oreo', u'code': u'CGR_5113', u'type': u'phantom', u'name': u'Choowy Oreo', u'product_name': u'Choowy Oreo'}
+
+501 'default_code'
+{u'product_tmpl_name': u'Diet Coke D', u'code': u'CGR_5172', u'type': u'phantom', u'name': u'Diet Coke ', u'product_name': u'Diet Coke D'}
+
+502 'default_code'
+{u'product_tmpl_name': u'Cappuccino', u'code': u'CGR_5154', u'type': u'phantom', u'name': u'Cappuccino', u'product_name': u'Cappuccino'}
+
+503 'default_code'
+{u'product_tmpl_name': u'Cafe Americano', u'code': u'CGR_5152', u'type': u'phantom', u'name': u'Cafe Americano', u'product_name': u'Cafe Americano'}
+
+504 'default_code'
+{u'product_tmpl_name': u'Cafe Late', u'code': u'CGR_5153', u'type': u'phantom', u'name': u'Cafe Late', u'product_name': u'Cafe Late'}
+
+505 'default_code'
+{u'product_tmpl_name': u'Fanta Red Bottle', u'code': u'CGR_5175', u'type': u'phantom', u'name': u'Fanta Red Bottle', u'product_name': u'Fanta Red Bottle'}
+
+506 'default_code'
+{u'product_tmpl_name': u'Espresso', u'code': u'CGR_5157', u'type': u'phantom', u'name': u'Espresso', u'product_name': u'Espresso'}
+
+507 'default_code'
+{u'product_tmpl_name': u'Lemon Mint', u'code': u'CGR_5177', u'type': u'phantom', u'name': u'Lemon Mint', u'product_name': u'Lemon Mint'}
+
+508 'default_code'
+{u'product_tmpl_name': u'Turkish Coffee', u'code': u'CGR_5160', u'type': u'phantom', u'name': u'Turkish Coffee', u'product_name': u'Turkish Coffee'}
+
+509 'default_code'
+{u'product_tmpl_name': u'English Breakfast Tea', u'code': u'CGR_5156', u'type': u'phantom', u'name': u'English Breakfast Tea', u'product_name': u'English Breakfast Tea'}
+
+510 'default_code'
+{u'product_tmpl_name': u'Green Tea', u'code': u'CGR_5159', u'type': u'phantom', u'name': u'Green Tea', u'product_name': u'Green Tea'}
+
+511 'default_code'
+{u'product_tmpl_name': u'French Coffee', u'code': u'CGR_5158', u'type': u'phantom', u'name': u'French Coffee', u'product_name': u'French Coffee'}
+
+512 'default_code'
+{u'product_tmpl_name': u'Blondie \u0628\u0644\u0648\u0646\u062f\u0649', u'code': u'S-6828', u'type': u'phantom', u'name': u'Blondie', u'product_name': u'Blondie \u0628\u0644\u0648\u0646\u062f\u0649'}
+
+513 'default_code'
+{u'product_tmpl_name': u'Choowy Kinder \u0643\u064a\u0646\u062f\u0631', u'code': u'S-6835', u'type': u'phantom', u'name': u'Choowy Kinder', u'product_name': u'Choowy Kinder \u0643\u064a\u0646\u062f\u0631'}
+
+514 'default_code'
+{u'product_tmpl_name': u'Nutella Cookies Jar \u0646\u0648\u062a\u064a\u0644\u0627', u'code': u'S-6832', u'type': u'phantom', u'name': u'Nutella Cookies Jar', u'product_name': u'Nutella Cookies Jar \u0646\u0648\u062a\u064a\u0644\u0627'}
+
+515 'default_code'
+{u'product_tmpl_name': u'Potato Volcano \u0628\u0637\u0627\u0637\u0627 \u0641\u0648\u0644\u0643\u0627\u0646\u0648', u'code': u'S-6805', u'type': u'phantom', u'name': u'Potato Volcano', u'product_name': u'Potato Volcano \u0628\u0637\u0627\u0637\u0627 \u0641\u0648\u0644\u0643\u0627\u0646\u0648'}
+
+516 'default_code'
+{u'product_tmpl_name': u'Caesar Salad \u0633\u064a\u0632\u0627\u0631 \u0633\u0627\u0644\u0627\u062f', u'code': u'S-6801', u'type': u'phantom', u'name': u'Caesar Salad', u'product_name': u'Caesar Salad \u0633\u064a\u0632\u0627\u0631 \u0633\u0627\u0644\u0627\u062f'}
+
+517 'default_code'
+{u'product_tmpl_name': u'Chicken Burger \u062a\u0634\u0643\u0646 \u0628\u0631\u062c\u0631', u'code': u'S-6815', u'type': u'phantom', u'name': u'Chicken Burger', u'product_name': u'Chicken Burger \u062a\u0634\u0643\u0646 \u0628\u0631\u062c\u0631'}
+
+518 'default_code'
+{u'product_tmpl_name': u'Chicken Wings \u0627\u062c\u0646\u062d\u0629 \u062f\u062c\u0627\u062c', u'code': u'S-6807', u'type': u'phantom', u'name': u'Chicken Wings', u'product_name': u'Chicken Wings \u0627\u062c\u0646\u062d\u0629 \u062f\u062c\u0627\u062c'}
+
+519 'default_code'
+{u'product_tmpl_name': u'Cowboy Burger \u0643\u0627\u0648\u0628\u0648\u064a \u0628\u0631\u062c\u0631', u'code': u'S-6817', u'type': u'phantom', u'name': u'Cowboy Burger', u'product_name': u'Cowboy Burger \u0643\u0627\u0648\u0628\u0648\u064a \u0628\u0631\u062c\u0631'}
+
+520 'default_code'
+{u'product_tmpl_name': u'Fried Mushroom \u0641\u0631\u0627\u064a\u062f \u0645\u0634\u0631\u0648\u0645', u'code': u'S-6809', u'type': u'phantom', u'name': u'Fried Mushroom', u'product_name': u'Fried Mushroom \u0641\u0631\u0627\u064a\u062f \u0645\u0634\u0631\u0648\u0645'}
+

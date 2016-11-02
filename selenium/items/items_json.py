@@ -23,13 +23,16 @@ def rpc_do(_mymodule,_myrecord,_operation):
     ids=api.execute_kw(db,uid,password,_mymodule,_operation,_myrecord)
 #     print ("Module: "+_mymodule + ' ids: ' + str(ids))
     return ids
+
+
  
 def create_product(myrecord):
     global indi
     indi+=1
+#     if indi not in [1917,2297]:return
     r_name= myrecord['name']
     my_category= myrecord['product_category']
-    print (indi,r_name,my_category )
+    print (indi,str(datetime.datetime.now().time()),str(myrecord))
       
     #====================================
     #        INTERNAL CATEGORY 
@@ -88,6 +91,7 @@ def create_product(myrecord):
         , 'purchase_ok': purchase_ok
         , 'list_price': list_price
         , 'uom_po_id':purchase_uom_id
+        , 'company_id':False
         }
         ]
     if myrecord['default_code']:
@@ -95,92 +99,27 @@ def create_product(myrecord):
     product_id= rpc_do('product.product',r,'create')
     
 def create_products():
+    global start_time
+    start_time=str(datetime.datetime.now().time())
     with open(os.getcwd() +'/data/json/import_products.json') as json_data:
         d = json.load(json_data)
-        logf = open("/home/ehab/secondtime/error_log.txt", "w")
         for i in d:
             my_record=''
             my_record=i
             try:
                 create_product(my_record)
             except Exception as e:     # most generic exception you can catch
-                logf.write(str(e) + '\n' + str(i) + '\n')
-                print ('Error' , str(i))
+                with open("/home/ehab/secondtime/items_import_error.txt", "a") as logf:
+                    logf.write(str(indi)+ " " +str(e) + '\n' + str(i) + '\n\n')
+                print ('\n' +'Error' , str(i)+  '\n')
             finally:
                 pass
 indi=0
-def create_account(myrecord):
-    global indi
-    indi+=1
-    print (indi, myrecord)
-    r_name= myrecord['account_name']
-    mycode=str(myrecord['account_code'])
-    comp=myrecord['company_name']
-    company_id = api.execute_kw(db, uid, password, 'res.company','search',  [[('name','=',comp)]])[0]
-    
-    x=myrecord['account_type']    
-    user_type = api.execute_kw(db, uid, password, 'account.account.type','search',[[('name','=',x)]])
-    comp=myrecord['company_name']
-    company_id = api.execute_kw(db, uid, password, 'res.company','search',  [[('name','=',comp)]])[0]
-        
-    parent_name=myrecord['parent_name']
-    parent_id = api.execute_kw(db, uid, password, 'account.account','search',  [[('name','=',parent_name)]])[0]
 
-    account_id = api.execute_kw(db, uid, password, 'account.account','search',    
-        [[('code','=',mycode), ('company_id','=',company_id)]])
-    
-    if account_id:
-        if mycode not in ['0','1','2']:
-            api.execute_kw(db,uid,password,'account.account','write',[[account_id[0]],
-                                                                      {'name':r_name
-                                                                       ,'type':myrecord['internal_type']
-                                                                       , 'user_type': user_type[0]
-                                                                       }])
-    else:
-        x=myrecord['account_type']    
-        user_type = api.execute_kw(db, uid, password, 'account.account.type','search',    
-        [[('name','=',x)]])
-        
-        comp=myrecord['company_name']
-        company_id = api.execute_kw(db, uid, password, 'res.company','search',  [[('name','=',comp)]])[0]
-        
-        parent_name=myrecord['parent_name']
-        parent_id = api.execute_kw(db, uid, password, 'account.account','search',  [[
-            ('name','=',parent_name),('company_id','=',company_id)]])[0]
-        
-        
-        r=[{'name':myrecord['account_name'] 
-        ,'code':mycode
-        , 'type': myrecord['internal_type']
-        , 'user_type': user_type[0]
-        , 'company_id': company_id
-        , 'parent_id':parent_id
-        }
-        ]
-        if not r[0]['parent_id']:
-            r[0]['parent_id']=False
-        account_id= rpc_do('account.account',r,'create')
-       
-def create_accounts():
-    with open('/home/ehab/secondtime/selenium/accounts/data/import_accounts.json') as json_data:
-        d = json.load(json_data)
-        logf = open("/home/ehab/secondtime/selenium/accounts/accounts_error_log.txt", "w")
-        for i in d:
-            my_record=''
-            my_record=i
-            
-            create_account(my_record)
-            try:
-                create_account(my_record)
-            except Exception as e:     # most generic exception you can catch
-                logf.write(str(e) + '\n' + str(i) + '\n')
-                print ('Error' , str(i))
-            finally:
-                pass
 
 login_rpc(username, password, db)
 # create_infrastructure()
-# create_products()
-
-create_accounts()
+create_products()
+end_time=str(datetime.datetime.now().time())
+print ('Started at:'+start_time + '\n'+'Finished at:'+end_time + '\n')
 

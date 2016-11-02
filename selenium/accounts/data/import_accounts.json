@@ -1,8 +1,35 @@
 [
  {
+   "account_code": "0",
+   "account_name": "RVA",
+   "parent_code": "",
+   "parent_name": "",
+   "internal_type": "view",
+   "account_type": "Root/View",
+   "company_name": "RVA"
+ },
+ {
+   "account_code": "1",
+   "account_name": "BALANCE SHEET[RVA]",
+   "parent_code": "0",
+   "parent_name": "RVA",
+   "internal_type": "view",
+   "account_type": "Asset View",
+   "company_name": "RVA"
+ },
+ {
+   "account_code": "2",
+   "account_name": "PROFIT AND LOSS[RVA]",
+   "parent_code": "0",
+   "parent_name": "RVA",
+   "internal_type": "view",
+   "account_type": "Root/View",
+   "company_name": "RVA"
+ },
+ {
    "account_code": "3",
    "account_name": "EXPENSES[RVA]",
-   "parent_code": 2,
+   "parent_code": "2",
    "parent_name": "PROFIT AND LOSS[RVA]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -11,16 +38,43 @@
  {
    "account_code": "4",
    "account_name": "REVENUE[RVA]",
-   "parent_code": 2,
+   "parent_code": "2",
    "parent_name": "PROFIT AND LOSS[RVA]",
    "internal_type": "view",
    "account_type": "Income View",
    "company_name": "RVA"
  },
  {
+   "account_code": "0",
+   "account_name": "RVB",
+   "parent_code": "",
+   "parent_name": "",
+   "internal_type": "view",
+   "account_type": "Root/View",
+   "company_name": "RVB"
+ },
+ {
+   "account_code": "1",
+   "account_name": "BALANCE SHEET[RVB]",
+   "parent_code": "0",
+   "parent_name": "RVA",
+   "internal_type": "view",
+   "account_type": "Root/View",
+   "company_name": "RVB"
+ },
+ {
+   "account_code": "2",
+   "account_name": "PROFIT AND LOSS[RVB]",
+   "parent_code": "0",
+   "parent_name": "RVA",
+   "internal_type": "view",
+   "account_type": "Root/View",
+   "company_name": "RVB"
+ },
+ {
    "account_code": "3",
    "account_name": "EXPENSES[RVB]",
-   "parent_code": 2,
+   "parent_code": "2",
    "parent_name": "PROFIT AND LOSS[RVB]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -29,16 +83,43 @@
  {
    "account_code": "4",
    "account_name": "REVENUE[RVB]",
-   "parent_code": 2,
+   "parent_code": "2",
    "parent_name": "PROFIT AND LOSS[RVB]",
    "internal_type": "view",
    "account_type": "Income View",
    "company_name": "RVB"
  },
  {
+   "account_code": "0",
+   "account_name": "RVQ",
+   "parent_code": "",
+   "parent_name": "",
+   "internal_type": "view",
+   "account_type": "Root/View",
+   "company_name": "RVQ"
+ },
+ {
+   "account_code": "1",
+   "account_name": "BALANCE SHEET[RVQ]",
+   "parent_code": "0",
+   "parent_name": "RVA",
+   "internal_type": "view",
+   "account_type": "Asset View",
+   "company_name": "RVQ"
+ },
+ {
+   "account_code": "2",
+   "account_name": "PROFIT AND LOSS[RVQ]",
+   "parent_code": "0",
+   "parent_name": "RVA",
+   "internal_type": "view",
+   "account_type": "Root/View",
+   "company_name": "RVQ"
+ },
+ {
    "account_code": "3",
    "account_name": "EXPENSES[RVQ]",
-   "parent_code": 2,
+   "parent_code": "2",
    "parent_name": "PROFIT AND LOSS[RVQ]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -47,16 +128,34 @@
  {
    "account_code": "4",
    "account_name": "REVENUE[RVQ]",
-   "parent_code": 2,
+   "parent_code": "2",
    "parent_name": "PROFIT AND LOSS[RVQ]",
    "internal_type": "view",
    "account_type": "Income View",
    "company_name": "RVQ"
  },
  {
+   "account_code": "11",
+   "account_name": "FIXED ASSETS[RVA]",
+   "parent_code": "1",
+   "parent_name": "BALANCE SHEET[RVA]",
+   "internal_type": "view",
+   "account_type": "Asset View",
+   "company_name": "RVA"
+ },
+ {
+   "account_code": "12",
+   "account_name": "CURRENT ASSET[RVA]",
+   "parent_code": "1",
+   "parent_name": "BALANCE SHEET[RVA]",
+   "internal_type": "view",
+   "account_type": "Asset View",
+   "company_name": "RVA"
+ },
+ {
    "account_code": "21",
    "account_name": "OWNER EQUITY[RVA]",
-   "parent_code": 1,
+   "parent_code": "1",
    "parent_name": "BALANCE SHEET[RVA]",
    "internal_type": "view",
    "account_type": "Equity",
@@ -65,7 +164,7 @@
  {
    "account_code": "22",
    "account_name": "CURRENT LIABILITES[RVA]",
-   "parent_code": 1,
+   "parent_code": "1",
    "parent_name": "BALANCE SHEET[RVA]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -74,7 +173,7 @@
  {
    "account_code": "23",
    "account_name": "NON CURRENT LIABILITES[RVA]",
-   "parent_code": 1,
+   "parent_code": "1",
    "parent_name": "BALANCE SHEET[RVA]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -83,7 +182,7 @@
  {
    "account_code": "31",
    "account_name": "FOOD COST EXPENSES[RVA]",
-   "parent_code": 3,
+   "parent_code": "3",
    "parent_name": "EXPENSES[RVA]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -92,7 +191,7 @@
  {
    "account_code": "32",
    "account_name": "OPERATION DIRECT EXPENSES[RVA]",
-   "parent_code": 3,
+   "parent_code": "3",
    "parent_name": "EXPENSES[RVA]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -101,7 +200,7 @@
  {
    "account_code": "41",
    "account_name": "REVENUE OPERATIONS[RVA]",
-   "parent_code": 4,
+   "parent_code": "4",
    "parent_name": "REVENUE[RVA]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -110,7 +209,7 @@
  {
    "account_code": "42",
    "account_name": "REVENUE OTHERS[RVA]",
-   "parent_code": 4,
+   "parent_code": "4",
    "parent_name": "REVENUE[RVA]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -119,7 +218,7 @@
  {
    "account_code": "11",
    "account_name": "FIXED ASSETS[RVB]",
-   "parent_code": 1,
+   "parent_code": "1",
    "parent_name": "BALANCE SHEET[RVB]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -127,8 +226,8 @@
  },
  {
    "account_code": "12",
-   "account_name": "CURRENT ASSETS[RVB]",
-   "parent_code": 1,
+   "account_name": "CURRENT ASSET[RVB]",
+   "parent_code": "1",
    "parent_name": "BALANCE SHEET[RVB]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -137,7 +236,7 @@
  {
    "account_code": "13",
    "account_name": "INVESTMENTS[RVB]",
-   "parent_code": 1,
+   "parent_code": "1",
    "parent_name": "BALANCE SHEET[RVB]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -146,7 +245,7 @@
  {
    "account_code": "21",
    "account_name": "OWNER EQUITY[RVB]",
-   "parent_code": 1,
+   "parent_code": "1",
    "parent_name": "BALANCE SHEET[RVB]",
    "internal_type": "view",
    "account_type": "Equity",
@@ -155,7 +254,7 @@
  {
    "account_code": "22",
    "account_name": "CURRENT LIABILITES[RVB]",
-   "parent_code": 1,
+   "parent_code": "1",
    "parent_name": "BALANCE SHEET[RVB]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -164,7 +263,7 @@
  {
    "account_code": "23",
    "account_name": "NON CURRENT LIABILITES[RVB]",
-   "parent_code": 1,
+   "parent_code": "1",
    "parent_name": "BALANCE SHEET[RVB]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -173,7 +272,7 @@
  {
    "account_code": "31",
    "account_name": "FOOD COST EXPENSES[RVB]",
-   "parent_code": 3,
+   "parent_code": "3",
    "parent_name": "EXPENSES[RVB]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -182,7 +281,7 @@
  {
    "account_code": "32",
    "account_name": "OPERATION DIRECT EXPENSES[RVB]",
-   "parent_code": 3,
+   "parent_code": "3",
    "parent_name": "EXPENSES[RVB]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -191,7 +290,7 @@
  {
    "account_code": "41",
    "account_name": "REVENUE OPERATIONS[RVB]",
-   "parent_code": 4,
+   "parent_code": "4",
    "parent_name": "REVENUE[RVB]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -200,7 +299,7 @@
  {
    "account_code": "42",
    "account_name": "REVENUE OTHERS[RVB]",
-   "parent_code": 4,
+   "parent_code": "4",
    "parent_name": "REVENUE[RVB]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -209,7 +308,7 @@
  {
    "account_code": "11",
    "account_name": "FIXED ASSETS[RVQ]",
-   "parent_code": 1,
+   "parent_code": "1",
    "parent_name": "BALANCE SHEET[RVQ]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -218,7 +317,7 @@
  {
    "account_code": "12",
    "account_name": "CURRENT ASSETS[RVQ]",
-   "parent_code": 1,
+   "parent_code": "1",
    "parent_name": "BALANCE SHEET[RVQ]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -227,25 +326,25 @@
  {
    "account_code": "21",
    "account_name": "OWNER EQUITY[RVQ]",
-   "parent_code": 1,
+   "parent_code": "1",
    "parent_name": "BALANCE SHEET[RVQ]",
    "internal_type": "view",
    "account_type": "Equity",
    "company_name": "RVQ"
  },
  {
-   "account_code": "23",
-   "account_name": "NON CURRENT LIABILITES[RVQ]",
-   "parent_code": 1,
+   "account_code": "22",
+   "account_name": "CURRENT LIABILITES[RVQ]",
+   "parent_code": "2",
    "parent_name": "BALANCE SHEET[RVQ]",
    "internal_type": "view",
    "account_type": "Liability View",
    "company_name": "RVQ"
  },
  {
-   "account_code": "22",
-   "account_name": "CURRENT LIABILITES[RVQ]",
-   "parent_code": 2,
+   "account_code": "23",
+   "account_name": "NON CURRENT LIABILITES[RVQ]",
+   "parent_code": "1",
    "parent_name": "BALANCE SHEET[RVQ]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -254,7 +353,7 @@
  {
    "account_code": "31",
    "account_name": "FOOD COST EXPENSES[RVQ]",
-   "parent_code": 3,
+   "parent_code": "3",
    "parent_name": "EXPENSES[RVQ]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -263,7 +362,7 @@
  {
    "account_code": "32",
    "account_name": "OPERATION DIRECT EXPENSES[RVQ]",
-   "parent_code": 3,
+   "parent_code": "3",
    "parent_name": "EXPENSES[RVQ]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -272,7 +371,7 @@
  {
    "account_code": "41",
    "account_name": "REVENUE OPERATIONS[RVQ]",
-   "parent_code": 4,
+   "parent_code": "4",
    "parent_name": "REVENUE[RVQ]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -281,7 +380,7 @@
  {
    "account_code": "42",
    "account_name": "REVENUE OTHERS[RVQ]",
-   "parent_code": 4,
+   "parent_code": "4",
    "parent_name": "REVENUE[RVQ]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -290,7 +389,7 @@
  {
    "account_code": "130",
    "account_name": "CREDITORS[RVB]",
-   "parent_code": 13,
+   "parent_code": "13",
    "parent_name": "INVESTMENTS[RVB]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -299,8 +398,8 @@
  {
    "account_code": "1101",
    "account_name": "TANGIBLE ASSETS[RVA]",
-   "parent_code": 11,
-   "parent_name": "Fixed Assets[RVA]",
+   "parent_code": "11",
+   "parent_name": "FIXED ASSETS[RVA]",
    "internal_type": "view",
    "account_type": "Asset View",
    "company_name": "RVA"
@@ -308,8 +407,8 @@
  {
    "account_code": "1102",
    "account_name": "IN TANGIBLE ASSETS[RVA]",
-   "parent_code": 11,
-   "parent_name": "Fixed Assets[RVA]",
+   "parent_code": "11",
+   "parent_name": "FIXED ASSETS[RVA]",
    "internal_type": "view",
    "account_type": "Asset View",
    "company_name": "RVA"
@@ -317,8 +416,8 @@
  {
    "account_code": "1201",
    "account_name": "CASH & BANKS[RVA]",
-   "parent_code": 12,
-   "parent_name": "CURRENT ASSETS[RVA]",
+   "parent_code": "12",
+   "parent_name": "CURRENT ASSET[RVA]",
    "internal_type": "view",
    "account_type": "Asset View",
    "company_name": "RVA"
@@ -326,8 +425,8 @@
  {
    "account_code": "1202",
    "account_name": "ACCOUNTS RECEIVABLE[RVA]",
-   "parent_code": 12,
-   "parent_name": "CURRENT ASSETS[RVA]",
+   "parent_code": "12",
+   "parent_name": "CURRENT ASSET[RVA]",
    "internal_type": "view",
    "account_type": "Receivable",
    "company_name": "RVA"
@@ -335,8 +434,8 @@
  {
    "account_code": "1203",
    "account_name": "INVENTORY[RVA]",
-   "parent_code": 12,
-   "parent_name": "CURRENT ASSETS[RVA]",
+   "parent_code": "12",
+   "parent_name": "CURRENT ASSET[RVA]",
    "internal_type": "view",
    "account_type": "Asset View",
    "company_name": "RVA"
@@ -344,8 +443,8 @@
  {
    "account_code": "1204",
    "account_name": "PREPAID EXPENSES[RVA]",
-   "parent_code": 12,
-   "parent_name": "CURRENT ASSETS[RVA]",
+   "parent_code": "12",
+   "parent_name": "CURRENT ASSET[RVA]",
    "internal_type": "view",
    "account_type": "Asset View",
    "company_name": "RVA"
@@ -353,7 +452,7 @@
  {
    "account_code": "2201",
    "account_name": "SUPPLIER PAYABLE[RVA]",
-   "parent_code": 22,
+   "parent_code": "22",
    "parent_name": "CURRENT LIABILITES[RVA]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -362,7 +461,7 @@
  {
    "account_code": "2202",
    "account_name": "EMPLOYEES PAYABLE[RVA]",
-   "parent_code": 22,
+   "parent_code": "22",
    "parent_name": "CURRENT LIABILITES[RVA]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -371,7 +470,7 @@
  {
    "account_code": "2203",
    "account_name": "ACCRUED PAYABLE[RVA]",
-   "parent_code": 22,
+   "parent_code": "22",
    "parent_name": "CURRENT LIABILITES[RVA]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -380,7 +479,7 @@
  {
    "account_code": "2302",
    "account_name": "STAFF INDEMNITY[RVA]",
-   "parent_code": 23,
+   "parent_code": "23",
    "parent_name": "NON CURRENT LIABILITES[RVA]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -389,7 +488,7 @@
  {
    "account_code": "3101",
    "account_name": "COST OF GOODS SOLD[RVA]",
-   "parent_code": 31,
+   "parent_code": "31",
    "parent_name": "FOOD COST EXPENSES[RVA]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -398,7 +497,7 @@
  {
    "account_code": "3201",
    "account_name": "OPERATION EXPENSES LEVEL 1[RVA]",
-   "parent_code": 32,
+   "parent_code": "32",
    "parent_name": "OPERATION DIRECT EXPENSES[RVA]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -407,7 +506,7 @@
  {
    "account_code": "3202",
    "account_name": "ADMINISTRATION EXPENSES LEVEL 2[RVA]",
-   "parent_code": 32,
+   "parent_code": "32",
    "parent_name": "OPERATION DIRECT EXPENSES[RVA]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -416,7 +515,7 @@
  {
    "account_code": "3203",
    "account_name": "TOP MANAGEMENT EXPENSES LEVEL 3[RVA]",
-   "parent_code": 32,
+   "parent_code": "32",
    "parent_name": "OPERATION DIRECT EXPENSES[RVA]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -425,7 +524,7 @@
  {
    "account_code": "4101",
    "account_name": "REVENUE SALES[RVA]",
-   "parent_code": 41,
+   "parent_code": "41",
    "parent_name": "REVENUE OPERATIONS[RVA]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -434,7 +533,7 @@
  {
    "account_code": "4201",
    "account_name": "REVENUE COMMISSION[RVA]",
-   "parent_code": 42,
+   "parent_code": "42",
    "parent_name": "REVENUE OTHERS[RVA]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -443,7 +542,7 @@
  {
    "account_code": "4202",
    "account_name": "REVENUE SALE OF ASSETS[RVA]",
-   "parent_code": 42,
+   "parent_code": "42",
    "parent_name": "REVENUE OTHERS[RVA]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -452,7 +551,7 @@
  {
    "account_code": "4209",
    "account_name": "OTHER MISCELLANEOUS INCOME[RVA]",
-   "parent_code": 42,
+   "parent_code": "42",
    "parent_name": "REVENUE OTHERS[RVA]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -461,7 +560,7 @@
  {
    "account_code": "1101",
    "account_name": "TANGIBLE ASSETS[RVB]",
-   "parent_code": 11,
+   "parent_code": "11",
    "parent_name": "FIXED ASSETS[RVB]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -470,7 +569,7 @@
  {
    "account_code": "1102",
    "account_name": "IN TANGIBLE ASSETS[RVB]",
-   "parent_code": 11,
+   "parent_code": "11",
    "parent_name": "FIXED ASSETS[RVB]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -479,8 +578,8 @@
  {
    "account_code": "1201",
    "account_name": "CASH & BANKS[RVB]",
-   "parent_code": 12,
-   "parent_name": "CURRENT ASSETS[RVB]",
+   "parent_code": "12",
+   "parent_name": "CURRENT ASSET[RVB]",
    "internal_type": "view",
    "account_type": "Asset View",
    "company_name": "RVB"
@@ -488,8 +587,8 @@
  {
    "account_code": "1202",
    "account_name": "ACCOUNTS RECEIVABLE[RVB]",
-   "parent_code": 12,
-   "parent_name": "CURRENT ASSETS[RVB]",
+   "parent_code": "12",
+   "parent_name": "CURRENT ASSET[RVB]",
    "internal_type": "view",
    "account_type": "Receivable",
    "company_name": "RVB"
@@ -497,8 +596,8 @@
  {
    "account_code": "1203",
    "account_name": "INVENTORY[RVB]",
-   "parent_code": 12,
-   "parent_name": "CURRENT ASSETS[RVB]",
+   "parent_code": "12",
+   "parent_name": "CURRENT ASSET[RVB]",
    "internal_type": "view",
    "account_type": "Asset View",
    "company_name": "RVB"
@@ -506,8 +605,8 @@
  {
    "account_code": "1204",
    "account_name": "PREPAID EXPENSES[RVB]",
-   "parent_code": 12,
-   "parent_name": "CURRENT ASSETS[RVB]",
+   "parent_code": "12",
+   "parent_name": "CURRENT ASSET[RVB]",
    "internal_type": "view",
    "account_type": "Asset View",
    "company_name": "RVB"
@@ -515,8 +614,8 @@
  {
    "account_code": "1205",
    "account_name": "PRE OPERATING EXPENSES[RVB]",
-   "parent_code": 12,
-   "parent_name": "CURRENT ASSETS[RVB]",
+   "parent_code": "12",
+   "parent_name": "CURRENT ASSET[RVB]",
    "internal_type": "view",
    "account_type": "Asset View",
    "company_name": "RVB"
@@ -524,7 +623,7 @@
  {
    "account_code": "1301",
    "account_name": "INTER COMPANY ACCOUNTS[RVB]",
-   "parent_code": 13,
+   "parent_code": "13",
    "parent_name": "INVESTMENTS[RVB]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -533,7 +632,7 @@
  {
    "account_code": "2101",
    "account_name": "OWNERS SHARE[RVB]",
-   "parent_code": 21,
+   "parent_code": "21",
    "parent_name": "OWNER EQUITY[RVB]",
    "internal_type": "view",
    "account_type": "Equity",
@@ -542,7 +641,7 @@
  {
    "account_code": "2201",
    "account_name": "SUPPLIER PAYABLE[RVB]",
-   "parent_code": 22,
+   "parent_code": "22",
    "parent_name": "CURRENT LIABILITES[RVB]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -551,7 +650,7 @@
  {
    "account_code": "2202",
    "account_name": "EMPLOYEES PAYABLE[RVB]",
-   "parent_code": 22,
+   "parent_code": "22",
    "parent_name": "CURRENT LIABILITES[RVB]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -560,7 +659,7 @@
  {
    "account_code": "2203",
    "account_name": "ACCRUED PAYABLE[RVB]",
-   "parent_code": 22,
+   "parent_code": "22",
    "parent_name": "CURRENT LIABILITES[RVB]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -569,7 +668,7 @@
  {
    "account_code": "2302",
    "account_name": "STAFF INDEMNITY[RVB]",
-   "parent_code": 23,
+   "parent_code": "23",
    "parent_name": "NON CURRENT LIABILITES[RVB]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -578,7 +677,7 @@
  {
    "account_code": "3101",
    "account_name": "COST OF GOODS SOLD[RVB]",
-   "parent_code": 31,
+   "parent_code": "31",
    "parent_name": "FOOD COST EXPENSES[RVB]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -587,7 +686,7 @@
  {
    "account_code": "3201",
    "account_name": "OPERATION EXPENSES LEVEL 1[RVB]",
-   "parent_code": 32,
+   "parent_code": "32",
    "parent_name": "OPERATION DIRECT EXPENSES[RVB]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -596,7 +695,7 @@
  {
    "account_code": "3202",
    "account_name": "ADMINISTRATION EXPENSES LEVEL 2[RVB]",
-   "parent_code": 32,
+   "parent_code": "32",
    "parent_name": "OPERATION DIRECT EXPENSES[RVB]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -605,7 +704,7 @@
  {
    "account_code": "3203",
    "account_name": "TOP MANAGEMENT EXPENSES LEVEL 3[RVB]",
-   "parent_code": 32,
+   "parent_code": "32",
    "parent_name": "OPERATION DIRECT EXPENSES[RVB]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -614,7 +713,7 @@
  {
    "account_code": "3204",
    "account_name": "DEPRECIATION AND AMMORTISATION LEVEL 4[RVB]",
-   "parent_code": 32,
+   "parent_code": "32",
    "parent_name": "OPERATION DIRECT EXPENSES[RVB]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -623,7 +722,7 @@
  {
    "account_code": "4101",
    "account_name": "REVENUE SALES[RVB]",
-   "parent_code": 41,
+   "parent_code": "41",
    "parent_name": "REVENUE OPERATIONS[RVB]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -632,7 +731,7 @@
  {
    "account_code": "4201",
    "account_name": "REVENUE COMMISSION[RVB]",
-   "parent_code": 42,
+   "parent_code": "42",
    "parent_name": "REVENUE OTHERS[RVB]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -641,7 +740,7 @@
  {
    "account_code": "4202",
    "account_name": "REVENUE SALE OF ASSETS[RVB]",
-   "parent_code": 42,
+   "parent_code": "42",
    "parent_name": "REVENUE OTHERS[RVB]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -650,7 +749,7 @@
  {
    "account_code": "4209",
    "account_name": "OTHER MISCELLANEOUS INCOME[RVB]",
-   "parent_code": 42,
+   "parent_code": "42",
    "parent_name": "REVENUE OTHERS[RVB]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -659,7 +758,7 @@
  {
    "account_code": "1101",
    "account_name": "TANGIBLE ASSETS[RVQ]",
-   "parent_code": 11,
+   "parent_code": "11",
    "parent_name": "FIXED ASSETS[RVQ]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -668,7 +767,7 @@
  {
    "account_code": "1102",
    "account_name": "IN TANGIBLE ASSETS[RVQ]",
-   "parent_code": 11,
+   "parent_code": "11",
    "parent_name": "FIXED ASSETS[RVQ]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -677,7 +776,7 @@
  {
    "account_code": "1201",
    "account_name": "CASH & BANKS[RVQ]",
-   "parent_code": 12,
+   "parent_code": "12",
    "parent_name": "CURRENT ASSETS[RVQ]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -686,7 +785,7 @@
  {
    "account_code": "1202",
    "account_name": "ACCOUNTS RECEIVABLE[RVQ]",
-   "parent_code": 12,
+   "parent_code": "12",
    "parent_name": "CURRENT ASSETS[RVQ]",
    "internal_type": "view",
    "account_type": "Receivable",
@@ -695,7 +794,7 @@
  {
    "account_code": "1203",
    "account_name": "INVENTORY[RVQ]",
-   "parent_code": 12,
+   "parent_code": "12",
    "parent_name": "CURRENT ASSETS[RVQ]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -704,7 +803,7 @@
  {
    "account_code": "1204",
    "account_name": "PREPAID EXPENSES[RVQ]",
-   "parent_code": 12,
+   "parent_code": "12",
    "parent_name": "CURRENT ASSETS[RVQ]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -713,7 +812,7 @@
  {
    "account_code": "2201",
    "account_name": "SUPPLIER PAYABLE[RVQ]",
-   "parent_code": 22,
+   "parent_code": "22",
    "parent_name": "CURRENT LIABILITES[RVQ]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -722,7 +821,7 @@
  {
    "account_code": "2202",
    "account_name": "EMPLOYEES PAYABLE[RVQ]",
-   "parent_code": 22,
+   "parent_code": "22",
    "parent_name": "CURRENT LIABILITES[RVQ]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -731,7 +830,7 @@
  {
    "account_code": "2203",
    "account_name": "ACCRUED PAYABLE[RVQ]",
-   "parent_code": 22,
+   "parent_code": "22",
    "parent_name": "CURRENT LIABILITES[RVQ]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -740,7 +839,7 @@
  {
    "account_code": "2302",
    "account_name": "STAFF INDEMNITY[RVQ]",
-   "parent_code": 23,
+   "parent_code": "23",
    "parent_name": "NON CURRENT LIABILITES[RVQ]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -749,7 +848,7 @@
  {
    "account_code": "3101",
    "account_name": "COST OF GOODS SOLD[RVQ]",
-   "parent_code": 31,
+   "parent_code": "31",
    "parent_name": "FOOD COST EXPENSES[RVQ]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -758,7 +857,7 @@
  {
    "account_code": "3201",
    "account_name": "OPERATION EXPENSES LEVEL 1[RVQ]",
-   "parent_code": 32,
+   "parent_code": "32",
    "parent_name": "OPERATION DIRECT EXPENSES[RVQ]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -767,7 +866,7 @@
  {
    "account_code": "3202",
    "account_name": "ADMINISTRATION EXPENSES LEVEL 2[RVQ]",
-   "parent_code": 32,
+   "parent_code": "32",
    "parent_name": "OPERATION DIRECT EXPENSES[RVQ]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -776,7 +875,7 @@
  {
    "account_code": "3203",
    "account_name": "TOP MANAGEMENT EXPENSES LEVEL 3[RVQ]",
-   "parent_code": 32,
+   "parent_code": "32",
    "parent_name": "OPERATION DIRECT EXPENSES[RVQ]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -785,7 +884,7 @@
  {
    "account_code": "4101",
    "account_name": "REVENUE SALES[RVQ]",
-   "parent_code": 41,
+   "parent_code": "41",
    "parent_name": "REVENUE OPERATIONS[RVQ]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -793,8 +892,8 @@
  },
  {
    "account_code": "4201",
-   "account_name": "REVENUE COMMISSION RVQ[RVQ]",
-   "parent_code": 42,
+   "account_name": "REVENUE COMMISSION RVA",
+   "parent_code": "42",
    "parent_name": "REVENUE OTHERS[RVQ]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -803,7 +902,7 @@
  {
    "account_code": "4202",
    "account_name": "REVENUE SALE OF ASSETS[RVQ]",
-   "parent_code": 42,
+   "parent_code": "42",
    "parent_name": "REVENUE OTHERS[RVQ]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -812,7 +911,7 @@
  {
    "account_code": "4209",
    "account_name": "OTHER MISCELLANEOUS INCOME[RVQ]",
-   "parent_code": 42,
+   "parent_code": "42",
    "parent_name": "REVENUE OTHERS[RVQ]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -821,7 +920,7 @@
  {
    "account_code": "31010",
    "account_name": "COST OF GOODS PROCESSED FOOD[RVB]",
-   "parent_code": 3101,
+   "parent_code": "3101",
    "parent_name": "COST OF GOODS SOLD[RVB]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -829,9 +928,9 @@
  },
  {
    "account_code": "110101",
-   "account_name": "FIXERS AND ESTABLISHMENTS[RVA]",
-   "parent_code": 1101,
-   "parent_name": "Tangible Assets[RVA]",
+   "account_name": "FIXERS AND ESTABLISHMENTS [RVA]",
+   "parent_code": "1101",
+   "parent_name": "TANGIBLE ASSETS[RVA]",
    "internal_type": "view",
    "account_type": "Asset View",
    "company_name": "RVA"
@@ -839,8 +938,8 @@
  {
    "account_code": "110103",
    "account_name": "DECORATIONS[RVA]",
-   "parent_code": 1101,
-   "parent_name": "Tangible Assets[RVA]",
+   "parent_code": "1101",
+   "parent_name": "TANGIBLE ASSETS[RVA]",
    "internal_type": "view",
    "account_type": "Asset View",
    "company_name": "RVA"
@@ -848,8 +947,8 @@
  {
    "account_code": "110104",
    "account_name": "COMPUTERS & PERIPHERALS[RVA]",
-   "parent_code": 1101,
-   "parent_name": "Tangible Assets[RVA]",
+   "parent_code": "1101",
+   "parent_name": "TANGIBLE ASSETS[RVA]",
    "internal_type": "view",
    "account_type": "Asset View",
    "company_name": "RVA"
@@ -857,8 +956,8 @@
  {
    "account_code": "110105",
    "account_name": "EQUIPMENT[RVA]",
-   "parent_code": 1101,
-   "parent_name": "Tangible Assets[RVA]",
+   "parent_code": "1101",
+   "parent_name": "TANGIBLE ASSETS[RVA]",
    "internal_type": "view",
    "account_type": "Asset View",
    "company_name": "RVA"
@@ -866,8 +965,8 @@
  {
    "account_code": "110106",
    "account_name": "VEHICLES[RVA]",
-   "parent_code": 1101,
-   "parent_name": "Tangible Assets[RVA]",
+   "parent_code": "1101",
+   "parent_name": "TANGIBLE ASSETS[RVA]",
    "internal_type": "view",
    "account_type": "Asset View",
    "company_name": "RVA"
@@ -875,7 +974,7 @@
  {
    "account_code": "120101",
    "account_name": "CASH & PETTY CASH[RVA]",
-   "parent_code": 1201,
+   "parent_code": "1201",
    "parent_name": "CASH & BANKS[RVA]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -884,7 +983,7 @@
  {
    "account_code": "120201",
    "account_name": "CUSTOMER RECEIVABLE[RVA]",
-   "parent_code": 1202,
+   "parent_code": "1202",
    "parent_name": "ACCOUNTS RECEIVABLE[RVA]",
    "internal_type": "view",
    "account_type": "Receivable",
@@ -893,7 +992,7 @@
  {
    "account_code": "120202",
    "account_name": "EMPLOYEES RECIVABLES[RVA]",
-   "parent_code": 1202,
+   "parent_code": "1202",
    "parent_name": "ACCOUNTS RECEIVABLE[RVA]",
    "internal_type": "view",
    "account_type": "Receivable",
@@ -902,7 +1001,7 @@
  {
    "account_code": "120301",
    "account_name": "STORE[RVA]",
-   "parent_code": 1203,
+   "parent_code": "1203",
    "parent_name": "INVENTORY[RVA]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -911,7 +1010,7 @@
  {
    "account_code": "120401",
    "account_name": "PREPAID EXP[RVA]",
-   "parent_code": 1204,
+   "parent_code": "1204",
    "parent_name": "PREPAID EXPENSES[RVA]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -920,7 +1019,7 @@
  {
    "account_code": "220101",
    "account_name": "TRADE & NON TRADE SUPPLIERS[RVA]",
-   "parent_code": 2201,
+   "parent_code": "2201",
    "parent_name": "SUPPLIER PAYABLE[RVA]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -929,7 +1028,7 @@
  {
    "account_code": "220201",
    "account_name": "STAFF PAYABLE[RVA]",
-   "parent_code": 2202,
+   "parent_code": "2202",
    "parent_name": "EMPLOYEES PAYABLE[RVA]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -938,7 +1037,7 @@
  {
    "account_code": "220301",
    "account_name": "ACCRUED STAFF SALARY PAYABLE[RVA]",
-   "parent_code": 2203,
+   "parent_code": "2203",
    "parent_name": "ACCRUED PAYABLE[RVA]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -947,7 +1046,7 @@
  {
    "account_code": "220302",
    "account_name": "ACCRUED RENT PAYABLE[RVA]",
-   "parent_code": 2203,
+   "parent_code": "2203",
    "parent_name": "ACCRUED PAYABLE[RVA]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -956,7 +1055,7 @@
  {
    "account_code": "220304",
    "account_name": "ACCRUED SERVICE CHARGES[RVA]",
-   "parent_code": 2203,
+   "parent_code": "2203",
    "parent_name": "ACCRUED PAYABLE[RVA]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -965,7 +1064,7 @@
  {
    "account_code": "220306",
    "account_name": "ACCRUED EXPENSE OTHERS[RVA]",
-   "parent_code": 2203,
+   "parent_code": "2203",
    "parent_name": "ACCRUED PAYABLE[RVA]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -974,7 +1073,7 @@
  {
    "account_code": "230201",
    "account_name": "STAFF INDEMNITY PAYABLE[RVA]",
-   "parent_code": 2302,
+   "parent_code": "2302",
    "parent_name": "STAFF INDEMNITY[RVA]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -983,7 +1082,7 @@
  {
    "account_code": "310101",
    "account_name": "COST OF GOODS PROCESSED FOOD[RVA]",
-   "parent_code": 3101,
+   "parent_code": "3101",
    "parent_name": "COST OF GOODS SOLD[RVA]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -992,7 +1091,7 @@
  {
    "account_code": "320101",
    "account_name": "DIRECT STAFF SALARY[RVA]",
-   "parent_code": 3201,
+   "parent_code": "3201",
    "parent_name": "OPERATION EXPENSES LEVEL 1[RVA]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1001,7 +1100,7 @@
  {
    "account_code": "320102",
    "account_name": "DIRECT STAFF RELATED EXPENSES[RVA]",
-   "parent_code": 3201,
+   "parent_code": "3201",
    "parent_name": "OPERATION EXPENSES LEVEL 1[RVA]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1010,7 +1109,7 @@
  {
    "account_code": "320103",
    "account_name": "DIRECT RENT EXPENSES[RVA]",
-   "parent_code": 3201,
+   "parent_code": "3201",
    "parent_name": "OPERATION EXPENSES LEVEL 1[RVA]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1019,7 +1118,7 @@
  {
    "account_code": "320104",
    "account_name": "DIRECT REPAIRS AND MAINTENENCE[RVA]",
-   "parent_code": 3201,
+   "parent_code": "3201",
    "parent_name": "OPERATION EXPENSES LEVEL 1[RVA]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1028,7 +1127,7 @@
  {
    "account_code": "320105",
    "account_name": "OTHER DIRECT EXPENSES[RVA]",
-   "parent_code": 3201,
+   "parent_code": "3201",
    "parent_name": "OPERATION EXPENSES LEVEL 1[RVA]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1037,7 +1136,7 @@
  {
    "account_code": "320106",
    "account_name": "MARKETTING SALES PROMOTION[RVA]",
-   "parent_code": 3201,
+   "parent_code": "3201",
    "parent_name": "OPERATION EXPENSES LEVEL 1[RVA]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1046,7 +1145,7 @@
  {
    "account_code": "320201",
    "account_name": "HO STAFF SALARY[RVA]",
-   "parent_code": 3202,
+   "parent_code": "3202",
    "parent_name": "ADMINISTRATION EXPENSES LEVEL 2[RVA]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1055,7 +1154,7 @@
  {
    "account_code": "320202",
    "account_name": "HO EXPENSES[RVA]",
-   "parent_code": 3202,
+   "parent_code": "3202",
    "parent_name": "ADMINISTRATION EXPENSES LEVEL 2[RVA]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1063,8 +1162,8 @@
  },
  {
    "account_code": "320301",
-   "account_name": "TOP MGT. SALARY[RVA]",
-   "parent_code": 3203,
+   "account_name": "TOP MGT. SALARY [RVA]",
+   "parent_code": "3203",
    "parent_name": "TOP MANAGEMENT EXPENSES LEVEL 3[RVA]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1073,7 +1172,7 @@
  {
    "account_code": "410101",
    "account_name": "REVENUE DAILY SALES[RVA]",
-   "parent_code": 4101,
+   "parent_code": "4101",
    "parent_name": "REVENUE SALES[RVA]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -1082,7 +1181,7 @@
  {
    "account_code": "420101",
    "account_name": "COMMISSION INCOME[RVA]",
-   "parent_code": 4201,
+   "parent_code": "4201",
    "parent_name": "REVENUE COMMISSION[RVA]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -1091,7 +1190,7 @@
  {
    "account_code": "420201",
    "account_name": "ASSETS SALE INCOME[RVA]",
-   "parent_code": 4202,
+   "parent_code": "4202",
    "parent_name": "REVENUE SALE OF ASSETS[RVA]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -1100,7 +1199,7 @@
  {
    "account_code": "420901",
    "account_name": "OTHER MISCELLANEOUS INCOME[RVA]",
-   "parent_code": 4209,
+   "parent_code": "4209",
    "parent_name": "OTHER MISCELLANEOUS INCOME[RVA]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -1109,17 +1208,17 @@
  {
    "account_code": "100102",
    "account_name": "FURNITURE[RVB]",
-   "parent_code": 1101,
-   "parent_name": "Tangible Assets[RVB]",
+   "parent_code": "1101",
+   "parent_name": "TANGIBLE ASSETS[RVB]",
    "internal_type": "view",
    "account_type": "Asset View",
    "company_name": "RVB"
  },
  {
    "account_code": "110101",
-   "account_name": "FIXERS AND ESTABLISHMENTS[RVB]",
-   "parent_code": 1101,
-   "parent_name": "Tangible Assets[RVB]",
+   "account_name": "FIXERS AND ESTABLISHMENTS [RVB]",
+   "parent_code": "1101",
+   "parent_name": "TANGIBLE ASSETS[RVB]",
    "internal_type": "view",
    "account_type": "Asset View",
    "company_name": "RVB"
@@ -1127,8 +1226,8 @@
  {
    "account_code": "110103",
    "account_name": "DECORATIONS[RVB]",
-   "parent_code": 1101,
-   "parent_name": "Tangible Assets[RVB]",
+   "parent_code": "1101",
+   "parent_name": "TANGIBLE ASSETS[RVB]",
    "internal_type": "view",
    "account_type": "Asset View",
    "company_name": "RVB"
@@ -1136,8 +1235,8 @@
  {
    "account_code": "110104",
    "account_name": "COMPUTERS & PERIPHERALS[RVB]",
-   "parent_code": 1101,
-   "parent_name": "Tangible Assets[RVB]",
+   "parent_code": "1101",
+   "parent_name": "TANGIBLE ASSETS[RVB]",
    "internal_type": "view",
    "account_type": "Asset View",
    "company_name": "RVB"
@@ -1145,8 +1244,8 @@
  {
    "account_code": "110105",
    "account_name": "EQUIPMENT[RVB]",
-   "parent_code": 1101,
-   "parent_name": "Tangible Assets[RVB]",
+   "parent_code": "1101",
+   "parent_name": "TANGIBLE ASSETS[RVB]",
    "internal_type": "view",
    "account_type": "Asset View",
    "company_name": "RVB"
@@ -1154,8 +1253,8 @@
  {
    "account_code": "110106",
    "account_name": "VEHICLES[RVB]",
-   "parent_code": 1101,
-   "parent_name": "Tangible Assets[RVB]",
+   "parent_code": "1101",
+   "parent_name": "TANGIBLE ASSETS[RVB]",
    "internal_type": "view",
    "account_type": "Asset View",
    "company_name": "RVB"
@@ -1163,7 +1262,7 @@
  {
    "account_code": "110201",
    "account_name": "KEY MONEY[RVB]",
-   "parent_code": 1102,
+   "parent_code": "1102",
    "parent_name": "IN TANGIBLE ASSETS[RVB]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -1172,7 +1271,7 @@
  {
    "account_code": "110202",
    "account_name": "GOODWILL[RVB]",
-   "parent_code": 1102,
+   "parent_code": "1102",
    "parent_name": "IN TANGIBLE ASSETS[RVB]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -1181,7 +1280,7 @@
  {
    "account_code": "110203",
    "account_name": "SOFTWARE PROGRAMS[RVB]",
-   "parent_code": 1102,
+   "parent_code": "1102",
    "parent_name": "IN TANGIBLE ASSETS[RVB]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -1190,7 +1289,7 @@
  {
    "account_code": "120101",
    "account_name": "CASH & PETTY CASH[RVB]",
-   "parent_code": 1201,
+   "parent_code": "1201",
    "parent_name": "CASH & BANKS[RVB]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -1199,7 +1298,7 @@
  {
    "account_code": "120102",
    "account_name": "BANKS[RVB]",
-   "parent_code": 1201,
+   "parent_code": "1201",
    "parent_name": "CASH & BANKS[RVB]",
    "internal_type": "view",
    "account_type": "Bank",
@@ -1208,7 +1307,7 @@
  {
    "account_code": "120201",
    "account_name": "CUSTOMER RECEIVABLE[RVB]",
-   "parent_code": 1202,
+   "parent_code": "1202",
    "parent_name": "ACCOUNTS RECEIVABLE[RVB]",
    "internal_type": "view",
    "account_type": "Receivable",
@@ -1217,7 +1316,7 @@
  {
    "account_code": "120202",
    "account_name": "EMPLOYEES RECIVABLES[RVB]",
-   "parent_code": 1202,
+   "parent_code": "1202",
    "parent_name": "ACCOUNTS RECEIVABLE[RVB]",
    "internal_type": "view",
    "account_type": "Receivable",
@@ -1226,7 +1325,7 @@
  {
    "account_code": "120203",
    "account_name": "SECURITY DEPOSITS[RVB]",
-   "parent_code": 1202,
+   "parent_code": "1202",
    "parent_name": "ACCOUNTS RECEIVABLE[RVB]",
    "internal_type": "view",
    "account_type": "Receivable",
@@ -1235,7 +1334,7 @@
  {
    "account_code": "120301",
    "account_name": "STORE[RVB]",
-   "parent_code": 1203,
+   "parent_code": "1203",
    "parent_name": "INVENTORY[RVB]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -1243,8 +1342,8 @@
  },
  {
    "account_code": "120401",
-   "account_name": "PREPAID EXP[RVB]",
-   "parent_code": 1204,
+   "account_name": "PREPAID EXP [RVB]",
+   "parent_code": "1204",
    "parent_name": "PREPAID EXPENSES[RVB]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -1253,7 +1352,7 @@
  {
    "account_code": "210105",
    "account_name": "RETAINED EARNINGS[RVB]",
-   "parent_code": 2101,
+   "parent_code": "2101",
    "parent_name": "OWNERS SHARE[RVB]",
    "internal_type": "view",
    "account_type": "Equity",
@@ -1262,7 +1361,7 @@
  {
    "account_code": "210106",
    "account_name": "P & L ACCOUNTS[RVB]",
-   "parent_code": 2101,
+   "parent_code": "2101",
    "parent_name": "OWNERS SHARE[RVB]",
    "internal_type": "view",
    "account_type": "Equity",
@@ -1271,7 +1370,7 @@
  {
    "account_code": "220101",
    "account_name": "TRADE & NON TRADE SUPPLIERS[RVB]",
-   "parent_code": 2201,
+   "parent_code": "2201",
    "parent_name": "SUPPLIER PAYABLE[RVB]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -1280,7 +1379,7 @@
  {
    "account_code": "220201",
    "account_name": "STAFF PAYABLE[RVB]",
-   "parent_code": 2202,
+   "parent_code": "2202",
    "parent_name": "EMPLOYEES PAYABLE[RVB]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -1289,7 +1388,7 @@
  {
    "account_code": "220301",
    "account_name": "ACCRUED STAFF SALARY PAYABLE[RVB]",
-   "parent_code": 2203,
+   "parent_code": "2203",
    "parent_name": "ACCRUED PAYABLE[RVB]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -1298,7 +1397,7 @@
  {
    "account_code": "220302",
    "account_name": "ACCRUED RENT PAYABLE[RVB]",
-   "parent_code": 2203,
+   "parent_code": "2203",
    "parent_name": "ACCRUED PAYABLE[RVB]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -1307,7 +1406,7 @@
  {
    "account_code": "220304",
    "account_name": "ACCRUED SERVICE CHARGES[RVB]",
-   "parent_code": 2203,
+   "parent_code": "2203",
    "parent_name": "ACCRUED PAYABLE[RVB]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -1316,7 +1415,7 @@
  {
    "account_code": "220306",
    "account_name": "ACCRUED EXPENSE OTHERS[RVB]",
-   "parent_code": 2203,
+   "parent_code": "2203",
    "parent_name": "ACCRUED PAYABLE[RVB]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -1325,7 +1424,7 @@
  {
    "account_code": "230201",
    "account_name": "STAFF INDEMNITY PAYABLE[RVB]",
-   "parent_code": 2302,
+   "parent_code": "2302",
    "parent_name": "STAFF INDEMNITY[RVB]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -1334,7 +1433,7 @@
  {
    "account_code": "320101",
    "account_name": "DIRECT STAFF SALARY[RVB]",
-   "parent_code": 3201,
+   "parent_code": "3201",
    "parent_name": "OPERATION EXPENSES LEVEL 1[RVB]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1343,7 +1442,7 @@
  {
    "account_code": "320102",
    "account_name": "DIRECT STAFF RELATED EXPENSES[RVB]",
-   "parent_code": 3201,
+   "parent_code": "3201",
    "parent_name": "OPERATION EXPENSES LEVEL 1[RVB]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1352,7 +1451,7 @@
  {
    "account_code": "320103",
    "account_name": "DIRECT RENT EXPENSES[RVB]",
-   "parent_code": 3201,
+   "parent_code": "3201",
    "parent_name": "OPERATION EXPENSES LEVEL 1[RVB]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1361,7 +1460,7 @@
  {
    "account_code": "320104",
    "account_name": "DIRECT REPAIRS AND MAINTENENCE[RVB]",
-   "parent_code": 3201,
+   "parent_code": "3201",
    "parent_name": "OPERATION EXPENSES LEVEL 1[RVB]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1370,7 +1469,7 @@
  {
    "account_code": "320105",
    "account_name": "OTHER DIRECT EXPENSES[RVB]",
-   "parent_code": 3201,
+   "parent_code": "3201",
    "parent_name": "OPERATION EXPENSES LEVEL 1[RVB]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1379,7 +1478,7 @@
  {
    "account_code": "320106",
    "account_name": "MARKETTING SALES PROMOTION[RVB]",
-   "parent_code": 3201,
+   "parent_code": "3201",
    "parent_name": "OPERATION EXPENSES LEVEL 1[RVB]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1388,7 +1487,7 @@
  {
    "account_code": "320201",
    "account_name": "HO STAFF SALARY[RVB]",
-   "parent_code": 3202,
+   "parent_code": "3202",
    "parent_name": "ADMINISTRATION EXPENSES LEVEL 2[RVB]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1397,7 +1496,7 @@
  {
    "account_code": "320202",
    "account_name": "HO EXPENSES[RVB]",
-   "parent_code": 3202,
+   "parent_code": "3202",
    "parent_name": "ADMINISTRATION EXPENSES LEVEL 2[RVB]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1405,8 +1504,8 @@
  },
  {
    "account_code": "320301",
-   "account_name": "TOP MGT. SALARY[RVB]",
-   "parent_code": 3203,
+   "account_name": "TOP MGT. SALARY [RVB]",
+   "parent_code": "3203",
    "parent_name": "TOP MANAGEMENT EXPENSES LEVEL 3[RVB]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1415,7 +1514,7 @@
  {
    "account_code": "320401",
    "account_name": "DEPRECIATION[RVB]",
-   "parent_code": 3204,
+   "parent_code": "3204",
    "parent_name": "DEPRECIATION AND AMMORTISATION LEVEL 4[RVB]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1424,7 +1523,7 @@
  {
    "account_code": "320402",
    "account_name": "AMORTISATION[RVB]",
-   "parent_code": 3204,
+   "parent_code": "3204",
    "parent_name": "DEPRECIATION AND AMMORTISATION LEVEL 4[RVB]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1433,7 +1532,7 @@
  {
    "account_code": "410101",
    "account_name": "REVENUE DAILY SALES[RVB]",
-   "parent_code": 4101,
+   "parent_code": "4101",
    "parent_name": "REVENUE SALES[RVB]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -1442,7 +1541,7 @@
  {
    "account_code": "420101",
    "account_name": "COMMISSION INCOME[RVB]",
-   "parent_code": 4201,
+   "parent_code": "4201",
    "parent_name": "REVENUE COMMISSION[RVB]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -1451,7 +1550,7 @@
  {
    "account_code": "420201",
    "account_name": "ASSETS SALE INCOME[RVB]",
-   "parent_code": 4202,
+   "parent_code": "4202",
    "parent_name": "REVENUE SALE OF ASSETS[RVB]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -1460,7 +1559,7 @@
  {
    "account_code": "420901",
    "account_name": "OTHER MISCELLANEOUS INCOME[RVB]",
-   "parent_code": 4209,
+   "parent_code": "4209",
    "parent_name": "OTHER MISCELLANEOUS INCOME[RVB]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -1468,8 +1567,8 @@
  },
  {
    "account_code": "110101",
-   "account_name": "FIXERS AND ESTABLISHMENTS[RVQ]",
-   "parent_code": 1101,
+   "account_name": "FIXERS AND ESTABLISHMENTS [RVQ]",
+   "parent_code": "1101",
    "parent_name": "TANGIBLE ASSETS[RVQ]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -1478,7 +1577,7 @@
  {
    "account_code": "110103",
    "account_name": "DECORATIONS[RVQ]",
-   "parent_code": 1101,
+   "parent_code": "1101",
    "parent_name": "TANGIBLE ASSETS[RVQ]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -1487,7 +1586,7 @@
  {
    "account_code": "110104",
    "account_name": "COMPUTERS & PERIPHERALS[RVQ]",
-   "parent_code": 1101,
+   "parent_code": "1101",
    "parent_name": "TANGIBLE ASSETS[RVQ]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -1496,7 +1595,7 @@
  {
    "account_code": "110105",
    "account_name": "EQUIPMENT[RVQ]",
-   "parent_code": 1101,
+   "parent_code": "1101",
    "parent_name": "TANGIBLE ASSETS[RVQ]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -1505,7 +1604,7 @@
  {
    "account_code": "110106",
    "account_name": "VEHICLES[RVQ]",
-   "parent_code": 1101,
+   "parent_code": "1101",
    "parent_name": "TANGIBLE ASSETS[RVQ]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -1514,7 +1613,7 @@
  {
    "account_code": "120101",
    "account_name": "CASH & PETTY CASH[RVQ]",
-   "parent_code": 1201,
+   "parent_code": "1201",
    "parent_name": "CASH & BANKS[RVQ]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -1523,7 +1622,7 @@
  {
    "account_code": "120201",
    "account_name": "CUSTOMER RECEIVABLE[RVQ]",
-   "parent_code": 1202,
+   "parent_code": "1202",
    "parent_name": "ACCOUNTS RECEIVABLE[RVQ]",
    "internal_type": "view",
    "account_type": "Receivable",
@@ -1532,7 +1631,7 @@
  {
    "account_code": "120202",
    "account_name": "EMPLOYEES RECIVABLES[RVQ]",
-   "parent_code": 1202,
+   "parent_code": "1202",
    "parent_name": "ACCOUNTS RECEIVABLE[RVQ]",
    "internal_type": "view",
    "account_type": "Receivable",
@@ -1541,7 +1640,7 @@
  {
    "account_code": "120301",
    "account_name": "STORE[RVQ]",
-   "parent_code": 1203,
+   "parent_code": "1203",
    "parent_name": "INVENTORY[RVQ]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -1550,7 +1649,7 @@
  {
    "account_code": "120401",
    "account_name": "PREPAID EXP[RVQ]",
-   "parent_code": 1204,
+   "parent_code": "1204",
    "parent_name": "PREPAID EXPENSES[RVQ]",
    "internal_type": "view",
    "account_type": "Asset View",
@@ -1559,7 +1658,7 @@
  {
    "account_code": "220101",
    "account_name": "TRADE & NON TRADE SUPPLIERS[RVQ]",
-   "parent_code": 2201,
+   "parent_code": "2201",
    "parent_name": "SUPPLIER PAYABLE[RVQ]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -1568,7 +1667,7 @@
  {
    "account_code": "220201",
    "account_name": "STAFF PAYABLE[RVQ]",
-   "parent_code": 2202,
+   "parent_code": "2202",
    "parent_name": "EMPLOYEES PAYABLE[RVQ]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -1577,7 +1676,7 @@
  {
    "account_code": "220301",
    "account_name": "ACCRUED STAFF SALARY PAYABLE[RVQ]",
-   "parent_code": 2203,
+   "parent_code": "2203",
    "parent_name": "ACCRUED PAYABLE[RVQ]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -1586,7 +1685,7 @@
  {
    "account_code": "220302",
    "account_name": "ACCRUED RENT PAYABLE[RVQ]",
-   "parent_code": 2203,
+   "parent_code": "2203",
    "parent_name": "ACCRUED PAYABLE[RVQ]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -1594,8 +1693,8 @@
  },
  {
    "account_code": "220304",
-   "account_name": "ACCRUED SERVICE CHARGES[RVQ]",
-   "parent_code": 2203,
+   "account_name": "ACCRUED SERVICE CHARGES [RVQ]",
+   "parent_code": "2203",
    "parent_name": "ACCRUED PAYABLE[RVQ]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -1603,8 +1702,8 @@
  },
  {
    "account_code": "220306",
-   "account_name": "ACCRUED EXPENSE OTHERS[RVQ]",
-   "parent_code": 2203,
+   "account_name": "ACCRUED EXPENSE OTHERS [RVQ]",
+   "parent_code": "2203",
    "parent_name": "ACCRUED PAYABLE[RVQ]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -1613,7 +1712,7 @@
  {
    "account_code": "230201",
    "account_name": "STAFF INDEMNITY PAYABLE[RVQ]",
-   "parent_code": 2302,
+   "parent_code": "2302",
    "parent_name": "STAFF INDEMNITY[RVQ]",
    "internal_type": "view",
    "account_type": "Liability View",
@@ -1622,7 +1721,7 @@
  {
    "account_code": "310101",
    "account_name": "COST OF GOODS PROCESSED FOOD[RVQ]",
-   "parent_code": 3101,
+   "parent_code": "3101",
    "parent_name": "COST OF GOODS SOLD[RVQ]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1631,7 +1730,7 @@
  {
    "account_code": "320101",
    "account_name": "DIRECT STAFF SALARY[RVQ]",
-   "parent_code": 3201,
+   "parent_code": "3201",
    "parent_name": "OPERATION EXPENSES LEVEL 1[RVQ]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1640,7 +1739,7 @@
  {
    "account_code": "320102",
    "account_name": "DIRECT STAFF RELATED EXPENSES[RVQ]",
-   "parent_code": 3201,
+   "parent_code": "3201",
    "parent_name": "OPERATION EXPENSES LEVEL 1[RVQ]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1649,7 +1748,7 @@
  {
    "account_code": "320103",
    "account_name": "DIRECT RENT EXPENSES[RVQ]",
-   "parent_code": 3201,
+   "parent_code": "3201",
    "parent_name": "OPERATION EXPENSES LEVEL 1[RVQ]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1658,7 +1757,7 @@
  {
    "account_code": "320104",
    "account_name": "DIRECT REPAIRS AND MAINTENENCE[RVQ]",
-   "parent_code": 3201,
+   "parent_code": "3201",
    "parent_name": "OPERATION EXPENSES LEVEL 1[RVQ]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1667,7 +1766,7 @@
  {
    "account_code": "320105",
    "account_name": "OTHER DIRECT EXPENSES[RVQ]",
-   "parent_code": 3201,
+   "parent_code": "3201",
    "parent_name": "OPERATION EXPENSES LEVEL 1[RVQ]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1676,7 +1775,7 @@
  {
    "account_code": "320106",
    "account_name": "MARKETTING SALES PROMOTION[RVQ]",
-   "parent_code": 3201,
+   "parent_code": "3201",
    "parent_name": "OPERATION EXPENSES LEVEL 1[RVQ]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1685,7 +1784,7 @@
  {
    "account_code": "320201",
    "account_name": "HO STAFF SALARY[RVQ]",
-   "parent_code": 3202,
+   "parent_code": "3202",
    "parent_name": "ADMINISTRATION EXPENSES LEVEL 2[RVQ]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1694,7 +1793,7 @@
  {
    "account_code": "320202",
    "account_name": "HO EXPENSES[RVQ]",
-   "parent_code": 3202,
+   "parent_code": "3202",
    "parent_name": "ADMINISTRATION EXPENSES LEVEL 2[RVQ]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1702,8 +1801,8 @@
  },
  {
    "account_code": "320301",
-   "account_name": "TOP MGT. SALARY[RVQ]",
-   "parent_code": 3203,
+   "account_name": "TOP MGT. SALARY [RVQ]",
+   "parent_code": "3203",
    "parent_name": "TOP MANAGEMENT EXPENSES LEVEL 3[RVQ]",
    "internal_type": "view",
    "account_type": "Expense View",
@@ -1712,7 +1811,7 @@
  {
    "account_code": "410101",
    "account_name": "REVENUE DAILY SALES[RVQ]",
-   "parent_code": 4101,
+   "parent_code": "4101",
    "parent_name": "REVENUE SALES[RVQ]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -1721,8 +1820,8 @@
  {
    "account_code": "420101",
    "account_name": "COMMISSION INCOME[RVQ]",
-   "parent_code": 4201,
-   "parent_name": "REVENUE COMMISSION RVQ[RVQ]",
+   "parent_code": "4201",
+   "parent_name": "REVENUE COMMISSION RVA",
    "internal_type": "view",
    "account_type": "Income View",
    "company_name": "RVQ"
@@ -1730,7 +1829,7 @@
  {
    "account_code": "420201",
    "account_name": "ASSETS SALE INCOME[RVQ]",
-   "parent_code": 4202,
+   "parent_code": "4202",
    "parent_name": "REVENUE SALE OF ASSETS[RVQ]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -1739,7 +1838,7 @@
  {
    "account_code": "420901",
    "account_name": "OTHER MISCELLANEOUS INCOME[RVQ]",
-   "parent_code": 4209,
+   "parent_code": "4209",
    "parent_name": "OTHER MISCELLANEOUS INCOME[RVQ]",
    "internal_type": "view",
    "account_type": "Income View",
@@ -1748,7 +1847,7 @@
  {
    "account_code": "12010110001",
    "account_name": "CASH COLLECTIONS[RVA]",
-   "parent_code": 120101,
+   "parent_code": "120101",
    "parent_name": "CASH & PETTY CASH[RVA]",
    "internal_type": "other",
    "account_type": "Cash",
@@ -1757,7 +1856,7 @@
  {
    "account_code": "12010110003",
    "account_name": "K NET COLLECTION[RVA]",
-   "parent_code": 120101,
+   "parent_code": "120101",
    "parent_name": "CASH & PETTY CASH[RVA]",
    "internal_type": "other",
    "account_type": "Bank",
@@ -1766,7 +1865,7 @@
  {
    "account_code": "12010110005",
    "account_name": "BIL BAYT COLLECTION[RVA]",
-   "parent_code": 120101,
+   "parent_code": "120101",
    "parent_name": "CASH & PETTY CASH[RVA]",
    "internal_type": "other",
    "account_type": "Cash",
@@ -1775,7 +1874,7 @@
  {
    "account_code": "12010110006",
    "account_name": "TALABAT K NET[RVA]",
-   "parent_code": 120101,
+   "parent_code": "120101",
    "parent_name": "CASH & PETTY CASH[RVA]",
    "internal_type": "other",
    "account_type": "Cash",
@@ -1784,7 +1883,7 @@
  {
    "account_code": "12020110000",
    "account_name": "CUST. RECEIVABLE CONTROL[RVA]",
-   "parent_code": 120201,
+   "parent_code": "120201",
    "parent_name": "CUSTOMER RECEIVABLE[RVA]",
    "internal_type": "receivable",
    "account_type": "Receivable",
@@ -1793,7 +1892,7 @@
  {
    "account_code": "12020210000",
    "account_name": "EMPL. REC. CONTROL[RVA]",
-   "parent_code": 120202,
+   "parent_code": "120202",
    "parent_name": "EMPLOYEES RECIVABLES[RVA]",
    "internal_type": "other",
    "account_type": "Receivable",
@@ -1802,7 +1901,7 @@
  {
    "account_code": "12030110001",
    "account_name": "STOCK INVENTORY R.V A[RVA]",
-   "parent_code": 120301,
+   "parent_code": "120301",
    "parent_name": "STORE[RVA]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -1811,7 +1910,7 @@
  {
    "account_code": "12040110001",
    "account_name": "PREPAID RENTS[RVA]",
-   "parent_code": 120401,
+   "parent_code": "120401",
    "parent_name": "PREPAID EXP[RVA]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -1820,7 +1919,7 @@
  {
    "account_code": "12040110003",
    "account_name": "PREPAID TELEPHONE INTERNET[RVA]",
-   "parent_code": 120401,
+   "parent_code": "120401",
    "parent_name": "PREPAID EXP[RVA]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -1829,7 +1928,7 @@
  {
    "account_code": "12040110004",
    "account_name": "PREPAID GOVT. FEES[RVA]",
-   "parent_code": 120401,
+   "parent_code": "120401",
    "parent_name": "PREPAID EXP[RVA]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -1838,7 +1937,7 @@
  {
    "account_code": "12040110005",
    "account_name": "PREPAID TALABAT SUBSCRIPTION[RVA]",
-   "parent_code": 120401,
+   "parent_code": "120401",
    "parent_name": "PREPAID EXP[RVA]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -1847,7 +1946,7 @@
  {
    "account_code": "12040110006",
    "account_name": "PREPAID PRINTING CHARGES[RVA]",
-   "parent_code": 120401,
+   "parent_code": "120401",
    "parent_name": "PREPAID EXP[RVA]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -1856,7 +1955,7 @@
  {
    "account_code": "12040110007",
    "account_name": "PREPAID ADVT. MARKETTING[RVA]",
-   "parent_code": 120401,
+   "parent_code": "120401",
    "parent_name": "PREPAID EXP[RVA]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -1865,7 +1964,7 @@
  {
    "account_code": "12040110008",
    "account_name": "PREPAID SERVICE CHARGES[RVA]",
-   "parent_code": 120401,
+   "parent_code": "120401",
    "parent_name": "PREPAID EXP[RVA]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -1874,7 +1973,7 @@
  {
    "account_code": "12040110009",
    "account_name": "PREPAID INSURANCE CHARGES[RVA]",
-   "parent_code": 120401,
+   "parent_code": "120401",
    "parent_name": "PREPAID EXP[RVA]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -1883,7 +1982,7 @@
  {
    "account_code": "12040110099",
    "account_name": "PREPAID OTHERS[RVA]",
-   "parent_code": 120401,
+   "parent_code": "120401",
    "parent_name": "PREPAID EXP[RVA]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -1892,7 +1991,7 @@
  {
    "account_code": "21020110000",
    "account_name": "SUPPLIERS CONTROL ACCOUNT[RVA]",
-   "parent_code": 220101,
+   "parent_code": "220101",
    "parent_name": "TRADE & NON TRADE SUPPLIERS[RVA]",
    "internal_type": "payable",
    "account_type": "Payable",
@@ -1901,7 +2000,7 @@
  {
    "account_code": "21020120000",
    "account_name": "PURCHASE CLEARING ACCOUNT[RVA]",
-   "parent_code": 220101,
+   "parent_code": "220101",
    "parent_name": "TRADE & NON TRADE SUPPLIERS[RVA]",
    "internal_type": "other",
    "account_type": "Payable",
@@ -1910,7 +2009,7 @@
  {
    "account_code": "21030110001",
    "account_name": "ACCRUED STAFF SALARY FULL TIME[RVA]",
-   "parent_code": 220301,
+   "parent_code": "220301",
    "parent_name": "ACCRUED STAFF SALARY PAYABLE[RVA]",
    "internal_type": "other",
    "account_type": "Liability",
@@ -1919,7 +2018,7 @@
  {
    "account_code": "21030210001",
    "account_name": "ACCRUED LOCATIONS RENT[RVA]",
-   "parent_code": 220302,
+   "parent_code": "220302",
    "parent_name": "ACCRUED RENT PAYABLE[RVA]",
    "internal_type": "other",
    "account_type": "Liability",
@@ -1928,7 +2027,7 @@
  {
    "account_code": "21030410001",
    "account_name": "ACCRUED SERVICE CHARGES[RVA]",
-   "parent_code": 220304,
+   "parent_code": "220304",
    "parent_name": "ACCRUED SERVICE CHARGES[RVA]",
    "internal_type": "other",
    "account_type": "Liability",
@@ -1937,7 +2036,7 @@
  {
    "account_code": "23020110001",
    "account_name": "STAFF INDEMNITY PAYABLE[RVA]",
-   "parent_code": 230201,
+   "parent_code": "230201",
    "parent_name": "STAFF INDEMNITY PAYABLE[RVA]",
    "internal_type": "other",
    "account_type": "Liability",
@@ -1946,7 +2045,7 @@
  {
    "account_code": "31010110001",
    "account_name": "COST OF GOODS SOLD[RVA]",
-   "parent_code": 310101,
+   "parent_code": "310101",
    "parent_name": "COST OF GOODS PROCESSED FOOD[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -1955,7 +2054,7 @@
  {
    "account_code": "31010110002",
    "account_name": "WASTAGES[RVA]",
-   "parent_code": 310101,
+   "parent_code": "310101",
    "parent_name": "COST OF GOODS PROCESSED FOOD[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -1964,7 +2063,7 @@
  {
    "account_code": "31010110003",
    "account_name": "OTHER DIRECT COST[RVA]",
-   "parent_code": 310101,
+   "parent_code": "310101",
    "parent_name": "COST OF GOODS PROCESSED FOOD[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -1973,7 +2072,7 @@
  {
    "account_code": "32010110001",
    "account_name": "BASIC SALARY FULL TIME EMPLOYEES[RVA]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -1982,7 +2081,7 @@
  {
    "account_code": "32010110002",
    "account_name": "MOBILE ALLOWANCE EMPLOYEES[RVA]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -1991,7 +2090,7 @@
  {
    "account_code": "32010110003",
    "account_name": "CAR ALLOWANCE EMPLOYEES[RVA]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2000,7 +2099,7 @@
  {
    "account_code": "32010110004",
    "account_name": "HOUSING ALLOWANCE EMPLOYEES[RVA]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2009,7 +2108,7 @@
  {
    "account_code": "32010110005",
    "account_name": "OTHER ALLOWANCE EMPLOYEES[RVA]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2018,7 +2117,7 @@
  {
    "account_code": "32010110006",
    "account_name": "OVERTIME FULL TIME EMPLOYEES[RVA]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2027,7 +2126,7 @@
  {
    "account_code": "32010110007",
    "account_name": "SALARY CASUAL & TEMPORARY[RVA]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2036,7 +2135,7 @@
  {
    "account_code": "32010110008",
    "account_name": "LEAVE SALARY PROVISION[RVA]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2045,7 +2144,7 @@
  {
    "account_code": "32010110009",
    "account_name": "INDEMNITY PROVISION[RVA]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2054,7 +2153,7 @@
  {
    "account_code": "32010210001",
    "account_name": "STAFF ACCOMODATION EXPENSES[RVA]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2063,7 +2162,7 @@
  {
    "account_code": "32010210001",
    "account_name": "STAFF ACCOMODATION EXPENSES[RVA]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2072,7 +2171,7 @@
  {
    "account_code": "32010210002",
    "account_name": "STAFF UNIFORMS[RVA]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2081,7 +2180,7 @@
  {
    "account_code": "32010210003",
    "account_name": "STAFF VISA / RESIDENCY EXPENSES[RVA]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2090,7 +2189,7 @@
  {
    "account_code": "32010210004",
    "account_name": "STAFF PASSAGE / TICKETS EXPENSES[RVA]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2099,7 +2198,7 @@
  {
    "account_code": "32010210005",
    "account_name": "STAFF FOOD EXPENSES[RVA]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2108,7 +2207,7 @@
  {
    "account_code": "32010210006",
    "account_name": "STAFF RECRUITMENT EXPENSES[RVA]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2117,7 +2216,7 @@
  {
    "account_code": "32010210007",
    "account_name": "STAFF HEALTH & BALADIYA EXPENSES[RVA]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2126,7 +2225,7 @@
  {
    "account_code": "32010210008",
    "account_name": "STAFF WELFARE EXPENSES[RVA]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2135,7 +2234,7 @@
  {
    "account_code": "32010210009",
    "account_name": "STAFF TRAINING EXPENSES[RVA]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2144,7 +2243,7 @@
  {
    "account_code": "32010310002",
    "account_name": "RENTS - STORES[RVA]",
-   "parent_code": 320103,
+   "parent_code": "320103",
    "parent_name": "DIRECT RENT EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2153,7 +2252,7 @@
  {
    "account_code": "32010410001",
    "account_name": "REPAIRS N MAINT. EQUIPMENTS[RVA]",
-   "parent_code": 320104,
+   "parent_code": "320104",
    "parent_name": "DIRECT REPAIRS AND MAINTENENCE[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2162,7 +2261,7 @@
  {
    "account_code": "32010410002",
    "account_name": "REPAIRS N MAINT. VEHICLES[RVA]",
-   "parent_code": 320104,
+   "parent_code": "320104",
    "parent_name": "DIRECT REPAIRS AND MAINTENENCE[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2171,7 +2270,7 @@
  {
    "account_code": "32010410003",
    "account_name": "REPAIRS N MAINT. DECORE[RVA]",
-   "parent_code": 320104,
+   "parent_code": "320104",
    "parent_name": "DIRECT REPAIRS AND MAINTENENCE[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2180,7 +2279,7 @@
  {
    "account_code": "32010410004",
    "account_name": "REPAIRS N MAINT. - FUEL VEHICLES[RVA]",
-   "parent_code": 320104,
+   "parent_code": "320104",
    "parent_name": "DIRECT REPAIRS AND MAINTENENCE[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2189,7 +2288,7 @@
  {
    "account_code": "32010410005",
    "account_name": "REPAIRS N MAINT. - IT RELATED[RVA]",
-   "parent_code": 320104,
+   "parent_code": "320104",
    "parent_name": "DIRECT REPAIRS AND MAINTENENCE[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2198,7 +2297,7 @@
  {
    "account_code": "32010410009",
    "account_name": "REPAIRS N MAINT. - OTHERS[RVA]",
-   "parent_code": 320104,
+   "parent_code": "320104",
    "parent_name": "DIRECT REPAIRS AND MAINTENENCE[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2207,7 +2306,7 @@
  {
    "account_code": "32010510001",
    "account_name": "TELEPHONE COMMUNICATIONS[RVA]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2216,7 +2315,7 @@
  {
    "account_code": "32010510002",
    "account_name": "INTERNET DATA LINK[RVA]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2225,7 +2324,7 @@
  {
    "account_code": "32010510003",
    "account_name": "COURRIER CHARGES[RVA]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2234,7 +2333,7 @@
  {
    "account_code": "32010510004",
    "account_name": "TRANSPORTATION EXPENSES[RVA]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2243,7 +2342,7 @@
  {
    "account_code": "32010510005",
    "account_name": "GOVT. FEES[RVA]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2252,7 +2351,7 @@
  {
    "account_code": "32010510006",
    "account_name": "PENALTIES[RVA]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2261,7 +2360,7 @@
  {
    "account_code": "32010510007",
    "account_name": "VEHICLE CAR RENTALS[RVA]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2270,7 +2369,7 @@
  {
    "account_code": "32010510008",
    "account_name": "DELIVERY COS CHARGES[RVA]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2279,7 +2378,7 @@
  {
    "account_code": "32010510009",
    "account_name": "PEST CONTROL[RVA]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2288,7 +2387,7 @@
  {
    "account_code": "32010510010",
    "account_name": "CLEANING EXPENSES[RVA]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2297,7 +2396,7 @@
  {
    "account_code": "32010510011",
    "account_name": "SECURITY COLLECTION EXPENSES[RVA]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2306,7 +2405,7 @@
  {
    "account_code": "32010510012",
    "account_name": "TALABAT CHARGES[RVA]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2315,7 +2414,7 @@
  {
    "account_code": "32010510013",
    "account_name": "STAFF TRAINING EXPENSES[RVA]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2324,7 +2423,7 @@
  {
    "account_code": "32010510014",
    "account_name": "LAB TESTING CHARGES[RVA]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2333,7 +2432,7 @@
  {
    "account_code": "32010510016",
    "account_name": "SERVICE CHARGES[RVA]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2342,7 +2441,7 @@
  {
    "account_code": "32010510017",
    "account_name": "TENDER CHARGES[RVA]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2351,7 +2450,7 @@
  {
    "account_code": "32010510018",
    "account_name": "MISC. KITCHEN TOOLS[RVA]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2360,7 +2459,7 @@
  {
    "account_code": "32010510019",
    "account_name": "ELECTRICITY CHARGES[RVA]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2369,7 +2468,7 @@
  {
    "account_code": "32010510020",
    "account_name": "WATER CHARGES[RVA]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2378,7 +2477,7 @@
  {
    "account_code": "32010510021",
    "account_name": "DONATION N CHARITY[RVA]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2387,7 +2486,7 @@
  {
    "account_code": "32010510098",
    "account_name": "EXCESS SHORTAGE STORE[RVA]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2396,7 +2495,7 @@
  {
    "account_code": "32010510099",
    "account_name": "MISC. EXPENSES OTHERS[RVA]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2405,7 +2504,7 @@
  {
    "account_code": "32010610001",
    "account_name": "SALES PROMOTION EXPENSES[RVA]",
-   "parent_code": 320106,
+   "parent_code": "320106",
    "parent_name": "MARKETTING SALES PROMOTION[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2414,7 +2513,7 @@
  {
    "account_code": "32010610002",
    "account_name": "PRODUCT TESTING TASTING FREE ITEMS[RVA]",
-   "parent_code": 320106,
+   "parent_code": "320106",
    "parent_name": "MARKETTING SALES PROMOTION[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2423,7 +2522,7 @@
  {
    "account_code": "32010610003",
    "account_name": "ADVERTISEMENTS[RVA]",
-   "parent_code": 320106,
+   "parent_code": "320106",
    "parent_name": "MARKETTING SALES PROMOTION[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2432,7 +2531,7 @@
  {
    "account_code": "32010610004",
    "account_name": "EXHIBITION[RVA]",
-   "parent_code": 320106,
+   "parent_code": "320106",
    "parent_name": "MARKETTING SALES PROMOTION[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2441,7 +2540,7 @@
  {
    "account_code": "32010610009",
    "account_name": "BUSINESS DEVELOPMENT DIRECT CHARGES[RVA]",
-   "parent_code": 320106,
+   "parent_code": "320106",
    "parent_name": "MARKETTING SALES PROMOTION[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2450,7 +2549,7 @@
  {
    "account_code": "32020110001",
    "account_name": "BASIC SALARY FULL TIME EMPLOYEES HO[RVA]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2459,7 +2558,7 @@
  {
    "account_code": "32020110002",
    "account_name": "MOBILE ALLOWANCE EMPLOYEES HO[RVA]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2468,7 +2567,7 @@
  {
    "account_code": "32020110003",
    "account_name": "CAR ALLOWANCE EMPLOYEES HO[RVA]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2477,7 +2576,7 @@
  {
    "account_code": "32020110004",
    "account_name": "HOUSING ALLOWANCE EMPLOYEES HO[RVA]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2486,7 +2585,7 @@
  {
    "account_code": "32020110005",
    "account_name": "OTHER ALLOWANCE EMPLOYEES HO[RVA]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2495,7 +2594,7 @@
  {
    "account_code": "32020110006",
    "account_name": "OVERTIME FULL TIME EMPLOYEES HO[RVA]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2504,7 +2603,7 @@
  {
    "account_code": "32020110007",
    "account_name": "SALARY CASUAL & TEMPORARY HO[RVA]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2513,7 +2612,7 @@
  {
    "account_code": "32020110008",
    "account_name": "LEAVE SALARY EXPENSES HO[RVA]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2522,7 +2621,7 @@
  {
    "account_code": "32020110009",
    "account_name": "INDEMNITY EXPENSES HO[RVA]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -2531,8 +2630,8 @@
  {
    "account_code": "32030110001",
    "account_name": "BASIC SALARY FULL TIME EMPLOYEES TOP[RVA]",
-   "parent_code": 320301,
-   "parent_name": "TOP MGT. SALARY[RVA]",
+   "parent_code": "320301",
+   "parent_name": "TOP MGT. SALARY [RVA]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVA"
@@ -2540,8 +2639,8 @@
  {
    "account_code": "32030110002",
    "account_name": "MOBILE ALLOWANCE EMPLOYEES TOP[RVA]",
-   "parent_code": 320301,
-   "parent_name": "TOP MGT. SALARY[RVA]",
+   "parent_code": "320301",
+   "parent_name": "TOP MGT. SALARY [RVA]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVA"
@@ -2549,8 +2648,8 @@
  {
    "account_code": "32030110003",
    "account_name": "CAR ALLOWANCE EMPLOYEES TOP[RVA]",
-   "parent_code": 320301,
-   "parent_name": "TOP MGT. SALARY[RVA]",
+   "parent_code": "320301",
+   "parent_name": "TOP MGT. SALARY [RVA]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVA"
@@ -2558,8 +2657,8 @@
  {
    "account_code": "32030110004",
    "account_name": "HOUSING ALLOWANCE EMPLOYEES TOP[RVA]",
-   "parent_code": 320301,
-   "parent_name": "TOP MGT. SALARY[RVA]",
+   "parent_code": "320301",
+   "parent_name": "TOP MGT. SALARY [RVA]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVA"
@@ -2567,8 +2666,8 @@
  {
    "account_code": "32030110005",
    "account_name": "OTHER ALLOWANCE EMPLOYEES TOP[RVA]",
-   "parent_code": 320301,
-   "parent_name": "TOP MGT. SALARY[RVA]",
+   "parent_code": "320301",
+   "parent_name": "TOP MGT. SALARY [RVA]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVA"
@@ -2576,8 +2675,8 @@
  {
    "account_code": "32030110006",
    "account_name": "PROV LEAVE SALARY TOP[RVA]",
-   "parent_code": 320301,
-   "parent_name": "TOP MGT. SALARY[RVA]",
+   "parent_code": "320301",
+   "parent_name": "TOP MGT. SALARY [RVA]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVA"
@@ -2585,7 +2684,7 @@
  {
    "account_code": "41010110001",
    "account_name": "REVENUE FROM DAILY SALES[RVA]",
-   "parent_code": 410101,
+   "parent_code": "410101",
    "parent_name": "REVENUE DAILY SALES[RVA]",
    "internal_type": "other",
    "account_type": "Income",
@@ -2594,7 +2693,7 @@
  {
    "account_code": "42010110001",
    "account_name": "COMMISSION INCOME[RVA]",
-   "parent_code": 420101,
+   "parent_code": "420101",
    "parent_name": "COMMISSION INCOME[RVA]",
    "internal_type": "other",
    "account_type": "Income",
@@ -2603,8 +2702,8 @@
  {
    "account_code": "11010110001",
    "account_name": "FIXTURES[RVB]",
-   "parent_code": 110101,
-   "parent_name": "FIXERS AND ESTABLISHMENTS[RVB]",
+   "parent_code": "110101",
+   "parent_name": "FIXERS AND ESTABLISHMENTS [RVB]",
    "internal_type": "other",
    "account_type": "Asset",
    "company_name": "RVB"
@@ -2612,8 +2711,8 @@
  {
    "account_code": "11010110101",
    "account_name": "ACC. DEPRECIATION FIXTURES[RVB]",
-   "parent_code": 110101,
-   "parent_name": "FIXERS AND ESTABLISHMENTS[RVB]",
+   "parent_code": "110101",
+   "parent_name": "FIXERS AND ESTABLISHMENTS [RVB]",
    "internal_type": "other",
    "account_type": "Asset",
    "company_name": "RVB"
@@ -2621,7 +2720,7 @@
  {
    "account_code": "11010210001",
    "account_name": "OFFICE FURNITURE[RVB]",
-   "parent_code": 100102,
+   "parent_code": "100102",
    "parent_name": "FURNITURE[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -2630,7 +2729,7 @@
  {
    "account_code": "11010210002",
    "account_name": "KITCHEN FURNITURE[RVB]",
-   "parent_code": 100102,
+   "parent_code": "100102",
    "parent_name": "FURNITURE[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -2639,7 +2738,7 @@
  {
    "account_code": "11010210101",
    "account_name": "ACC. DEPRECIATION OFFICE FURNITURE[RVB]",
-   "parent_code": 100102,
+   "parent_code": "100102",
    "parent_name": "FURNITURE[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -2648,7 +2747,7 @@
  {
    "account_code": "11010210102",
    "account_name": "ACC. DEPRECIATION KITCHEN FURNITURE[RVB]",
-   "parent_code": 100102,
+   "parent_code": "100102",
    "parent_name": "FURNITURE[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -2657,7 +2756,7 @@
  {
    "account_code": "11010310001",
    "account_name": "DECORATIONS[RVB]",
-   "parent_code": 110103,
+   "parent_code": "110103",
    "parent_name": "DECORATIONS[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -2666,7 +2765,7 @@
  {
    "account_code": "11010310101",
    "account_name": "ACC. DEPRECIATION DECORATIONS[RVB]",
-   "parent_code": 110103,
+   "parent_code": "110103",
    "parent_name": "DECORATIONS[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -2675,7 +2774,7 @@
  {
    "account_code": "11010410001",
    "account_name": "COMPUTERS AND PRINTERS[RVB]",
-   "parent_code": 110104,
+   "parent_code": "110104",
    "parent_name": "COMPUTERS & PERIPHERALS[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -2684,7 +2783,7 @@
  {
    "account_code": "11010410002",
    "account_name": "PHONES$ FAX$ COPIERS[RVB]",
-   "parent_code": 110104,
+   "parent_code": "110104",
    "parent_name": "COMPUTERS & PERIPHERALS[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -2693,7 +2792,7 @@
  {
    "account_code": "11010410101",
    "account_name": "ACC. DEPRECIATION COMPUTERS AND PRINTERS[RVB]",
-   "parent_code": 110104,
+   "parent_code": "110104",
    "parent_name": "COMPUTERS & PERIPHERALS[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -2702,7 +2801,7 @@
  {
    "account_code": "11010410102",
    "account_name": "ACC. DEPRECIATION PHONES$ FAX$ COPIERS[RVB]",
-   "parent_code": 110104,
+   "parent_code": "110104",
    "parent_name": "COMPUTERS & PERIPHERALS[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -2711,7 +2810,7 @@
  {
    "account_code": "11010510001",
    "account_name": "OFFICE & KITCHEN EQUIPMENTS[RVB]",
-   "parent_code": 110105,
+   "parent_code": "110105",
    "parent_name": "EQUIPMENT[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -2720,7 +2819,7 @@
  {
    "account_code": "11010510002",
    "account_name": "OTHER EQUIPMENTS[RVB]",
-   "parent_code": 110105,
+   "parent_code": "110105",
    "parent_name": "EQUIPMENT[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -2729,7 +2828,7 @@
  {
    "account_code": "11010510101",
    "account_name": "ACC. DEPRECIATION OFFICE & KITCHEN EQUIPMENTS[RVB]",
-   "parent_code": 110105,
+   "parent_code": "110105",
    "parent_name": "EQUIPMENT[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -2738,7 +2837,7 @@
  {
    "account_code": "11010510102",
    "account_name": "ACC. DEPRECIATION OTHER EQUIPMENTS[RVB]",
-   "parent_code": 110105,
+   "parent_code": "110105",
    "parent_name": "EQUIPMENT[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -2747,8 +2846,8 @@
  {
    "account_code": "11010610001",
    "account_name": "LIGHT MOTOR VEHICLES[RVB]",
-   "parent_code": 110101,
-   "parent_name": "FIXERS AND ESTABLISHMENTS[RVB]",
+   "parent_code": "110101",
+   "parent_name": "FIXERS AND ESTABLISHMENTS [RVB]",
    "internal_type": "other",
    "account_type": "Asset",
    "company_name": "RVB"
@@ -2756,7 +2855,7 @@
  {
    "account_code": "11010610101",
    "account_name": "ACC. DEPRECIATION LIGHT MOTOR VEHICLES[RVB]",
-   "parent_code": 110106,
+   "parent_code": "110106",
    "parent_name": "VEHICLES[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -2765,7 +2864,7 @@
  {
    "account_code": "11020110001",
    "account_name": "KEY MONEY[RVB]",
-   "parent_code": 110201,
+   "parent_code": "110201",
    "parent_name": "KEY MONEY[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -2774,7 +2873,7 @@
  {
    "account_code": "11020110101",
    "account_name": "AMORTISATION KEY MONEY[RVB]",
-   "parent_code": 110201,
+   "parent_code": "110201",
    "parent_name": "KEY MONEY[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -2783,7 +2882,7 @@
  {
    "account_code": "11020210001",
    "account_name": "GOODWILL[RVB]",
-   "parent_code": 110202,
+   "parent_code": "110202",
    "parent_name": "GOODWILL[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -2792,7 +2891,7 @@
  {
    "account_code": "11020210101",
    "account_name": "AMORTISATION GOODWILL[RVB]",
-   "parent_code": 110202,
+   "parent_code": "110202",
    "parent_name": "GOODWILL[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -2801,7 +2900,7 @@
  {
    "account_code": "11020310001",
    "account_name": "SOFTWARES[RVB]",
-   "parent_code": 110203,
+   "parent_code": "110203",
    "parent_name": "SOFTWARE PROGRAMS[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -2810,7 +2909,7 @@
  {
    "account_code": "11020310101",
    "account_name": "AMORTISATION SOFTWARES[RVB]",
-   "parent_code": 110203,
+   "parent_code": "110203",
    "parent_name": "SOFTWARE PROGRAMS[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -2819,7 +2918,7 @@
  {
    "account_code": "12010110001",
    "account_name": "CASH COLLECTIONS[RVB]",
-   "parent_code": 120101,
+   "parent_code": "120101",
    "parent_name": "CASH & PETTY CASH[RVB]",
    "internal_type": "other",
    "account_type": "Cash",
@@ -2828,7 +2927,7 @@
  {
    "account_code": "12010110002",
    "account_name": "AL RAED CASH[RVB]",
-   "parent_code": 120101,
+   "parent_code": "120101",
    "parent_name": "CASH & PETTY CASH[RVB]",
    "internal_type": "other",
    "account_type": "Cash",
@@ -2837,7 +2936,7 @@
  {
    "account_code": "12010110003",
    "account_name": "K NET COLLECTION[RVB]",
-   "parent_code": 120101,
+   "parent_code": "120101",
    "parent_name": "CASH & PETTY CASH[RVB]",
    "internal_type": "other",
    "account_type": "Bank",
@@ -2846,7 +2945,7 @@
  {
    "account_code": "12010110004",
    "account_name": "CARRIAGE CASH & K NET[RVB]",
-   "parent_code": 120101,
+   "parent_code": "120101",
    "parent_name": "CASH & PETTY CASH[RVB]",
    "internal_type": "other",
    "account_type": "Cash",
@@ -2855,7 +2954,7 @@
  {
    "account_code": "12010110005",
    "account_name": "BIL BAYT COLLECTION[RVB]",
-   "parent_code": 120101,
+   "parent_code": "120101",
    "parent_name": "CASH & PETTY CASH[RVB]",
    "internal_type": "other",
    "account_type": "Cash",
@@ -2864,7 +2963,7 @@
  {
    "account_code": "12010110006",
    "account_name": "TALABAT K NET[RVB]",
-   "parent_code": 120101,
+   "parent_code": "120101",
    "parent_name": "CASH & PETTY CASH[RVB]",
    "internal_type": "other",
    "account_type": "Cash",
@@ -2873,7 +2972,7 @@
  {
    "account_code": "12010110109",
    "account_name": "PETTY CASH H.O[RVB]",
-   "parent_code": 120101,
+   "parent_code": "120101",
    "parent_name": "CASH & PETTY CASH[RVB]",
    "internal_type": "other",
    "account_type": "Cash",
@@ -2882,7 +2981,7 @@
  {
    "account_code": "12010210301",
    "account_name": "ABK 0603465442 002[RVB]",
-   "parent_code": 120102,
+   "parent_code": "120102",
    "parent_name": "BANKS[RVB]",
    "internal_type": "other",
    "account_type": "Bank",
@@ -2891,7 +2990,7 @@
  {
    "account_code": "12020110000",
    "account_name": "CUST. RECEIVABLE CONTROL[RVB]",
-   "parent_code": 120201,
+   "parent_code": "120201",
    "parent_name": "CUSTOMER RECEIVABLE[RVB]",
    "internal_type": "other",
    "account_type": "Receivable",
@@ -2900,7 +2999,7 @@
  {
    "account_code": "12020210000",
    "account_name": "EMPL. REC. CONTROL[RVB]",
-   "parent_code": 120202,
+   "parent_code": "120202",
    "parent_name": "EMPLOYEES RECIVABLES[RVB]",
    "internal_type": "other",
    "account_type": "Receivable",
@@ -2909,7 +3008,7 @@
  {
    "account_code": "12020310001",
    "account_name": "SECURITY DEPOSIT TO DETAIL[RVB]",
-   "parent_code": 120203,
+   "parent_code": "120203",
    "parent_name": "SECURITY DEPOSITS[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -2918,7 +3017,7 @@
  {
    "account_code": "12030110001",
    "account_name": "STOCK INVENTORY R.V[RVB]",
-   "parent_code": 120301,
+   "parent_code": "120301",
    "parent_name": "STORE[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -2927,8 +3026,8 @@
  {
    "account_code": "12040110001",
    "account_name": "PREPAID RENTS[RVB]",
-   "parent_code": 120401,
-   "parent_name": "PREPAID EXP[RVB]",
+   "parent_code": "120401",
+   "parent_name": "PREPAID EXP [RVB]",
    "internal_type": "other",
    "account_type": "Asset",
    "company_name": "RVB"
@@ -2936,8 +3035,8 @@
  {
    "account_code": "12040110003",
    "account_name": "PREPAID TELEPHONE INTERNET[RVB]",
-   "parent_code": 120401,
-   "parent_name": "PREPAID EXP[RVB]",
+   "parent_code": "120401",
+   "parent_name": "PREPAID EXP [RVB]",
    "internal_type": "other",
    "account_type": "Asset",
    "company_name": "RVB"
@@ -2945,8 +3044,8 @@
  {
    "account_code": "12040110004",
    "account_name": "PREPAID GOVT. FEES[RVB]",
-   "parent_code": 120401,
-   "parent_name": "PREPAID EXP[RVB]",
+   "parent_code": "120401",
+   "parent_name": "PREPAID EXP [RVB]",
    "internal_type": "other",
    "account_type": "Asset",
    "company_name": "RVB"
@@ -2954,8 +3053,8 @@
  {
    "account_code": "12040110005",
    "account_name": "PREPAID TALABAT SUBSCRIPTION[RVB]",
-   "parent_code": 120401,
-   "parent_name": "PREPAID EXP[RVB]",
+   "parent_code": "120401",
+   "parent_name": "PREPAID EXP [RVB]",
    "internal_type": "other",
    "account_type": "Asset",
    "company_name": "RVB"
@@ -2963,8 +3062,8 @@
  {
    "account_code": "12040110006",
    "account_name": "PREPAID PRINTING CHARGES[RVB]",
-   "parent_code": 120401,
-   "parent_name": "PREPAID EXP[RVB]",
+   "parent_code": "120401",
+   "parent_name": "PREPAID EXP [RVB]",
    "internal_type": "other",
    "account_type": "Asset",
    "company_name": "RVB"
@@ -2972,8 +3071,8 @@
  {
    "account_code": "12040110007",
    "account_name": "PREPAID ADVT. MARKETTING[RVB]",
-   "parent_code": 120401,
-   "parent_name": "PREPAID EXP[RVB]",
+   "parent_code": "120401",
+   "parent_name": "PREPAID EXP [RVB]",
    "internal_type": "other",
    "account_type": "Asset",
    "company_name": "RVB"
@@ -2981,8 +3080,8 @@
  {
    "account_code": "12040110008",
    "account_name": "PREPAID SERVICE CHARGES[RVB]",
-   "parent_code": 120401,
-   "parent_name": "PREPAID EXP[RVB]",
+   "parent_code": "120401",
+   "parent_name": "PREPAID EXP [RVB]",
    "internal_type": "other",
    "account_type": "Asset",
    "company_name": "RVB"
@@ -2990,8 +3089,8 @@
  {
    "account_code": "12040110009",
    "account_name": "PREPAID INSURANCE CHARGES[RVB]",
-   "parent_code": 120401,
-   "parent_name": "PREPAID EXP[RVB]",
+   "parent_code": "120401",
+   "parent_name": "PREPAID EXP [RVB]",
    "internal_type": "other",
    "account_type": "Asset",
    "company_name": "RVB"
@@ -2999,8 +3098,8 @@
  {
    "account_code": "12040110099",
    "account_name": "PREPAID OTHERS[RVB]",
-   "parent_code": 120401,
-   "parent_name": "PREPAID EXP[RVB]",
+   "parent_code": "120401",
+   "parent_name": "PREPAID EXP [RVB]",
    "internal_type": "other",
    "account_type": "Asset",
    "company_name": "RVB"
@@ -3008,7 +3107,7 @@
  {
    "account_code": "12050110001",
    "account_name": "PRE OPERATING EXPENSES[RVB]",
-   "parent_code": 1205,
+   "parent_code": "1205",
    "parent_name": "PRE OPERATING EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -3017,7 +3116,7 @@
  {
    "account_code": "13010110001",
    "account_name": "DAN FOOD COMPANY[RVB]",
-   "parent_code": 1301,
+   "parent_code": "1301",
    "parent_name": "INTER COMPANY ACCOUNTS[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -3026,7 +3125,7 @@
  {
    "account_code": "13010110002",
    "account_name": "AL SHAMIYA COMPANY[RVB]",
-   "parent_code": 1301,
+   "parent_code": "1301",
    "parent_name": "INTER COMPANY ACCOUNTS[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -3035,7 +3134,7 @@
  {
    "account_code": "13010110004",
    "account_name": "SATELLITE KITCHEN[RVB]",
-   "parent_code": 1301,
+   "parent_code": "1301",
    "parent_name": "INTER COMPANY ACCOUNTS[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -3044,7 +3143,7 @@
  {
    "account_code": "13010110005",
    "account_name": "FUEL SUPERFOODS[RVB]",
-   "parent_code": 1301,
+   "parent_code": "1301",
    "parent_name": "INTER COMPANY ACCOUNTS[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -3053,7 +3152,7 @@
  {
    "account_code": "13010110006",
    "account_name": "REVERA CATERING[RVB]",
-   "parent_code": 1301,
+   "parent_code": "1301",
    "parent_name": "INTER COMPANY ACCOUNTS[RVB]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -3062,7 +3161,7 @@
  {
    "account_code": "21010510001",
    "account_name": "RETAINED EARNINGS[RVB]",
-   "parent_code": 210105,
+   "parent_code": "210105",
    "parent_name": "RETAINED EARNINGS[RVB]",
    "internal_type": "other",
    "account_type": "Equity",
@@ -3071,7 +3170,7 @@
  {
    "account_code": "21010610001",
    "account_name": "P & L 2011[RVB]",
-   "parent_code": 210106,
+   "parent_code": "210106",
    "parent_name": "P & L ACCOUNTS[RVB]",
    "internal_type": "other",
    "account_type": "Equity",
@@ -3080,7 +3179,7 @@
  {
    "account_code": "21010610002",
    "account_name": "P & L 2012[RVB]",
-   "parent_code": 210106,
+   "parent_code": "210106",
    "parent_name": "P & L ACCOUNTS[RVB]",
    "internal_type": "other",
    "account_type": "Equity",
@@ -3089,7 +3188,7 @@
  {
    "account_code": "21010610003",
    "account_name": "P & L 2013[RVB]",
-   "parent_code": 210106,
+   "parent_code": "210106",
    "parent_name": "P & L ACCOUNTS[RVB]",
    "internal_type": "other",
    "account_type": "Equity",
@@ -3098,7 +3197,7 @@
  {
    "account_code": "21010610004",
    "account_name": "P & L 2014[RVB]",
-   "parent_code": 210106,
+   "parent_code": "210106",
    "parent_name": "P & L ACCOUNTS[RVB]",
    "internal_type": "other",
    "account_type": "Equity",
@@ -3107,7 +3206,7 @@
  {
    "account_code": "21010610005",
    "account_name": "P & L 2015[RVB]",
-   "parent_code": 210106,
+   "parent_code": "210106",
    "parent_name": "P & L ACCOUNTS[RVB]",
    "internal_type": "other",
    "account_type": "Equity",
@@ -3116,7 +3215,7 @@
  {
    "account_code": "21010610006",
    "account_name": "P & L 2016[RVB]",
-   "parent_code": 210106,
+   "parent_code": "210106",
    "parent_name": "P & L ACCOUNTS[RVB]",
    "internal_type": "other",
    "account_type": "Equity",
@@ -3125,7 +3224,7 @@
  {
    "account_code": "21010610099",
    "account_name": "P & L FOR THE YEAR[RVB]",
-   "parent_code": 210106,
+   "parent_code": "210106",
    "parent_name": "P & L ACCOUNTS[RVB]",
    "internal_type": "other",
    "account_type": "Equity",
@@ -3134,7 +3233,7 @@
  {
    "account_code": "21020110000",
    "account_name": "STAFF CONTROL ACCOUNT[RVB]",
-   "parent_code": 220201,
+   "parent_code": "220201",
    "parent_name": "STAFF PAYABLE[RVB]",
    "internal_type": "other",
    "account_type": "Liability",
@@ -3143,7 +3242,7 @@
  {
    "account_code": "21020110000",
    "account_name": "SUPPLIERS CONTROL ACCOUNT[RVB]",
-   "parent_code": 220101,
+   "parent_code": "220101",
    "parent_name": "TRADE & NON TRADE SUPPLIERS[RVB]",
    "internal_type": "other",
    "account_type": "Payable",
@@ -3152,7 +3251,7 @@
  {
    "account_code": "21020120000",
    "account_name": "PURCHASE CLEARING ACCOUNT[RVB]",
-   "parent_code": 220101,
+   "parent_code": "220101",
    "parent_name": "TRADE & NON TRADE SUPPLIERS[RVB]",
    "internal_type": "other",
    "account_type": "Payable",
@@ -3161,7 +3260,7 @@
  {
    "account_code": "21030110001",
    "account_name": "ACCRUED STAFF SALARY FULL TIME[RVB]",
-   "parent_code": 220301,
+   "parent_code": "220301",
    "parent_name": "ACCRUED STAFF SALARY PAYABLE[RVB]",
    "internal_type": "other",
    "account_type": "Liability",
@@ -3170,7 +3269,7 @@
  {
    "account_code": "21030210001",
    "account_name": "ACCRUED LOCATIONS RENT[RVB]",
-   "parent_code": 220302,
+   "parent_code": "220302",
    "parent_name": "ACCRUED RENT PAYABLE[RVB]",
    "internal_type": "other",
    "account_type": "Liability",
@@ -3179,7 +3278,7 @@
  {
    "account_code": "21030210002",
    "account_name": "ACCRUED STAFF ACCOMODATION RENT[RVB]",
-   "parent_code": 220302,
+   "parent_code": "220302",
    "parent_name": "ACCRUED RENT PAYABLE[RVB]",
    "internal_type": "other",
    "account_type": "Liability",
@@ -3188,7 +3287,7 @@
  {
    "account_code": "21030410001",
    "account_name": "ACCRUED SERVICE CHARGES[RVB]",
-   "parent_code": 220304,
+   "parent_code": "220304",
    "parent_name": "ACCRUED SERVICE CHARGES[RVB]",
    "internal_type": "other",
    "account_type": "Liability",
@@ -3197,7 +3296,7 @@
  {
    "account_code": "21030610001",
    "account_name": "ACCRUED COMMISSION[RVB]",
-   "parent_code": 220306,
+   "parent_code": "220306",
    "parent_name": "ACCRUED EXPENSE OTHERS[RVB]",
    "internal_type": "other",
    "account_type": "Liability",
@@ -3206,7 +3305,7 @@
  {
    "account_code": "23020110001",
    "account_name": "STAFF INDEMNITY PAYABLE[RVB]",
-   "parent_code": 230201,
+   "parent_code": "230201",
    "parent_name": "STAFF INDEMNITY PAYABLE[RVB]",
    "internal_type": "other",
    "account_type": "Liability",
@@ -3215,7 +3314,7 @@
  {
    "account_code": "31010110001",
    "account_name": "COST OF GOODS SOLD[RVB]",
-   "parent_code": 31010,
+   "parent_code": "31010",
    "parent_name": "COST OF GOODS PROCESSED FOOD[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3224,7 +3323,7 @@
  {
    "account_code": "31010110002",
    "account_name": "WASTAGES[RVB]",
-   "parent_code": 31010,
+   "parent_code": "31010",
    "parent_name": "COST OF GOODS PROCESSED FOOD[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3233,7 +3332,7 @@
  {
    "account_code": "31010110003",
    "account_name": "OTHER DIRECT COST[RVB]",
-   "parent_code": 31010,
+   "parent_code": "31010",
    "parent_name": "COST OF GOODS PROCESSED FOOD[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3242,7 +3341,7 @@
  {
    "account_code": "32010110001",
    "account_name": "BASIC SALARY FULL TIME EMPLOYEES[RVB]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3251,7 +3350,7 @@
  {
    "account_code": "32010110002",
    "account_name": "MOBILE ALLOWANCE EMPLOYEES[RVB]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3260,7 +3359,7 @@
  {
    "account_code": "32010110003",
    "account_name": "CAR ALLOWANCE EMPLOYEES[RVB]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3269,7 +3368,7 @@
  {
    "account_code": "32010110004",
    "account_name": "HOUSING ALLOWANCE EMPLOYEES[RVB]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3278,7 +3377,7 @@
  {
    "account_code": "32010110005",
    "account_name": "OTHER ALLOWANCE EMPLOYEES[RVB]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3287,7 +3386,7 @@
  {
    "account_code": "32010110006",
    "account_name": "OVERTIME FULL TIME EMPLOYEES[RVB]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3296,7 +3395,7 @@
  {
    "account_code": "32010110007",
    "account_name": "SALARY CASUAL & TEMPORARY[RVB]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3305,7 +3404,7 @@
  {
    "account_code": "32010110008",
    "account_name": "LEAVE SALARY PROVISION[RVB]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3314,7 +3413,7 @@
  {
    "account_code": "32010110009",
    "account_name": "INDEMNITY PROVISION[RVB]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3323,7 +3422,7 @@
  {
    "account_code": "32010210001",
    "account_name": "STAFF ACCOMODATION EXPENSES[RVB]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3332,7 +3431,7 @@
  {
    "account_code": "32010210002",
    "account_name": "STAFF UNIFORMS[RVB]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3341,7 +3440,7 @@
  {
    "account_code": "32010210003",
    "account_name": "STAFF VISA / RESIDENCY EXPENSES[RVB]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3350,7 +3449,7 @@
  {
    "account_code": "32010210004",
    "account_name": "STAFF PASSAGE / TICKETS EXPENSES[RVB]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3359,7 +3458,7 @@
  {
    "account_code": "32010210005",
    "account_name": "STAFF FOOD EXPENSES[RVB]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3368,7 +3467,7 @@
  {
    "account_code": "32010210006",
    "account_name": "STAFF RECRUITMENT EXPENSES[RVB]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3377,7 +3476,7 @@
  {
    "account_code": "32010210007",
    "account_name": "STAFF HEALTH & BALADIYA EXPENSES[RVB]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3386,7 +3485,7 @@
  {
    "account_code": "32010210008",
    "account_name": "STAFF WELFARE EXPENSES[RVB]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3395,7 +3494,7 @@
  {
    "account_code": "32010210009",
    "account_name": "STAFF TRAINING EXPENSES[RVB]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3404,7 +3503,7 @@
  {
    "account_code": "32010310002",
    "account_name": "RENTS - STORES[RVB]",
-   "parent_code": 320103,
+   "parent_code": "320103",
    "parent_name": "DIRECT RENT EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3413,7 +3512,7 @@
  {
    "account_code": "32010410001",
    "account_name": "REPAIRS N MAINT. EQUIPMENTS[RVB]",
-   "parent_code": 320104,
+   "parent_code": "320104",
    "parent_name": "DIRECT REPAIRS AND MAINTENENCE[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3422,7 +3521,7 @@
  {
    "account_code": "32010410002",
    "account_name": "REPAIRS N MAINT. VEHICLES[RVB]",
-   "parent_code": 320104,
+   "parent_code": "320104",
    "parent_name": "DIRECT REPAIRS AND MAINTENENCE[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3431,7 +3530,7 @@
  {
    "account_code": "32010410003",
    "account_name": "REPAIRS N MAINT. DECORE[RVB]",
-   "parent_code": 320104,
+   "parent_code": "320104",
    "parent_name": "DIRECT REPAIRS AND MAINTENENCE[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3440,7 +3539,7 @@
  {
    "account_code": "32010410004",
    "account_name": "REPAIRS N MAINT. - FUEL VEHICLES[RVB]",
-   "parent_code": 320104,
+   "parent_code": "320104",
    "parent_name": "DIRECT REPAIRS AND MAINTENENCE[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3449,7 +3548,7 @@
  {
    "account_code": "32010410005",
    "account_name": "REPAIRS N MAINT. - IT RELATED[RVB]",
-   "parent_code": 320104,
+   "parent_code": "320104",
    "parent_name": "DIRECT REPAIRS AND MAINTENENCE[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3458,7 +3557,7 @@
  {
    "account_code": "32010410009",
    "account_name": "REPAIRS N MAINT. - OTHERS[RVB]",
-   "parent_code": 320104,
+   "parent_code": "320104",
    "parent_name": "DIRECT REPAIRS AND MAINTENENCE[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3467,7 +3566,7 @@
  {
    "account_code": "32010510001",
    "account_name": "TELEPHONE COMMUNICATIONS[RVB]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3476,7 +3575,7 @@
  {
    "account_code": "32010510002",
    "account_name": "INTERNET DATA LINK[RVB]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3485,7 +3584,7 @@
  {
    "account_code": "32010510003",
    "account_name": "COURRIER CHARGES[RVB]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3494,7 +3593,7 @@
  {
    "account_code": "32010510004",
    "account_name": "TRANSPORTATION EXPENSES[RVB]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3503,7 +3602,7 @@
  {
    "account_code": "32010510005",
    "account_name": "GOVT. FEES[RVB]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3512,7 +3611,7 @@
  {
    "account_code": "32010510006",
    "account_name": "PENALTIES[RVB]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3521,7 +3620,7 @@
  {
    "account_code": "32010510007",
    "account_name": "VEHICLE CAR RENTALS[RVB]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3530,7 +3629,7 @@
  {
    "account_code": "32010510008",
    "account_name": "DELIVERY COS CHARGES[RVB]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3539,7 +3638,7 @@
  {
    "account_code": "32010510009",
    "account_name": "PEST CONTROL[RVB]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3548,7 +3647,7 @@
  {
    "account_code": "32010510010",
    "account_name": "CLEANING EXPENSES[RVB]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3557,7 +3656,7 @@
  {
    "account_code": "32010510011",
    "account_name": "SECURITY COLLECTION EXPENSES[RVB]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3566,7 +3665,7 @@
  {
    "account_code": "32010510012",
    "account_name": "TALABAT CHARGES[RVB]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3575,7 +3674,7 @@
  {
    "account_code": "32010510013",
    "account_name": "STAFF TRAINING EXPENSES[RVB]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3584,7 +3683,7 @@
  {
    "account_code": "32010510014",
    "account_name": "LAB TESTING CHARGES[RVB]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3593,7 +3692,7 @@
  {
    "account_code": "32010510016",
    "account_name": "SERVICE CHARGES[RVB]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3602,7 +3701,7 @@
  {
    "account_code": "32010510017",
    "account_name": "TENDER CHARGES[RVB]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3611,7 +3710,7 @@
  {
    "account_code": "32010510018",
    "account_name": "MISC. KITCHEN TOOLS[RVB]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3620,7 +3719,7 @@
  {
    "account_code": "32010510019",
    "account_name": "ELECTRICITY CHARGES[RVB]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3629,7 +3728,7 @@
  {
    "account_code": "32010510020",
    "account_name": "WATER CHARGES[RVB]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3638,7 +3737,7 @@
  {
    "account_code": "32010510021",
    "account_name": "DONATION N CHARITY[RVB]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3647,7 +3746,7 @@
  {
    "account_code": "32010510098",
    "account_name": "EXCESS SHORTAGE STORE[RVB]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3656,7 +3755,7 @@
  {
    "account_code": "32010510099",
    "account_name": "MISC. EXPENSES OTHERS[RVB]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3665,7 +3764,7 @@
  {
    "account_code": "32010610001",
    "account_name": "SALES PROMOTION EXPENSES[RVB]",
-   "parent_code": 320106,
+   "parent_code": "320106",
    "parent_name": "MARKETTING SALES PROMOTION[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3674,7 +3773,7 @@
  {
    "account_code": "32010610002",
    "account_name": "PRODUCT TESTING TASTING FREE ITEMS[RVB]",
-   "parent_code": 320106,
+   "parent_code": "320106",
    "parent_name": "MARKETTING SALES PROMOTION[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3683,7 +3782,7 @@
  {
    "account_code": "32010610003",
    "account_name": "ADVERTISEMENTS[RVB]",
-   "parent_code": 320106,
+   "parent_code": "320106",
    "parent_name": "MARKETTING SALES PROMOTION[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3692,7 +3791,7 @@
  {
    "account_code": "32010610004",
    "account_name": "EXHIBITION[RVB]",
-   "parent_code": 320106,
+   "parent_code": "320106",
    "parent_name": "MARKETTING SALES PROMOTION[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3701,7 +3800,7 @@
  {
    "account_code": "32010610009",
    "account_name": "BUSINESS DEVELOPMENT DIRECT CHARGES[RVB]",
-   "parent_code": 320106,
+   "parent_code": "320106",
    "parent_name": "MARKETTING SALES PROMOTION[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3710,7 +3809,7 @@
  {
    "account_code": "32020110001",
    "account_name": "BASIC SALARY FULL TIME EMPLOYEES HO[RVB]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3719,7 +3818,7 @@
  {
    "account_code": "32020110002",
    "account_name": "MOBILE ALLOWANCE EMPLOYEES HO[RVB]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3728,7 +3827,7 @@
  {
    "account_code": "32020110003",
    "account_name": "CAR ALLOWANCE EMPLOYEES HO[RVB]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3737,7 +3836,7 @@
  {
    "account_code": "32020110004",
    "account_name": "HOUSING ALLOWANCE EMPLOYEES HO[RVB]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3746,7 +3845,7 @@
  {
    "account_code": "32020110005",
    "account_name": "OTHER ALLOWANCE EMPLOYEES HO[RVB]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3755,7 +3854,7 @@
  {
    "account_code": "32020110006",
    "account_name": "OVERTIME FULL TIME EMPLOYEES HO[RVB]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3764,7 +3863,7 @@
  {
    "account_code": "32020110007",
    "account_name": "SALARY CASUAL & TEMPORARY HO[RVB]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3773,7 +3872,7 @@
  {
    "account_code": "32020110008",
    "account_name": "LEAVE SALARY EXPENSES HO[RVB]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3782,7 +3881,7 @@
  {
    "account_code": "32020110009",
    "account_name": "INDEMNITY EXPENSES HO[RVB]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3791,7 +3890,7 @@
  {
    "account_code": "32030110001",
    "account_name": "BASIC SALARY FULL TIME EMPLOYEES TOP[RVB]",
-   "parent_code": 320301,
+   "parent_code": "320301",
    "parent_name": "TOP MGT. SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3800,7 +3899,7 @@
  {
    "account_code": "32030110002",
    "account_name": "MOBILE ALLOWANCE EMPLOYEES TOP[RVB]",
-   "parent_code": 320301,
+   "parent_code": "320301",
    "parent_name": "TOP MGT. SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3809,7 +3908,7 @@
  {
    "account_code": "32030110003",
    "account_name": "CAR ALLOWANCE EMPLOYEES TOP[RVB]",
-   "parent_code": 320301,
+   "parent_code": "320301",
    "parent_name": "TOP MGT. SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3818,7 +3917,7 @@
  {
    "account_code": "32030110004",
    "account_name": "HOUSING ALLOWANCE EMPLOYEES TOP[RVB]",
-   "parent_code": 320301,
+   "parent_code": "320301",
    "parent_name": "TOP MGT. SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3827,7 +3926,7 @@
  {
    "account_code": "32030110005",
    "account_name": "OTHER ALLOWANCE EMPLOYEES TOP[RVB]",
-   "parent_code": 320301,
+   "parent_code": "320301",
    "parent_name": "TOP MGT. SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3836,7 +3935,7 @@
  {
    "account_code": "32030110006",
    "account_name": "PROV LEAVE SALARY TOP[RVB]",
-   "parent_code": 320301,
+   "parent_code": "320301",
    "parent_name": "TOP MGT. SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3845,7 +3944,7 @@
  {
    "account_code": "32040110101",
    "account_name": "DEPRECIATION - FIXTURES[RVB]",
-   "parent_code": 320401,
+   "parent_code": "320401",
    "parent_name": "DEPRECIATION[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3854,7 +3953,7 @@
  {
    "account_code": "32040110102",
    "account_name": "DEPRECIATION - ESTABLISHMENTS[RVB]",
-   "parent_code": 320401,
+   "parent_code": "320401",
    "parent_name": "DEPRECIATION[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3863,7 +3962,7 @@
  {
    "account_code": "32040110201",
    "account_name": "DEPRECIATION - OFFICE FURNITURE[RVB]",
-   "parent_code": 320401,
+   "parent_code": "320401",
    "parent_name": "DEPRECIATION[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3872,7 +3971,7 @@
  {
    "account_code": "32040110202",
    "account_name": "DEPRECIATION - KITCHEN FURNITURE[RVB]",
-   "parent_code": 320401,
+   "parent_code": "320401",
    "parent_name": "DEPRECIATION[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3881,7 +3980,7 @@
  {
    "account_code": "32040110301",
    "account_name": "DEPRECIATION - DECORATION[RVB]",
-   "parent_code": 320401,
+   "parent_code": "320401",
    "parent_name": "DEPRECIATION[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3890,7 +3989,7 @@
  {
    "account_code": "32040110401",
    "account_name": "DEPRECIATION - COMPUTER & PRINTERS[RVB]",
-   "parent_code": 320401,
+   "parent_code": "320401",
    "parent_name": "DEPRECIATION[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3899,7 +3998,7 @@
  {
    "account_code": "32040110402",
    "account_name": "DEPRECIATION - PHONES FAX COPIERS[RVB]",
-   "parent_code": 320401,
+   "parent_code": "320401",
    "parent_name": "DEPRECIATION[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3908,7 +4007,7 @@
  {
    "account_code": "32040110501",
    "account_name": "DEPRECIATION - OFFICE KITCHEN EQUIPMENTS[RVB]",
-   "parent_code": 320401,
+   "parent_code": "320401",
    "parent_name": "DEPRECIATION[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3917,7 +4016,7 @@
  {
    "account_code": "32040110502",
    "account_name": "DEPRECIATION - OTHER EQUIPMENTS[RVB]",
-   "parent_code": 320401,
+   "parent_code": "320401",
    "parent_name": "DEPRECIATION[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3926,7 +4025,7 @@
  {
    "account_code": "32040210101",
    "account_name": "AMORTISATION KEY MONEY[RVB]",
-   "parent_code": 320402,
+   "parent_code": "320402",
    "parent_name": "AMORTISATION[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3935,7 +4034,7 @@
  {
    "account_code": "32040210201",
    "account_name": "AMORTISATION GOODWILL[RVB]",
-   "parent_code": 320402,
+   "parent_code": "320402",
    "parent_name": "AMORTISATION[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3944,7 +4043,7 @@
  {
    "account_code": "32040210301",
    "account_name": "AMORTISATION SOFTWARES[RVB]",
-   "parent_code": 320402,
+   "parent_code": "320402",
    "parent_name": "AMORTISATION[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -3953,7 +4052,7 @@
  {
    "account_code": "41010110001",
    "account_name": "REVENUE FROM DAILY SALES[RVB]",
-   "parent_code": 410101,
+   "parent_code": "410101",
    "parent_name": "REVENUE DAILY SALES[RVB]",
    "internal_type": "other",
    "account_type": "Income",
@@ -3962,7 +4061,7 @@
  {
    "account_code": "42010110001",
    "account_name": "COMMISSION INCOME[RVB]",
-   "parent_code": 420101,
+   "parent_code": "420101",
    "parent_name": "COMMISSION INCOME[RVB]",
    "internal_type": "other",
    "account_type": "Income",
@@ -3971,7 +4070,7 @@
  {
    "account_code": "12010110002",
    "account_name": "AL RAED CASH[RVQ]",
-   "parent_code": 120101,
+   "parent_code": "120101",
    "parent_name": "CASH & PETTY CASH[RVQ]",
    "internal_type": "other",
    "account_type": "Cash",
@@ -3980,7 +4079,7 @@
  {
    "account_code": "12010110003",
    "account_name": "K NET COLLECTION[RVQ]",
-   "parent_code": 120101,
+   "parent_code": "120101",
    "parent_name": "CASH & PETTY CASH[RVQ]",
    "internal_type": "other",
    "account_type": "Bank",
@@ -3989,7 +4088,7 @@
  {
    "account_code": "12010110005",
    "account_name": "BIL BAYT COLLECTION[RVQ]",
-   "parent_code": 120101,
+   "parent_code": "120101",
    "parent_name": "CASH & PETTY CASH[RVQ]",
    "internal_type": "other",
    "account_type": "Cash",
@@ -3998,7 +4097,7 @@
  {
    "account_code": "12010110006",
    "account_name": "TALABAT K NET[RVQ]",
-   "parent_code": 120101,
+   "parent_code": "120101",
    "parent_name": "CASH & PETTY CASH[RVQ]",
    "internal_type": "other",
    "account_type": "Cash",
@@ -4007,7 +4106,7 @@
  {
    "account_code": "12020110000",
    "account_name": "CUST. RECEIVABLE CONTROL[RVQ]",
-   "parent_code": 120201,
+   "parent_code": "120201",
    "parent_name": "CUSTOMER RECEIVABLE[RVQ]",
    "internal_type": "receivable",
    "account_type": "Receivable",
@@ -4016,7 +4115,7 @@
  {
    "account_code": "12020210000",
    "account_name": "EMPL. REC. CONTROL[RVQ]",
-   "parent_code": 120202,
+   "parent_code": "120202",
    "parent_name": "EMPLOYEES RECIVABLES[RVQ]",
    "internal_type": "other",
    "account_type": "Receivable",
@@ -4025,7 +4124,7 @@
  {
    "account_code": "12030110001",
    "account_name": "STOCK INVENTORY[RVQ]",
-   "parent_code": 120301,
+   "parent_code": "120301",
    "parent_name": "STORE[RVQ]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -4034,7 +4133,7 @@
  {
    "account_code": "12040110001",
    "account_name": "PREPAID RENTS[RVQ]",
-   "parent_code": 120401,
+   "parent_code": "120401",
    "parent_name": "PREPAID EXP[RVQ]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -4043,7 +4142,7 @@
  {
    "account_code": "12040110003",
    "account_name": "PREPAID TELEPHONE INTERNET[RVQ]",
-   "parent_code": 120401,
+   "parent_code": "120401",
    "parent_name": "PREPAID EXP[RVQ]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -4052,7 +4151,7 @@
  {
    "account_code": "12040110004",
    "account_name": "PREPAID GOVT. FEES[RVQ]",
-   "parent_code": 120401,
+   "parent_code": "120401",
    "parent_name": "PREPAID EXP[RVQ]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -4061,7 +4160,7 @@
  {
    "account_code": "12040110005",
    "account_name": "PREPAID TALABAT SUBSCRIPTION[RVQ]",
-   "parent_code": 120401,
+   "parent_code": "120401",
    "parent_name": "PREPAID EXP[RVQ]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -4070,7 +4169,7 @@
  {
    "account_code": "12040110006",
    "account_name": "PREPAID PRINTING CHARGES[RVQ]",
-   "parent_code": 120401,
+   "parent_code": "120401",
    "parent_name": "PREPAID EXP[RVQ]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -4079,7 +4178,7 @@
  {
    "account_code": "12040110007",
    "account_name": "PREPAID ADVT. MARKETTING[RVQ]",
-   "parent_code": 120401,
+   "parent_code": "120401",
    "parent_name": "PREPAID EXP[RVQ]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -4088,7 +4187,7 @@
  {
    "account_code": "12040110008",
    "account_name": "PREPAID SERVICE CHARGES[RVQ]",
-   "parent_code": 120401,
+   "parent_code": "120401",
    "parent_name": "PREPAID EXP[RVQ]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -4097,7 +4196,7 @@
  {
    "account_code": "12040110009",
    "account_name": "PREPAID INSURANCE CHARGES[RVQ]",
-   "parent_code": 120401,
+   "parent_code": "120401",
    "parent_name": "PREPAID EXP[RVQ]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -4106,7 +4205,7 @@
  {
    "account_code": "12040110099",
    "account_name": "PREPAID OTHERS[RVQ]",
-   "parent_code": 120401,
+   "parent_code": "120401",
    "parent_name": "PREPAID EXP[RVQ]",
    "internal_type": "other",
    "account_type": "Asset",
@@ -4115,7 +4214,7 @@
  {
    "account_code": "21020110000",
    "account_name": "SUPPLIERS CONTROL ACCOUNT[RVQ]",
-   "parent_code": 220101,
+   "parent_code": "220101",
    "parent_name": "TRADE & NON TRADE SUPPLIERS[RVQ]",
    "internal_type": "payable",
    "account_type": "Payable",
@@ -4124,7 +4223,7 @@
  {
    "account_code": "21020120000",
    "account_name": "PURCHASE CLEARING ACCOUNT[RVQ]",
-   "parent_code": 220101,
+   "parent_code": "220101",
    "parent_name": "TRADE & NON TRADE SUPPLIERS[RVQ]",
    "internal_type": "other",
    "account_type": "Payable",
@@ -4133,7 +4232,7 @@
  {
    "account_code": "21030110001",
    "account_name": "ACCRUED STAFF SALARY FULL TIME[RVQ]",
-   "parent_code": 220301,
+   "parent_code": "220301",
    "parent_name": "ACCRUED STAFF SALARY PAYABLE[RVQ]",
    "internal_type": "other",
    "account_type": "Liability",
@@ -4142,7 +4241,7 @@
  {
    "account_code": "21030210001",
    "account_name": "ACCRUED LOCATIONS RENT[RVQ]",
-   "parent_code": 220302,
+   "parent_code": "220302",
    "parent_name": "ACCRUED RENT PAYABLE[RVQ]",
    "internal_type": "other",
    "account_type": "Liability",
@@ -4151,8 +4250,8 @@
  {
    "account_code": "21030410001",
    "account_name": "ACCRUED SERVICE CHARGES[RVQ]",
-   "parent_code": 220304,
-   "parent_name": "ACCRUED SERVICE CHARGES[RVQ]",
+   "parent_code": "220304",
+   "parent_name": "ACCRUED SERVICE CHARGES [RVQ]",
    "internal_type": "other",
    "account_type": "Liability",
    "company_name": "RVQ"
@@ -4160,7 +4259,7 @@
  {
    "account_code": "23020110001",
    "account_name": "STAFF INDEMNITY PAYABLE[RVQ]",
-   "parent_code": 230201,
+   "parent_code": "230201",
    "parent_name": "STAFF INDEMNITY PAYABLE[RVQ]",
    "internal_type": "other",
    "account_type": "Liability",
@@ -4169,7 +4268,7 @@
  {
    "account_code": "31010110001",
    "account_name": "COST OF GOODS SOLD[RVQ]",
-   "parent_code": 310101,
+   "parent_code": "310101",
    "parent_name": "COST OF GOODS PROCESSED FOOD[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4178,7 +4277,7 @@
  {
    "account_code": "31010110002",
    "account_name": "WASTAGES[RVQ]",
-   "parent_code": 310101,
+   "parent_code": "310101",
    "parent_name": "COST OF GOODS PROCESSED FOOD[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4187,7 +4286,7 @@
  {
    "account_code": "31010110003",
    "account_name": "OTHER DIRECT COST[RVQ]",
-   "parent_code": 310101,
+   "parent_code": "310101",
    "parent_name": "COST OF GOODS PROCESSED FOOD[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4196,7 +4295,7 @@
  {
    "account_code": "32010110001",
    "account_name": "BASIC SALARY FULL TIME EMPLOYEES[RVQ]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4205,7 +4304,7 @@
  {
    "account_code": "32010110002",
    "account_name": "MOBILE ALLOWANCE EMPLOYEES[RVQ]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4214,7 +4313,7 @@
  {
    "account_code": "32010110003",
    "account_name": "CAR ALLOWANCE EMPLOYEES[RVQ]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4223,7 +4322,7 @@
  {
    "account_code": "32010110004",
    "account_name": "HOUSING ALLOWANCE EMPLOYEES[RVQ]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4232,7 +4331,7 @@
  {
    "account_code": "32010110005",
    "account_name": "OTHER ALLOWANCE EMPLOYEES[RVQ]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4241,7 +4340,7 @@
  {
    "account_code": "32010110006",
    "account_name": "OVERTIME FULL TIME EMPLOYEES[RVQ]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4250,7 +4349,7 @@
  {
    "account_code": "32010110007",
    "account_name": "SALARY CASUAL & TEMPORARY[RVQ]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4259,7 +4358,7 @@
  {
    "account_code": "32010110008",
    "account_name": "LEAVE SALARY PROVISION[RVQ]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4268,7 +4367,7 @@
  {
    "account_code": "32010110009",
    "account_name": "INDEMNITY PROVISION[RVQ]",
-   "parent_code": 320101,
+   "parent_code": "320101",
    "parent_name": "DIRECT STAFF SALARY[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4277,7 +4376,7 @@
  {
    "account_code": "32010210001",
    "account_name": "STAFF ACCOMODATION EXPENSES[RVQ]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4286,7 +4385,7 @@
  {
    "account_code": "32010210002",
    "account_name": "STAFF UNIFORMS[RVQ]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4295,7 +4394,7 @@
  {
    "account_code": "32010210003",
    "account_name": "STAFF VISA / RESIDENCY EXPENSES[RVQ]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4304,7 +4403,7 @@
  {
    "account_code": "32010210004",
    "account_name": "STAFF PASSAGE / TICKETS EXPENSES[RVQ]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4313,7 +4412,7 @@
  {
    "account_code": "32010210005",
    "account_name": "STAFF FOOD EXPENSES[RVQ]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4322,7 +4421,7 @@
  {
    "account_code": "32010210006",
    "account_name": "STAFF RECRUITMENT EXPENSES[RVQ]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4331,7 +4430,7 @@
  {
    "account_code": "32010210007",
    "account_name": "STAFF HEALTH & BALADIYA EXPENSES[RVQ]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4340,7 +4439,7 @@
  {
    "account_code": "32010210008",
    "account_name": "STAFF WELFARE EXPENSES[RVQ]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4349,7 +4448,7 @@
  {
    "account_code": "32010210009",
    "account_name": "STAFF TRAINING EXPENSES[RVQ]",
-   "parent_code": 320102,
+   "parent_code": "320102",
    "parent_name": "DIRECT STAFF RELATED EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4358,7 +4457,7 @@
  {
    "account_code": "32010310002",
    "account_name": "RENTS - STORES[RVQ]",
-   "parent_code": 320103,
+   "parent_code": "320103",
    "parent_name": "DIRECT RENT EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4367,7 +4466,7 @@
  {
    "account_code": "32010410001",
    "account_name": "REPAIRS N MAINT. EQUIPMENTS[RVQ]",
-   "parent_code": 320104,
+   "parent_code": "320104",
    "parent_name": "DIRECT REPAIRS AND MAINTENENCE[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4376,7 +4475,7 @@
  {
    "account_code": "32010410002",
    "account_name": "REPAIRS N MAINT. VEHICLES[RVQ]",
-   "parent_code": 320104,
+   "parent_code": "320104",
    "parent_name": "DIRECT REPAIRS AND MAINTENENCE[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4385,7 +4484,7 @@
  {
    "account_code": "32010410003",
    "account_name": "REPAIRS N MAINT. DECORE[RVQ]",
-   "parent_code": 320104,
+   "parent_code": "320104",
    "parent_name": "DIRECT REPAIRS AND MAINTENENCE[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4394,7 +4493,7 @@
  {
    "account_code": "32010410004",
    "account_name": "REPAIRS N MAINT. - FUEL VEHICLES[RVQ]",
-   "parent_code": 320104,
+   "parent_code": "320104",
    "parent_name": "DIRECT REPAIRS AND MAINTENENCE[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4403,7 +4502,7 @@
  {
    "account_code": "32010410005",
    "account_name": "REPAIRS N MAINT. - IT RELATED[RVQ]",
-   "parent_code": 320104,
+   "parent_code": "320104",
    "parent_name": "DIRECT REPAIRS AND MAINTENENCE[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4412,7 +4511,7 @@
  {
    "account_code": "32010410009",
    "account_name": "REPAIRS N MAINT. - OTHERS[RVQ]",
-   "parent_code": 320104,
+   "parent_code": "320104",
    "parent_name": "DIRECT REPAIRS AND MAINTENENCE[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4421,7 +4520,7 @@
  {
    "account_code": "32010510001",
    "account_name": "TELEPHONE COMMUNICATIONS[RVQ]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4430,7 +4529,7 @@
  {
    "account_code": "32010510002",
    "account_name": "INTERNET DATA LINK[RVQ]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4439,7 +4538,7 @@
  {
    "account_code": "32010510003",
    "account_name": "COURRIER CHARGES[RVQ]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4448,7 +4547,7 @@
  {
    "account_code": "32010510004",
    "account_name": "TRANSPORTATION EXPENSES[RVQ]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4457,7 +4556,7 @@
  {
    "account_code": "32010510005",
    "account_name": "GOVT. FEES[RVQ]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4466,7 +4565,7 @@
  {
    "account_code": "32010510006",
    "account_name": "PENALTIES[RVQ]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4475,7 +4574,7 @@
  {
    "account_code": "32010510007",
    "account_name": "VEHICLE CAR RENTALS[RVQ]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4484,7 +4583,7 @@
  {
    "account_code": "32010510008",
    "account_name": "DELIVERY COS CHARGES[RVQ]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4493,7 +4592,7 @@
  {
    "account_code": "32010510009",
    "account_name": "PEST CONTROL[RVQ]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4502,7 +4601,7 @@
  {
    "account_code": "32010510010",
    "account_name": "CLEANING EXPENSES[RVQ]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4511,7 +4610,7 @@
  {
    "account_code": "32010510011",
    "account_name": "SECURITY COLLECTION EXPENSES[RVQ]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4520,7 +4619,7 @@
  {
    "account_code": "32010510012",
    "account_name": "TALABAT CHARGES[RVQ]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4529,7 +4628,7 @@
  {
    "account_code": "32010510013",
    "account_name": "STAFF TRAINING EXPENSES[RVQ]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4538,7 +4637,7 @@
  {
    "account_code": "32010510014",
    "account_name": "LAB TESTING CHARGES[RVQ]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4547,7 +4646,7 @@
  {
    "account_code": "32010510016",
    "account_name": "SERVICE CHARGES[RVQ]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4556,7 +4655,7 @@
  {
    "account_code": "32010510017",
    "account_name": "TENDER CHARGES[RVQ]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4565,7 +4664,7 @@
  {
    "account_code": "32010510018",
    "account_name": "MISC. KITCHEN TOOLS[RVQ]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4574,7 +4673,7 @@
  {
    "account_code": "32010510019",
    "account_name": "ELECTRICITY CHARGES[RVQ]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4583,7 +4682,7 @@
  {
    "account_code": "32010510020",
    "account_name": "WATER CHARGES[RVQ]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4592,7 +4691,7 @@
  {
    "account_code": "32010510021",
    "account_name": "DONATION N CHARITY[RVQ]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4601,7 +4700,7 @@
  {
    "account_code": "32010510098",
    "account_name": "EXCESS SHORTAGE STORE[RVQ]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4610,7 +4709,7 @@
  {
    "account_code": "32010510099",
    "account_name": "MISC. EXPENSES OTHERS[RVQ]",
-   "parent_code": 320105,
+   "parent_code": "320105",
    "parent_name": "OTHER DIRECT EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4619,7 +4718,7 @@
  {
    "account_code": "32010610001",
    "account_name": "SALES PROMOTION EXPENSES[RVQ]",
-   "parent_code": 320106,
+   "parent_code": "320106",
    "parent_name": "MARKETTING SALES PROMOTION[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4628,7 +4727,7 @@
  {
    "account_code": "32010610002",
    "account_name": "PRODUCT TESTING TASTING FREE ITEMS[RVQ]",
-   "parent_code": 320106,
+   "parent_code": "320106",
    "parent_name": "MARKETTING SALES PROMOTION[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4637,7 +4736,7 @@
  {
    "account_code": "32010610003",
    "account_name": "ADVERTISEMENTS[RVQ]",
-   "parent_code": 320106,
+   "parent_code": "320106",
    "parent_name": "MARKETTING SALES PROMOTION[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4646,7 +4745,7 @@
  {
    "account_code": "32010610004",
    "account_name": "EXHIBITION[RVQ]",
-   "parent_code": 320106,
+   "parent_code": "320106",
    "parent_name": "MARKETTING SALES PROMOTION[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4655,7 +4754,7 @@
  {
    "account_code": "32010610009",
    "account_name": "BUSINESS DEVELOPMENT DIRECT CHARGES[RVQ]",
-   "parent_code": 320106,
+   "parent_code": "320106",
    "parent_name": "MARKETTING SALES PROMOTION[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4664,7 +4763,7 @@
  {
    "account_code": "32020110001",
    "account_name": "BASIC SALARY FULL TIME EMPLOYEES HO[RVQ]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4673,7 +4772,7 @@
  {
    "account_code": "32020110002",
    "account_name": "MOBILE ALLOWANCE EMPLOYEES HO[RVQ]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4682,7 +4781,7 @@
  {
    "account_code": "32020110003",
    "account_name": "CAR ALLOWANCE EMPLOYEES HO[RVQ]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4691,7 +4790,7 @@
  {
    "account_code": "32020110004",
    "account_name": "HOUSING ALLOWANCE EMPLOYEES HO[RVQ]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4700,7 +4799,7 @@
  {
    "account_code": "32020110005",
    "account_name": "OTHER ALLOWANCE EMPLOYEES HO[RVQ]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4709,7 +4808,7 @@
  {
    "account_code": "32020110006",
    "account_name": "OVERTIME FULL TIME EMPLOYEES HO[RVQ]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4718,7 +4817,7 @@
  {
    "account_code": "32020110007",
    "account_name": "SALARY CASUAL & TEMPORARY HO[RVQ]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4727,7 +4826,7 @@
  {
    "account_code": "32020110008",
    "account_name": "LEAVE SALARY EXPENSES HO[RVQ]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4736,7 +4835,7 @@
  {
    "account_code": "32020110009",
    "account_name": "INDEMNITY EXPENSES HO[RVQ]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
@@ -4745,8 +4844,8 @@
  {
    "account_code": "32030110001",
    "account_name": "BASIC SALARY FULL TIME EMPLOYEES TOP[RVQ]",
-   "parent_code": 320301,
-   "parent_name": "TOP MGT. SALARY[RVQ]",
+   "parent_code": "320301",
+   "parent_name": "TOP MGT. SALARY [RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVQ"
@@ -4754,8 +4853,8 @@
  {
    "account_code": "32030110002",
    "account_name": "MOBILE ALLOWANCE EMPLOYEES TOP[RVQ]",
-   "parent_code": 320301,
-   "parent_name": "TOP MGT. SALARY[RVQ]",
+   "parent_code": "320301",
+   "parent_name": "TOP MGT. SALARY [RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVQ"
@@ -4763,8 +4862,8 @@
  {
    "account_code": "32030110003",
    "account_name": "CAR ALLOWANCE EMPLOYEES TOP[RVQ]",
-   "parent_code": 320301,
-   "parent_name": "TOP MGT. SALARY[RVQ]",
+   "parent_code": "320301",
+   "parent_name": "TOP MGT. SALARY [RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVQ"
@@ -4772,8 +4871,8 @@
  {
    "account_code": "32030110004",
    "account_name": "HOUSING ALLOWANCE EMPLOYEES TOP[RVQ]",
-   "parent_code": 320301,
-   "parent_name": "TOP MGT. SALARY[RVQ]",
+   "parent_code": "320301",
+   "parent_name": "TOP MGT. SALARY [RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVQ"
@@ -4781,8 +4880,8 @@
  {
    "account_code": "32030110005",
    "account_name": "OTHER ALLOWANCE EMPLOYEES TOP[RVQ]",
-   "parent_code": 320301,
-   "parent_name": "TOP MGT. SALARY[RVQ]",
+   "parent_code": "320301",
+   "parent_name": "TOP MGT. SALARY [RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVQ"
@@ -4790,8 +4889,8 @@
  {
    "account_code": "32030110006",
    "account_name": "PROV LEAVE SALARY TOP[RVQ]",
-   "parent_code": 320301,
-   "parent_name": "TOP MGT. SALARY[RVQ]",
+   "parent_code": "320301",
+   "parent_name": "TOP MGT. SALARY [RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVQ"
@@ -4799,7 +4898,7 @@
  {
    "account_code": "41010110001",
    "account_name": "REVENUE FROM DAILY SALES[RVQ]",
-   "parent_code": 410101,
+   "parent_code": "410101",
    "parent_name": "REVENUE DAILY SALES[RVQ]",
    "internal_type": "other",
    "account_type": "Income",
@@ -4808,241 +4907,241 @@
  {
    "account_code": "42010110001",
    "account_name": "COMMISSION INCOME[RVQ]",
-   "parent_code": 420101,
+   "parent_code": "420101",
    "parent_name": "COMMISSION INCOME[RVQ]",
    "internal_type": "other",
    "account_type": "Income",
    "company_name": "RVQ"
  },
  {
-   "account_code": "320201000000",
+   "account_code": "320201100011",
    "account_name": "HO ALLOCATED SALARIES[RVA]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVA"
  },
  {
-   "account_code": "320230000000",
+   "account_code": "320230210002",
    "account_name": "BANK CHARGES[RVA]",
-   "parent_code": 320202,
+   "parent_code": "320202",
    "parent_name": "HO EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVA"
  },
  {
-   "account_code": "320230000000",
+   "account_code": "320230210003",
    "account_name": "K NET / POS CHARGES[RVA]",
-   "parent_code": 320202,
+   "parent_code": "320202",
    "parent_name": "HO EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVA"
  },
  {
-   "account_code": "320230000000",
+   "account_code": "320230210004",
    "account_name": "CURRENCY GAIN / LOSS[RVA]",
-   "parent_code": 320202,
+   "parent_code": "320202",
    "parent_name": "HO EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVA"
  },
  {
-   "account_code": "320230000000",
+   "account_code": "320230210005",
    "account_name": "LEGAL EXPENSES[RVA]",
-   "parent_code": 320202,
+   "parent_code": "320202",
    "parent_name": "HO EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVA"
  },
  {
-   "account_code": "320230000000",
+   "account_code": "320230210006",
    "account_name": "AUDIT EXPENSES[RVA]",
-   "parent_code": 320202,
+   "parent_code": "320202",
    "parent_name": "HO EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVA"
  },
  {
-   "account_code": "320230000000",
+   "account_code": "320230210009",
    "account_name": "INSURANCE EXPENSES[RVA]",
-   "parent_code": 320202,
+   "parent_code": "320202",
    "parent_name": "HO EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVA"
  },
  {
-   "account_code": "320301000000",
+   "account_code": "320301100010",
    "account_name": "TOP MANAGEMENT ALLOCATED SALARIES[RVA]",
-   "parent_code": 320301,
-   "parent_name": "TOP MGT. SALARY[RVA]",
+   "parent_code": "320301",
+   "parent_name": "TOP MGT. SALARY [RVA]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVA"
  },
  {
-   "account_code": "320201000000",
+   "account_code": "320201100011",
    "account_name": "HO ALLOCATED SALARIES[RVB]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVB"
  },
  {
-   "account_code": "320230000000",
+   "account_code": "320230210002",
    "account_name": "BANK CHARGES[RVB]",
-   "parent_code": 320202,
+   "parent_code": "320202",
    "parent_name": "HO EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVB"
  },
  {
-   "account_code": "320230000000",
+   "account_code": "320230210003",
    "account_name": "K NET / POS CHARGES[RVB]",
-   "parent_code": 320202,
+   "parent_code": "320202",
    "parent_name": "HO EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVB"
  },
  {
-   "account_code": "320230000000",
+   "account_code": "320230210004",
    "account_name": "CURRENCY GAIN / LOSS[RVB]",
-   "parent_code": 320202,
+   "parent_code": "320202",
    "parent_name": "HO EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVB"
  },
  {
-   "account_code": "320230000000",
+   "account_code": "320230210005",
    "account_name": "LEGAL EXPENSES[RVB]",
-   "parent_code": 320202,
+   "parent_code": "320202",
    "parent_name": "HO EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVB"
  },
  {
-   "account_code": "320230000000",
+   "account_code": "320230210006",
    "account_name": "AUDIT EXPENSES[RVB]",
-   "parent_code": 320202,
+   "parent_code": "320202",
    "parent_name": "HO EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVB"
  },
  {
-   "account_code": "320230000000",
+   "account_code": "320230210009",
    "account_name": "INSURANCE EXPENSES[RVB]",
-   "parent_code": 320202,
+   "parent_code": "320202",
    "parent_name": "HO EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVB"
  },
  {
-   "account_code": "320301000000",
+   "account_code": "320301100010",
    "account_name": "TOP MANAGEMENT ALLOCATED SALARIES[RVB]",
-   "parent_code": 320301,
+   "parent_code": "320301",
    "parent_name": "TOP MGT. SALARY[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVB"
  },
  {
-   "account_code": "320201000000",
+   "account_code": "320201100011",
    "account_name": "HO ALLOCATED SALARIES[RVQ]",
-   "parent_code": 320201,
+   "parent_code": "320201",
    "parent_name": "HO STAFF SALARY[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVQ"
  },
  {
-   "account_code": "320230000000",
+   "account_code": "320230210002",
    "account_name": "BANK CHARGES[RVQ]",
-   "parent_code": 320202,
+   "parent_code": "320202",
    "parent_name": "HO EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVQ"
  },
  {
-   "account_code": "320230000000",
+   "account_code": "320230210003",
    "account_name": "K NET / POS CHARGES[RVQ]",
-   "parent_code": 320202,
+   "parent_code": "320202",
    "parent_name": "HO EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVQ"
  },
  {
-   "account_code": "320230000000",
+   "account_code": "320230210004",
    "account_name": "CURRENCY GAIN / LOSS[RVQ]",
-   "parent_code": 320202,
+   "parent_code": "320202",
    "parent_name": "HO EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVQ"
  },
  {
-   "account_code": "320230000000",
+   "account_code": "320230210005",
    "account_name": "LEGAL EXPENSES[RVQ]",
-   "parent_code": 320202,
+   "parent_code": "320202",
    "parent_name": "HO EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVQ"
  },
  {
-   "account_code": "320230000000",
+   "account_code": "320230210006",
    "account_name": "AUDIT EXPENSES[RVQ]",
-   "parent_code": 320202,
+   "parent_code": "320202",
    "parent_name": "HO EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVQ"
  },
  {
-   "account_code": "320230000000",
+   "account_code": "320230210009",
    "account_name": "INSURANCE EXPENSES[RVQ]",
-   "parent_code": 320202,
+   "parent_code": "320202",
    "parent_name": "HO EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVQ"
  },
  {
-   "account_code": "3202300000000",
+   "account_code": "3202302100010",
    "account_name": "HO ALLOCATED EXPENSES[RVA]",
-   "parent_code": 320202,
+   "parent_code": "320202",
    "parent_name": "HO EXPENSES[RVA]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVA"
  },
  {
-   "account_code": "3202300000000",
+   "account_code": "3202302100010",
    "account_name": "HO ALLOCATED EXPENSES[RVB]",
-   "parent_code": 320202,
+   "parent_code": "320202",
    "parent_name": "HO EXPENSES[RVB]",
    "internal_type": "other",
    "account_type": "Expense",
    "company_name": "RVB"
  },
  {
-   "account_code": "3202300000000",
+   "account_code": "3202302100010",
    "account_name": "HO ALLOCATED EXPENSES[RVQ]",
-   "parent_code": 320202,
+   "parent_code": "320202",
    "parent_name": "HO EXPENSES[RVQ]",
    "internal_type": "other",
    "account_type": "Expense",

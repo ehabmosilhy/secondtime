@@ -1,0 +1,6 @@
+1917 list index out of range
+{u'list_price': 0.0, u'sale_ok': False, u'product_category': u'Inventory Items / [D]Dairy', u'purchase_ok': True, u'purchase_uom': u"Jar(1's)", u'pos_category': None, u'default_code': u'D-143', u'id': 156, u'uom': u"Jar(1's)", u'name': u'Puck Cream Cheese Spread'}
+
+2297 list index out of range
+{u'list_price': 0.0, u'sale_ok': False, u'product_category': u'Inventory Items / [OF]Other Foods', u'purchase_ok': True, u'purchase_uom': u"Jar(1's)", u'pos_category': None, u'default_code': u'OF-345', u'id': 666, u'uom': u"Jar(1's)", u'name': u'Vanilla Stick'}
+
